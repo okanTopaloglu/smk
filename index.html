@@ -1,0 +1,72 @@
+<title>Vekillik Sınavı Çalışma Masası</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#142033">
+<meta name="description" content="TÜRKPATENT marka ve patent vekilliği sınavına hazırlık uygulaması.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Vekillik">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<header class="topbar" id="topbar">
+  <a class="brand" href="#ana" data-nav="ana" aria-label="Ana sayfa">
+    <span class="seal" aria-hidden="true">SMK</span>
+    <span class="brand-text"><b>Vekillik Sınavı</b><small>Marka · Patent · 6769</small></span>
+  </a>
+  <nav class="mainnav" aria-label="Bölümler">
+    <a href="#ana" data-nav="ana"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9h-5v-6H9v6H4z"/></svg><span class="full">Ana sayfa</span><span class="short">Sorular</span></a>
+    <a href="#hap" data-nav="hap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a2 2 0 0 1 2 2v16l-7-4-7 4V5a2 2 0 0 1 2-2z"/></svg><span class="full">Hap bilgiler</span><span class="short">Hap</span></a>
+    <a href="#kilavuz" data-nav="kilavuz"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3a7 7 0 0 1 5.6 11.2l5.1 5.1-1.4 1.4-5.1-5.1A7 7 0 1 1 10 3zm0 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/></svg><span class="full">İnceleme kılavuzu</span><span class="short">Kılavuz</span></a>
+    <a href="#kanun" data-nav="kanun"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 4v2H3V7zM5 10h2v7H5zm6 0h2v7h-2zm6 0h2v7h-2zM3 18h18v3H3z"/></svg><span class="full">Kanun metni</span><span class="short">Kanun</span></a>
+    <a href="#siniflar" data-nav="siniflar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 0h7v7h-7z"/></svg><span class="full">Tescil sınıfları</span><span class="short">Sınıflar</span></a>
+  </nav>
+  <div class="tools" role="toolbar" aria-label="Okuma ayarları">
+    <button class="tool" id="fsDown" title="Yazıyı küçült" aria-label="Yazıyı küçült">A<sup>−</sup></button>
+    <span class="fs-val" id="fsVal">100%</span>
+    <button class="tool" id="fsUp" title="Yazıyı büyüt" aria-label="Yazıyı büyüt">A<sup>+</sup></button>
+    <button class="tool tts-toggle" id="ttsAuto" aria-pressed="false" title="Soruları otomatik sesli oku">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/></svg>
+      <span>Sesli oku</span>
+    </button>
+    <button class="tool" id="installBtn" hidden title="Uygulamayı cihaza yükle">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 3h2v9.2l3.3-3.3 1.4 1.4L12 16l-5.7-5.7 1.4-1.4 3.3 3.3V3zM5 18h14v2H5z"/></svg>
+      <span>Yükle</span>
+    </button>
+    <button class="tool" id="themeBtn" title="Açık / koyu tema" aria-label="Temayı değiştir">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9A7 7 0 0 1 12 3z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<div class="player" id="player" hidden>
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7"/></svg>
+  <span id="playerText">Okunuyor…</span>
+  <label class="rate">Hız
+    <select id="ttsRate">
+      <option value="0.8">0.8×</option>
+      <option value="0.9">0.9×</option>
+      <option value="1" selected>1×</option>
+      <option value="1.15">1.15×</option>
+      <option value="1.3">1.3×</option>
+      <option value="1.5">1.5×</option>
+    </select>
+  </label>
+  <button id="ttsPause" class="btn small">Duraklat</button>
+  <button id="ttsStop" class="btn small">Durdur</button>
+</div>
+
+<script src="data/kanun.js"></script>
+<script src="data/sorular.js"></script>
+<script src="data/hap.js"></script>
+<script src="data/siniflar.js"></script>
+<script src="data/kilavuz.js"></script>
+<script src="app.js"></script>

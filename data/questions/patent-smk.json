@@ -1,0 +1,992 @@
+[
+ {
+  "id": "PAT-001",
+  "exam": "patent",
+  "topic": "Patentlenebilirlik",
+  "q": "6769 sayılı SMK'ya göre bir buluşa patent verilebilmesi için aranan şartlar aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+  "options": [
+   "Yeni olması ve sanayiye uygulanabilir olması",
+   "Yeni olması, buluş basamağı içermesi ve sanayiye uygulanabilir olması",
+   "Yeni olması, buluş basamağı içermesi ve ticari olarak kullanılıyor olması",
+   "Yeni olması, ayırt edici niteliğe sahip olması ve sanayiye uygulanabilir olması",
+   "Buluş basamağı içermesi, sanayiye uygulanabilir olması ve Türkiye'de üretilmesi"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Yenilik ve sanayiye uygulanabilirlik faydalı model için yeterlidir (SMK m.142/1); patentte ayrıca buluş basamağı aranır (SMK m.82/1).",
+   "Doğru. Teknolojinin her alanındaki buluşlara yeni olması, buluş basamağı içermesi ve sanayiye uygulanabilir olması şartıyla patent verilir (SMK m.82/1).",
+   "Yanlış. Ticari kullanım bir patentlenebilirlik şartı değildir; kullanma zorunluluğu patent verildikten sonraki bir yükümlülüktür (SMK m.82/1, m.130).",
+   "Yanlış. Ayırt edici nitelik tasarım korumasına ilişkin bir kavramdır; patentte aranan üçüncü şart buluş basamağıdır (SMK m.82/1).",
+   "Yanlış. Yenilik şartı atlanmıştır; ayrıca patent sahibi ürünlerin ithal veya yerli üretim olmasına bakılmaksızın haktan yararlanır (SMK m.82/1, m.85/1)."
+  ],
+  "ref": "SMK m.82"
+ },
+ {
+  "id": "PAT-002",
+  "exam": "patent",
+  "topic": "Buluş Sayılmayanlar",
+  "q": "SMK m.82/2 uyarınca aşağıdakilerden hangisi buluş niteliğinde sayılmayanlar arasında yer almaz?",
+  "options": [
+   "Mikrobiyolojik işlemler sonucu elde edilen ürünler",
+   "Bilgisayar programları",
+   "Bilginin sunumu",
+   "Oyunlara ilişkin plan, kural ve yöntemler",
+   "Bilimsel teoriler ve matematiksel yöntemler"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Mikrobiyolojik işlemler ve bu işlemler sonucu elde edilen ürünler buluş sayılmayanlar listesinde yer almadığı gibi, bitki çeşitleri ve esas olarak biyolojik işlemlere ilişkin istisnanın da dışında tutulmuştur (SMK m.82/3-b).",
+   "Yanlış. Bilgisayar programları buluş niteliğinde sayılmaz (SMK m.82/2-c).",
+   "Yanlış. Bilginin sunumu buluş niteliğinde sayılmaz (SMK m.82/2-d).",
+   "Yanlış. Zihni faaliyetler, iş faaliyetleri veya oyunlara ilişkin plan, kural ve yöntemler buluş sayılmaz (SMK m.82/2-b).",
+   "Yanlış. Keşifler, bilimsel teoriler ve matematiksel yöntemler buluş sayılmaz (SMK m.82/2-a)."
+  ],
+  "ref": "SMK m.82"
+ },
+ {
+  "id": "PAT-003",
+  "exam": "patent",
+  "topic": "Patent Verilemeyecek Konular",
+  "q": "Aşağıdakilerden hangisine SMK hükümleri uyarınca patent verilmesi mümkündür?",
+  "options": [
+   "İnsan vücuduna uygulanan bir teşhis yöntemi",
+   "Hayvan vücuduna uygulanan bir cerrahi yöntem",
+   "Melezleme yoluyla elde edilmiş yeni bir bitki çeşidi",
+   "İnsan klonlama işlemi",
+   "Cerrahi bir tedavi yönteminde kullanılan yeni bir ilaç terkibi"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. İnsan veya hayvan vücuduna uygulanacak teşhis yöntemlerine patent verilmez (SMK m.82/3-c).",
+   "Yanlış. Cerrahi yöntemler dâhil tüm tedavi yöntemlerine patent verilmez (SMK m.82/3-c).",
+   "Yanlış. Bitki çeşitlerine ve esas olarak biyolojik işlemlere patent verilmez; melezleme esas olarak biyolojik işlem sayılır (SMK m.82/3-b, m.82/5).",
+   "Yanlış. İnsan klonlama işlemlerine patent verilmez (SMK m.82/3-d).",
+   "Doğru. Teşhis, cerrahi ve tedavi yöntemlerine ilişkin istisna, bu yöntemlerde kullanılan ürünler, özellikle madde ve terkipler hakkında uygulanmaz (SMK m.82/6)."
+  ],
+  "ref": "SMK m.82"
+ },
+ {
+  "id": "PAT-004",
+  "exam": "patent",
+  "topic": "Buluş Sayılmayanlar",
+  "q": "Bir patent başvurusunun istemleri, bir bilgisayar programıyla kontrol edilen ve fren mesafesini kısaltan bir taşıt fren sistemine yöneliktir. SMK m.82/2 bakımından aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+   "Başvuru bilgisayar programıyla ilgili olsa da yalnızca programın kendisi patentlenebilirliğin dışında kalır; buluş diğer şartları taşıyorsa korunabilir.",
+   "Bilgisayar programı içeren her buluş buluş niteliğinde sayılmadığından başvuru doğrudan reddedilir.",
+   "Bilgisayar programları kamu düzenine aykırı sayıldığından bu buluşa patent verilemez.",
+   "Bu tür buluşlar yalnızca faydalı model ile korunabilir.",
+   "Bilgisayar programı içeren buluşlar ancak programın kaynak kodu tarifnameye eklenirse buluş sayılır."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Başvurunun m.82/2'de sayılan konularla ilgili olması hâlinde sadece bu konu veya faaliyetlerin kendisi patentlenebilirliğin dışında kalır (SMK m.82/2).",
+   "Yanlış. Kanun yalnızca programın 'kendisini' dışlar; program içerdiği için buluşun tamamı dışlanmaz (SMK m.82/2).",
+   "Yanlış. Bilgisayar programları buluş sayılmayanlar arasındadır (m.82/2-c); kamu düzenine aykırılık ayrı bir istisnadır (SMK m.82/3-a).",
+   "Yanlış. Kanunda böyle bir yönlendirme yoktur; faydalı modelde de m.82/2 ve m.82/3 istisnaları aynen geçerlidir (SMK m.142/3).",
+   "Yanlış. Kanunda kaynak kodu şartı yoktur; belirleyici olan korunması istenen konunun programın kendisi olup olmadığıdır (SMK m.82/2)."
+  ],
+  "ref": "SMK m.82"
+ },
+ {
+  "id": "PAT-005",
+  "exam": "patent",
+  "topic": "Yenilik ve Tekniğin Bilinen Durumu",
+  "q": "Başvuru tarihinden önceki tarihli olup başvuru tarihinde veya bu tarihten sonra yayımlanan bir ulusal patent başvurusunun ilk içeriği ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Yenilik değerlendirmesinde tekniğin bilinen durumu olarak dikkate alınır.\nII. Buluş basamağının değerlendirilmesinde dikkate alınmaz.\nIII. Bu başvurunun özeti de söz konusu kural kapsamında tekniğin bilinen durumu olarak kullanılır.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve II",
+   "I ve III",
+   "I, II ve III"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. II de doğrudur; bu başvuruların içerikleri buluş basamağının değerlendirilmesinde dikkate alınmaz (SMK m.83/5).",
+   "Yanlış. I de doğrudur; bu başvuruların ilk içerikleri tekniğin bilinen durumu olarak dikkate alınır (SMK m.83/3).",
+   "Doğru. I (SMK m.83/3) ve II (SMK m.83/5) doğrudur; III yanlıştır, çünkü özet m.83/3'ün uygulanmasında kullanılmaz (SMK m.92/5).",
+   "Yanlış. III yanlıştır; özet yalnızca teknik bilgi verme amacı taşır ve m.83/3'ün uygulanmasında kullanılmaz (SMK m.92/5).",
+   "Yanlış. III yanlıştır (SMK m.92/5)."
+  ],
+  "ref": "SMK m.83"
+ },
+ {
+  "id": "PAT-006",
+  "exam": "patent",
+  "topic": "Yenilik ve Tekniğin Bilinen Durumu",
+  "q": "SMK'ya göre tekniğin bilinen durumu ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+   "Yalnızca Türkiye'de yapılmış açıklamaları kapsar.",
+   "Başvuru tarihinden önce dünyanın herhangi bir yerinde yazılı veya sözlü tanıtım, kullanım ya da başka herhangi bir biçimde açıklanmış, toplumca erişilebilir her şeyi kapsar.",
+   "Yalnızca yazılı yayınları kapsar; sözlü açıklamalar ve kullanım yoluyla yapılan açıklamalar dikkate alınmaz.",
+   "Başvuru tarihinden önceki on sekiz ay içinde yapılmış açıklamalarla sınırlıdır.",
+   "Toplumca erişilebilir olmasa bile gizlilik yükümlülüğü altında yapılmış açıklamaları da kapsar."
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Açıklamanın dünyanın herhangi bir yerinde yapılmış olması yeterlidir (SMK m.83/2).",
+   "Doğru. Tekniğin bilinen durumu bu şekilde tanımlanmıştır; mutlak (dünya çapında) yenilik ilkesi benimsenmiştir (SMK m.83/2).",
+   "Yanlış. Sözlü tanıtım, kullanım veya başka herhangi bir biçimdeki açıklamalar da kapsama girer (SMK m.83/2).",
+   "Yanlış. Tekniğin bilinen durumu için zaman sınırı yoktur; on sekiz ay başvurunun yayım süresidir (SMK m.83/2, m.97/1).",
+   "Yanlış. Tekniğin bilinen durumu yalnızca toplumca erişilebilir olanları kapsar (SMK m.83/2)."
+  ],
+  "ref": "SMK m.83"
+ },
+ {
+  "id": "PAT-007",
+  "exam": "patent",
+  "topic": "Buluş Basamağı ve Sanayiye Uygulanabilirlik",
+  "q": "SMK'ya göre bir buluşun buluş basamağı içerdiği hangi durumda kabul edilir?",
+  "options": [
+   "Tekniğin bilinen durumuna dâhil olmaması",
+   "Tekniğin bilinen durumu dikkate alındığında, ilgili teknik alandaki uzmana göre aşikâr olmaması",
+   "Tarım dâhil sanayinin herhangi bir dalında üretilebilir veya kullanılabilir olması",
+   "Ortalama bir tüketiciye göre bilinen ürünlerden farklı bir genel izlenim bırakması",
+   "Buluşu yapanın uzun süreli araştırma ve yüksek maliyet sonucunda buluşa ulaşmış olması"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Bu, yenilik şartının tanımıdır (SMK m.83/1).",
+   "Doğru. Buluş basamağı bu şekilde tanımlanmıştır (SMK m.83/4).",
+   "Yanlış. Bu, sanayiye uygulanabilirlik şartının tanımıdır (SMK m.83/6).",
+   "Yanlış. Genel izlenim ölçütü patente değil tasarım korumasına ilişkindir; patentte ölçüt uzmana göre aşikâr olmamaktır (SMK m.83/4).",
+   "Yanlış. Harcanan emek veya maliyet kanuni ölçüt değildir; belirleyici olan uzmana göre aşikâr olmamaktır (SMK m.83/4)."
+  ],
+  "ref": "SMK m.83"
+ },
+ {
+  "id": "PAT-008",
+  "exam": "patent",
+  "topic": "Zararsız Açıklamalar",
+  "q": "Buluşu yapan A, buluşunu 10.01.2024 tarihinde uluslararası bir konferansta sunmuştur. A, aynı buluş için 05.09.2024 tarihinde Paris Sözleşmesine taraf Almanya'da ilk patent başvurusunu yapmış, bu başvuruya dayanarak rüçhan hakkı talebiyle 01.09.2025 tarihinde Türkiye'de patent başvurusunda bulunmuştur. Konferanstaki açıklamanın Türkiye başvurusuna etkisi bakımından aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Açıklama, Türkiye'deki başvuru tarihinden on iki aydan daha önce yapıldığından yeniliği ortadan kaldırır.",
+   "Zararsız açıklama süresi altı ay olduğundan açıklama yeniliği ortadan kaldırır.",
+   "Açıklama, rüçhan tarihinden önceki on iki ay içinde buluşu yapan tarafından yapıldığından patent verilmesini etkilemez.",
+   "Açıklama buluşu yapanın kendisi tarafından yapıldığından, süre sınırı olmaksızın her durumda zararsızdır.",
+   "Rüçhan hakkı on iki aylık süre geçtikten sonra talep edildiğinden geçersizdir; bu nedenle açıklama yeniliği ortadan kaldırır."
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Rüçhan hakkı talep edilmişse on iki aylık süre rüçhan tarihinden geriye doğru hesaplanır (SMK m.84/1).",
+   "Yanlış. Zararsız açıklama süresi altı ay değil, on iki aydır (SMK m.84/1).",
+   "Doğru. Rüçhan hakkı talep edilmişse rüçhan tarihinden önceki on iki ay içinde buluşu yapan tarafından yapılan açıklama patent verilmesini etkilemez (SMK m.84/1-a); rüçhan da ilk başvurudan itibaren on iki ay içinde talep edilmiştir (SMK m.93/1).",
+   "Yanlış. Buluşu yapanın açıklaması da ancak başvuru veya rüçhan tarihinden önceki on iki ay içinde yapılmışsa zararsızdır (SMK m.84/1).",
+   "Yanlış. Türkiye başvurusu 05.09.2024 tarihli ilk başvurudan itibaren on iki ay içinde (01.09.2025) yapılmıştır; rüçhan hakkı geçerlidir (SMK m.93/1)."
+  ],
+  "ref": "SMK m.84"
+ },
+ {
+  "id": "PAT-009",
+  "exam": "patent",
+  "topic": "Zararsız Açıklamalar",
+  "q": "SMK m.84'te düzenlenen, patent verilmesini etkilemeyen açıklamalar hakkında aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Başvurunun yapıldığı tarihte patent isteme hakkına sahip olan her kişi, bu madde bakımından buluşu yapan sayılır.",
+   "Hükmün uygulanması gerektiğini ileri süren taraf, şartların gerçekleştiğini veya gerçekleşmesinin beklendiğini ispatla yükümlüdür.",
+   "Zararsız açıklama hükmünden yararlanılabilmesi için bu durumun başvuru tarihinde beyan edilmesi gerekir; sonradan ileri sürülemez.",
+   "Açıklamanın, buluşu yapandan doğrudan veya dolaylı olarak bilgi elde eden üçüncü kişi tarafından yapılması da bu hükmün kapsamındadır.",
+   "Hüküm, faydalı model başvuruları bakımından da uygulanır."
+  ],
+  "answer": 2,
+  "why": [
+   "Doğru ifade. Bu kişiler m.84/1 bakımından buluşu yapan sayılır (SMK m.84/2).",
+   "Doğru ifade. İspat yükü hükmün uygulanmasını ileri sürene aittir (SMK m.84/4).",
+   "Doğru cevap (yanlış ifade). Birinci fıkranın uygulanmasından doğan sonuçlar süreyle sınırlı değildir ve her zaman ileri sürülebilir (SMK m.84/3).",
+   "Doğru ifade. Bu durum m.84/1-c'de açıkça sayılmıştır (SMK m.84/1-c).",
+   "Doğru ifade. Madde, patent veya faydalı model verilmesini etkilemeyen açıklamaları düzenler (SMK m.84/1)."
+  ],
+  "ref": "SMK m.84"
+ },
+ {
+  "id": "PAT-010",
+  "exam": "patent",
+  "topic": "Zararsız Açıklamalar",
+  "q": "Aşağıdaki açıklamalardan hangisi, başvuru tarihinden önceki on iki ay içinde yapılmış olsa bile SMK m.84 kapsamında patent verilmesini etkilemeyen açıklama sayılmaz?",
+  "options": [
+   "Aynı buluşu, buluşu yapandan bağımsız olarak kendi çalışmalarıyla gerçekleştiren bir üçüncü kişinin yaptığı açıklama",
+   "Buluşu yapanın kendisinin bir fuarda yaptığı açıklama",
+   "Buluşu yapanın başka bir başvurusunda yer alan bilginin, açıklanmaması gerektiği hâlde patent başvurusu yapılan merci tarafından açıklanması",
+   "Buluşu yapandan bilgi edinen üçüncü kişinin, buluşu yapanın bilgisi veya izni olmadan yaptığı başvuruda yer alan bilginin merci tarafından açıklanması",
+   "Buluşu yapandan dolaylı olarak bilgi elde eden bir üçüncü kişinin yaptığı açıklama"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.84/1-c yalnızca buluşu yapandan doğrudan veya dolaylı olarak bilgi elde eden üçüncü kişinin açıklamasını kapsar; bağımsız buluşçunun açıklaması bu kapsamda değildir (SMK m.84/1).",
+   "Yanlış. Buluşu yapan tarafından yapılan açıklama zararsızdır (SMK m.84/1-a).",
+   "Yanlış. Bu durum zararsız açıklama olarak sayılmıştır (SMK m.84/1-b-1).",
+   "Yanlış. Bu durum zararsız açıklama olarak sayılmıştır (SMK m.84/1-b-2).",
+   "Yanlış. Buluşu yapandan doğrudan veya dolaylı bilgi elde eden üçüncü kişinin açıklaması zararsızdır (SMK m.84/1-c)."
+  ],
+  "ref": "SMK m.84"
+ },
+ {
+  "id": "PAT-011",
+  "exam": "patent",
+  "topic": "Patent İsteme Hakkı",
+  "q": "A ve B, birbirinden bağımsız olarak aynı buluşu gerçekleştirmiştir. A 01.03.2024, B ise 15.03.2024 tarihinde Türkiye'de patent başvurusu yapmıştır. SMK'ya göre patent isteme hakkı kime aittir?",
+  "options": [
+   "Buluşu ilk gerçekleştirdiğini ispat eden kişiye",
+   "A'nın başvurusunun yayımlanmış olması şartıyla A'ya",
+   "A ve B'ye birlikte, paylı mülkiyet esaslarına göre",
+   "Başvurusu önce yayımlanan kişiye, başvuru tarihine bakılmaksızın",
+   "Buluşu ilk kez kullanmaya başlayan kişiye"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Kanun buluşu ilk gerçekleştirene değil, önce başvurana öncelik tanır (SMK m.109/3).",
+   "Doğru. Aynı buluş bağımsız olarak birden çok kişi tarafından gerçekleştirilmişse patent isteme hakkı, önceki tarihli başvurunun yayımlanmış olması şartıyla daha önce başvuru yapana aittir (SMK m.109/3).",
+   "Yanlış. Ortak hak sahipliği, buluşun birlikte gerçekleştirilmesi hâline ilişkindir (SMK m.109/2, m.112); bağımsız buluşlarda hak önce başvurana aittir (SMK m.109/3).",
+   "Yanlış. Belirleyici olan başvuru tarihidir; yayım yalnızca önceki tarihli başvuru için aranan şarttır (SMK m.109/3).",
+   "Yanlış. Önceki kullanım patent isteme hakkı vermez; yalnızca şartları varsa önceki kullanımdan doğan hakkı sağlar (SMK m.87, m.109/3)."
+  ],
+  "ref": "SMK m.109"
+ },
+ {
+  "id": "PAT-012",
+  "exam": "patent",
+  "topic": "Patent İsteme Hakkı",
+  "q": "Patent isteme hakkına ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Patent isteme hakkı buluşu yapana veya onun haleflerine aittir ve bu hakkın başkalarına devri mümkündür.\nII. Buluş birden çok kişi tarafından birlikte gerçekleştirilmişse patent isteme hakkı, aralarından ilk başvuruyu yapan kişiye aittir.\nIII. Patent almak için ilk başvuran kişi, aksi ispat edilinceye kadar patent isteme hakkının sahibidir.",
+  "options": [
+   "Yalnız I",
+   "Yalnız III",
+   "I ve II",
+   "I ve III",
+   "I, II ve III"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. III de doğrudur (SMK m.109/4).",
+   "Yanlış. I de doğrudur (SMK m.109/1).",
+   "Yanlış. II yanlıştır; birlikte gerçekleştirilen buluşta patent isteme hakkı, taraflar başka türlü kararlaştırmamışsa bunların tamamına aittir (SMK m.109/2).",
+   "Doğru. I (SMK m.109/1) ve III (SMK m.109/4) doğrudur; II yanlıştır (SMK m.109/2).",
+   "Yanlış. II yanlıştır (SMK m.109/2)."
+  ],
+  "ref": "SMK m.109"
+ },
+ {
+  "id": "PAT-013",
+  "exam": "patent",
+  "topic": "Hak Sahipliği ve Gasp",
+  "q": "Patent başvurusu sürecinde açılan hak sahipliği davasının davacı lehine kesinleşmesi hâlinde, davacı geçerliliği devam eden başvuru için kararın kesinleşme tarihinden itibaren hangi süre içinde talepte bulunabilir ve bu süre içinde hiçbir talepte bulunmazsa sonuç ne olur?",
+  "options": [
+   "İki ay; başvuru davacı adına kendiliğinden yürütülmeye devam eder.",
+   "Üç ay; başvuru, önceki başvuru sahibi adına işlemlere devam eder.",
+   "Altı ay; başvuru reddedilir.",
+   "Bir yıl; başvuru konusu buluş kamuya ait olur.",
+   "Üç ay; dava konusu başvuru geri çekilmiş sayılır."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Süre üç aydır ve talepte bulunulmazsa başvuru geri çekilmiş sayılır (SMK m.110/3, m.110/5).",
+   "Yanlış. Süre doğru olmakla birlikte sonuç yanlıştır; başvuru geri çekilmiş sayılır (SMK m.110/5).",
+   "Yanlış. Süre üç aydır; ret, davacının talep edebileceği seçeneklerden biridir, sessiz kalmanın sonucu değildir (SMK m.110/3-c, m.110/5).",
+   "Yanlış. Süre üç aydır ve kanuni sonuç başvurunun geri çekilmiş sayılmasıdır (SMK m.110/3, m.110/5).",
+   "Doğru. Davacı üç ay içinde başvuruyu kendi başvurusu olarak yürütme, aynı rüçhanla yeni başvuru yapma veya başvurunun reddini isteme seçeneklerine sahiptir (SMK m.110/3); talepte bulunmazsa başvuru geri çekilmiş sayılır (SMK m.110/5)."
+  ],
+  "ref": "SMK m.110"
+ },
+ {
+  "id": "PAT-014",
+  "exam": "patent",
+  "topic": "Hak Sahipliği ve Gasp",
+  "q": "Gerçek hak sahibinden başkasına verilmiş bir patentin kendisine devrini mahkemeden talep etmek isteyen gerçek hak sahibi, bu hakkını hangi süre içinde kullanmalıdır?",
+  "options": [
+   "Patentin verildiğine ilişkin yayım tarihinden itibaren iki yıl içinde; kötüniyet hâlinde ise patentin koruma süresinin bitimine kadar",
+   "Başvuru tarihinden itibaren iki yıl içinde; kötüniyet hâlinde ise beş yıl içinde",
+   "Patentin verildiğine ilişkin yayım tarihinden itibaren altı ay içinde",
+   "Gaspı öğrenme tarihinden itibaren bir yıl içinde",
+   "Patentin koruma süresince ve hakkın sona ermesini izleyen beş yıl içinde"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Gasp hâlinde devir talebi bu sürelerde kullanılır (SMK m.111/3).",
+   "Yanlış. Süre verilme yayımından başlar ve kötüniyet hâlinde koruma süresinin bitimine kadar uzar (SMK m.111/3).",
+   "Yanlış. Altı ay, patentin verilmesine karşı itiraz süresidir (SMK m.99/1); gasp hâlinde süre iki yıldır (SMK m.111/3).",
+   "Yanlış. Kanun öğrenme tarihini değil, verilme yayım tarihini esas alır (SMK m.111/3).",
+   "Yanlış. Bu süre hükümsüzlük davasına ilişkindir (SMK m.138/5); gaspta süre iki yıldır (SMK m.111/3)."
+  ],
+  "ref": "SMK m.111"
+ },
+ {
+  "id": "PAT-015",
+  "exam": "patent",
+  "topic": "Çalışan Buluşları",
+  "q": "Çalışan buluşlarına ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Öğrenciler ile ücretsiz olarak belirli bir süreye bağlı olmaksızın hizmet gören stajyerler hakkında çalışanlara ilişkin hükümler uygulanır.\nII. Kamu kurum ve kuruluşlarında çalışanlara buluşları için ödenecek bedel, buluştan elde edilen gelirin üçte birinden az olamaz.\nIII. Buluşun kamu kurumunun kendisi tarafından kullanılması hâlinde çalışana ödenecek bedel, çalışanın net ücretinin yirmi katından az olamaz.",
+  "options": [
+   "Yalnız I",
+   "I ve II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. II de doğrudur (SMK m.113/5).",
+   "Doğru. I (SMK m.113/3) ve II (SMK m.113/5) doğrudur; III yanlıştır, bu hâlde bedel bir defaya mahsus olmak üzere bedelin ödendiği ay için ödenen net ücretin on katından fazla olamaz (SMK m.113/5).",
+   "Yanlış. III yanlıştır; kanun bir alt sınır değil, net ücretin on katı şeklinde bir üst sınır öngörür (SMK m.113/5).",
+   "Yanlış. III yanlıştır, I ise doğrudur (SMK m.113/3, m.113/5).",
+   "Yanlış. III yanlıştır (SMK m.113/5)."
+  ],
+  "ref": "SMK m.113"
+ },
+ {
+  "id": "PAT-016",
+  "exam": "patent",
+  "topic": "Çalışan Buluşları",
+  "q": "Hizmet buluşunu bildiren çalışanın bildiriminde düzeltilmesi gereken hususlar varsa, işveren bunu bildirimin kendisine ulaştığı tarihten itibaren hangi süre içinde çalışana bildirmelidir?",
+  "options": [
+   "İki ay",
+   "Bir ay",
+   "Üç ay",
+   "Dört ay",
+   "Altı ay"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. İşveren iki ay içinde düzeltme gereken hususları bildirir; talepte bulunmazsa bildirim geçerli sayılır (SMK m.114/4).",
+   "Yanlış. Düzeltme talebi süresi iki aydır (SMK m.114/4).",
+   "Yanlış. Üç ay, işverenin serbest buluş bildirimine itiraz süresidir (SMK m.119/2); düzeltme talebi süresi iki aydır (SMK m.114/4).",
+   "Yanlış. Dört ay, işverenin hak talebi süresidir (SMK m.115/1); düzeltme talebi süresi iki aydır (SMK m.114/4).",
+   "Yanlış. Kanunda düzeltme talebi için altı aylık süre öngörülmemiştir; süre iki aydır (SMK m.114/4)."
+  ],
+  "ref": "SMK m.114"
+ },
+ {
+  "id": "PAT-017",
+  "exam": "patent",
+  "topic": "Çalışan Buluşları",
+  "q": "İşveren, hizmet buluşu üzerinde hak talebinde bulunmak istiyorsa bu talebi hangi süre içinde ve hangi şekilde yapmalıdır; aksi hâlde sonuç nedir?",
+  "options": [
+   "Bildirimden itibaren iki ay içinde yazılı olarak; aksi hâlde işveren tam hak talep etmiş sayılır.",
+   "Bildirimden itibaren dört ay içinde herhangi bir şekilde; aksi hâlde işveren kısmi hak talep etmiş sayılır.",
+   "Çalışanın bildiriminin kendisine ulaştığı tarihten itibaren dört ay içinde yazılı olarak; aksi hâlde hizmet buluşu serbest buluş niteliği kazanır.",
+   "Bildirimden itibaren altı ay içinde yazılı olarak; aksi hâlde buluş kamuya ait olur.",
+   "Bildirimden itibaren üç ay içinde noter aracılığıyla; aksi hâlde çalışan bedel talep edemez."
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Süre dört aydır ve sessizlik tam hak talebi değil, buluşun serbest buluşa dönüşmesi sonucunu doğurur (SMK m.115/1).",
+   "Yanlış. Talebin yazılı olması zorunludur ve sessizliğin sonucu serbest buluştur (SMK m.115/1).",
+   "Doğru. Talep dört ay içinde yazılı olarak bildirilmelidir; süresinde bildirim yapılmazsa buluş serbest buluş niteliği kazanır (SMK m.115/1).",
+   "Yanlış. Süre dört aydır; buluş kamuya değil çalışana serbest buluş olarak kalır (SMK m.115/1).",
+   "Yanlış. Süre dört aydır, noter şartı yoktur, yazılı bildirim yeterlidir (SMK m.115/1)."
+  ],
+  "ref": "SMK m.115"
+ },
+ {
+  "id": "PAT-018",
+  "exam": "patent",
+  "topic": "Çalışan Buluşları",
+  "q": "İşverenin hizmet buluşu üzerinde kısmi hak talep etmesi hâlinde aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Buluş üzerindeki tüm haklar, bildirimin çalışana ulaşmasıyla işverene geçer.",
+   "İşveren buluşu kullansa dahi çalışan bedel talep edemez.",
+   "İşverenin kullanımı çalışanın buluşu değerlendirmesini önemli ölçüde güçleştirse bile çalışanın işverenden herhangi bir talep hakkı yoktur.",
+   "Hizmet buluşu serbest buluş niteliği kazanır; ancak işveren kısmi hakka dayanarak buluşu kullanabilir.",
+   "Çalışanın tam devralma veya vazgeçme isteğine işveren altı ay içinde cevap vermezse işverenin kullanma hakkı sona erer."
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Bu sonuç tam hak talebine özgüdür (SMK m.115/2).",
+   "Yanlış. Kısmi hak talebinde işveren buluşu kullanırsa çalışanın makul bedel isteme hakkı doğar (SMK m.115/6).",
+   "Yanlış. Bu durumda çalışan, hakkın tamamen devralınmasını veya kısmi hakka dayalı kullanımdan vazgeçilmesini isteyebilir (SMK m.115/3).",
+   "Doğru. Kısmi hak talebinde buluş serbest buluş niteliği kazanır, işveren kısmi hakka dayanarak buluşu kullanabilir (SMK m.115/3).",
+   "Yanlış. Cevap süresi tebellüğden itibaren iki aydır (SMK m.115/3)."
+  ],
+  "ref": "SMK m.115"
+ },
+ {
+  "id": "PAT-019",
+  "exam": "patent",
+  "topic": "Çalışan Buluşları",
+  "q": "Hizmet buluşu için patent başvurusu yapılmasına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Çalışanın, buluşu için başvuru yapılmamasına rıza göstermesi, işverenin ilk başvuru yükümlülüğünü ortadan kaldırır.",
+   "İşletme sırlarının korunmasının başvuru yapmamayı gerektirmesi, işverenin ilk başvuru yükümlülüğünü ortadan kaldırır.",
+   "İşveren, tam hak talep ettiği hizmet buluşu için yalnızca Türkiye'de başvuru yapabilir; yabancı ülkelerde başvuru hakkı çalışana aittir.",
+   "Hizmet buluşu serbest buluş niteliği kazanmışsa çalışan bizzat başvuru yapma hakkına sahiptir.",
+   "İşveren, tam hak talep ettiği buluş için başvuru yapmaz ve çalışanın belirleyeceği süre içinde de yapmazsa buluş serbest buluş niteliği kazanır."
+  ],
+  "answer": 2,
+  "why": [
+   "Doğru ifade (SMK m.116/2-b).",
+   "Doğru ifade (SMK m.116/2-c).",
+   "Doğru cevap (yanlış ifade). Tam hak talep eden işveren, buluşun yabancı ülkede korunması için de başvuruda bulunabilir; çalışana yalnızca işverenin patent almak istemediği ülkeler için buluşu serbest bırakma yükümlülüğü vardır (SMK m.116/5-6).",
+   "Doğru ifade (SMK m.116/3).",
+   "Doğru ifade (SMK m.116/4)."
+  ],
+  "ref": "SMK m.116"
+ },
+ {
+  "id": "PAT-020",
+  "exam": "patent",
+  "topic": "Çalışan Buluşları",
+  "q": "İşveren ile çalışan arasında yapılan çalışan buluşuna ilişkin sözleşmenin veya belirlenen bedelin hakkaniyete aykırı olduğuna dair itiraz hangi süre içinde ve hangi şekilde ileri sürülebilir?",
+  "options": [
+   "Sözleşmenin imzalandığı tarihten itibaren altı ay içinde, yazılı olarak",
+   "İş sözleşmesinin bitiminden itibaren iki yıl içinde, herhangi bir şekilde",
+   "Bedelin ödendiği tarihten itibaren üç ay içinde, yazılı olarak",
+   "Süre sınırı olmaksızın her zaman",
+   "İş sözleşmesinin bitiminden itibaren en geç altı ay içinde, yazılı olarak"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Süre sözleşmenin imzasından değil, iş sözleşmesinin bitiminden başlar (SMK m.117/3).",
+   "Yanlış. Süre altı aydır ve itirazın yazılı yapılması gerekir (SMK m.117/3).",
+   "Yanlış. Başlangıç iş sözleşmesinin bitimi, süre altı aydır (SMK m.117/3).",
+   "Yanlış. Kanun iş sözleşmesinin bitiminden itibaren en geç altı aylık süre öngörmüştür (SMK m.117/3).",
+   "Doğru. Hakkaniyete aykırılık itirazı bu süre ve şekilde ileri sürülür (SMK m.117/3)."
+  ],
+  "ref": "SMK m.117"
+ },
+ {
+  "id": "PAT-021",
+  "exam": "patent",
+  "topic": "Çalışan Buluşları",
+  "q": "Serbest buluşlara ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Serbest buluşun işverenin faaliyet alanı içinde değerlendirilebilir olmadığı açıksa, çalışanın bildirim yükümlülüğü yoktur.\nII. İşveren, buluşun serbest buluş olmadığına ilişkin itirazını kendisine yapılan bildirim tarihinden itibaren üç ay içinde yazılı bir bildirimle ileri sürebilir.\nIII. Çalışanın yükümlü olduğu yararlanma teklifine işveren, teklifin kendisine ulaştığı tarihten itibaren üç ay içinde cevap vermezse bu konudaki öncelik hakkını kaybeder.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. II (SMK m.119/2) ve III (SMK m.119/4) de doğrudur.",
+   "Yanlış. I (SMK m.119/3) ve III (SMK m.119/4) de doğrudur.",
+   "Yanlış. II de doğrudur (SMK m.119/2).",
+   "Yanlış. I de doğrudur (SMK m.119/3).",
+   "Doğru. Üç ifade de kanuna uygundur (SMK m.119/2, m.119/3, m.119/4)."
+  ],
+  "ref": "SMK m.119"
+ },
+ {
+  "id": "PAT-022",
+  "exam": "patent",
+  "topic": "Yükseköğretim Buluşları",
+  "q": "Yükseköğretim kurumlarında gerçekleştirilen bir buluştan elde edilen gelirin paylaşımında buluşu yapana verilecek asgari pay nedir?",
+  "options": [
+   "Gelirin en az yarısı",
+   "Gelirin en az dörtte biri",
+   "Gelirin tamamı; kurum yalnızca masraflarını alır",
+   "Gelirin en az üçte biri",
+   "Taraflarca serbestçe belirlenir; kanunda asgari pay öngörülmemiştir"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Kanuni asgari pay üçte birdir (SMK m.121/8).",
+   "Yanlış. Kanuni asgari pay üçte birdir (SMK m.121/8).",
+   "Yanlış. Gelir kurum ile buluşu yapan arasında paylaşılır; kurumun hissesi bütçeye özgelir olarak kaydedilir (SMK m.121/8).",
+   "Doğru. Paylaşım, buluşu yapana gelirin en az üçte biri verilecek şekilde belirlenir (SMK m.121/8).",
+   "Yanlış. Kanun buluşu yapan için gelirin en az üçte biri şeklinde asgari pay öngörmüştür (SMK m.121/8)."
+  ],
+  "ref": "SMK m.121"
+ },
+ {
+  "id": "PAT-023",
+  "exam": "patent",
+  "topic": "Yükseköğretim Buluşları",
+  "q": "SMK m.121/5 uyarınca aşağıdaki düzenlemelerden hangisi yükseköğretim kurumlarında gerçekleştirilen buluşlar hakkında uygulanmaz?",
+  "options": [
+   "Buluşu yapanın buluşunu yazılı olarak ve geciktirmeksizin yükseköğretim kurumuna bildirmesi",
+   "Hak sahipliği talebinde bulunan yükseköğretim kurumunun patent başvurusu yapmakla yükümlü olması",
+   "Buluşu yapanın, kurumun hak sahipliği talebine buluşunun serbest buluş olduğunu ileri sürerek itiraz edebilmesi",
+   "İşverenin, çalışanın bildiriminden itibaren dört ay içinde yazılı olarak tam veya kısmi hak talep etmesine ilişkin hüküm",
+   "Kurumun kusuruyla patent hakkının sona ermesine sebep olması hâlinde buluşu yapanın zararını tazmin etmesi"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Bu yükümlülük m.121/2'de bizzat düzenlenmiştir ve uygulanır (SMK m.121/2).",
+   "Yanlış. Bu yükümlülük uygulanır; aksi hâlde buluş serbest buluş niteliği kazanır (SMK m.121/3).",
+   "Yanlış. Bu itiraz hakkı m.121/4'te düzenlenmiştir ve uygulanır (SMK m.121/4).",
+   "Doğru. Yükseköğretim kurumlarındaki buluşlarda m.115, m.116, m.118 ve m.119/4 uygulanmaz (SMK m.121/5); dört aylık hak talebi m.115/1'de düzenlenmiştir.",
+   "Yanlış. Bu tazmin yükümlülüğü uygulanır (SMK m.121/7)."
+  ],
+  "ref": "SMK m.121"
+ },
+ {
+  "id": "PAT-024",
+  "exam": "patent",
+  "topic": "Başvuru ve Başvuru Tarihi",
+  "q": "SMK'ya göre aşağıdakilerden hangisi, patent başvuru tarihinin kesinleşmesi için Kuruma verilmesi gereken unsurlardan biri değildir?",
+  "options": [
+   "Patent verilmesi talebi",
+   "Başvuru sahibinin kimlik bilgileri",
+   "Başvuru sahibinin iletişim bilgileri",
+   "Tarifname yerine önceki bir başvuruya yapılan atıf",
+   "İstemler"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Başvuru tarihinin kesinleşmesi için gerekli unsurlardandır (SMK m.90/3-a).",
+   "Yanlış. Başvuru tarihinin kesinleşmesi için gerekli unsurlardandır (SMK m.90/3-b).",
+   "Yanlış. Başvuru tarihinin kesinleşmesi için gerekli unsurlardandır (SMK m.90/3-b).",
+   "Yanlış. Tarifname veya önceki bir başvuruya yapılan atıf başvuru tarihi için yeterli unsurdur (SMK m.90/3-c).",
+   "Doğru. Başvuru tarihi için yalnızca patent verilmesi talebi, başvuru sahibinin kimlik ve iletişim bilgileri ve tarifname (veya önceki başvuruya atıf) gerekir (SMK m.90/3); istemler m.90/1 unsurudur ve eksikliği sonradan giderilebilir (SMK m.95/2)."
+  ],
+  "ref": "SMK m.90"
+ },
+ {
+  "id": "PAT-025",
+  "exam": "patent",
+  "topic": "Başvuru ve Başvuru Tarihi",
+  "q": "İşleme alınan bir patent başvurusunda özet eksiktir ve tarifname İngilizce olarak verilmiştir. SMK'ya göre bu durumla ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Eksiklikler Kurumun bildirim tarihinden itibaren iki ay içinde giderilmelidir; aksi takdirde başvuru reddedilir.",
+   "Tarifname yalnızca Türkçe verilebileceğinden başvuru işleme alınmaz.",
+   "Bildirime gerek olmaksızın başvuru tarihinden itibaren iki ay içinde eksiklik giderilmeli ve Türkçe çeviri verilmelidir; aksi takdirde başvuru geri çekilmiş sayılır.",
+   "Eksiklikler başvuru tarihinden itibaren üç ay içinde giderilmelidir; aksi hâlde başvuru tarihi eksikliklerin giderildiği tarih olur.",
+   "Eksiklikler araştırma talebiyle birlikte, başvuru tarihinden itibaren on iki ay içinde giderilebilir."
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Bu kural şeklî şartlara uygunluk incelemesinde tespit edilen eksikliklere ilişkindir (SMK m.95/4); m.90/1 unsurları için bildirim beklenmez (SMK m.95/2).",
+   "Yanlış. Tarifname Paris Sözleşmesi veya DTÖ'ye taraf ya da karşılıklılık ilkesini uygulayan devletlerin resmî dillerinden birinde verilebilir (SMK m.90/2, m.90/3-c).",
+   "Doğru. m.90/1 unsurlarından birinin eksikliği veya yabancı dilde verilmesi hâlinde bu kural uygulanır (SMK m.95/2).",
+   "Yanlış. Süre iki aydır ve sonuç başvurunun geri çekilmiş sayılmasıdır (SMK m.95/2).",
+   "Yanlış. On iki ay araştırma talebi süresidir (SMK m.96/1); bu eksiklikler için süre iki aydır (SMK m.95/2)."
+  ],
+  "ref": "SMK m.95"
+ },
+ {
+  "id": "PAT-026",
+  "exam": "patent",
+  "topic": "Bölünmüş Başvuru",
+  "q": "Bölünmüş başvuruya ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Buluş bütünlüğüne bakılmaksızın, başvuru sahibinin talebi üzerine her başvuru için bölünmüş başvuru yapılabilir.",
+   "Bölünmüş başvurunun başvuru tarihi, bölünmüş başvurunun Kuruma verildiği tarihtir.",
+   "Bölünmüş başvuruyla birlikte geçmiş yıllara ait yıllık ücretler de ödenir.",
+   "İlk başvuruda rüçhan hakkı talep edilmişse bu hak bölünmüş her başvuruya da tanınır.",
+   "Bölünmüş başvuru, işlemleri devam eden başvuru konusunun kapsamını aşmayacak şekilde yapılır."
+  ],
+  "answer": 1,
+  "why": [
+   "Doğru ifade (SMK m.91/2).",
+   "Doğru cevap (yanlış ifade). Bölünmüş her başvuru için başvuru tarihi ilk başvurunun tarihidir (SMK m.91/4); Kuruma verildiği tarihin esas alınması ek patent başvurusuna özgüdür (SMK m.123/2).",
+   "Doğru ifade (SMK m.91/3).",
+   "Doğru ifade (SMK m.91/4).",
+   "Doğru ifade (SMK m.91/3)."
+  ],
+  "ref": "SMK m.91"
+ },
+ {
+  "id": "PAT-027",
+  "exam": "patent",
+  "topic": "Rüçhan Hakkı",
+  "q": "SMK'ya göre rüçhan hakkı talebi ve buna ilişkin belgelerin sunulması hangi süreler içinde yapılır?",
+  "options": [
+   "Talep yalnızca başvuruyla birlikte yapılabilir; belgeler başvuru tarihinden itibaren üç ay içinde sunulur.",
+   "Talep başvuru tarihinden itibaren üç ay içinde yapılır; belgeler altı ay içinde sunulur.",
+   "Talep ve belgeler, rüçhan tarihinden itibaren on altı ay içinde sunulur.",
+   "Talep, ücreti ödenerek başvuruyla birlikte veya başvuru tarihinden itibaren iki ay içinde yapılır; belgeler başvuru tarihinden itibaren üç ay içinde sunulur.",
+   "Talep başvuru tarihinden itibaren iki ay içinde yapılır; belgeler için Kurum bildirim yapar ve bildirimden itibaren iki ay süre verilir."
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Talep başvuru tarihinden itibaren iki ay içinde de yapılabilir (SMK m.94/1).",
+   "Yanlış. Talep süresi iki ay, belge süresi üç aydır (SMK m.94/1).",
+   "Yanlış. SMK'da süreler rüçhan tarihinden değil başvuru tarihinden itibaren iki ve üç ay olarak düzenlenmiştir (SMK m.94/1).",
+   "Doğru. Aksi takdirde rüçhan hakkı talebi yapılmamış sayılır (SMK m.94/1).",
+   "Yanlış. Belgeler için bildirim beklenmez; başvuru tarihinden itibaren üç ay içinde sunulmalıdır (SMK m.94/1)."
+  ],
+  "ref": "SMK m.94"
+ },
+ {
+  "id": "PAT-028",
+  "exam": "patent",
+  "topic": "Araştırma ve İnceleme",
+  "q": "Patent başvurusunda araştırma talebine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Araştırma talebi Kurumun bildiriminden itibaren üç ay içinde yapılır; aksi takdirde başvuru reddedilir.",
+   "Araştırma talebi süresi on iki aydır ve Cumhurbaşkanı bu süreyi iki katına kadar uzatmaya yetkilidir.",
+   "Araştırma talebi rüçhan tarihinden itibaren on sekiz ay içinde yapılır.",
+   "Başvuru konusunun m.82/2 kapsamına girdiği sonucuna varılsa dahi araştırma raporu her durumda düzenlenir.",
+   "Başvuru sahibi, başvuruyla birlikte veya bildirime gerek olmaksızın başvuru tarihinden itibaren on iki ay içinde ücretini ödeyerek araştırma talebinde bulunur; aksi takdirde başvuru geri çekilmiş sayılır."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Süre bildirime gerek olmaksızın başvuru tarihinden itibaren on iki aydır ve sonuç geri çekilmiş sayılmadır (SMK m.96/1).",
+   "Yanlış. Cumhurbaşkanı on iki aylık süreyi yarısına kadar indirmeye yetkilidir (SMK m.96/4).",
+   "Yanlış. On sekiz ay yayım süresidir (SMK m.97/1); araştırma talebi başvuru tarihinden itibaren on iki ay içinde yapılır (SMK m.96/1).",
+   "Yanlış. Bu durumda araştırma raporu düzenlenmez ve başvuru sahibinden üç ay içinde itiraz veya değişiklik sunması istenir (SMK m.96/3).",
+   "Doğru (SMK m.96/1)."
+  ],
+  "ref": "SMK m.96"
+ },
+ {
+  "id": "PAT-029",
+  "exam": "patent",
+  "topic": "Yayım",
+  "q": "Patent başvurusunun yayımı ve etkilerine ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Başvuru, başvuru veya varsa rüçhan tarihinden itibaren on sekiz aylık sürenin dolmasıyla ya da bu süre dolmadan başvuru sahibinin erken yayım talebi üzerine Bültende yayımlanır.\nII. Üçüncü kişiler, yayım tarihinden itibaren buluşun patent verilebilirliğine ilişkin görüş sunabilir ve bu suretle Kurum nezdindeki işlemlere taraf olurlar.\nIII. Patente sağlanan koruma başvuru sahibine yayım tarihinden itibaren geçici olarak tanınır; başvurudan ve kapsamından haberdar edilmiş kullanıcıya karşı yayımdan önce de söz konusu olur.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve II",
+   "I ve III",
+   "II ve III"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. III de doğrudur (SMK m.97/4-5).",
+   "Yanlış. II yanlıştır; üçüncü kişiler görüş sunabilir ancak bu aşamada Kurum nezdindeki işlemlere taraf olamaz (SMK m.97/2).",
+   "Yanlış. II yanlıştır (SMK m.97/2).",
+   "Doğru. I (SMK m.97/1) ve III (SMK m.97/4-5) doğrudur; II yanlıştır (SMK m.97/2).",
+   "Yanlış. II yanlıştır (SMK m.97/2)."
+  ],
+  "ref": "SMK m.97"
+ },
+ {
+  "id": "PAT-030",
+  "exam": "patent",
+  "topic": "Araştırma ve İnceleme",
+  "q": "SMK m.98'e göre inceleme aşamasına ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+   "İnceleme talebi başvuru tarihinden itibaren üç ay içinde yapılır.",
+   "Başvurunun Kanuna uygun olmadığının tespiti hâlinde başvuru sahibine yapılacak bildirimlerin sayısı üçten fazla olamaz.",
+   "Başvuru sahibine görüş sunması veya değişiklik yapması için bildirim tarihinden itibaren bir aylık süre verilir.",
+   "İnceleme talebi süresinde yapılmazsa başvuru reddedilir.",
+   "Patentin verilmiş olması, geçerliliği ve yararlılığı konusunda Kurumun garantisi niteliğindedir."
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Süre araştırma raporunun bildirim tarihinden itibaren üç aydır (SMK m.98/1).",
+   "Doğru (SMK m.98/3).",
+   "Yanlış. Bu süre üç aydır (SMK m.98/4).",
+   "Yanlış. Bu durumda başvuru geri çekilmiş sayılır (SMK m.98/1).",
+   "Yanlış. Patentin verilmesi Kurumun garantisi olarak yorumlanamaz ve Kurumun sorumluluğunu doğurmaz (SMK m.98/9)."
+  ],
+  "ref": "SMK m.98"
+ },
+ {
+  "id": "PAT-031",
+  "exam": "patent",
+  "topic": "İtiraz",
+  "q": "Patentin verilmesi kararının Bültende yayımlanmasından sonra üçüncü kişilerce Kurum nezdinde yapılacak itirazda aşağıdakilerden hangisi itiraz gerekçesi olarak ileri sürülemez?",
+  "options": [
+   "Patent konusunun yeni olmadığı",
+   "Buluşun, uzmanın uygulayabileceği şekilde yeterince açıklanmadığı",
+   "Patent sahibinin m.109 uyarınca patent isteme hakkına sahip olmadığı",
+   "Patent konusunun başvurunun ilk hâlinin kapsamını aştığı",
+   "Patent konusunun m.82 uyarınca patent verilemeyecek konulardan olduğu"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. m.82 ve m.83'e göre patent verilebilirlik şartlarının taşınmaması itiraz gerekçesidir (SMK m.99/1-a).",
+   "Yanlış. Buluşun m.92/1-3 uyarınca yeterince açıklanmaması itiraz gerekçesidir (SMK m.99/1-b).",
+   "Doğru. Bu gerekçe m.99/1'de sayılmamıştır; mahkemede ileri sürülebilen bir hükümsüzlük nedenidir ve yalnızca buluşu yapan veya halefleri tarafından ileri sürülebilir (SMK m.138/1-ç, m.138/6).",
+   "Yanlış. Bu durum itiraz gerekçesidir (SMK m.99/1-c).",
+   "Yanlış. m.82'ye göre patent verilebilirlik şartlarını taşımama itiraz gerekçesidir (SMK m.99/1-a)."
+  ],
+  "ref": "SMK m.99"
+ },
+ {
+  "id": "PAT-032",
+  "exam": "patent",
+  "topic": "İtiraz",
+  "q": "Patentin verilmesinden sonra üçüncü kişilerin yapacağı itiraz ve sonrasındaki süreç bakımından aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "İtiraz, verilme kararının bildirim tarihinden itibaren iki ay içinde yapılır.",
+   "İtiraz, patent sahibinin görüşü alınmaksızın Kurul tarafından doğrudan karara bağlanır.",
+   "İtiraz ücretinin süresi içinde ödenmemesi hâlinde Kurum eksikliğin giderilmesi için ek süre verir.",
+   "Kurul itirazı haklı bulursa patentin hükümsüzlüğüne karar verir; ancak bu kararın geçmişe etkisi yoktur.",
+   "İtiraz, verilme kararının Bültende yayımlanmasından itibaren altı ay içinde ücreti ödenerek yapılır; patent sahibi itirazın bildiriminden itibaren üç ay içinde görüş sunabilir veya patentte değişiklik yapabilir."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. İki ay, Kurum kararlarına karşı genel itiraz süresidir (SMK m.100); patentin verilmesine itiraz süresi yayımdan itibaren altı aydır (SMK m.99/1).",
+   "Yanlış. İtiraz patent sahibine bildirilir ve onun görüşleri ile değişiklik talepleri dikkate alınarak incelenir (SMK m.99/4).",
+   "Yanlış. Ücretin süresi içinde ödenmemesi hâlinde itiraz yapılmamış sayılır (SMK m.99/2).",
+   "Yanlış. Bu durumda m.139'daki hükümsüzlük sonuçları doğar; hükümsüzlük geçmişe dönük etkilidir (SMK m.99/5, m.139/1).",
+   "Doğru (SMK m.99/1, m.99/4)."
+  ],
+  "ref": "SMK m.99"
+ },
+ {
+  "id": "PAT-033",
+  "exam": "patent",
+  "topic": "Koruma Süresi ve Yıllık Ücretler",
+  "q": "SMK'ya göre patentin koruma süresi ve yıllık ücretlere ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+   "Koruma süresi patentin verilme tarihinden itibaren yirmi yıldır.",
+   "Koruma süresi yirmi yıldır; ancak ilaç patentlerinde beş yıla kadar uzatılabilir.",
+   "Koruma süresi başvuru tarihinden başlamak üzere yirmi yıldır ve uzatılamaz; yıllık ücretler başvuru tarihinden itibaren ikinci yılın sona erdiği tarihte ödenmeye başlanır.",
+   "Yıllık ücretlerin vade tarihi, patentin verildiği tarihe tekabül eden ay ve gündür.",
+   "Ek patent için de asıl patentten ayrı olarak yıllık ücret ödenir."
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Süre başvuru tarihinden başlar (SMK m.101/1).",
+   "Yanlış. Koruma süreleri uzatılamaz (SMK m.101/1).",
+   "Doğru (SMK m.101/1-2).",
+   "Yanlış. Vade tarihi başvuru tarihine tekabül eden ay ve gündür (SMK m.101/2).",
+   "Yanlış. Ek patent başvuruları ve ek patentler için yıllık ücret ödenmez (SMK m.123/6)."
+  ],
+  "ref": "SMK m.101"
+ },
+ {
+  "id": "PAT-034",
+  "exam": "patent",
+  "topic": "Koruma Süresi ve Yıllık Ücretler",
+  "q": "Başvuru tarihi 15.05.2022 olan bir patentin 15.05.2025 vade tarihli yıllık ücreti vadesinde ödenmemiştir. SMK m.101'e göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Ücret ek ücretle birlikte 15.11.2025 tarihine kadar ödenebilir; bu sürede de ödenmezse patent hakkı 15.05.2025 vade tarihi itibarıyla sona erer.",
+   "Ücret ödenmediğinden patent hakkı 15.05.2025 tarihinde kesin olarak sona erer; ek süre tanınmaz.",
+   "Ücret ek ücretle birlikte 15.08.2025 tarihine kadar ödenebilir.",
+   "Ek süre de geçirilirse patent hakkı, ek sürenin bittiği 15.11.2025 tarihi itibarıyla sona erer.",
+   "Ek süre de geçirilirse patent hakkı sona erer ve hiçbir şekilde yeniden geçerlilik kazanamaz."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Vadeyi takip eden altı ay içinde ek ücretle ödeme yapılabilir (SMK m.101/3); ödenmezse hak vade tarihi itibarıyla sona erer (SMK m.101/4).",
+   "Yanlış. Vadeyi takip eden altı aylık ek ödeme süresi vardır (SMK m.101/3).",
+   "Yanlış. Ek ödeme süresi üç ay değil altı aydır (SMK m.101/3).",
+   "Yanlış. Hak, ücretin vade tarihi itibarıyla sona erer (SMK m.101/4).",
+   "Yanlış. Sona erme bildiriminden itibaren iki ay içinde telafi ücreti ödenirse hak yeniden geçerlilik kazanır (SMK m.101/4)."
+  ],
+  "ref": "SMK m.101"
+ },
+ {
+  "id": "PAT-035",
+  "exam": "patent",
+  "topic": "Patent Hakkının Kapsamı ve Sınırları",
+  "q": "Aşağıdaki fiillerden hangisi SMK m.85/3 uyarınca patentin sağladığı hakkın kapsamı dışında kalmaz?",
+  "options": [
+   "Bir eczanede patentli bir ilacın reçeteye bağlı olmaksızın seri üretimle hazırlanıp satılması",
+   "Sınai veya ticari bir amaç taşımayan ve özel maksatla sınırlı kalan fiiller",
+   "İlaç ruhsatı için gerekli test ve deneyler dâhil, patent konusu buluşu içeren deneme amaçlı fiiller",
+   "Paris Sözleşmesine taraf bir devlete ait geminin geçici olarak Türkiye'de bulunduğu sırada patentli buluşun gemide kullanılması",
+   "Patent konusu buluşu içeren deneme amaçlı fiiller"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. İstisna yalnızca sadece bir reçetenin oluşturulması için eczanelerde seri üretim olmadan hazırlanan ilaçları kapsar (SMK m.85/3-ç); seri üretim patent sahibinin hakkı kapsamındadır.",
+   "Yanlış. Bu fiiller hakkın kapsamı dışındadır (SMK m.85/3-a).",
+   "Yanlış. Bu fiiller hakkın kapsamı dışındadır (SMK m.85/3-c).",
+   "Yanlış. Bu kullanım hakkın kapsamı dışındadır (SMK m.85/3-d).",
+   "Yanlış. Bu fiiller hakkın kapsamı dışındadır (SMK m.85/3-b)."
+  ],
+  "ref": "SMK m.85"
+ },
+ {
+  "id": "PAT-036",
+  "exam": "patent",
+  "topic": "Önceki Kullanım Hakkı",
+  "q": "Başvuru tarihinden önce buluşu Türkiye'de iyiniyetle kullanmakta olan kişinin önceki kullanımdan doğan hakkı ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Bu kişi, buluşun kullanımını herhangi bir sınırlama olmaksızın genişletebilir.",
+   "Hak yalnızca buluşu fiilen kullanmaya başlamış olanlara tanınır; kullanım için ciddi ve gerçek tedbir almış olmak yeterli değildir.",
+   "Bu kişi tarafından satışa sunulmuş ürünlerle ilgili sonraki fiiller patent hakkına tecavüz oluşturur.",
+   "Önceki kullanım hakkı, yurt dışında yapılan iyiniyetli kullanımlar için de tanınır.",
+   "Bu hak, lisans verilmesi suretiyle genişletilemez ve ancak işletme ile birlikte devredilebilir."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Kullanım, sahip olunan işletmenin makul ihtiyaçlarını giderecek ölçüde olabilir (SMK m.87/1).",
+   "Yanlış. Kullanım için ciddi ve gerçek tedbirler almış kişiler de bu haktan yararlanır (SMK m.87/1).",
+   "Yanlış. Bu ürünlerle ilgili fiiller patentin sağladığı hakkın kapsamı dışındadır (SMK m.87/2).",
+   "Yanlış. Hak, buluşu ülke içinde kullanan veya ülke içinde ciddi tedbir alanlara tanınır (SMK m.87/1).",
+   "Doğru (SMK m.87/1)."
+  ],
+  "ref": "SMK m.87"
+ },
+ {
+  "id": "PAT-037",
+  "exam": "patent",
+  "topic": "Kullanma Zorunluluğu ve Zorunlu Lisans",
+  "q": "Başvuru tarihi 10.02.2020 olan bir patentin verilmesi kararı 20.06.2021 tarihinde Bültende yayımlanmıştır. Patent konusu buluşun kullanılmaması gerekçesiyle zorunlu lisans en erken hangi tarihten itibaren talep edilebilir?",
+  "options": [
+   "10.02.2024",
+   "10.02.2023",
+   "20.06.2023",
+   "20.06.2024",
+   "20.06.2025"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Bu, başvurudan itibaren dört yıllık sürenin bitimidir; ancak daha geç sona eren süre esas alınır (SMK m.130/2).",
+   "Yanlış. Başvuru tarihinden itibaren süre üç değil dört yıldır ve daha geç sona eren süre esas alınır (SMK m.130/2).",
+   "Yanlış. Verilme yayımından itibaren süre iki değil üç yıldır (SMK m.130/2).",
+   "Doğru. Verilme kararının yayımından itibaren üç yıl (20.06.2024) ile başvuru tarihinden itibaren dört yıldan (10.02.2024) hangisi daha geç sona eriyorsa o sürenin bitiminden itibaren talep edilebilir (SMK m.130/2).",
+   "Yanlış. Verilme yayımından itibaren dört yıl değil üç yıl esas alınır (SMK m.130/2)."
+  ],
+  "ref": "SMK m.130"
+ },
+ {
+  "id": "PAT-038",
+  "exam": "patent",
+  "topic": "Kullanma Zorunluluğu ve Zorunlu Lisans",
+  "q": "SMK'ya göre zorunlu lisans gerekçesi ile talebin yöneltileceği veya kararı verecek merci arasındaki eşleştirmelerden hangisi doğrudur?",
+  "options": [
+   "Patent sahibinin rekabeti engelleyici, bozucu veya kısıtlayıcı faaliyetlerde bulunması – Rekabet Kurumu",
+   "Patent konusu buluşun kullanılmaması – Türk Patent ve Marka Kurumu",
+   "Patent konularının bağımlılığı – Rekabet Kurumu",
+   "Kamu sağlığı veya millî güvenlik nedeniyle kamu yararı – Mahkeme",
+   "Başka ülkelerdeki kamu sağlığı sorunları sebebiyle eczacılık ürünlerinin ihracatı – Cumhurbaşkanı"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.129/1-e kapsamındaki zorunlu lisans Rekabet Kurumundan talep edilir (SMK m.129/2).",
+   "Yanlış. Kullanmama gerekçeli zorunlu lisans mahkemeden talep edilir (SMK m.129/2).",
+   "Yanlış. Bağımlılık gerekçeli zorunlu lisans mahkemeden talep edilir (SMK m.129/2).",
+   "Yanlış. Kamu yararı nedeniyle zorunlu lisansa Cumhurbaşkanınca karar verilir (SMK m.132/1).",
+   "Yanlış. m.129/1-ç kapsamındaki zorunlu lisans mahkemeden talep edilir (SMK m.129/2)."
+  ],
+  "ref": "SMK m.129"
+ },
+ {
+  "id": "PAT-039",
+  "exam": "patent",
+  "topic": "Kullanma Zorunluluğu ve Zorunlu Lisans",
+  "q": "Zorunlu lisansın hukuki niteliğine ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+   "Zorunlu lisans alan kural olarak alt lisans verebilir.",
+   "Zorunlu lisans kural olarak inhisari değildir; ancak kamu yararı gerekçesiyle verilen zorunlu lisanslar inhisari olabilir.",
+   "Zorunlu lisans alan, patent konusu ürünü her durumda ithal edebilir.",
+   "Zorunlu lisans, işletmeden bağımsız olarak serbestçe devredilebilir.",
+   "Mahkeme bedeli belirlerken patentin ekonomik değerini dikkate alamaz."
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Zorunlu lisans alanın alt lisans verme hakkı yoktur (SMK m.133/2).",
+   "Doğru (SMK m.133/1, m.132/3).",
+   "Yanlış. Kural olarak ithal hakkı yoktur; yalnızca kamu yararı gerekçeli lisansta açıkça yetkilendirilmişse, ihtiyaçla sınırlı ve geçici olarak ithal edilebilir (SMK m.133/2).",
+   "Yanlış. Devrin geçerliliği için işletme veya işletmenin lisansın değerlendirildiği kısmı ile birlikte devredilmesi gerekir (SMK m.135).",
+   "Yanlış. Mahkeme bedeli belirlerken patentin ekonomik değerini göz önüne alır (SMK m.133/1)."
+  ],
+  "ref": "SMK m.133"
+ },
+ {
+  "id": "PAT-040",
+  "exam": "patent",
+  "topic": "Sözleşmeye Dayalı Lisans",
+  "q": "Bir patent lisans sözleşmesinde lisansın türü ve alt lisans konusunda hiçbir hüküm bulunmamaktadır. SMK'ya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Lisans inhisari nitelikte sayılır; lisans veren başkasına lisans veremez.",
+   "Lisans inhisari değildir ve lisans alan haklarını üçüncü kişilere serbestçe devredebilir.",
+   "Lisans veren, patent konusu buluşu kendisi kullanamaz.",
+   "Lisans inhisari olmayan nitelikte olup lisans alan alt lisans veremez.",
+   "Lisans alan, buluşu yalnızca sözleşmenin yapıldığı yıl boyunca kullanabilir."
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Aksi kararlaştırılmamışsa lisans inhisari değildir (SMK m.125/2).",
+   "Yanlış. Aksi kararlaştırılmamışsa lisans alan haklarını devredemez (SMK m.125/3).",
+   "Yanlış. Bu kısıtlama inhisari lisansa özgüdür; inhisari olmayan lisansta lisans veren buluşu kendisi de kullanabilir (SMK m.125/2).",
+   "Doğru. Aksi kararlaştırılmamışsa lisans inhisari değildir (SMK m.125/2) ve lisans alan haklarını devredemez veya alt lisans veremez (SMK m.125/3).",
+   "Yanlış. Aksi kararlaştırılmamışsa lisans alan patentin koruma süresi boyunca her türlü kullanma tasarrufunda bulunabilir (SMK m.125/4)."
+  ],
+  "ref": "SMK m.125"
+ },
+ {
+  "id": "PAT-041",
+  "exam": "patent",
+  "topic": "Sözleşmeye Dayalı Lisans",
+  "q": "Lisans verme teklifine ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Patent başvurusu sahibi de lisans verme teklifinde bulunabilir.",
+   "Lisans verme teklifi bir kez Bültende yayımlandıktan sonra geri alınamaz.",
+   "Teklif, Kuruma yapılacak yazılı taleple yapılır.",
+   "Sicilde kayıtlı inhisari lisans varsa lisans verme teklifinde bulunulamaz.",
+   "Lisans verme teklifi Bültende yayımlanır."
+  ],
+  "answer": 1,
+  "why": [
+   "Doğru ifade (SMK m.128/1).",
+   "Doğru cevap (yanlış ifade). Patent başvurusu veya patent sahibi lisans verme teklifini her zaman geri alabilir; geri alma Bültende yayımlanır (SMK m.128/3).",
+   "Doğru ifade (SMK m.128/1).",
+   "Doğru ifade (SMK m.128/2).",
+   "Doğru ifade (SMK m.128/1)."
+  ],
+  "ref": "SMK m.128"
+ },
+ {
+  "id": "PAT-042",
+  "exam": "patent",
+  "topic": "Hükümsüzlük",
+  "q": "Patentin hükümsüzlüğüne ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Hükümsüzlük davası, patentin koruma süresince veya hakkın sona ermesini izleyen beş yıl içinde, sicile patent sahibi olarak kayıtlı kişiye karşı açılabilir.\nII. Patent sahibinin m.109'a göre patent isteme hakkına sahip olmadığı gerekçesiyle hükümsüzlüğü Cumhuriyet savcısı da isteyebilir.\nIII. Hükümsüzlük nedeni bir istemin yalnızca bir bölümüne ilişkinse mahkeme o istemin kısmen hükümsüzlüğüne karar verebilir.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve II",
+   "I ve III",
+   "I, II ve III"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Yalnız I doğrudur (SMK m.138/5); II yanlıştır, bu gerekçeyle hükümsüzlüğü ancak buluşu yapan veya halefleri isteyebilir (SMK m.138/6); III yanlıştır, bir istemin kısmen hükümsüzlüğüne karar verilemez (SMK m.138/4).",
+   "Yanlış. II yanlıştır; m.109'a dayalı hükümsüzlüğü yalnızca buluşu yapan veya halefleri isteyebilir (SMK m.138/3, m.138/6).",
+   "Yanlış. II yanlıştır (SMK m.138/6).",
+   "Yanlış. III yanlıştır; bir istemin kısmen hükümsüzlüğüne karar verilemez (SMK m.138/4).",
+   "Yanlış. II ve III yanlıştır (SMK m.138/4, m.138/6)."
+  ],
+  "ref": "SMK m.138"
+ },
+ {
+  "id": "PAT-043",
+  "exam": "patent",
+  "topic": "Hükümsüzlük",
+  "q": "Patentin hükümsüzlüğüne karar verilmesinin etkileri bakımından aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Hükümsüzlük kararı ileriye dönük etkilidir; karar tarihine kadar patent koruması geçerli kabul edilir.",
+   "Kesinleşmiş hükümsüzlük kararı yalnızca davanın taraflarını bağlar.",
+   "Tecavüz sebebiyle verilmiş, kesinleşmiş ve uygulanmış kararlar hükümsüzlük nedeniyle kendiliğinden ortadan kalkar.",
+   "Patent sahibinin ağır ihmali veya kötüniyeti bulunsa bile zarar görenler tazminat talep edemez.",
+   "Hükümsüzlük kararından önce yapılmış ve uygulanmış sözleşmeler kural olarak etkilenmez; ancak ödenmiş bedelin hakkaniyet gereğince kısmen veya tamamen iadesi talep edilebilir."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Kararın sonuçları geçmişe dönük etkilidir ve koruma hiç doğmamış sayılır (SMK m.139/1).",
+   "Yanlış. Kesinleşmiş hükümsüzlük kararı herkese karşı hüküm doğurur (SMK m.139/4).",
+   "Yanlış. Bu kararlar hükümsüzlüğün geçmişe etkisinden etkilenmez (SMK m.139/2-a).",
+   "Yanlış. Ağır ihmal veya kötüniyetten zarar görenlerin tazminat talepleri saklıdır (SMK m.139/2).",
+   "Doğru (SMK m.139/2-b, m.139/3)."
+  ],
+  "ref": "SMK m.139"
+ },
+ {
+  "id": "PAT-044",
+  "exam": "patent",
+  "topic": "Hakkın Sona Ermesi",
+  "q": "Patent hakkının sona ermesine ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+   "Patent sahibi ancak patentin tamamından vazgeçebilir; istemlerden kısmen vazgeçme mümkün değildir.",
+   "Sicilde kayıtlı lisans sahiplerinin izni aranmaksızın patentten vazgeçilebilir.",
+   "Hakkı sona eren patentin konusu, sona ermenin Bültende yayımlandığı tarihten itibaren kamuya ait olur.",
+   "Patentten vazgeçme Kuruma yazılı olarak bildirilir ve sicile kayıt tarihi itibarıyla hüküm doğurur.",
+   "Yıllık ücretlerin ödenmemesi patent hakkının sona erme sebepleri arasında yer almaz."
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Patent sahibi bir ya da birden çok istemden de vazgeçebilir (SMK m.140/3).",
+   "Yanlış. Sicile kayıtlı hak ve lisans sahiplerinin izni olmadıkça patentten vazgeçilemez (SMK m.140/5).",
+   "Yanlış. Patent konusu, sona erme nedeninin gerçekleştiği andan itibaren kamuya ait olur (SMK m.140/2).",
+   "Doğru (SMK m.140/4).",
+   "Yanlış. Yıllık ücretlerin m.101'deki sürelerde ödenmemesi bir sona erme sebebidir (SMK m.140/1-c)."
+  ],
+  "ref": "SMK m.140"
+ },
+ {
+  "id": "PAT-045",
+  "exam": "patent",
+  "topic": "İspat Yükü (Usul Patenti)",
+  "q": "Konusu yeni bir kimyasal maddenin elde edilmesine ilişkin usul olan bir patente tecavüz davasında, davalının patent sahibinin izni olmadan aynı maddeyi ürettiği tespit edilmiştir. SMK m.141/2'ye göre ispat yükü bakımından aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Patent sahibi, davalının patentli usulü kullandığını her durumda ispat etmek zorundadır.",
+   "Ürün yeni olsa dahi karine uygulanmaz; mahkeme ispat yükünü değiştiremez.",
+   "Aynı maddenin patentli usulle elde edildiği kabul edilir; aksini iddia eden davalı bunu ispatla yükümlüdür.",
+   "Davalı farklı usul kullandığını ispat ederken üretim ve işletme sırlarını açıklamak zorundadır; haklı menfaati dikkate alınmaz.",
+   "Bu karine yalnızca ürün patentleri için geçerlidir; usul patentlerinde uygulanmaz."
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Ürün yeniyse ispat yükü davalıya geçer (SMK m.141/2).",
+   "Yanlış. Mahkeme davalıdan farklı usul kullandığını ispatlamasını isteyebilir ve yeni ürünlerde karine uygulanır (SMK m.141/2).",
+   "Doğru. Usulle elde edilen ürün yeniyse izinsiz üretilen aynı ürünün patentli usulle elde edildiği kabul edilir ve aksini iddia eden ispatla yükümlüdür (SMK m.141/2).",
+   "Yanlış. Davalının üretim ve işletme sırlarının korunmasındaki haklı menfaati göz önünde tutulur (SMK m.141/2).",
+   "Yanlış. Karine tam olarak bir ürün veya maddenin elde edilmesine ilişkin usul patentleri için öngörülmüştür (SMK m.141/2)."
+  ],
+  "ref": "SMK m.141"
+ }
+]

@@ -1,0 +1,882 @@
+[
+  {
+    "id": "HUK-001",
+    "exam": "ortak",
+    "topic": "Medeni Hukuk – Başlangıç Hükümleri",
+    "q": "Türk Medeni Kanunu'na göre, bir uyuşmazlıkta uygulanabilir bir kanun hükmü bulunmadığı takdirde hâkim öncelikle neye göre karar verir?",
+    "options": [
+      "Kendisi kanun koyucu olsaydı koyacağı kurala göre",
+      "Örf ve âdet hukukuna göre",
+      "Yargıtay kararlarına göre",
+      "Bilimsel görüşlere göre",
+      "Tarafların ortak iradesine göre"
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Hâkimin kanun koyucu gibi kural koyması, örf ve âdet hukuku da bulunmadığında başvurulan son aşamadır (TMK m.1/2).",
+      "Doğru. Uygulanabilir kanun hükmü yoksa hâkim önce örf ve âdet hukukuna göre karar verir (TMK m.1/2).",
+      "Yanlış. Hâkim karar verirken yargı kararlarından yararlanır; ancak bunlar örf ve âdetten önce gelen bağlayıcı bir kaynak olarak sayılmamıştır (TMK m.1/3).",
+      "Yanlış. Bilimsel görüşler, hâkimin yararlandığı yardımcı kaynaklardır; bağlayıcı kaynak değildir (TMK m.1/3).",
+      "Yanlış. TMK m.1'de kanun boşluğunda başvurulacak kaynak olarak tarafların ortak iradesi sayılmamıştır."
+    ],
+    "ref": "TMK m.1"
+  },
+  {
+    "id": "HUK-002",
+    "exam": "ortak",
+    "topic": "Medeni Hukuk – Dürüstlük Kuralı",
+    "q": "Dürüstlük kuralı ve hakkın kötüye kullanılması yasağı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "Dürüstlük kuralı yalnızca borçların yerine getirilmesinde uygulanır; hakların kullanılmasında uygulanmaz.",
+      "Hakkın kötüye kullanılması, ancak taraflardan biri ileri sürerse dikkate alınabilir.",
+      "Dürüstlük kuralı yalnızca tacirler arasındaki ilişkilerde uygulanır.",
+      "Bir hakkın açıkça kötüye kullanılmasını hukuk düzeni korumaz.",
+      "Hakkın kötüye kullanılmasından söz edebilmek için hak sahibinin zarar verme kastıyla hareket etmesi şarttır."
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. Herkes hem haklarını kullanırken hem de borçlarını yerine getirirken dürüstlük kurallarına uymak zorundadır (TMK m.2/1).",
+      "Yanlış. Dürüstlük kuralı ve hakkın kötüye kullanılması yasağı, hâkim tarafından kendiliğinden (re'sen) gözetilir.",
+      "Yanlış. TMK m.2 'herkes' için geçerli genel bir ilkedir; tacir olma koşulu aranmaz.",
+      "Doğru. TMK m.2/2 aynen bu hükmü içerir.",
+      "Yanlış. Hakkın kötüye kullanılması objektif bir ölçüte dayanır; kast aranmaz, hakkın açıkça amacı dışında kullanılması yeterlidir."
+    ],
+    "ref": "TMK m.2"
+  },
+  {
+    "id": "HUK-003",
+    "exam": "ortak",
+    "topic": "Medeni Hukuk – İyiniyet",
+    "q": "Kanunun iyiniyete hukuki sonuç bağladığı durumlarla ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Asıl olan iyiniyetin varlığıdır; ancak durumun gereklerine göre kendisinden beklenen özeni göstermeyen kimse iyiniyet iddiasında bulunamaz.",
+      "İyiniyet iddiasında bulunan kişi, iyiniyetini ispatla yükümlüdür.",
+      "Kötüniyet karine olarak kabul edilir.",
+      "İyiniyet ancak resmî senetle ispat edilebilir.",
+      "Beklenen özeni göstermeyen kişi de iyiniyetli sayılmaya devam eder; özen eksikliği yalnızca tazminatı azaltır."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. TMK m.3 iyiniyetin karine olarak varlığını ve özen göstermeyenin iyiniyet iddia edemeyeceğini düzenler.",
+      "Yanlış. İyiniyet karine olarak var sayılır; ispat yükü kötüniyeti iddia edendedir (TMK m.3/1).",
+      "Yanlış. Kanunun kabul ettiği karine iyiniyetin varlığıdır, kötüniyetin değil (TMK m.3/1).",
+      "Yanlış. İyiniyet zaten karinedir; resmî senetle ispat şartı yoktur.",
+      "Yanlış. Durumun gereklerine göre beklenen özeni göstermeyen kişi iyiniyet iddiasında bulunamaz (TMK m.3/2)."
+    ],
+    "ref": "TMK m.3"
+  },
+  {
+    "id": "HUK-004",
+    "exam": "ortak",
+    "topic": "Medeni Hukuk – İspat Yükü",
+    "q": "Aşağıdaki ifadelerden hangileri Türk Medeni Kanunu'na göre doğrudur?\nI. Kanunda aksine bir hüküm bulunmadıkça, taraflardan her biri hakkını dayandırdığı olguların varlığını ispatla yükümlüdür.\nII. Resmî sicil ve senetler, belgeledikleri olguların doğruluğuna kanıt oluşturur.\nIII. Resmî sicil ve senetlerin içeriğinin doğru olmadığı ancak yazılı delille ispat edilebilir.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. II. öncül de doğrudur; resmî sicil ve senetler belgeledikleri olguların doğruluğuna kanıt oluşturur (TMK m.7).",
+      "Yanlış. I. öncül TMK m.6'daki genel ispat yükü kuralıdır ve doğrudur.",
+      "Doğru. I (TMK m.6) ve II (TMK m.7/1) doğrudur; III yanlıştır çünkü içeriğin doğru olmadığının ispatı özel bir şekle bağlı değildir (TMK m.7/2).",
+      "Yanlış. III. öncül yanlıştır: resmî belgenin aksinin ispatı herhangi bir şekle bağlı tutulmamıştır (TMK m.7/2).",
+      "Yanlış. III. öncül yanlış olduğundan tüm öncüller doğru değildir (TMK m.7/2)."
+    ],
+    "ref": "TMK m.6, m.7"
+  },
+  {
+    "id": "HUK-005",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Hak Ehliyeti",
+    "q": "Türk Medeni Kanunu'na göre ceninin (ana rahmindeki çocuğun) hak ehliyeti ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Cenin hiçbir şekilde hak ehliyetine sahip değildir; hak ehliyeti yalnızca doğumla başlar.",
+      "Ceninin hak ehliyeti, nüfus siciline tescil edildiği anda başlar.",
+      "Cenin, ayırt etme gücüne sahip olduğu andan itibaren hak ehliyeti kazanır.",
+      "Cenin, ölü doğsa bile ana rahmine düştüğü andan itibaren kazandığı hakları korur.",
+      "Cenin, sağ doğmak koşuluyla ana rahmine düştüğü andan başlayarak hak ehliyetine sahiptir."
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. Kişilik tam ve sağ doğumla başlasa da cenin, sağ doğmak koşuluyla ana rahmine düştüğü andan itibaren hak ehliyetine sahiptir (TMK m.28).",
+      "Yanlış. Hak ehliyeti nüfus siciline tescile bağlı değildir (TMK m.28).",
+      "Yanlış. Ayırt etme gücü fiil ehliyetinin koşuludur; hak ehliyetiyle ilgisi yoktur (TMK m.8, m.10).",
+      "Yanlış. Ceninin hak ehliyeti sağ doğma koşuluna bağlıdır (TMK m.28/2).",
+      "Doğru. TMK m.28/2 ceninin sağ doğmak koşuluyla ana rahmine düştüğü andan itibaren hak ehliyetine sahip olduğunu düzenler."
+    ],
+    "ref": "TMK m.28"
+  },
+  {
+    "id": "HUK-006",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Erginlik",
+    "q": "Türk Medeni Kanunu'na göre bir küçüğün mahkeme kararıyla ergin kılınabilmesi (kazai rüşt) için en az kaç yaşını doldurmuş olması gerekir?",
+    "options": [
+      "12",
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Kanunda öngörülen alt yaş sınırı 15'tir (TMK m.12).",
+      "Yanlış. Kanunda öngörülen alt yaş sınırı 15'tir (TMK m.12).",
+      "Doğru. On beş yaşını dolduran küçük, kendi isteği ve velisinin rızasıyla mahkeme kararıyla ergin kılınabilir (TMK m.12).",
+      "Yanlış. 16 yaş, kazai rüşt için değil; alt yaş sınırı 15'tir (TMK m.12).",
+      "Yanlış. Kazai rüşt için 15 yaşın doldurulması yeterlidir; erginlik ise kural olarak 18 yaşın doldurulmasıyla başlar (TMK m.11, m.12)."
+    ],
+    "ref": "TMK m.12"
+  },
+  {
+    "id": "HUK-007",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Sınırlı Ehliyetsizler",
+    "q": "16 yaşındaki ve ayırt etme gücüne sahip Can, velisinin rızası olmaksızın aşağıdaki işlemlerden hangisini tek başına geçerli olarak yapabilir?",
+    "options": [
+      "Taksitle bir otomobil satın almak",
+      "Bir bankadan tüketici kredisi almak",
+      "Bir konut için kira sözleşmesi yapmak",
+      "Kendisine yapılan karşılıksız (yükümsüz) bir bağışlamayı kabul etmek",
+      "Bir arkadaşının borcuna kefil olmak"
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. Ayırt etme gücüne sahip küçükler, yasal temsilcilerinin rızası olmadıkça kendi işlemleriyle borç altına giremez (TMK m.16/1).",
+      "Yanlış. Bu işlem küçüğü borç altına sokar; yasal temsilcinin rızası gerekir (TMK m.16/1).",
+      "Yanlış. Kira sözleşmesi kira bedeli ödeme borcu doğurur; yasal temsilcinin rızası olmaksızın yapılamaz (TMK m.16/1).",
+      "Doğru. Ayırt etme gücüne sahip küçükler, karşılıksız kazanmalar için yasal temsilcinin rızasına muhtaç değildir (TMK m.16/2).",
+      "Yanlış. Kefalet küçüğü borç altına sokan bir işlemdir; küçük bunu yasal temsilcisinin rızası olmadan yapamaz (TMK m.16/1)."
+    ],
+    "ref": "TMK m.16"
+  },
+  {
+    "id": "HUK-008",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Ayırt Etme Gücü",
+    "q": "Ayırt etme gücü bulunmayan bir kişinin yaptığı hukuki işlemler bakımından aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Kanunda gösterilen ayrık durumlar saklı kalmak üzere, fiilleri hukuki sonuç doğurmaz.",
+      "Yasal temsilcisinin sonradan onay vermesiyle geçerli hâle gelir.",
+      "Karşı taraf iyiniyetliyse işlem geçerli olur.",
+      "Yalnızca karşılıklı borç doğuran işlemleri geçersizdir; tek taraflı işlemleri geçerlidir.",
+      "İşlem iptal edilebilir niteliktedir; bir yıl içinde iptal edilmezse geçerli hâle gelir."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. TMK m.14 aynen bu kuralı koyar.",
+      "Yanlış. Sonradan onayla geçerlilik, ayırt etme gücüne sahip sınırlı ehliyetsizler için söz konusudur; ayırt etme gücü olmayanın işlemi hukuki sonuç doğurmaz (TMK m.14, m.16).",
+      "Yanlış. Karşı tarafın iyiniyeti, ayırt etme gücü bulunmayanın işlemini geçerli kılmaz (TMK m.14).",
+      "Yanlış. Kanun böyle bir ayrım yapmaz; kural olarak fiilleri hukuki sonuç doğurmaz (TMK m.14).",
+      "Yanlış. TMK m.14'e göre işlem hukuki sonuç doğurmaz; bir yıllık iptal süresi öngörülmemiştir."
+    ],
+    "ref": "TMK m.14"
+  },
+  {
+    "id": "HUK-009",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Kısıtlılık",
+    "q": "Aşağıdakilerden hangisi Türk Medeni Kanunu'nda düzenlenen kısıtlama sebeplerinden biri değildir?",
+    "options": [
+      "Akıl hastalığı veya akıl zayıflığı",
+      "Savurganlık, alkol veya uyuşturucu bağımlılığı ya da kötü yönetim",
+      "Bir yıl veya daha uzun süreli özgürlüğü bağlayıcı bir cezaya hükümlü olmak",
+      "Yaşlılık, engellilik, deneyimsizlik veya ağır hastalık sebebiyle kişinin kendi isteği",
+      "İflas etmiş olmak"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. Akıl hastalığı veya akıl zayıflığı kısıtlama sebebidir (TMK m.405).",
+      "Yanlış. Bunlar TMK m.406'da sayılan kısıtlama sebepleridir.",
+      "Yanlış. Bu durum kısıtlama sebebidir (TMK m.407).",
+      "Yanlış. Kişinin kendi isteği üzerine kısıtlanması mümkündür (TMK m.408).",
+      "Doğru (kısıtlama sebebi değildir). İflas, TMK'da sayılan kısıtlama sebepleri arasında yer almaz."
+    ],
+    "ref": "TMK m.405-408"
+  },
+  {
+    "id": "HUK-010",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Kişiliğin Korunması",
+    "q": "Türk Medeni Kanunu'na göre aşağıdakilerden hangileri kişilik hakkına yapılan saldırıyı hukuka uygun kılan sebeplerdendir?\nI. Kişilik hakkı zedelenen kimsenin rızası\nII. Daha üstün nitelikte özel veya kamusal yarar\nIII. Kanunun verdiği yetkinin kullanılması",
+    "options": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. II ve III de TMK m.24/2'de sayılan hukuka uygunluk sebepleridir.",
+      "Yanlış. Kanunun verdiği yetkinin kullanılması (III) da hukuka uygunluk sebebidir (TMK m.24/2).",
+      "Yanlış. Üstün nitelikte özel veya kamusal yarar (II) da hukuka uygunluk sebebidir (TMK m.24/2).",
+      "Yanlış. Zarar görenin rızası (I) da hukuka uygunluk sebebidir (TMK m.24/2).",
+      "Doğru. TMK m.24/2'ye göre rıza, daha üstün nitelikte özel veya kamusal yarar ya da kanunun verdiği yetkinin kullanılması ile haklı kılınmayan her saldırı hukuka aykırıdır."
+    ],
+    "ref": "TMK m.24"
+  },
+  {
+    "id": "HUK-011",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Ad Üzerindeki Hak",
+    "q": "Türk Medeni Kanunu'na göre adın değiştirilmesinden zarar gören kişi, değiştirmeyi öğrendiği tarihten başlayarak hangi süre içinde dava açabilir?",
+    "options": [
+      "3 ay",
+      "1 yıl",
+      "6 ay",
+      "2 yıl",
+      "5 yıl"
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Kanunda öngörülen süre bir yıldır (TMK m.27/2).",
+      "Doğru. Adın değiştirilmesinden zarar gören kişi, değiştirmeyi öğrendiği tarihten başlayarak bir yıl içinde dava açabilir (TMK m.27/2).",
+      "Yanlış. Kanunda öngörülen süre bir yıldır (TMK m.27/2).",
+      "Yanlış. Kanunda öngörülen süre bir yıldır (TMK m.27/2).",
+      "Yanlış. Kanunda öngörülen süre bir yıldır (TMK m.27/2)."
+    ],
+    "ref": "TMK m.27"
+  },
+  {
+    "id": "HUK-012",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Yerleşim Yeri",
+    "q": "Yerleşim yeri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Velayet altındaki çocuğun yerleşim yeri, vesayet makamının bulunduğu yerdir.",
+      "Yerleşim yeri, bir kimsenin sürekli kalma niyetiyle oturduğu yerdir.",
+      "Kimse aynı anda birden çok yerleşim yerine sahip olamaz.",
+      "Bir kimsenin aynı anda birden çok yerleşim yerine sahip olamayacağına ilişkin kural, ticari ve sınai kuruluşlar için uygulanmaz.",
+      "Yeni bir yerleşim yeri edinilmedikçe önceki yerleşim yeri devam eder."
+    ],
+    "answer": 0,
+    "why": [
+      "Yanlış ifade (doğru cevap). Velayet altındaki çocuğun yerleşim yeri ana ve babasının yerleşim yeridir; vesayet makamının bulunduğu yer, vesayet altındaki kişilerin yerleşim yeridir (TMK m.21).",
+      "Doğru ifade. TMK m.19/1'deki tanımdır.",
+      "Doğru ifade. TMK m.19/2 yerleşim yerinin tekliği ilkesini koyar.",
+      "Doğru ifade. TMK m.19/2 bu istisnayı açıkça öngörür.",
+      "Doğru ifade. Yerleşim yerinin devamlılığı ilkesi (TMK m.20)."
+    ],
+    "ref": "TMK m.19-21"
+  },
+  {
+    "id": "HUK-013",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Dernek",
+    "q": "Türk Medeni Kanunu'na göre bir derneğin kurulabilmesi için en az kaç gerçek veya tüzel kişinin bir araya gelmesi gerekir?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10",
+      "15"
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Kanunda aranan asgari sayı yedidir (TMK m.56).",
+      "Yanlış. Kanunda aranan asgari sayı yedidir (TMK m.56).",
+      "Doğru. Dernek, en az yedi gerçek veya tüzel kişinin kazanç paylaşma dışında belirli ve ortak bir amacı gerçekleştirmek için bilgi ve çalışmalarını sürekli olarak birleştirmeleriyle oluşan kişi topluluğudur (TMK m.56).",
+      "Yanlış. Kanunda aranan asgari sayı yedidir (TMK m.56).",
+      "Yanlış. Kanunda aranan asgari sayı yedidir (TMK m.56)."
+    ],
+    "ref": "TMK m.56"
+  },
+  {
+    "id": "HUK-014",
+    "exam": "ortak",
+    "topic": "Kişiler Hukuku – Vakıf",
+    "q": "Vakıflar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Vakıf, gerçek veya tüzel kişilerin yeterli mal ve haklarını belirli ve sürekli bir amaca özgülemeleriyle oluşan tüzel kişiliğe sahip mal topluluğudur.",
+      "Vakıf, resmî senetle veya ölüme bağlı tasarrufla kurulur.",
+      "Vakıf, vakfın yerleşim yeri mahkemesince sicile tescili ile tüzel kişilik kazanır.",
+      "Vakıf, kuruluş bildiriminin mülki idare amirliğine verilmesiyle tüzel kişilik kazanır.",
+      "Belirli bir ırk veya cemaat mensuplarını desteklemek amacıyla vakıf kurulamaz."
+    ],
+    "answer": 3,
+    "why": [
+      "Doğru ifade. TMK m.101/1'deki tanımdır.",
+      "Doğru ifade. Vakfın kuruluş şekli resmî senet veya ölüme bağlı tasarruftur (TMK m.101).",
+      "Doğru ifade. TMK m.102 vakfın tescille tüzel kişilik kazanacağını düzenler.",
+      "Yanlış ifade (doğru cevap). Kuruluş bildiriminin mülki idare amirliğine verilmesiyle tüzel kişilik kazanılması derneklere özgüdür; vakıf, yerleşim yeri mahkemesince sicile tescil ile tüzel kişilik kazanır (TMK m.102).",
+      "Doğru ifade. TMK m.101/4 bu amaçla vakıf kurulmasını yasaklar."
+    ],
+    "ref": "TMK m.101-102"
+  },
+  {
+    "id": "HUK-015",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Türk Borçlar Kanunu'na göre vekilin vekâlet sözleşmesinden dolayı ücrete hak kazanması bakımından aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Vekâlet sözleşmesi her durumda ücretlidir.",
+      "Ücret, ancak yazılı olarak kararlaştırılmışsa istenebilir.",
+      "Vekil, yalnızca tacir ise ücret isteyebilir.",
+      "Ücret açıkça kararlaştırılmamışsa, teamül bulunsa bile ücret istenemez.",
+      "Sözleşmede kararlaştırılmışsa veya teamül varsa vekil ücrete hak kazanır."
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. Vekâlet ücretsiz de olabilir; ücret ancak kararlaştırılmış veya teamül varsa doğar (TBK m.502/2).",
+      "Yanlış. Kanun yazılı şekil aramaz; teamül bulunması da ücret hakkı doğurur (TBK m.502/2).",
+      "Yanlış. TBK m.502'de tacir olma koşulu yoktur; ölçüt anlaşma veya teamüldür.",
+      "Yanlış. Teamül varsa ücret açıkça kararlaştırılmasa da istenebilir (TBK m.502/2).",
+      "Doğru. TBK m.502/2'ye göre sözleşmede kararlaştırılmışsa veya teamül varsa vekil ücrete hak kazanır."
+    ],
+    "ref": "TBK m.502"
+  },
+  {
+    "id": "HUK-016",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Marka vekilliği hizmetini meslek olarak yürüten ve bunu ilanla duyuran X'e, bir müşterisi marka başvurusu yapılması için öneride bulunmuştur. X öneriyi hemen reddetmemiş, ancak açıkça kabul ettiğini de bildirmemiştir. Türk Borçlar Kanunu'na göre bu durumda aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Açık kabul bulunmadığından sözleşme hiçbir şekilde kurulmamıştır.",
+      "Sözleşme, ancak yazılı vekâletname düzenlendiği anda kurulur.",
+      "Vekâlet sözleşmesi kurulmuş sayılır.",
+      "Sözleşme kurulmuş sayılır, ancak X ücret isteyemez.",
+      "Müşteri, X'in sessiz kalmasını kabul sayması için noter ihtarı göndermek zorundadır."
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Meslek olarak iş görenler için susma, öneriyi hemen reddetmeme hâlinde kabul sayılır (TBK m.503/2).",
+      "Yanlış. Vekâlet sözleşmesinin kurulması kanunda yazılı şekle bağlanmamıştır; TBK m.503/2'deki karine uygulanır.",
+      "Doğru. Belirli işleri meslek olarak yapan veya yapmayı ilanla bildiren kişi, bu işlere ilişkin öneriyi hemen reddetmezse vekâlet kurulmuş sayılır (TBK m.503/2).",
+      "Yanlış. Ücret, teamül varsa istenebilir; mesleki olarak yürütülen vekillik hizmetlerinde ücret teamülü bulunur (TBK m.502/2).",
+      "Yanlış. Kanun böyle bir ihtar koşulu öngörmez (TBK m.503/2)."
+    ],
+    "ref": "TBK m.503"
+  },
+  {
+    "id": "HUK-017",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Türk Borçlar Kanunu'na göre aşağıdaki işlemlerden hangisini yapabilmek için vekilin ayrıca özel olarak yetkili kılınması gerekmez?",
+    "options": [
+      "Dava açmak",
+      "Sulh olmak",
+      "Bağışlama yapmak",
+      "Kefil olmak",
+      "Üstlendiği işin görülmesi için gerekli olan olağan hukuki işlemleri yapmak"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. Vekil özel olarak yetkili kılınmadıkça dava açamaz (TBK m.504/3).",
+      "Yanlış. Sulh olmak özel yetki gerektirir (TBK m.504/3).",
+      "Yanlış. Bağışlama yapmak özel yetki gerektirir (TBK m.504/3).",
+      "Yanlış. Kefil olmak özel yetki gerektirir (TBK m.504/3).",
+      "Doğru. Vekâlet, üstlenilen işin görülmesi için gerekli hukuki işlemleri yapma yetkisini de kapsar (TBK m.504/2)."
+    ],
+    "ref": "TBK m.504"
+  },
+  {
+    "id": "HUK-018",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Türk Borçlar Kanunu'na göre vekilin özen borcunun belirlenmesinde esas alınan ölçüt aşağıdakilerden hangisidir?",
+    "options": [
+      "Vekilin kendi işlerinde gösterdiği özen",
+      "Benzer alanda iş ve hizmetleri üstlenen basiretli bir vekilin göstermesi gereken davranış",
+      "Vekâlet verenin kendi işlerinde göstereceği özen",
+      "Yalnızca vekâlet verenin yazılı talimatında belirtilen özen",
+      "Vekil yalnızca kastından sorumludur; özen ölçüsü aranmaz."
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Kanun sübjektif ölçütü değil, basiretli bir vekilin davranışını esas alır (TBK m.506).",
+      "Doğru. TBK m.506/2 özen borcunun belirlenmesinde bu objektif ölçütü esas alır.",
+      "Yanlış. Ölçüt vekâlet verenin özeni değil, basiretli vekilin davranışıdır (TBK m.506).",
+      "Yanlış. Talimata uyma ayrı bir borçtur; özen ölçüsü kanunda objektif olarak belirlenmiştir (TBK m.505, m.506).",
+      "Yanlış. Vekil, işi sadakat ve özenle ifa etmekle yükümlüdür; sorumluluğu kastla sınırlı değildir (TBK m.506)."
+    ],
+    "ref": "TBK m.506"
+  },
+  {
+    "id": "HUK-019",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Vekâlet sözleşmesinde işin başkasına gördürülmesi ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Vekil, vekâlet verenin izni olmadıkça işi kural olarak bizzat görmek zorundadır.\nII. Vekil, yetkisi olmaksızın işi başkasına gördürürse, onun fiillerinden kendisi yapmış gibi sorumlu olur.\nIII. Vekil, yetkili olarak işi başkasına gördürmüşse, alt vekilin bütün fiillerinden kusuru aranmaksızın sorumludur.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. II. öncül de doğrudur (TBK m.507/1).",
+      "Yanlış. I. öncül de doğrudur; vekil kural olarak işi bizzat görmek zorundadır (TBK m.506/3).",
+      "Doğru. I (TBK m.506/3) ve II (TBK m.507/1) doğrudur. III yanlıştır: yetkili olarak işi başkasına gördüren vekil, yalnızca alt vekili seçmede ve ona talimat vermede gerekli özeni göstermemesinden sorumludur (TBK m.507/2).",
+      "Yanlış. III. öncül yanlıştır; yetkili alt vekil hâlinde sorumluluk seçme ve talimat vermede özenle sınırlıdır (TBK m.507/2).",
+      "Yanlış. III. öncül yanlış olduğundan tüm öncüller doğru değildir (TBK m.507/2)."
+    ],
+    "ref": "TBK m.506, m.507"
+  },
+  {
+    "id": "HUK-020",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Aşağıdakilerden hangisi vekâlet sözleşmesinde vekilin değil, vekâlet verenin borçlarındandır?",
+    "options": [
+      "Vekilin vekâleti gereği gibi ifa ederken yaptığı giderleri faiziyle birlikte ödemek ve vekili üstlendiği borçlardan kurtarmak",
+      "Vekâlet verenin açık talimatına uymak",
+      "İşi sadakat ve özenle ifa etmek",
+      "İstem üzerine yürütülen işin hesabını vermek",
+      "Vekâlet gereği aldıklarını vekâlet verene vermek"
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. Bu, vekâlet verenin borcudur (TBK m.510).",
+      "Yanlış. Talimata uyma vekilin borcudur (TBK m.505).",
+      "Yanlış. Sadakat ve özen borcu vekile aittir (TBK m.506).",
+      "Yanlış. Hesap verme vekilin borcudur (TBK m.508).",
+      "Yanlış. Bu da vekilin hesap verme ve teslim borcunun parçasıdır; geciktirirse faiz öder (TBK m.508)."
+    ],
+    "ref": "TBK m.505-510"
+  },
+  {
+    "id": "HUK-021",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Türk Borçlar Kanunu'na göre vekâlet sözleşmesinin tek taraflı olarak sona erdirilmesi (azil ve istifa) ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Taraflardan her biri sözleşmeyi her zaman sona erdirebilir; ancak uygun olmayan zamanda sona erdiren taraf, diğer tarafın bundan doğan zararını gidermekle yükümlüdür.",
+      "Vekâlet sözleşmesi ancak haklı bir sebebin varlığı hâlinde sona erdirilebilir.",
+      "Yalnızca vekâlet veren sözleşmeyi sona erdirebilir; vekil istifa edemez.",
+      "Uygun olmayan zamanda yapılan azil veya istifa geçersizdir; sözleşme devam eder.",
+      "Sona erdirme ancak bir aylık bildirim süresine uyularak yapılabilir."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. TBK m.512 vekâlet sözleşmesinin her zaman tek taraflı sona erdirilebileceğini ve uygun olmayan zamanda sona erdirenin zararı gidereceğini düzenler.",
+      "Yanlış. Azil ve istifa her zaman mümkündür; haklı sebep aranmaz (TBK m.512).",
+      "Yanlış. Her iki taraf da sözleşmeyi tek taraflı sona erdirebilir (TBK m.512).",
+      "Yanlış. Uygun olmayan zamanda sona erdirme geçerlidir; sonucu yalnızca zararın giderilmesi yükümlülüğüdür (TBK m.512).",
+      "Yanlış. Kanunda vekâlet için böyle bir bildirim süresi öngörülmemiştir (TBK m.512)."
+    ],
+    "ref": "TBK m.512"
+  },
+  {
+    "id": "HUK-022",
+    "exam": "ortak",
+    "topic": "Vekâlet Sözleşmesi",
+    "q": "Sözleşmeden veya işin niteliğinden aksi anlaşılmadıkça, aşağıdakilerden hangisi vekâlet sözleşmesini sona erdiren hâllerden biri değildir?",
+    "options": [
+      "Vekilin ölümü",
+      "Vekilin, aynı konuda başka bir kişiyle de vekâlet sözleşmesi yapması",
+      "Vekâlet verenin ölümü",
+      "Vekilin ehliyetini kaybetmesi",
+      "Vekâlet verenin iflası"
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Vekilin ölümü vekâleti sona erdirir (TBK m.513/1).",
+      "Doğru (sona erme sebebi değildir). Kanunda böyle bir sona erme sebebi öngörülmemiştir.",
+      "Yanlış. Vekâlet verenin ölümü vekâleti sona erdirir; ancak sona erme vekâlet veren için zararlıysa vekil, mirasçılar işi üstlenene kadar işleri yürütmeye devam eder (TBK m.513).",
+      "Yanlış. Ehliyet kaybı sona erme sebebidir (TBK m.513/1).",
+      "Yanlış. İflas sona erme sebebidir (TBK m.513/1)."
+    ],
+    "ref": "TBK m.513"
+  },
+  {
+    "id": "HUK-023",
+    "exam": "ortak",
+    "topic": "Temsil – Yetkisiz Temsil",
+    "q": "B, temsil yetkisi olmadığı hâlde A adına C ile bir sözleşme yapmıştır. C, A'ya uygun bir süre vererek sözleşmeyi onaylayıp onaylamayacağını sormuş; A bu süre içinde herhangi bir açıklama yapmamıştır. Türk Borçlar Kanunu'na göre bu durumda aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "A'nın susması onay sayılır ve sözleşme A ile C arasında kurulur.",
+      "Sözleşme B ile C arasında kendiliğinden kurulmuş olur.",
+      "Sözleşmenin akıbeti hakkında mahkeme karar verir.",
+      "C, sözleşmeyle bağlı olmaktan kurtulur.",
+      "A, süre geçtikten sonra da sınırsız olarak onay verebilir ve C bununla bağlıdır."
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. Susma onay sayılmaz; süre içinde onay verilmezse karşı taraf bağlı olmaktan kurtulur (TBK m.46).",
+      "Yanlış. Yetkisiz temsilci sözleşmenin tarafı olmaz; onaylanmayan sözleşme nedeniyle ancak tazminat sorumluluğu doğabilir (TBK m.47).",
+      "Yanlış. Sonuç kanunda doğrudan belirlenmiştir (TBK m.46/2).",
+      "Doğru. Temsil olunan, verilen uygun süre içinde onaylamazsa diğer taraf sözleşmeyle bağlı olmaktan kurtulur (TBK m.46/2).",
+      "Yanlış. Süre içinde onay verilmezse C bağlı olmaktan kurtulur (TBK m.46/2)."
+    ],
+    "ref": "TBK m.46"
+  },
+  {
+    "id": "HUK-024",
+    "exam": "ortak",
+    "topic": "Temsil – Yetkisiz Temsil",
+    "q": "Temsil olunanın yetkisiz temsilcinin yaptığı sözleşmeyi onaylamaması hâlinde, aşağıdaki ifadelerden hangileri doğrudur?\nI. Yetkisiz temsilci, sözleşmenin hükümsüz kalmasından doğan zararı gidermekle yükümlüdür.\nII. Karşı taraf, yetkisizliği biliyor veya bilmesi gerekiyorsa yetkisiz temsilci bu zarardan sorumlu değildir.\nIII. Yetkisiz temsilci kusurlu ise ve hakkaniyet gerektiriyorsa hâkim daha kapsamlı bir tazminata hükmedebilir.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. II ve III de TBK m.47'de düzenlenmiştir.",
+      "Yanlış. I ve III de doğrudur (TBK m.47).",
+      "Yanlış. III de doğrudur; kusur ve hakkaniyet hâlinde daha kapsamlı tazminata hükmedilebilir (TBK m.47).",
+      "Yanlış. I de doğrudur; yetkisiz temsilcinin temel sorumluluğu hükümsüzlükten doğan zarardır (TBK m.47).",
+      "Doğru. Üç öncül de TBK m.47'de düzenlenen yetkisiz temsilcinin sorumluluğuna ilişkindir."
+    ],
+    "ref": "TBK m.47"
+  },
+  {
+    "id": "HUK-025",
+    "exam": "ortak",
+    "topic": "Temsil",
+    "q": "Temsilci, işlemi yaptığı sırada temsilci sıfatını bildirmemiştir. Türk Borçlar Kanunu'na göre bu durumda kural olarak aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "İşlemin sonuçları her durumda doğrudan temsil olunanı bağlar.",
+      "İşlem kesin olarak hükümsüzdür.",
+      "İşlemin sonuçları temsilciye ait olur; ancak karşı taraf temsil ilişkisini durumdan çıkarmak zorundaysa veya kiminle işlem yaptığı onun için önemsizse sonuçlar doğrudan temsil olunanı bağlar.",
+      "İşlemin sonuçları temsilci ve temsil olunan arasında yarı yarıya paylaşılır.",
+      "İşlem, karşı tarafın onayına kadar askıda kalır."
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Temsil sıfatı bildirilmemişse kural olarak sonuçlar temsilciye ait olur (TBK m.40/2).",
+      "Yanlış. İşlem hükümsüz değildir; sonuçları kural olarak temsilciye ait olur (TBK m.40/2).",
+      "Doğru. TBK m.40/2 bu kuralı ve istisnalarını düzenler.",
+      "Yanlış. Kanunda böyle bir paylaşım öngörülmemiştir (TBK m.40).",
+      "Yanlış. Bu durumda askıda hükümsüzlük söz konusu değildir; askıda kalma yetkisiz temsile özgüdür (TBK m.40, m.46)."
+    ],
+    "ref": "TBK m.40"
+  },
+  {
+    "id": "HUK-026",
+    "exam": "ortak",
+    "topic": "Ticari İşletme",
+    "q": "Ticari işletme ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Ticari işletme, esnaf işletmesi için öngörülen sınırı aşan düzeyde gelir sağlamayı hedef tutan faaliyetlerin devamlı ve bağımsız şekilde yürütüldüğü işletmedir.",
+      "Bir işletmenin ticari işletme sayılabilmesi için faaliyetin mutlaka bir tüzel kişi tarafından yürütülmesi gerekir.",
+      "Ticari işletme, işletmeye özgülenen ve işletmenin devamlılığı için gerekli olan unsurların tümünü kapsar.",
+      "Ticari işletme bir bütün hâlinde devredilebilir.",
+      "Ticari işletme bir bütün hâlinde diğer hukuki işlemlere de konu olabilir."
+    ],
+    "answer": 1,
+    "why": [
+      "Doğru ifade. TTK m.11/1'deki tanımdır.",
+      "Yanlış ifade (doğru cevap). Ticari işletme gerçek kişi tarafından da işletilebilir; tacir tanımı gerçek ve tüzel kişileri kapsar (TTK m.11, m.12).",
+      "Doğru ifade. TTK m.11/2.",
+      "Doğru ifade. TTK m.11/2.",
+      "Doğru ifade. TTK m.11/2."
+    ],
+    "ref": "TTK m.11"
+  },
+  {
+    "id": "HUK-027",
+    "exam": "ortak",
+    "topic": "Tacir",
+    "q": "Tacir sıfatı ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Bir ticari işletmeyi kısmen de olsa kendi adına işleten kişiye tacir denir.\nII. Kanunen veya meslek ilişkisi nedeniyle ticaret yapması yasak olan kişiler, ticari işletme işletseler bile tacir sayılmaz.\nIII. Fiil ehliyeti bulunmayanlar adına ticari işletme yasal temsilcileri tarafından işletilirse, tacir sıfatı temsil edilene ait olur.",
+    "options": [
+      "Yalnız I",
+      "Yalnız III",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. III. öncül de doğrudur (TTK m.12/1).",
+      "Yanlış. I. öncül tacirin kanuni tanımıdır ve doğrudur (TTK m.12/1).",
+      "Yanlış. II. öncül yanlıştır; ticaret yapması yasak olanlar ticari işletme işletirlerse yine tacir sayılır (TTK m.12/2).",
+      "Doğru. I ve III TTK m.12/1'e uygundur; II yanlıştır, çünkü ticaret yapması yasak olanlar ticari işletme işletirlerse yine tacir sayılır (TTK m.12/2).",
+      "Yanlış. II. öncül yanlıştır (TTK m.12/2)."
+    ],
+    "ref": "TTK m.12"
+  },
+  {
+    "id": "HUK-028",
+    "exam": "ortak",
+    "topic": "Tacir",
+    "q": "Aşağıdakilerden hangisi ticari işletme kursa veya işletse bile tacir sıfatını kazanmaz?",
+    "options": [
+      "Belediye",
+      "Anonim şirket",
+      "Limited şirket",
+      "Amacını gerçekleştirmek için ticari işletme işleten bir vakıf",
+      "Amacını gerçekleştirmek için ticari işletme işleten, kamu yararına çalışmayan bir dernek"
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. Devlet, il özel idaresi, belediye ve köy gibi kamu tüzel kişileri ticari işletme kursalar veya işletseler bile tacir sıfatını kazanmaz (TTK m.16/2).",
+      "Yanlış. Ticaret şirketleri tacir sayılır (TTK m.16/1).",
+      "Yanlış. Ticaret şirketleri tacir sayılır (TTK m.16/1).",
+      "Yanlış. Amaçlarını gerçekleştirmek için ticari işletme işleten vakıflar tacir sayılır (TTK m.16/1).",
+      "Yanlış. Bu tür dernekler tacir sayılır; kamu yararına çalışan dernekler ise tacir sıfatını kazanmaz (TTK m.16)."
+    ],
+    "ref": "TTK m.16"
+  },
+  {
+    "id": "HUK-029",
+    "exam": "ortak",
+    "topic": "Ticaret Sicili",
+    "q": "Türk Ticaret Kanunu'na göre her tacir, ticari işletmesini ve seçtiği ticaret unvanını, ticari işletmenin açıldığı günden itibaren kaç gün içinde işletme merkezinin bulunduğu yer ticaret sicili müdürlüğüne tescil ve ilan ettirmekle yükümlüdür?",
+    "options": [
+      "7",
+      "15",
+      "10",
+      "30",
+      "60"
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Kanunda öngörülen süre on beş gündür (TTK m.40/1).",
+      "Doğru. Tescil ve ilan süresi ticari işletmenin açıldığı günden itibaren on beş gündür (TTK m.40/1).",
+      "Yanlış. Kanunda öngörülen süre on beş gündür (TTK m.40/1).",
+      "Yanlış. Kanunda öngörülen süre on beş gündür (TTK m.40/1).",
+      "Yanlış. Kanunda öngörülen süre on beş gündür (TTK m.40/1)."
+    ],
+    "ref": "TTK m.40"
+  },
+  {
+    "id": "HUK-030",
+    "exam": "ortak",
+    "topic": "Ticaret Sicili",
+    "q": "Türk Ticaret Kanunu'na göre ticaret sicili kayıtları, kural olarak hangi andan itibaren üçüncü kişilere karşı hüküm ifade eder?",
+    "options": [
+      "Tescil başvurusunun sicil müdürlüğüne yapıldığı andan itibaren",
+      "İlanın yapıldığı tarihten itibaren on beş gün geçtikten sonra",
+      "İlanın yapıldığı tarihten itibaren bir ay geçtikten sonra",
+      "İlgili üçüncü kişiye noter aracılığıyla tebliğ edildiği andan itibaren",
+      "Tescilin Türkiye Ticaret Sicili Gazetesinde ilan edildiği günü izleyen iş gününden itibaren"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. Başvuru anı değil, ilanı izleyen iş günü esas alınır (TTK).",
+      "Yanlış. Kanun kural olarak ilanı izleyen iş gününü esas alır (TTK).",
+      "Yanlış. Kanun kural olarak ilanı izleyen iş gününü esas alır (TTK).",
+      "Yanlış. Sicilin aleniyeti ilan yoluyla sağlanır; ayrıca tebliğ aranmaz (TTK).",
+      "Doğru. Sicil kayıtları, tescilin TTSG'de ilan edildiği günü izleyen iş gününden itibaren üçüncü kişilere karşı hüküm ifade eder (TTK)."
+    ],
+    "ref": "TTK (ticaret sicili hükümleri)"
+  },
+  {
+    "id": "HUK-031",
+    "exam": "ortak",
+    "topic": "Ticaret Unvanı",
+    "q": "Ticari işletme sahibi gerçek kişinin ticaret unvanı ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Tacir tarafından serbestçe seçilebilir; ad ve soyadın yer alması zorunlu değildir.",
+      "Yalnızca tacirin soyadından oluşur.",
+      "Tacirin ad ve soyadının baş harflerinden oluşturulabilir.",
+      "Kısaltılmamış ad ve soyadından oluşur.",
+      "İşletme konusunun unvanda gösterilmesi zorunludur."
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. Serbest seçim sermaye şirketleri ve kooperatifler içindir; gerçek kişi tacirin unvanında ad ve soyadı zorunludur (TTK m.41, m.43).",
+      "Yanlış. Unvan, kısaltılmamış ad ve soyadından oluşur (TTK m.41).",
+      "Yanlış. Ad ve soyadın kısaltılmamış olması gerekir (TTK m.41).",
+      "Doğru. Gerçek kişi tacirin ticaret unvanı, kısaltılmamış ad ve soyadından oluşur (TTK m.41).",
+      "Yanlış. Gerçek kişi tacir için zorunlu unsur kısaltılmamış ad ve soyadıdır; işletme konusunu gösterme zorunluluğu sermaye şirketleri ve kooperatifler için öngörülmüştür (TTK m.41, m.43)."
+    ],
+    "ref": "TTK m.41"
+  },
+  {
+    "id": "HUK-032",
+    "exam": "ortak",
+    "topic": "Ticaret Unvanı",
+    "q": "Anonim ve limited şirketlerin ticaret unvanı ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Ortaklardan en az birinin ad ve soyadını içermek zorundadır.",
+      "Bütün ortakların ad ve soyadlarını içermek zorundadır.",
+      "İşletme konusu gösterilmek ve şirket türünü belirten ek bulunmak şartıyla serbestçe seçilebilir.",
+      "Unvanda bir gerçek kişinin adı bulunuyorsa şirket türünü gösteren ek mutlaka kısaltılarak yazılır.",
+      "İşletme konusunun unvanda gösterilmesi gerekmez."
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Bu zorunluluk şahıs şirketleri içindir; sermaye şirketleri unvanlarını serbestçe seçebilir (TTK m.43).",
+      "Yanlış. Sermaye şirketlerinde ortakların adlarının unvanda yer alması zorunlu değildir (TTK m.43).",
+      "Doğru. Sermaye şirketleri ve kooperatiflerin unvanı, işletme konusu gösterilmek ve tür eki bulunmak şartıyla serbestçe seçilebilir (TTK m.43).",
+      "Yanlış. Unvanda bir gerçek kişinin adı bulunursa şirket türünü gösteren ek kısaltma olmaksızın yazılır (TTK m.43).",
+      "Yanlış. İşletme konusunun gösterilmesi serbest seçimin şartlarındandır (TTK m.43)."
+    ],
+    "ref": "TTK m.43"
+  },
+  {
+    "id": "HUK-033",
+    "exam": "ortak",
+    "topic": "Ticaret Unvanı",
+    "q": "Ticaret unvanı ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Ticaret unvanı, işletmeden ayrı olarak başkasına devredilemez.\nII. Tacir, ticari işletmesine ilişkin işlemleri ticaret unvanıyla yapmak ve işletmesine ait senetleri ve diğer belgeleri bu unvanla imzalamak zorundadır.\nIII. Şubeler, merkezin ticaret unvanını aynen kullanmak ve şube olduklarını belirtmek şartıyla şubeye ilişkin ekler içeren bir unvan kullanabilir.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. II ve III de doğrudur (TTK m.39 vd.).",
+      "Yanlış. I ve III de doğrudur (TTK).",
+      "Yanlış. III de doğrudur; şube unvanı merkezin unvanını aynen içerir ve şube olduğunu belirtir (TTK).",
+      "Yanlış. I de doğrudur; ticaret unvanı işletmeden ayrı olarak devredilemez (TTK).",
+      "Doğru. Unvan işletmeden ayrı devredilemez, tacir işlemlerini unvanıyla yapmak zorundadır (TTK m.39) ve şubeler merkezin unvanını şube olduklarını belirterek kullanır (TTK)."
+    ],
+    "ref": "TTK m.39 vd."
+  },
+  {
+    "id": "HUK-034",
+    "exam": "ortak",
+    "topic": "Ticaret Unvanı",
+    "q": "Ticaret unvanı haksız olarak kullanılan kimsenin Türk Ticaret Kanunu'na göre talep edebileceği hususlar arasında aşağıdakilerden hangisi yer almaz?",
+    "options": [
+      "Haksız kullananın ticari işletmesinin kapatılması",
+      "Haksız kullanmanın tespiti",
+      "Haksız kullanmanın durdurulması",
+      "Unvan sicile kaydedilmişse değiştirilmesi veya silinmesi",
+      "Kusur varsa zararın tazmini"
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru (talep edilemez). Unvanın korunmasına ilişkin davalarda işletmenin kapatılması talebi öngörülmemiştir (TTK).",
+      "Yanlış. Tespit talebi unvanın korunması kapsamında istenebilir (TTK).",
+      "Yanlış. Durdurma (men) talep edilebilir (TTK).",
+      "Yanlış. Haksız unvanın değiştirilmesi ve sicile kaydedilmişse silinmesi istenebilir (TTK).",
+      "Yanlış. Kusur varsa tazminat istenebilir (TTK)."
+    ],
+    "ref": "TTK (ticaret unvanının korunması)"
+  },
+  {
+    "id": "HUK-035",
+    "exam": "ortak",
+    "topic": "İşletme Adı",
+    "q": "İşletme adı ile ticaret unvanı arasındaki ilişki bakımından aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "İşletme adı kullanmak her tacir için zorunludur.",
+      "Ticaret unvanı tacirin ticari işletmesine ilişkin işlemlerde kullandığı addır; işletme adı ise işletmeyi tanıtmak ve diğer işletmelerden ayırmak için kullanılan addır.",
+      "Tacir, işletmesine ait senetleri ticaret unvanı yerine işletme adıyla imzalayabilir.",
+      "İşletme adı ticaret siciline hiçbir şekilde tescil edilemez.",
+      "İşletme adı ile ticaret unvanı aynı kavramı ifade eder."
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Ticaret unvanı kullanmak zorunludur; işletme adı kullanmak ise isteğe bağlıdır (TTK).",
+      "Doğru. Ticaret unvanı tacire (süjeye), işletme adı ise işletmeye (objeye) ilişkin bir addır (TTK).",
+      "Yanlış. Tacir işletmesine ait senet ve belgeleri ticaret unvanıyla imzalamak zorundadır (TTK m.39).",
+      "Yanlış. İşletme adı ticaret siciline tescil ettirilebilir ve koruma görür (TTK).",
+      "Yanlış. Unvan tacirin, işletme adı ise işletmenin adıdır; farklı kavramlardır (TTK)."
+    ],
+    "ref": "TTK m.39; TTK (işletme adı)"
+  },
+  {
+    "id": "HUK-036",
+    "exam": "ortak",
+    "topic": "Haksız Rekabet",
+    "q": "Türk Ticaret Kanunu'ndaki haksız rekabet hükümleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Haksız rekabetten söz edilebilmesi için taraflar arasında mutlaka bir rekabet ilişkisi bulunmalıdır.",
+      "Haksız rekabet hükümleri yalnızca tacirler arasında uygulanır.",
+      "Kanunda sayılan haksız rekabet hâlleri sınırlı sayıdadır; bunlar dışındaki davranışlar haksız rekabet oluşturmaz.",
+      "Rakipler arasında veya tedarik edenlerle müşteriler arasındaki ilişkileri etkileyen aldatıcı veya dürüstlük kuralına diğer şekillerdeki aykırı davranışlar ile ticari uygulamalar haksız ve hukuka aykırıdır.",
+      "Bir davranışın haksız rekabet sayılması için failin kusurlu olması şarttır."
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. TTK m.54/2 tedarik edenlerle müşteriler arasındaki ilişkileri de kapsar; rakip olma şartı aranmaz.",
+      "Yanlış. Haksız rekabet hükümlerinin amacı tüm katılanların menfaatine dürüst rekabeti sağlamaktır; yalnız tacirlerle sınırlı değildir (TTK m.54).",
+      "Yanlış. TTK m.55'teki hâller örnek niteliğindedir; m.54'teki genel hüküm diğer davranışları da kapsar.",
+      "Doğru. TTK m.54/2'deki genel ilkedir.",
+      "Yanlış. Kusur yalnızca tazminat talepleri için aranır; tespit, men ve ortadan kaldırma davaları için gerekli değildir (TTK m.56)."
+    ],
+    "ref": "TTK m.54"
+  },
+  {
+    "id": "HUK-037",
+    "exam": "ortak",
+    "topic": "Haksız Rekabet",
+    "q": "Aşağıdakilerden hangisi Türk Ticaret Kanunu'nda dürüstlük kuralına aykırı davranış (haksız rekabet) olarak sayılan hâllerden biri değildir?",
+    "options": [
+      "Kendi ürününü, rakibinden daha düşük ancak maliyetinin üstünde bir fiyatla satışa sunmak",
+      "Başkalarını, mallarını, iş ürünlerini veya faaliyetlerini yanlış, yanıltıcı veya gereksiz yere incitici açıklamalarla kötülemek",
+      "Başkasının malları, iş ürünleri, faaliyetleri veya işletmesiyle karışıklık yaratmaya elverişli önlemler almak",
+      "Müşterileri, başkalarıyla yaptıkları sözleşmeleri ihlale yöneltmek",
+      "Hukuka aykırı olarak elde ettiği imalat veya iş sırlarını değerlendirmek veya başkalarına bildirmek"
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru (haksız rekabet değildir). Maliyetin üstünde fiyatla rekabet etmek olağan rekabettir; kanun, seçilmiş malların maliyet fiyatının altında tekrarlanan biçimde satışa sunulması gibi özel durumları haksız sayar (TTK m.55).",
+      "Yanlış. Bu, dürüstlük kuralına aykırı reklam ve satış yöntemleri arasında sayılmıştır (TTK m.55).",
+      "Yanlış. Karıştırılma tehlikesi yaratmak haksız rekabet hâlidir (TTK m.55).",
+      "Yanlış. Sözleşmeyi ihlale yöneltmek haksız rekabet hâlidir (TTK m.55).",
+      "Yanlış. İmalat ve iş sırlarının hukuka aykırı ifşası haksız rekabet hâlidir (TTK m.55)."
+    ],
+    "ref": "TTK m.55"
+  },
+  {
+    "id": "HUK-038",
+    "exam": "ortak",
+    "topic": "Haksız Rekabet",
+    "q": "Ticaret ve sanayi odaları, meslek birlikleri ve tüketicinin korunmasını amaçlayan kuruluşlar gibi kurumlar, haksız rekabet nedeniyle aşağıdaki davalardan hangisini açamaz?",
+    "options": [
+      "Fiilin haksız olup olmadığının tespiti davası",
+      "Haksız rekabetin men'i davası",
+      "Haksız rekabetin sonucu olan maddi durumun ortadan kaldırılması davası",
+      "Maddi ve manevi tazminat davası",
+      "Haksız rekabet yanlış veya yanıltıcı beyanlarla yapılmışsa bu beyanların düzeltilmesi talebi"
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. Tespit davası bu kuruluşlarca açılabilir (TTK m.56).",
+      "Yanlış. Men davası bu kuruluşlarca açılabilir (TTK m.56).",
+      "Yanlış. Bu dava da bu kuruluşlarca açılabilir (TTK m.56).",
+      "Doğru (açamazlar). Bu kuruluşlar tespit, men ve maddi durumun ortadan kaldırılması davalarını açabilir; tazminat davası açma hakları yoktur (TTK m.56).",
+      "Yanlış. Düzeltme talebi, maddi durumun ortadan kaldırılması davası kapsamındadır ve bu kuruluşlarca istenebilir (TTK m.56)."
+    ],
+    "ref": "TTK m.56"
+  },
+  {
+    "id": "HUK-039",
+    "exam": "ortak",
+    "topic": "Haksız Rekabet",
+    "q": "Türk Ticaret Kanunu'na göre haksız rekabet nedeniyle açılacak davaların zamanaşımı süresi aşağıdakilerden hangisinde doğru olarak verilmiştir? (Ceza kanunlarında daha uzun bir süre öngörülmediği varsayılmaktadır.)",
+    "options": [
+      "Öğrenmeden itibaren 6 ay ve her hâlde 2 yıl",
+      "Hak sahibinin hakların doğumunu öğrendiği tarihten itibaren 1 yıl ve her hâlde doğumlarından itibaren 3 yıl",
+      "Öğrenmeden itibaren 2 yıl ve her hâlde 5 yıl",
+      "Öğrenmeden itibaren 1 yıl ve her hâlde 10 yıl",
+      "Öğrenmeden itibaren 2 yıl ve her hâlde 10 yıl"
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Kanundaki süreler 1 yıl ve 3 yıldır (TTK).",
+      "Doğru. Haksız rekabet davaları öğrenmeden itibaren bir yıl, her hâlde doğumdan itibaren üç yıl içinde zamanaşımına uğrar; ceza kanunlarında daha uzun süre öngörülmüşse o süre uygulanır (TTK).",
+      "Yanlış. Kanundaki süreler 1 yıl ve 3 yıldır (TTK).",
+      "Yanlış. Mutlak süre 10 değil 3 yıldır (TTK).",
+      "Yanlış. Bu süreler TBK'daki genel haksız fiil zamanaşımına ilişkindir; haksız rekabette 1 ve 3 yıllık süreler uygulanır (TTK, TBK m.72)."
+    ],
+    "ref": "TTK (haksız rekabet – zamanaşımı)"
+  },
+  {
+    "id": "HUK-040",
+    "exam": "ortak",
+    "topic": "Haksız Rekabet",
+    "q": "X AŞ'nin satış temsilcisi olarak çalışan E, işini görürken müşterilere rakip Y Ltd. Şti.'nin ürünleri hakkında gerçeğe aykırı ve kötüleyici açıklamalar yapmıştır. Bu durumda aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Y Ltd. Şti. yalnızca E aleyhine dava açabilir; X AŞ'nin sorumluluğu söz konusu olamaz.",
+      "E bir tacir olmadığından eylemi haksız rekabet oluşturmaz.",
+      "Y Ltd. Şti., haksız rekabet davalarını E'nin yanı sıra işveren X AŞ aleyhine de açabilir.",
+      "Y Ltd. Şti. ancak X AŞ'nin E'ye yazılı talimat verdiğini ispat ederse X AŞ aleyhine dava açabilir.",
+      "Kötüleme, karşılaştırmalı reklam niteliğinde olduğundan her durumda hukuka uygundur."
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. İşçinin işini görürken yaptığı haksız rekabetten dolayı işveren aleyhine de dava açılabilir (TTK).",
+      "Yanlış. Haksız rekabet için failin tacir olması şart değildir; dürüstlük kuralına aykırı davranış yeterlidir (TTK m.54, m.55).",
+      "Doğru. Haksız rekabet işçiler veya diğer yardımcılar tarafından işlerini görürken yapılmışsa, işveren veya işletme sahibi aleyhine de haksız rekabet davaları açılabilir (TTK).",
+      "Yanlış. Kanun, işverene karşı dava için yazılı talimat koşulu aramaz (TTK).",
+      "Yanlış. Başkalarını gerçeğe aykırı açıklamalarla kötülemek açıkça haksız rekabet hâlidir (TTK m.55)."
+    ],
+    "ref": "TTK (haksız rekabet – işçilerin fiilleri)"
+  }
+]

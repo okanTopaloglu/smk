@@ -1,0 +1,882 @@
+[
+ {
+  "id": "MRK2-001",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "6769 sayılı SMK'ya göre menşe adını mahreç işaretinden ayıran temel unsur aşağıdakilerden hangisidir?",
+  "options": [
+   "Menşe adının tescil edilmeden de korunması, mahreç işaretinin ise yalnızca tescil ile korunması",
+   "Menşe adında amblem kullanımının zorunlu, mahreç işaretinde ise isteğe bağlı olması",
+   "Menşe adında üretim, işleme ve diğer işlemlerin tümünün belirlenen coğrafi alanda gerçekleşmesi gerekirken, mahreç işaretinde bu işlemlerden en az birinin o alanda yapılmasının yeterli olması",
+   "Menşe adına yalnızca üretici gruplarının, mahreç işaretine ise herkesin başvurabilmesi",
+   "Menşe adının en az otuz yıl süreyle kullanılmış olmasının kanıtlanması gerekmesi"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Hem menşe adı hem mahreç işareti koruması tescil yoluyla elde edilir (SMK m.33/1, m.44/1).",
+   "Yanlış. Amblem kullanımı coğrafi işaretlerin tamamı, yani hem menşe adı hem mahreç işareti için zorunludur (SMK m.46/2).",
+   "Doğru. Menşe adında üretim, işleme ve diğer işlemlerin tümü coğrafi alanda gerçekleşir; mahreç işaretinde bunlardan en az birinin o alanda yapılması yeterlidir (SMK m.34/1-a, b).",
+   "Yanlış. Başvuru hakkına sahip olanlar (üretici grupları, kamu kurumları, dernek/vakıf/kooperatifler, tek üretici) her iki tür için aynıdır (SMK m.36/1).",
+   "Yanlış. En az otuz yıllık geleneksel kullanım şartı menşe adı için değil, geleneksel ürün adı için aranır (SMK m.34/3)."
+  ],
+  "ref": "SMK m.34"
+ },
+ {
+  "id": "MRK2-002",
+  "exam": "marka",
+  "topic": "Geleneksel Ürün Adı",
+  "q": "SMK'ya göre menşe adı veya mahreç işareti kapsamına girmeyen bir adın geleneksel ürün adı olarak tanımlanabilmesi için ilgili piyasada ürünü tarif etmek amacıyla geleneksel olarak en az kaç yıl süreyle kullanıldığının kanıtlanması gerekir?",
+  "options": [
+   "10 yıl",
+   "15 yıl",
+   "25 yıl",
+   "50 yıl",
+   "30 yıl"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Kanun on yıllık bir kullanım süresi öngörmemektedir (SMK m.34/3).",
+   "Yanlış. On beş yıl yeterli değildir; aranan asgari süre otuz yıldır (SMK m.34/3).",
+   "Yanlış. Yirmi beş yıl, tescilli tasarımın azami koruma süresidir (SMK m.69/1); geleneksel ürün adında aranan süre otuz yıldır.",
+   "Yanlış. Elli yıl şartı yoktur; Kanun en az otuz yıllık kullanımı yeterli görür (SMK m.34/3).",
+   "Doğru. Geleneksel olarak en az otuz yıl süreyle kullanıldığı kanıtlanan adlar, ek şartlardan en az birini sağlarsa geleneksel ürün adıdır (SMK m.34/3)."
+  ],
+  "ref": "SMK m.34/3"
+ },
+ {
+  "id": "MRK2-003",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Coğrafi işaret ve geleneksel ürün adı tanımlarına ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Coğrafi bir yer adı içermeyen, ancak gerekli şartları taşıyan bir ürünü belirtmek için geleneksel olarak kullanılan ve günlük dilde yerleşmiş adlar da menşe adı veya mahreç işareti olabilir.\nII. Menşe adı, istisnai durumlarda bir ülkeden kaynaklanan ürünleri tanımlayan ad olabilir.\nIII. Geleneksel ürün adı olarak tanımlanabilmek için hem geleneksel üretim yöntemine dayanma hem de geleneksel hammaddeden üretilmiş olma şartlarının birlikte sağlanması gerekir.",
+  "options": [
+   "I ve II",
+   "Yalnız I",
+   "Yalnız III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. I (SMK m.34/2) ve II (SMK m.34/1-a) doğrudur; III yanlıştır çünkü şartlardan en az birinin sağlanması yeterlidir (SMK m.34/3).",
+   "Yanlış. II de doğrudur; menşe adı istisnai durumlarda ülkeden kaynaklanabilir (SMK m.34/1-a).",
+   "Yanlış. III yanlıştır; m.34/3 'aşağıdaki şartlardan en az birini' sağlamayı yeterli görür.",
+   "Yanlış. III yanlış olduğu için bu seçenek doğru olamaz; ayrıca I de doğrudur (SMK m.34/2).",
+   "Yanlış. III yanlıştır; geleneksel üretim yöntemi/bileşim ile geleneksel hammadde şartları seçimlik olarak aranır (SMK m.34/3)."
+  ],
+  "ref": "SMK m.34"
+ },
+ {
+  "id": "MRK2-004",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Aşağıdakilerden hangisi SMK m.35/1'de sayılan, coğrafi işaret olarak tescil edilmeyecek adlardan biri değildir?",
+  "options": [
+   "Ürünlerin öz adı olmuş adlar",
+   "Ürünün genel özelliğini ifade eden adlar",
+   "Kamu düzenine veya genel ahlaka aykırı adlar",
+   "Kendi ülkesinde korunmayan, koruması sona eren veya kullanılmayan adlar",
+   "Tescilli veya başvurusu yapılmış bir coğrafi işaret ile tamamen veya kısmen eş sesli olan ve tüketiciyi yanıltabilecek adlar"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Ürünlerin öz adı olmuş adlar coğrafi işaret olarak tescil edilmez (SMK m.35/1-b).",
+   "Doğru. 'Ürünün genel özelliğini ifade eden adlar' coğrafi işaret için değil, geleneksel ürün adı için öngörülen bir ret hâlidir (SMK m.35/2-b).",
+   "Yanlış. Kamu düzenine veya genel ahlaka aykırı adlar coğrafi işaret olarak tescil edilmez (SMK m.35/1-ç).",
+   "Yanlış. Yabancı başvurularda kendi ülkesinde korunmayan, koruması sona eren veya kullanılmayan adlar tescil edilmez (SMK m.35/1-d).",
+   "Yanlış. Tescilli/başvurusu yapılmış coğrafi işaretle eş sesli ve tüketiciyi yanıltabilecek adlar tescil edilmez (SMK m.35/1-e)."
+  ],
+  "ref": "SMK m.35"
+ },
+ {
+  "id": "MRK2-005",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "SMK'ya göre aşağıdakilerden hangisi coğrafi işaret tescil başvurusunda bulunma hakkına sahip değildir?",
+  "options": [
+   "Aynı ürünün üreticilerinden oluşan üretici grubu",
+   "Ürünün kaynaklandığı coğrafi alanla ilgili kamu kurumu",
+   "Ürünle ilgili olarak üyelerinin ekonomik çıkarlarını korumaya yetkili kooperatif",
+   "Ürünün birden fazla üreticisi bulunan bir bölgede, diğer üreticilerden bağımsız olarak tek başına başvuru yapan bir üretici",
+   "Ürünün tek üreticisi olduğunu ispat eden üretici"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Üretici grupları başvuru hakkına sahiptir (SMK m.36/1-a, m.36/2).",
+   "Yanlış. Ürün veya coğrafi alanla ilgili kamu kurum ve kuruluşları başvuru yapabilir (SMK m.36/1-b).",
+   "Yanlış. Üyelerinin ekonomik çıkarlarını korumaya yetkili dernek, vakıf ve kooperatifler başvuru yapabilir (SMK m.36/1-c).",
+   "Doğru. Tek bir üretici ancak ürünün tek üreticisi olması ve bunu ispat etmesi hâlinde başvurabilir; birden fazla üretici varsa tek başına başvuru hakkı yoktur (SMK m.36/1-ç).",
+   "Yanlış. Ürünün tek üreticisi bu durumu ispat etmek şartıyla başvuru yapabilir (SMK m.36/1-ç)."
+  ],
+  "ref": "SMK m.36"
+ },
+ {
+  "id": "MRK2-006",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Bültende yayımlanan bir coğrafi işaret başvurusuna, tescil talebinin SMK'ya uygun olmadığı iddiasıyla üçüncü kişiler hangi süre içinde itiraz edebilir?",
+  "options": [
+   "Bültende yayımlandığı tarihten itibaren üç ay",
+   "Bültende yayımlandığı tarihten itibaren iki ay",
+   "Bültende yayımlandığı tarihten itibaren altı ay",
+   "Başvuru tarihinden itibaren üç ay",
+   "Bültende yayımlandığı tarihten itibaren bir ay"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Üçüncü kişiler ve önceki tarihli hak sahipleri, Bültende yayım tarihinden itibaren üç ay içinde gerekçeli ve yazılı olarak itiraz edebilir (SMK m.40/2).",
+   "Yanlış. İki aylık süre, başvuru yapanın ret kararına karşı bildirim tarihinden itibaren yapacağı itiraz içindir (SMK m.40/1).",
+   "Yanlış. Coğrafi işaret başvurusuna itiraz için altı aylık bir süre öngörülmemiştir (SMK m.40/2).",
+   "Yanlış. Süre başvuru tarihinden değil, Bültende yayım tarihinden başlar (SMK m.40/2).",
+   "Yanlış. Bir aylık süre öngörülmemiştir; süre üç aydır (SMK m.40/2)."
+  ],
+  "ref": "SMK m.40/2"
+ },
+ {
+  "id": "MRK2-007",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Bir dernek tarafından yapılan coğrafi işaret başvurusunun başvuru formunda, başvuru yapanın kimliğine ilişkin bilgiler hiç yer almamaktadır. SMK'ya göre bu durumda aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Kurum eksikliğin giderilmesini ister; talep hâlinde iki defayı geçmemek üzere ek süre verilir.",
+   "Başvuru reddedilir; başvuru yapan kararın bildiriminden itibaren iki ay içinde itiraz edebilir.",
+   "Başvuru Bültende yayımlanır ve kimlik eksikliği üçüncü kişilerin itirazı ile ileri sürülebilir.",
+   "Kurum başvuruyu ilgili kurum ve kuruluşların görüşüne sunar.",
+   "Başvuru yapılmamış sayılır; bu karar Kurumun nihai kararı olup itiraza konu olamaz."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Eksiklik giderme ve iki defaya kadar ek süre imkânı, kimlik bilgileri hariç diğer m.37 eksiklikleri içindir (SMK m.38/3).",
+   "Yanlış. Kimlik bilgisi eksikliğinde başvuru reddedilmez, yapılmamış sayılır ve bu karara itiraz edilemez (SMK m.38/2).",
+   "Yanlış. Kimlik bilgisi bulunmayan başvuru yapılmamış sayıldığından yayım aşamasına geçmez (SMK m.38/2, m.38/5).",
+   "Yanlış. Kurumun ilgili kuruluşlardan görüş alması teknik bilgilerin değerlendirilmesi içindir; kimlik eksikliğinin sonucu bu değildir (SMK m.38/4).",
+   "Doğru. Başvuru formunda kimlik bilgisi yoksa başvuru yapılmamış sayılır ve bu karar Kurumun nihai kararı olup m.40 kapsamında itiraza konu olamaz (SMK m.38/2)."
+  ],
+  "ref": "SMK m.38/2"
+ },
+ {
+  "id": "MRK2-008",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Coğrafi işaret ve geleneksel ürün adının hükümsüzlüğüne ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Hükümsüzlük, menfaati olanlar tarafından mahkemeden istenebilir.\nII. Hükümsüzlük davası Türk Patent ve Marka Kurumuna karşı açılır.\nIII. Denetim işlemlerinin SMK m.49'da belirtilen biçimde yerine getirilmemesi hükümsüzlük sebebidir.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. III de doğrudur; denetimin m.49'a uygun yapılmaması hükümsüzlük sebebidir (SMK m.50/2-c).",
+   "Yanlış. II yanlıştır; dava sicilde tescil ettiren olarak kayıtlı kişiye karşı açılır ve Kurum taraf gösterilmez (SMK m.50/3).",
+   "Doğru. I (SMK m.50/1) ve III (SMK m.50/2-c) doğrudur; II yanlıştır (SMK m.50/3).",
+   "Yanlış. II yanlıştır; hükümsüzlük davalarında Kurum taraf gösterilmez (SMK m.50/3).",
+   "Yanlış. II yanlış olduğundan tüm öncüller doğru değildir (SMK m.50/3)."
+  ],
+  "ref": "SMK m.50"
+ },
+ {
+  "id": "MRK2-009",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Bültende yayımlanan ve süresi içinde itiraz edilmeyen bir coğrafi işaret başvurusunun tescil edilebilmesi için tescil ücretinin ödenmesi ve ödendiğine ilişkin bilginin Kuruma sunulması gereken süre aşağıdakilerden hangisidir?",
+  "options": [
+   "Yayım tarihinden itibaren bir ay",
+   "Bildirim tarihinden itibaren iki ay",
+   "Bildirim tarihinden itibaren üç ay",
+   "Yayım tarihinden itibaren altı ay",
+   "Başvuru tarihinden itibaren bir yıl"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Kanun bir aylık süre öngörmez; süre bildirimden itibaren iki aydır (SMK m.41/1).",
+   "Doğru. Başvuru, bildirim tarihinden itibaren iki ay içinde tescil ücretinin ödenmesi ve bilginin sunulması şartıyla tescil edilir (SMK m.41/1).",
+   "Yanlış. Üç ay, yayıma itiraz süresidir (SMK m.40/2, m.41/1); tescil ücreti süresi iki aydır.",
+   "Yanlış. Altı aylık bir tescil ücreti süresi yoktur (SMK m.41/1).",
+   "Yanlış. Bir yıl, kesinleşen değişikliklerin uygulanması için öngörülen süredir (SMK m.42/2)."
+  ],
+  "ref": "SMK m.41/1"
+ },
+ {
+  "id": "MRK2-010",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Tescilli coğrafi işaretten doğan haklara ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Tescil edilen coğrafi işaret, tescil ettirene inhisari hak sağlar.\nII. Tescil edilen coğrafi işaretlerin ürünün öz adına dönüşmüş olduğu kabul edilmez.\nIII. Coğrafi işaret tescilinin sağladığı haklar, üçüncü kişilere karşı tescilin Bültende yayımlandığı tarih itibarıyla hüküm ifade eder.",
+  "options": [
+   "Yalnız I",
+   "I ve II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. I yanlıştır; tescil edilen coğrafi işaret tescil ettirene inhisari hak sağlamaz (SMK m.44/7).",
+   "Yanlış. I yanlıştır (SMK m.44/7); ayrıca III de doğrudur (SMK m.44/3).",
+   "Yanlış. I yanlıştır; coğrafi işaret, şartlara uyan tüm üreticilerin kullanabildiği kolektif bir haktır (SMK m.44/7, m.46/1).",
+   "Doğru. II (SMK m.44/4) ve III (SMK m.44/3) doğrudur; I yanlıştır (SMK m.44/7).",
+   "Yanlış. I yanlış olduğundan tüm öncüller doğru değildir (SMK m.44/7)."
+  ],
+  "ref": "SMK m.44"
+ },
+ {
+  "id": "MRK2-011",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Tescilli coğrafi işaret ve geleneksel ürün adında amblem kullanımına ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Amblem kullanımı coğrafi işaretlerde isteğe bağlı, geleneksel ürün adlarında zorunludur.",
+   "Amblem yalnızca menşe adları için zorunludur; mahreç işaretlerinde kullanılmaz.",
+   "Ürünün niteliği gereği amblem ürün veya ambalaj üzerinde kullanılamıyorsa, coğrafi işaret kullanılamaz.",
+   "Coğrafi işaretler bakımından amblem kullanılması zorunludur; geleneksel ürün adının amblemsiz kullanımı ise SMK hükümlerine tabi değildir.",
+   "Amblemi tüketiciyi yanıltıcı biçimde kullanmak tecavüz sayılmaz; yalnızca coğrafi işaretin kendisinin kullanımı tecavüz oluşturur."
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Durum tam tersidir; coğrafi işaretlerde amblem zorunludur (SMK m.46/2), geleneksel ürün adının amblemsiz kullanımı ise Kanuna tabi değildir (SMK m.46/4).",
+   "Yanlış. Amblem zorunluluğu 'coğrafi işaretler' için öngörülmüştür; menşe adı ve mahreç işareti ayrımı yapılmaz (SMK m.46/2).",
+   "Yanlış. Bu durumda amblem ile tescilli işaret, işletmede kolayca görülecek şekilde bulundurulur (SMK m.46/3).",
+   "Doğru. Coğrafi işaretler bakımından amblem kullanımı zorunludur (SMK m.46/2); geleneksel ürün adının amblemsiz kullanımı Kanun hükümlerine tabi değildir (SMK m.46/4).",
+   "Yanlış. Amblemin tüketiciyi yanıltıcı biçimde kullanımı açıkça tecavüz sayılır (SMK m.53/1-ç)."
+  ],
+  "ref": "SMK m.46"
+ },
+ {
+  "id": "MRK2-012",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "SMK'ya göre coğrafi işaret ve geleneksel ürün adlarının kullanımının denetimi kapsamında, denetim raporlarının Kuruma sunulma sıklığı ile raporlarda tespit edilen eksikliğin giderilmesi için tescil ettirene verilen süre sırasıyla aşağıdakilerden hangisidir?",
+  "options": [
+   "Altı ayda bir / üç ay",
+   "İki yılda bir / altı ay",
+   "Yılda bir / iki ay",
+   "Üç yılda bir / bir yıl",
+   "Yılda bir / altı ay"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Raporlar altı ayda bir değil, yılda bir sunulur; eksiklik süresi de üç ay değil altı aydır (SMK m.49/3-4).",
+   "Yanlış. Raporların sunulma sıklığı iki yılda bir değil, yılda birdir (SMK m.49/3).",
+   "Yanlış. Sunulma sıklığı doğru olmakla birlikte eksikliği giderme süresi iki ay değil altı aydır (SMK m.49/4).",
+   "Yanlış. Kanunda üç yıllık rapor dönemi veya bir yıllık giderme süresi öngörülmemiştir (SMK m.49/3-4).",
+   "Doğru. Denetim raporları tescilin Bültende yayımından itibaren yılda bir sunulur; eksiklik varsa altı ay içinde giderilmesi istenir (SMK m.49/3-4)."
+  ],
+  "ref": "SMK m.49"
+ },
+ {
+  "id": "MRK2-013",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "(X) ibareli marka, aynı ibareden oluşan coğrafi işaretin korunmasından önce peynir ürünleri için iyiniyetle tescil edilmiştir. Daha sonra (X) peyniri coğrafi işaret olarak tescil edilmiştir. SMK'ya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Coğrafi işaretin hak sahibine verdiği yetkiler, markanın tesciline ve iyiniyetli kullanımına zarar vermez.",
+   "Marka, coğrafi işaretin tescili ile kendiliğinden hükümsüz hâle gelir.",
+   "Marka sahibi, coğrafi işaretin tescilinden itibaren markasını ancak amblemle birlikte kullanabilir.",
+   "Kurum, markayı resen sicilden terkin eder.",
+   "Marka sahibi, markasının yenilenmesini talep edemez."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Coğrafi işaretle aynı veya benzer marka, coğrafi işaretin korunmasından önce iyiniyetle tescil edilmişse, coğrafi işaretin verdiği yetkiler markanın tesciline ve iyiniyetli kullanımına zarar vermez (SMK m.48/2).",
+   "Yanlış. Kendiliğinden hükümsüzlük öngörülmemiştir; önceki iyiniyetli tescil korunur (SMK m.48/2).",
+   "Yanlış. Amblem kullanımı coğrafi işaretin kullanım hakkı sahipleri için öngörülmüştür, marka sahibi için değil (SMK m.46/2, m.48/2).",
+   "Yanlış. Kurumun resen terkin yetkisi yoktur; m.48/1'deki hükümsüzlük ise coğrafi işaretin tescilinden sonra yapılan marka başvuruları içindir (SMK m.48/1-2).",
+   "Yanlış. Kanunda böyle bir yenileme yasağı yoktur; iyiniyetli önceki marka tescili zarar görmez (SMK m.48/2)."
+  ],
+  "ref": "SMK m.48/2"
+ },
+ {
+  "id": "MRK2-014",
+  "exam": "marka",
+  "topic": "Coğrafi İşaret",
+  "q": "Tescilli bir coğrafi işareti kullanma hakkına sahip olan bir üretici, coğrafi işarete tecavüz eden bir fiili tescil ettirene noter vasıtasıyla bildirerek dava açılmasını talep etmiştir. Tescil ettiren talebi kabul etmez veya bildirim tarihinden itibaren belirli bir süre içinde dava açmazsa, kullanma hakkı sahibi bildirimi de ekleyerek kendisi dava açabilir. Bu süre aşağıdakilerden hangisidir?",
+  "options": [
+   "Bir ay",
+   "Üç ay",
+   "İki ay",
+   "Altı ay",
+   "Bir yıl"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Kanunda bir aylık süre öngörülmemiştir (SMK m.53/2).",
+   "Doğru. Tescil ettiren talebi kabul etmez veya bildirim tarihinden itibaren üç ay içinde dava açmazsa kullanma hakkı sahibi dava açabilir (SMK m.53/2).",
+   "Yanlış. İki ay, ret kararına itiraz veya tescil ücreti gibi başka işlemlerin süresidir (SMK m.40/1, m.41/1); burada süre üç aydır.",
+   "Yanlış. Altı ay, denetim raporlarındaki eksikliklerin giderilme süresidir (SMK m.49/4).",
+   "Yanlış. Bir yıllık süre öngörülmemiştir; ayrıca ciddi zarar tehlikesinde süreye bağlı kalmaksızın ihtiyati tedbir istenebilir (SMK m.53/2)."
+  ],
+  "ref": "SMK m.53/2"
+ },
+ {
+  "id": "MRK2-015",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre aşağıdakilerden hangisi tasarım hukuku bakımından 'ürün' tanımının kapsamı dışında kalır?",
+  "options": [
+   "Ambalaj",
+   "Grafik semboller",
+   "Tipografik karakterler",
+   "Bilgisayar programları",
+   "Birleşik ürünü oluşturan parçalar"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Ambalaj gibi nesneler ürün tanımına dâhildir (SMK m.55/2).",
+   "Yanlış. Grafik semboller ürün tanımına açıkça dâhil edilmiştir (SMK m.55/2).",
+   "Yanlış. Tipografik karakterler ürün tanımına dâhildir (SMK m.55/2).",
+   "Doğru. Ürün tanımı 'bilgisayar programları hariç olmak üzere' yapılmıştır (SMK m.55/2).",
+   "Yanlış. Birleşik ürün ve bu ürünü oluşturan parçalar ürün tanımına dâhildir (SMK m.55/2-3)."
+  ],
+  "ref": "SMK m.55/2"
+ },
+ {
+  "id": "MRK2-016",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre tasarımın yeniliğine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Tescilli tasarımın aynısı başvuru veya rüçhan tarihinden önce yalnızca Türkiye'de kamuya sunulmamışsa tasarım yeni kabul edilir.",
+   "Yenilik, bilgilenmiş kullanıcı üzerinde bırakılan genel izlenime göre değerlendirilir.",
+   "Tasarımlar sadece küçük ayrıntılarda farklılık gösteriyorsa aynı kabul edilir.",
+   "Tescilsiz tasarımda yenilik, başvuru tarihi esas alınarak değerlendirilir.",
+   "Yenilik değerlendirmesinde tasarımcının seçenek özgürlüğünün derecesi esas ölçüttür."
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Mutlak yenilik esastır; aynısının dünyanın herhangi bir yerinde kamuya sunulmamış olması gerekir (SMK m.56/4).",
+   "Yanlış. Bilgilenmiş kullanıcı üzerindeki genel izlenim ölçütü ayırt edici nitelik içindir (SMK m.56/5).",
+   "Doğru. Tasarımlar sadece küçük ayrıntılarda farklılık gösteriyorsa aynı kabul edilir (SMK m.56/4).",
+   "Yanlış. Tescilsiz tasarımda esas alınan tarih, tasarımın kamuya ilk sunulduğu tarihtir (SMK m.56/4-b).",
+   "Yanlış. Seçenek özgürlüğünün derecesi ayırt edici niteliğin değerlendirilmesinde dikkate alınır (SMK m.56/6)."
+  ],
+  "ref": "SMK m.56/4"
+ },
+ {
+  "id": "MRK2-017",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre bir tasarımın ayırt edici niteliğe sahip olup olmadığı değerlendirilirken esas alınan kişi ve ayrıca dikkate alınan husus aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+  "options": [
+   "Ortalama tüketici / ürünün piyasa değeri",
+   "Bilgilenmiş kullanıcı / tasarımcının tasarımı geliştirmede sahip olduğu seçenek özgürlüğünün derecesi",
+   "İlgili sektördeki uzman / tasarımın teknik fonksiyonu",
+   "Tasarımcının kendisi / tasarımın yaratılmasına harcanan emek",
+   "Kurum uzmanı / tasarımın kullanılacağı ürünün Lokarno sınıfı"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Tasarımda ölçüt 'ortalama tüketici' değil 'bilgilenmiş kullanıcı'dır; piyasa değeri ise ölçüt değildir (SMK m.56/5-6).",
+   "Doğru. Genel izlenim bilgilenmiş kullanıcı üzerinden değerlendirilir ve tasarımcının seçenek özgürlüğünün derecesi dikkate alınır (SMK m.56/5-6).",
+   "Yanlış. Ölçüt uzman değildir; teknik fonksiyonun zorunlu kıldığı özellikler ise koruma dışıdır (SMK m.56/5, m.58/4-b).",
+   "Yanlış. Tasarımcının bakış açısı ve harcanan emek kanuni ölçüt değildir (SMK m.56/5-6).",
+   "Yanlış. Ürün adı ve sınıfı koruma kapsamını etkilemez (SMK m.61/3); değerlendirme bilgilenmiş kullanıcıya göre yapılır (SMK m.56/5)."
+  ],
+  "ref": "SMK m.56/5-6"
+ },
+ {
+  "id": "MRK2-018",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "Bir otomobil üreticisi, yalnızca motor bakımı sırasında kaputun açılmasıyla görülebilen bir motor kapağı parçasının tasarımını tescil ettirmek istemektedir. Parça, otomobilin son kullanıcı tarafından normal kullanımında görünmemektedir. SMK'ya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Bakım sırasında görülebildiği için parça normal kullanımda görünür kabul edilir ve korunur.",
+   "Birleşik ürünün parçaları tasarım olarak hiçbir şekilde korunamaz.",
+   "Parça, bilgilenmiş kullanıcı tarafından görülebildiği sürece yeni ve ayırt edici kabul edilir.",
+   "Parça yalnızca tescilsiz tasarım olarak korunabilir.",
+   "Normal kullanım bakım, servis ve onarım işlerini kapsamadığından parça yeni ve ayırt edici kabul edilemez."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Normal kullanım; bakım, servis veya onarım işleri hariç son kullanıcı tarafından kullanımdır (SMK m.56/3).",
+   "Yanlış. Birleşik ürün parçaları m.56/2'deki şartları taşırsa korunur (SMK m.55/2, m.56/2).",
+   "Yanlış. Ölçüt, parçanın birleşik ürünün normal kullanımında görünür olmasıdır (SMK m.56/2-a).",
+   "Yanlış. Görünürlük şartı tescilli/tescilsiz ayrımı yapılmaksızın yenilik ve ayırt edicilik için aranır (SMK m.56/2).",
+   "Doğru. Parçanın normal kullanımda görünür olması gerekir ve normal kullanım bakım, servis, onarım işlerini kapsamaz (SMK m.56/2-a, m.56/3)."
+  ],
+  "ref": "SMK m.56/2-3"
+ },
+ {
+  "id": "MRK2-019",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "Tasarımın kamuya sunulmasına ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Tasarımın gizlilik şartıyla üçüncü bir kişiye açıklanması kamuya sunma sayılmaz.\nII. Tasarımcının, başvuru tarihinden önceki on iki ay içinde tasarımını kendisinin kamuya sunması, tasarımın yeniliğini ve ayırt edici niteliğini etkilemez.\nIII. Tasarımcı ile olan ilişkinin kötüye kullanımı sonucu bir üçüncü kişinin tasarımı başvurudan önceki on iki ay içinde kamuya sunması, tasarımın yeniliğini ortadan kaldırır.",
+  "options": [
+   "Yalnız I",
+   "I ve II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. II de doğrudur; on iki aylık hoşgörü süresi içindeki kendi açıklaması yeniliği etkilemez (SMK m.57/2).",
+   "Doğru. I (SMK m.57/1) ve II (SMK m.57/2) doğrudur; III yanlıştır çünkü ilişkinin kötüye kullanımı sonucu yapılan açıklama da hoşgörü süresi kapsamındadır (SMK m.57/2).",
+   "Yanlış. III yanlıştır; kötüye kullanım sonucu on iki ay içinde yapılan kamuya sunma yenilik ve ayırt ediciliği etkilemez (SMK m.57/2).",
+   "Yanlış. III yanlıştır (SMK m.57/2); I ise doğrudur (SMK m.57/1).",
+   "Yanlış. III yanlış olduğundan tüm öncüller doğru değildir (SMK m.57/2)."
+  ],
+  "ref": "SMK m.57"
+ },
+ {
+  "id": "MRK2-020",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre tescilli bir tasarımın hükümsüzlüğüne ilişkin dava hangi süre içinde açılabilir?",
+  "options": [
+   "Koruma süresince veya tasarım hakkının sona ermesini izleyen beş yıl içinde",
+   "Tescilin yayım tarihinden itibaren üç yıl içinde",
+   "Yalnızca koruma süresi devam ettiği sürece",
+   "Tescil tarihinden itibaren beş yıl içinde",
+   "Tasarımın kamuya ilk sunulduğu tarihten itibaren üç yıl içinde"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Hükümsüzlük davası koruma süresince veya tasarım hakkının sona ermesini izleyen beş yıl içinde açılabilir (SMK m.78/3).",
+   "Yanlış. Yayımdan itibaren üç yıllık süre tasarımın gaspı taleplerine ilişkindir (SMK m.71/3).",
+   "Yanlış. Dava, hakkın sona ermesinden sonra da beş yıl içinde açılabilir (SMK m.78/3).",
+   "Yanlış. Süre tescil tarihinden itibaren beş yıl ile sınırlı değildir (SMK m.78/3).",
+   "Yanlış. Üç yıl, tescilsiz tasarımın koruma süresidir (SMK m.69/2); hükümsüzlük davası süresi değildir."
+  ],
+  "ref": "SMK m.78/3"
+ },
+ {
+  "id": "MRK2-021",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "Aşağıdakilerden hangisi SMK'ya göre tasarım koruması kapsamı dışında kalan hâllerden biri değildir?",
+  "options": [
+   "Kamu düzenine veya genel ahlaka aykırı tasarımlar",
+   "Ürünün teknik fonksiyonunun zorunlu kıldığı görünüm özellikleri",
+   "Başka bir ürüne mekanik olarak monte edilmesi için belirli biçim ve boyutlarda üretilmesi zorunlu ürünlerin görünüm özellikleri",
+   "Paris Sözleşmesi m.6 mükerrer 2 kapsamındaki hükümranlık alametlerinin uygunsuz kullanımını içeren tasarımlar",
+   "Yeni ve ayırt edici olmak kaydıyla, modüler bir sistemde birimlerin birbirleriyle çeşitli biçimlerde bağlantı kurmasını sağlayan tasarımlar"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Kamu düzeni veya genel ahlaka aykırı tasarımlar koruma dışıdır (SMK m.58/4-a).",
+   "Yanlış. Teknik fonksiyonun zorunlu kıldığı görünüm özellikleri koruma dışıdır (SMK m.58/4-b).",
+   "Yanlış. Mekanik bağlantı için zorunlu biçim ve boyutlar koruma dışıdır (SMK m.58/4-c).",
+   "Yanlış. Hükümranlık alametlerinin uygunsuz kullanımını içeren tasarımlar koruma dışıdır (SMK m.58/4-ç).",
+   "Doğru. Modüler sistem tasarımları, m.56 şartlarını karşılamak kaydıyla korumadan yararlanır (SMK m.58/5)."
+  ],
+  "ref": "SMK m.58"
+ },
+ {
+  "id": "MRK2-022",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "A, yeni ve ayırt edici bir çanta tasarımını tescil ettirmeden ilk kez Türkiye'de bir fuarda kamuya sunmuştur. Bir yıl sonra B, A'nın tasarımını makul yollarla bilmesi mümkün olmaksızın, bağımsız olarak genel izlenim itibarıyla ayırt edilemeyecek kadar benzer bir çanta tasarlamış ve satışa sunmuştur. SMK'ya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "A, tescilsiz tasarımın üç yıllık koruma süresi dolmadığından B'nin satışlarını her koşulda engelleyebilir.",
+   "A'nın tasarımı Türkiye'de kamuya sunulduğundan koruma süresi beş yıldır ve B'ye karşı dava açabilir.",
+   "B'nin tasarımı kopyalanmış kabul edilmez; A, tescilsiz tasarımına dayanarak B'nin fiillerini engelleyemez.",
+   "Tescilsiz tasarım hiçbir şekilde koruma sağlamadığından A'nın talep hakkı yoktur.",
+   "B, ancak tasarımı A'dan önce tescil ettirirse sorumluluktan kurtulur."
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Tescilsiz tasarım yalnızca kopyalamaya karşı koruma sağlar; bağımsız yapılan tasarım kopya sayılmaz (SMK m.59/2).",
+   "Yanlış. Tescilsiz tasarımın koruma süresi kamuya ilk sunulduğu tarihten itibaren üç yıldır (SMK m.69/2).",
+   "Doğru. Korunan tasarımı makul yollarla bilmesi mümkün olmayan tasarımcının bağımsız tasarımı kopyalanmış kabul edilmez (SMK m.59/2).",
+   "Yanlış. Türkiye'de ilk kez kamuya sunulan tasarım tescilsiz tasarım olarak korunur (SMK m.55/4, m.69/2).",
+   "Yanlış. B'nin sorumlu olmaması tescile değil, tasarımın bağımsız olarak yapılmış olmasına dayanır (SMK m.59/2)."
+  ],
+  "ref": "SMK m.59/2"
+ },
+ {
+  "id": "MRK2-023",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre birleşik ürünün görünümüne bağımlı olan parçaların, birleşik ürüne orijinal görünümünü yeniden kazandırmak üzere onarım amacıyla ve kaynağı konusunda yanıltıcı olmamak şartıyla kullanılması, tasarımın piyasaya ilk sürüldüğü tarihten itibaren ne kadar süre sonra tasarım hakkının ihlali sayılmaz?",
+  "options": [
+   "Bir yıl",
+   "İki yıl",
+   "Beş yıl",
+   "Üç yıl",
+   "On yıl"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Kanun bir yıllık süre öngörmez (SMK m.59/4).",
+   "Yanlış. İki yıllık bir süre öngörülmemiştir (SMK m.59/4).",
+   "Yanlış. Beş yıl, tescilli tasarımın her bir koruma dönemidir (SMK m.69/1); onarım istisnası için süre üç yıldır.",
+   "Doğru. Bu parçaların onarım amacıyla piyasaya ilk sürülme tarihinden üç yıl sonra kullanılması ihlal sayılmaz; Bakanlıkça yayımlanan eşdeğer parçalar için ise üç yıl içinde de kullanım ihlal sayılmaz (SMK m.59/4-5).",
+   "Yanlış. On yıllık bir süre öngörülmemiştir (SMK m.59/4)."
+  ],
+  "ref": "SMK m.59/4"
+ },
+ {
+  "id": "MRK2-024",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre tasarım başvurusunda yayımın ertelenmesi talebinde bulunulabilecek azami süre ve bu sürenin başlangıcı aşağıdakilerden hangisidir?",
+  "options": [
+   "Başvuru veya varsa rüçhan tarihinden başlamak üzere otuz ay",
+   "Tescil tarihinden başlamak üzere otuz ay",
+   "Başvuru tarihinden başlamak üzere on sekiz ay",
+   "Başvuru veya varsa rüçhan tarihinden başlamak üzere on iki ay",
+   "Tescil tarihinden başlamak üzere yirmi dört ay"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Başvuru sahibi, başvuruyla birlikte, başvuru veya varsa rüçhan tarihinden başlamak üzere otuz ay süreyle yayım erteleme talebinde bulunabilir (SMK m.66/1).",
+   "Yanlış. Süre tescil tarihinden değil, başvuru veya rüçhan tarihinden başlar (SMK m.66/1).",
+   "Yanlış. Süre on sekiz ay değil otuz aydır (SMK m.66/1).",
+   "Yanlış. On iki ay, tasarımdaki hoşgörü süresidir (SMK m.57/2); erteleme süresi otuz aydır.",
+   "Yanlış. Ne başlangıç tarihi ne de süre doğrudur (SMK m.66/1)."
+  ],
+  "ref": "SMK m.66/1"
+ },
+ {
+  "id": "MRK2-025",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "Tasarımda yayımın ertelenmesine ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Yayım erteleme talebi başvuruyla birlikte yapılır.\nII. Yayım erteleme süresi içinde tecavüz davası açılabilmesi için sicil kaydındaki ve başvuru dosyasındaki bilgilerin davalı tarafa bildirilmiş olması şarttır.\nIII. Yayım erteleme talebi çoklu başvurudaki tasarımların yalnızca bir kısmı için yapılamaz.",
+  "options": [
+   "Yalnız I",
+   "Yalnız III",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. II de doğrudur (SMK m.66/5).",
+   "Yanlış. III yanlıştır; m.66 hükümleri çoklu başvurudaki tasarımların bir kısmı hakkında da uygulanabilir (SMK m.66/7).",
+   "Doğru. I (SMK m.66/1) ve II (SMK m.66/5) doğrudur; III yanlıştır (SMK m.66/7).",
+   "Yanlış. III yanlıştır (SMK m.66/7); I ise doğrudur (SMK m.66/1).",
+   "Yanlış. III yanlış olduğundan tüm öncüller doğru değildir (SMK m.66/7)."
+  ],
+  "ref": "SMK m.66"
+ },
+ {
+  "id": "MRK2-026",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre üçüncü kişilerin bir tasarım tesciline itirazına ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Üçüncü kişiler, başvurunun Bültende yayımından itibaren iki ay içinde başvuruya itiraz eder.",
+   "Üçüncü kişiler, tasarım tescilinin yayım tarihinden itibaren üç ay içinde, ücretini ödeyerek tescil belgesinin verilmesine itiraz edebilir.",
+   "Üçüncü kişilerin itirazı, kararın bildirim tarihinden itibaren iki ay içinde yapılır.",
+   "Üçüncü kişiler tasarım tesciline Kurum nezdinde itiraz edemez; yalnızca hükümsüzlük davası açabilir.",
+   "Üçüncü kişiler, tescil tarihinden itibaren altı ay içinde ücretsiz olarak itiraz edebilir."
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Tasarımda itiraz tescilin yayımından sonra yapılır ve süre üç aydır (SMK m.65/1, m.67/2).",
+   "Doğru. Üçüncü kişiler tescilin yayım tarihinden itibaren üç ay içinde ücretini ödeyerek tescil belgesinin verilmesine itiraz edebilir (SMK m.67/2).",
+   "Yanlış. Bildirimden itibaren iki aylık süre, başvuru sahibinin m.64 kararlarına karşı itirazı içindir (SMK m.67/1).",
+   "Yanlış. Üçüncü kişiler Kurum nezdinde itiraz edebilir; itiraz Kurul tarafından incelenir (SMK m.67/2, m.68/1).",
+   "Yanlış. Süre üç aydır ve ücret ödenmezse itiraz yapılmamış sayılır (SMK m.67/2-3)."
+  ],
+  "ref": "SMK m.67/2"
+ },
+ {
+  "id": "MRK2-027",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK m.64/6 uyarınca Kurumun tasarım tescil taleplerini resen reddetme sebepleri arasında aşağıdakilerden hangisi yer almaz?",
+  "options": [
+   "Tasarım veya ürün tanımına uygun olmama",
+   "Kamu düzenine veya genel ahlaka aykırılık",
+   "Ayırt edici niteliğe sahip olmama",
+   "Yeni olmadığının tespit edilmesi",
+   "Başvurunun SMK m.3 kapsamına girmeyen kişilerce yapılmış olması"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Tasarım veya ürün tanımına uygun olmayan talepler reddedilir (SMK m.64/6-a).",
+   "Yanlış. Kamu düzenine veya genel ahlaka aykırı talepler reddedilir (SMK m.64/6-b).",
+   "Doğru. Ayırt edici nitelik eksikliği resen ret sebepleri arasında sayılmamıştır; ancak üçüncü kişi itirazı veya hükümsüzlük davası ile ileri sürülebilir (SMK m.64/6, m.67/2, m.77/1-a).",
+   "Yanlış. Yeni olmadığı tespit edilen tasarımlar Kurumca reddedilir (SMK m.64/6-d).",
+   "Yanlış. m.3 kapsamına girmeyen gerçek veya tüzel kişilerce yapılan talepler reddedilir (SMK m.64/6-c)."
+  ],
+  "ref": "SMK m.64/6"
+ },
+ {
+  "id": "MRK2-028",
+  "exam": "marka",
+  "topic": "Tasarım",
+  "q": "SMK'ya göre tasarımların koruma süresine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Tescilli tasarım: tescil tarihinden itibaren 10 yıl, toplam 20 yıl; tescilsiz tasarım: 3 yıl",
+   "Tescilli tasarım: başvuru tarihinden itibaren 5 yıl, toplam 25 yıl; tescilsiz tasarım: 5 yıl",
+   "Tescilli tasarım: başvuru tarihinden itibaren 10 yıl, süresiz yenilenebilir; tescilsiz tasarım: 3 yıl",
+   "Tescilli tasarım: başvuru tarihinden itibaren 5 yıl, toplam 25 yıl; tescilsiz tasarım: kamuya ilk sunulduğu tarihten itibaren 3 yıl",
+   "Tescilli tasarım: yayım tarihinden itibaren 5 yıl, toplam 15 yıl; tescilsiz tasarım: 1 yıl"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Tescilli tasarımın koruma süresi başvuru tarihinden itibaren beş yıldır ve toplam yirmi beş yıla kadar uzatılabilir (SMK m.69/1).",
+   "Yanlış. Tescilsiz tasarımın koruma süresi beş yıl değil üç yıldır (SMK m.69/2).",
+   "Yanlış. On yıllık ve süresiz yenilenen koruma markalara özgüdür; tasarımda azami süre yirmi beş yıldır (SMK m.69/1).",
+   "Doğru. Tescilli tasarım başvuru tarihinden itibaren beş yıl korunur, beşer yıllık dönemlerle toplam yirmi beş yıla uzatılabilir; tescilsiz tasarım kamuya ilk sunulduğu tarihten itibaren üç yıl korunur (SMK m.69/1-2).",
+   "Yanlış. Süre yayım tarihinden başlamaz; azami süre yirmi beş, tescilsiz koruma üç yıldır (SMK m.69/1-2)."
+  ],
+  "ref": "SMK m.69"
+ },
+ {
+  "id": "MRK2-029",
+  "exam": "marka",
+  "topic": "Madrid Protokolü",
+  "q": "Madrid Protokolü kapsamında yapılan uluslararası marka başvurusuna ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Uluslararası başvuru ancak menşe ofisinde tescil edilmiş bir markaya dayanılarak yapılabilir; ulusal başvuru esas alınamaz.",
+   "Uluslararası başvuru, menşe ofisi aracılığı olmaksızın doğrudan WIPO Uluslararası Bürosuna yapılmak zorundadır.",
+   "Uluslararası tescilin koruma süresi beş yıldır ve beşer yıllık dönemler hâlinde yenilenir.",
+   "Uluslararası başvuru, menşe ofisindeki bir ulusal başvuruya veya tescile dayanılarak yapılabilir ve menşe ofisi aracılığıyla Uluslararası Büroya iletilir.",
+   "Uluslararası başvuru, tek bir başvuru ile yalnızca bir akit tarafın belirlenmesine imkân verir."
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Yalnızca tescile dayanma şartı Madrid Anlaşması'nın özelliğidir; Protokol ulusal başvuruya dayanmaya da izin verir.",
+   "Yanlış. Madrid sisteminde uluslararası başvuru menşe ofisi aracılığıyla yapılır.",
+   "Yanlış. Madrid sisteminde uluslararası tescilin koruma süresi on yıldır ve on yıllık dönemler hâlinde yenilenir.",
+   "Doğru. Protokol, menşe ofisindeki başvuruya veya tescile (esas başvuru/tescil) dayanmaya izin verir ve başvuru menşe ofisi üzerinden Uluslararası Büroya sunulur.",
+   "Yanlış. Madrid sisteminin temel amacı, tek başvuru ile birden çok akit tarafın belirlenebilmesidir."
+  ],
+  "ref": "Madrid Protokolü"
+ },
+ {
+  "id": "MRK2-030",
+  "exam": "marka",
+  "topic": "Madrid Protokolü",
+  "q": "Madrid Protokolü kapsamında uluslararası tescil, esas başvuru veya esas tescile uluslararası tescil tarihinden itibaren kaç yıl süreyle bağımlıdır?",
+  "options": [
+   "3 yıl",
+   "5 yıl",
+   "7 yıl",
+   "10 yıl",
+   "1 yıl"
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Üç yıl bağımlılık süresi değildir; merkezi saldırı riski beş yıl sürer.",
+   "Doğru. Uluslararası tescil, tescil tarihinden itibaren beş yıl boyunca esas başvuru/tescile bağımlıdır (Madrid Protokolü m.6/3).",
+   "Yanlış. Yedi yıllık bir bağımlılık süresi öngörülmemiştir.",
+   "Yanlış. On yıl, uluslararası tescilin koruma süresidir; bağımlılık süresi beş yıldır.",
+   "Yanlış. Bir yıl (12 ay) ret bildirimi için kural süredir; bağımlılık süresi beş yıldır."
+  ],
+  "ref": "Madrid Protokolü m.6"
+ },
+ {
+  "id": "MRK2-031",
+  "exam": "marka",
+  "topic": "Madrid Protokolü",
+  "q": "Türk şirketi (A), TÜRKPATENT'teki tescilli markasına dayanarak Madrid Protokolü kapsamında uluslararası tescil elde etmiştir. Uluslararası tescil tarihinden altı yıl sonra, bu tarihe kadar hakkında herhangi bir işlem başlatılmamış olan esas tescil, Türkiye'de kullanmama nedeniyle iptal edilmiştir. Bu durumda uluslararası tescil bakımından aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Uluslararası tescil, beş yıllık bağımlılık süresi dolduğundan esas tescilin iptalinden etkilenmez.",
+   "Uluslararası tescil, esas tescilin iptal edildiği ölçüde tüm belirlenmiş ülkelerde iptal edilir.",
+   "Uluslararası tescil, yalnızca Türkiye dışındaki belirlenmiş ülkelerde geçerli kalır ve üç ay içinde dönüştürülmesi gerekir.",
+   "Uluslararası tescil askıya alınır ve A'nın yeni bir esas başvuru yapması gerekir.",
+   "Uluslararası tescil, esas tescilin iptalinden itibaren üç ay içinde kendiliğinden sona erer."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Bağımlılık uluslararası tescil tarihinden itibaren beş yıl sürer; bu süre içinde başlatılmış bir işlem yoksa, sonradan esas tescilin düşmesi uluslararası tescili etkilemez (Madrid Protokolü m.6/2-3).",
+   "Yanlış. Merkezi saldırı sonucu iptal, ancak beş yıllık süre içinde esas hakkın düşmesi veya bu süre içinde başlatılan işlemler sonucunda gerçekleşir.",
+   "Yanlış. Bağımlılık süresi sona erdiğinden ortada iptal edilmiş bir uluslararası tescil yoktur; dönüştürmeye gerek bulunmaz.",
+   "Yanlış. Madrid sisteminde böyle bir askıya alma ve yeni esas başvuru zorunluluğu öngörülmemiştir.",
+   "Yanlış. Beş yıllık süre dolduktan sonra uluslararası tescil esas tescilden bağımsızdır."
+  ],
+  "ref": "Madrid Protokolü m.6"
+ },
+ {
+  "id": "MRK2-032",
+  "exam": "marka",
+  "topic": "Madrid Protokolü",
+  "q": "Esas başvurunun bağımlılık süresi içinde reddedilmesi nedeniyle (merkezi saldırı) uluslararası tescili iptal edilen marka sahibi, belirlenmiş akit taraflarda dönüştürme (transformation) yoluyla ulusal/bölgesel başvuru yapmak istemektedir. Aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Dönüştürme başvurusu iptal tarihinden itibaren bir yıl içinde yapılmalıdır ve yeni başvuru tarihi esas alınır.",
+   "Dönüştürme yalnızca menşe ofisinin bulunduğu ülkede yapılabilir.",
+   "Dönüştürme başvurusu iptal tarihinden itibaren altı ay içinde yapılmalı ve yalnızca rüçhan tarihi korunur.",
+   "Merkezi saldırı ile iptal edilen uluslararası tescil için dönüştürme imkânı bulunmamaktadır.",
+   "Dönüştürme başvurusu iptal tarihinden itibaren üç ay içinde yapılırsa, ilgili akit tarafta uluslararası tescil tarihinde (varsa rüçhan tarihiyle) yapılmış sayılır."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. Dönüştürme süresi bir yıl değil üç aydır ve uluslararası tescil tarihi korunur (Madrid Protokolü m.9quinquies).",
+   "Yanlış. Dönüştürme, uluslararası tescilin geçerli olduğu belirlenmiş akit taraflarda yapılır.",
+   "Yanlış. Süre üç aydır ve uluslararası tescil tarihi de korunur (Madrid Protokolü m.9quinquies).",
+   "Yanlış. Dönüştürme, Protokol'ün merkezi saldırının olumsuz sonuçlarını hafifletmek için öngördüğü bir imkândır (Madrid Protokolü m.9quinquies).",
+   "Doğru. İptal tarihinden itibaren üç ay içinde yapılan dönüştürme başvurusu, uluslararası tescil tarihinde ve varsa rüçhan tarihiyle yapılmış sayılır (Madrid Protokolü m.9quinquies)."
+  ],
+  "ref": "Madrid Protokolü m.9quinquies"
+ },
+ {
+  "id": "MRK2-033",
+  "exam": "marka",
+  "topic": "Madrid Protokolü",
+  "q": "Madrid sisteminde, uluslararası tescilden sonra korumanın başvuruda belirlenmemiş yeni bir akit tarafa genişletilmesi için yapılan işlem aşağıdakilerden hangisidir?",
+  "options": [
+   "Dönüştürme",
+   "İkame (replacement)",
+   "Sonradan belirleme",
+   "Merkezi saldırı",
+   "Bölünme"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Dönüştürme, merkezi saldırı ile iptal edilen uluslararası tescilin ulusal başvurulara çevrilmesidir.",
+   "Yanlış. İkame, uluslararası tescilin aynı marka için önceden var olan ulusal tescilin yerini almasıdır.",
+   "Doğru. Sonradan belirleme (subsequent designation) ile uluslararası tescilin koruması sonradan yeni akit taraflara genişletilir.",
+   "Yanlış. Merkezi saldırı, beş yıllık süre içinde esas başvuru/tescilin düşürülmesiyle uluslararası tescilin iptal edilmesidir.",
+   "Yanlış. Bölünme, bir başvurunun mal/hizmetler bakımından ayrılmasıdır; koruma alanını yeni ülkeye genişletmez."
+  ],
+  "ref": "Madrid Protokolü"
+ },
+ {
+  "id": "MRK2-034",
+  "exam": "marka",
+  "topic": "Madrid Protokolü",
+  "q": "Madrid Protokolü'ne göre belirlenmiş bir akit tarafın ofisi, uluslararası tescile ilişkin geçici ret bildirimini kural olarak hangi süre içinde yapmalıdır; akit tarafın beyanı hâlinde bu süre en fazla ne kadar olabilir?",
+  "options": [
+   "6 ay / 12 ay",
+   "12 ay / 24 ay",
+   "18 ay / 30 ay",
+   "12 ay / 18 ay",
+   "3 ay / 6 ay"
+  ],
+  "answer": 3,
+  "why": [
+   "Yanlış. Altı ay/on iki ay, Lahey sistemindeki tasarım ret süreleridir; Madrid'de kural süre bir yıldır.",
+   "Yanlış. Beyanla uzatılan süre yirmi dört ay değil on sekiz aydır.",
+   "Yanlış. Kural süre on sekiz ay değil on iki aydır.",
+   "Doğru. Ret bildirimi kural olarak bir yıl (12 ay) içinde yapılır; beyanda bulunan akit taraflar için süre 18 aydır (itiraz kaynaklı retler bu sürenin sonrasında da bildirilebilir) (Madrid Protokolü m.5/2).",
+   "Yanlış. Üç ay/altı ay Madrid sisteminde ret süreleri değildir."
+  ],
+  "ref": "Madrid Protokolü m.5/2"
+ },
+ {
+  "id": "MRK2-035",
+  "exam": "marka",
+  "topic": "Madrid Protokolü",
+  "q": "Madrid sistemi ve SMK'daki ilgili düzenlemeye ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Uluslararası tescil on yıl süreyle geçerlidir ve on yıllık dönemler hâlinde yenilenebilir.\nII. Türkiye'nin belirlendiği bir uluslararası başvuru, Kuruma doğrudan yapılan bir başvuruyla aynı sonuçları doğurur.\nIII. Uluslararası başvuru, kendisinden daha önce Kuruma sunulmuş ancak başvuru veya rüçhan tarihi daha sonra olan bir marka başvurusu nedeniyle reddedilebilir.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve III",
+   "I, II ve III",
+   "I ve II"
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış. II de doğrudur (SMK m.14/1).",
+   "Yanlış. I de doğrudur; uluslararası tescil on yıl geçerlidir ve on yıllık dönemlerle yenilenir.",
+   "Yanlış. III yanlıştır; uluslararası başvuru, tarihi kendisinden sonra olan ancak Kuruma daha önce sunulmuş başvuru nedeniyle reddedilemez (SMK m.14/2).",
+   "Yanlış. III yanlış olduğundan tüm öncüller doğru değildir (SMK m.14/2).",
+   "Doğru. I (Madrid Protokolü) ve II (SMK m.14/1) doğrudur; III yanlıştır (SMK m.14/2)."
+  ],
+  "ref": "SMK m.14"
+ },
+ {
+  "id": "MRK2-036",
+  "exam": "marka",
+  "topic": "Nice Anlaşması",
+  "q": "Nice Anlaşması ve SMK'daki sınıflandırma hükümlerine ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Nice sınıflandırması 45 sınıftan oluşur; 1-34. sınıflar mallara ilişkindir.\nII. 35-45. sınıflar hizmetlere ilişkindir.\nIII. Mal veya hizmetlerin aynı sınıfta yer alması benzer olduklarına karine teşkil eder.",
+  "options": [
+   "I ve II",
+   "Yalnız I",
+   "Yalnız III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Nice sınıflandırmasında 45 sınıf vardır; 1-34 mal, 35-45 hizmet sınıflarıdır. III yanlıştır (SMK m.11/4).",
+   "Yanlış. II de doğrudur; 35-45. sınıflar hizmet sınıflarıdır.",
+   "Yanlış. III yanlıştır; aynı sınıfta yer alma benzerliğe, farklı sınıfta yer alma da benzememeye karine teşkil etmez (SMK m.11/4).",
+   "Yanlış. III yanlıştır (SMK m.11/4).",
+   "Yanlış. III yanlış olduğundan tüm öncüller doğru değildir (SMK m.11/4)."
+  ],
+  "ref": "SMK m.11/3-4; Nice Anlaşması"
+ },
+ {
+  "id": "MRK2-037",
+  "exam": "marka",
+  "topic": "Viyana Anlaşması",
+  "q": "Markaların şekil (figüratif) unsurlarının uluslararası sınıflandırılmasını düzenleyen anlaşma aşağıdakilerden hangisidir?",
+  "options": [
+   "Nice Anlaşması",
+   "Lokarno Anlaşması",
+   "Viyana Anlaşması",
+   "Lahey Anlaşması",
+   "Strazburg Anlaşması"
+  ],
+  "answer": 2,
+  "why": [
+   "Yanlış. Nice Anlaşması markaların tescili amacıyla mal ve hizmetlerin sınıflandırılmasına ilişkindir (SMK m.11/3).",
+   "Yanlış. Lokarno Anlaşması endüstriyel tasarımların sınıflandırılmasına ilişkindir (SMK m.61/5).",
+   "Doğru. Viyana Anlaşması markaların şekil unsurlarının uluslararası sınıflandırmasını (kategori, bölüm, kısım) düzenler.",
+   "Yanlış. Lahey Anlaşması endüstriyel tasarımların uluslararası tescil sistemidir.",
+   "Yanlış. Strazburg Anlaşması patentlerin uluslararası sınıflandırmasına (IPC) ilişkindir."
+  ],
+  "ref": "Viyana Anlaşması"
+ },
+ {
+  "id": "MRK2-038",
+  "exam": "marka",
+  "topic": "Lokarno Anlaşması",
+  "q": "SMK'ya göre çoklu tasarım başvurusuna ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Çoklu başvuruda tasarımların uygulandığı ürünlerin farklı Lokarno sınıflarında yer alması serbesttir.",
+   "Çoklu başvuruda, süslemeler hariç olmak üzere, tasarımın kullanıldığı veya uygulandığı her bir ürünün Lokarno sınıflandırmasına göre aynı sınıfa dâhil olması gerekir.",
+   "Çoklu başvuruyu oluşturan tasarımlar bir bütün olarak değerlendirilir; biri hükümsüz olursa tamamı hükümsüz olur.",
+   "Tasarım ürünleri Nice Anlaşmasına göre sınıflandırılır.",
+   "Başvuruda belirtilen ürün sınıfı tasarımın koruma kapsamını belirler."
+  ],
+  "answer": 1,
+  "why": [
+   "Yanlış. Süslemeler hariç, ürünlerin aynı sınıfa dâhil olması gerekir (SMK m.61/7).",
+   "Doğru. Çoklu başvurularda süslemeler hariç her bir ürünün aynı sınıfa dâhil olması gerekir; sınıflandırmada Lokarno Anlaşması uygulanır (SMK m.61/5, m.61/7).",
+   "Yanlış. Çoklu başvuru veya tescili oluşturan tasarımlar ayrı ayrı değerlendirilir (SMK m.61/8).",
+   "Yanlış. Tasarımlarda Lokarno Anlaşması uygulanır; Nice markalar içindir (SMK m.61/5, m.11/3).",
+   "Yanlış. Ürün adı, sınıfı ve tarifnamedeki bilgiler koruma kapsamını etkilemez (SMK m.61/3)."
+  ],
+  "ref": "SMK m.61/5, 61/7"
+ },
+ {
+  "id": "MRK2-039",
+  "exam": "marka",
+  "topic": "Lahey Anlaşması",
+  "q": "Endüstriyel tasarımların uluslararası tesciline ilişkin Lahey sistemi hakkında aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Uluslararası başvuru WIPO Uluslararası Bürosuna doğrudan yapılabilir.",
+   "Tek bir uluslararası başvuru ile birden çok akit tarafta koruma talep edilebilir.",
+   "Tek başvuruda, aynı Lokarno sınıfına ait olmak kaydıyla 100'e kadar tasarım yer alabilir.",
+   "Uluslararası tescil beşer yıllık dönemler hâlinde yenilenebilir.",
+   "Uluslararası başvuru yapılabilmesi için menşe ülkede önceden yapılmış bir ulusal tasarım başvurusu veya tescili bulunması zorunludur."
+  ],
+  "answer": 4,
+  "why": [
+   "Yanlış (ifade doğru). Lahey sisteminde başvuru doğrudan Uluslararası Büroya yapılabilir.",
+   "Yanlış (ifade doğru). Lahey sistemi tek başvuru ile birden çok akit tarafta koruma sağlar.",
+   "Yanlış (ifade doğru). Bir uluslararası başvuru, aynı Lokarno sınıfına ait olmak kaydıyla 100'e kadar tasarım içerebilir.",
+   "Yanlış (ifade doğru). Lahey sisteminde uluslararası tescil beşer yıllık dönemler hâlinde yenilenir.",
+   "Doğru (ifade yanlış). Madrid sisteminin aksine Lahey sisteminde esas ulusal başvuru/tescil şartı yoktur."
+  ],
+  "ref": "Lahey Anlaşması"
+ },
+ {
+  "id": "MRK2-040",
+  "exam": "marka",
+  "topic": "Lahey Anlaşması",
+  "q": "Madrid sistemi ile Lahey sistemi karşılaştırıldığında, aşağıdakilerden hangisi Madrid sistemine özgü olup Lahey sisteminde bulunmayan bir özelliktir?",
+  "options": [
+   "Uluslararası tescilin belirli bir süre esas başvuru/tescile bağımlı olması ve merkezi saldırı riski",
+   "Uluslararası tescilin WIPO Uluslararası Bürosunca tutulan sicile kaydedilmesi",
+   "Belirlenen akit tarafın ofisinin belirli bir süre içinde ret bildiriminde bulunabilmesi",
+   "Uluslararası tescilin yenilenebilmesi",
+   "Tek başvuru ile birden çok ülkede koruma talep edilebilmesi"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Beş yıllık bağımlılık ve merkezi saldırı Madrid sistemine özgüdür; Lahey sisteminde esas başvuru şartı ve buna bağlı merkezi saldırı yoktur.",
+   "Yanlış. Her iki sistemde de uluslararası tescil WIPO Uluslararası Bürosunca kaydedilir.",
+   "Yanlış. Her iki sistemde de belirlenen ofislerin belirli süre içinde ret bildirme imkânı vardır (Madrid'de 12/18 ay, Lahey'de 6/12 ay).",
+   "Yanlış. Her iki sistemde de uluslararası tescil yenilenebilir (Madrid'de 10 yıl, Lahey'de 5 yıllık dönemler).",
+   "Yanlış. Tek başvuru ile çok ülkede koruma her iki sistemin ortak özelliğidir."
+  ],
+  "ref": "Madrid Protokolü m.6; Lahey Anlaşması"
+ }
+]

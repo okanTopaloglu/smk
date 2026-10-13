@@ -1,0 +1,882 @@
+[
+ {
+  "id": "ORT-001",
+  "exam": "ortak",
+  "topic": "Hukuki Yaptırımlar",
+  "q": "6769 sayılı SMK m.149 uyarınca sınai mülkiyet hakkı tecavüze uğrayan hak sahibinin mahkemeden talep edebileceği hususlar arasında aşağıdakilerden hangisi yer almaz?",
+  "options": [
+   "Tecavüz edene idari para cezası verilmesi",
+   "Fiilin tecavüz olup olmadığının tespiti",
+   "Muhtemel tecavüzün önlenmesi",
+   "Elkonulan ürün, cihaz ve makineler üzerinde kendisine mülkiyet hakkı tanınması",
+   "Haklı sebep veya menfaat varsa kesinleşmiş kararın masrafı karşı tarafa ait olmak üzere ilanı"
+  ],
+  "answer": 0,
+  "why": [
+   "SMK m.149'da sayılan talepler hukuki taleplerdir; tecavüz edene idari para cezası verilmesi bu talepler arasında yer almaz (SMK m.149/1).",
+   "Tespit talebi açıkça düzenlenmiştir (SMK m.149/1-a).",
+   "Önleme talebi kanunda sayılmıştır (SMK m.149/1-b).",
+   "Bu talep (d) bendine göre elkonulan ürünler için öngörülmüştür (SMK m.149/1-e).",
+   "İlan talebi kanunda yer alır (SMK m.149/1-g)."
+  ],
+  "ref": "SMK m.149"
+ },
+ {
+  "id": "ORT-002",
+  "exam": "ortak",
+  "topic": "Hukuki Yaptırımlar",
+  "q": "Tecavüz davasında mahkeme, hak sahibinin kesinleşmiş kararın ilan edilmesi talebini kabul etmiştir. SMK'ya göre ilana ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "İlan masrafları davacı hak sahibine aittir.",
+   "İlan hakkı, kararın kesinleşmesinden sonra üç ay içinde talep edilmezse düşer.",
+   "İlanın şekli ve kapsamı Kurum tarafından belirlenir.",
+   "İlan ancak kararın tamamının yayımlanması suretiyle yapılabilir.",
+   "İlan talebinin kabulü için haklı bir sebep veya menfaat aranmaz."
+  ],
+  "answer": 1,
+  "why": [
+   "İlan masrafları karşı tarafa aittir (SMK m.149/1-g).",
+   "Kanuna göre ilan hakkı, kararın kesinleşmesinden sonra üç ay içinde talep edilmezse düşer (SMK m.149/3).",
+   "İlanın şekli ve kapsamı mahkeme kararında tespit edilir; Kurum'un bir yetkisi yoktur (SMK m.149/3).",
+   "Karar tamamen veya özet olarak ilan edilebilir ya da ilgililere tebliğ edilebilir (SMK m.149/1-g).",
+   "İlan talebi ancak haklı bir sebebin veya menfaatin bulunması hâlinde kabul edilir (SMK m.149/1-g)."
+  ],
+  "ref": "SMK m.149/3"
+ },
+ {
+  "id": "ORT-003",
+  "exam": "ortak",
+  "topic": "Hukuki Yaptırımlar",
+  "q": "Hak sahibi A, tecavüz davasında elkonulan makineler üzerinde kendisine mülkiyet hakkı tanınmasını talep etmiş ve talep kabul edilmiştir. Makinelerin değeri 500.000 TL, mahkemece kabul edilen tazminat miktarı ise 300.000 TL'dir. SMK'ya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "A, makinelerin mülkiyetine ek olarak 300.000 TL tazminatı da tahsil eder.",
+   "Makinelerin değeri tazminat hesabında dikkate alınmaz.",
+   "A, aşan 200.000 TL'yi karşı tarafa öder.",
+   "Tecavüz eden, A'ya ayrıca 200.000 TL öder.",
+   "Mülkiyet talebi kabul edildiğinden tazminat talebi kendiliğinden reddedilir."
+  ],
+  "answer": 2,
+  "why": [
+   "Makinelerin değeri tazminat miktarından düşülür; mülkiyetle birlikte tam tazminat alınamaz (SMK m.149/2).",
+   "Kanun, makinelerin değerinin tazminattan düşüleceğini açıkça öngörür (SMK m.149/2).",
+   "Ürün, cihaz ve makinelerin değeri tazminattan düşülür; değer tazminatı aşarsa aşan kısım hak sahibince karşı tarafa ödenir (SMK m.149/2).",
+   "Ödeme yönü terstir; aşan kısmı hak sahibi karşı tarafa öder (SMK m.149/2).",
+   "Talepler birlikte kabul edilebilir; yalnızca değer tazminattan mahsup edilir (SMK m.149/2)."
+  ],
+  "ref": "SMK m.149/2"
+ },
+ {
+  "id": "ORT-004",
+  "exam": "ortak",
+  "topic": "Hukuki Yaptırımlar",
+  "q": "Tescilli bir coğrafi işarete tecavüz edilmesi hâlinde aşağıdakilerden hangileri talep edilemez veya uygulanmaz?\nI. Manevi zararın tazmini\nII. Yoksun kalınan kazancın SMK m.151'deki değerlendirme usulleriyle hesaplanması\nIII. Tecavüz fiillerinin durdurulması",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "Yalnız III",
+   "I ve II",
+   "I, II ve III"
+  ],
+  "answer": 3,
+  "why": [
+   "II de uygulanmaz; m.151 hükmü coğrafi işarete tecavüz hâlinde uygulanmaz (SMK m.151/6).",
+   "I de talep edilemez; coğrafi işaretlerde manevi zararın tazmini istenemez (SMK m.149/4).",
+   "Tecavüzün durdurulması coğrafi işaret sahibi bakımından da istenebilir (SMK m.149/1-c).",
+   "Manevi tazminat istenemez (SMK m.149/4) ve m.151 yoksun kalınan kazanç hükmü uygulanmaz (SMK m.151/6); durdurma ise talep edilebilir.",
+   "III yanlıştır; durdurma talebi m.149'da yer alır ve coğrafi işaretler için kısıtlanmamıştır (SMK m.149/1-c)."
+  ],
+  "ref": "SMK m.149/4, m.151/6"
+ },
+ {
+  "id": "ORT-005",
+  "exam": "ortak",
+  "topic": "Tazminat",
+  "q": "Tecavüz eden kişi, taklit ürünleri kalitesiz şekilde üreterek uygun olmayan bir tarzda piyasaya sürmüş ve bu nedenle hak sahibinin markasının itibarı zarar görmüştür. SMK'ya göre hak sahibi bu itibar kaybı için ne talep edebilir?",
+  "options": [
+   "Yalnızca yoksun kalınan kazanç kapsamında değerlendirilen bir tazminat",
+   "Hiçbir tazminat; itibar kaybı yalnızca cezai yaptırıma konu olur",
+   "Kurum'dan idari yoldan itibar tazminatı",
+   "Sınai mülkiyet hakkının itibarının zarara uğraması nedeniyle ayrıca tazminat",
+   "Yalnızca tanınmış markalar için itibar tazminatı"
+  ],
+  "answer": 3,
+  "why": [
+   "İtibar tazminatı, maddi tazminattan ayrı olarak 'ayrıca' istenebilir (SMK m.150/2).",
+   "Kanun itibar zararı için açıkça tazminat öngörür (SMK m.150/2).",
+   "Tazminat talepleri mahkemeden istenir; Kurum tazminata hükmetmez (SMK m.149/1, m.156/1).",
+   "Hakka konu ürünlerin kötü kullanılması/üretilmesi veya uygun olmayan tarzda piyasaya sürülmesi sonucu itibar zarar görürse ayrıca tazminat istenebilir (SMK m.150/2).",
+   "m.150/2 tüm sınai mülkiyet haklarını kapsar; tanınmışlık şartı aranmaz (SMK m.150/2)."
+  ],
+  "ref": "SMK m.150/2"
+ },
+ {
+  "id": "ORT-006",
+  "exam": "ortak",
+  "topic": "Tazminat",
+  "q": "SMK'ya göre yoksun kalınan kazancın hesaplanmasına ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Hak sahibinin uğradığı zarar, fiili kaybı ve yoksun kalınan kazancı kapsar.",
+   "Tecavüz edenin elde ettiği net kazanç esas alınabilir.",
+   "Tecavüz edenin hakkı lisansla hukuka uygun kullansaydı ödeyeceği lisans bedeli esas alınabilir.",
+   "Hesaplamada lisansların sayısı, süresi ve çeşidi ile ihlalin nitelik ve boyutu gibi etkenler göz önünde tutulur.",
+   "Değerlendirme usulü mahkeme tarafından re'sen belirlenir; hak sahibinin seçim hakkı yoktur."
+  ],
+  "answer": 4,
+  "why": [
+   "Doğrudur (SMK m.151/1).",
+   "Doğrudur; net kazanç usulü kanunda sayılmıştır (SMK m.151/2-b).",
+   "Doğrudur; lisans bedeli usulü kanunda yer alır (SMK m.151/2-c).",
+   "Doğrudur (SMK m.151/3).",
+   "Yanlıştır; yoksun kalınan kazanç, zarar gören hak sahibinin seçimine bağlı olarak kanundaki usullerden biriyle hesaplanır (SMK m.151/2)."
+  ],
+  "ref": "SMK m.151"
+ },
+ {
+  "id": "ORT-007",
+  "exam": "ortak",
+  "topic": "Tazminat",
+  "q": "Mahkeme, ürüne ilişkin talebin oluşmasında sınai mülkiyet hakkının belirleyici etken olduğu kanaatine varırsa, yoksun kalınan kazancın hesaplanmasında hakkaniyete uygun bir payın daha eklenmesine karar verir. Bu ek pay, aşağıdaki değerlendirme usullerinden hangilerinin seçilmesi hâlinde söz konusu olabilir?\nI. Tecavüz edenin rekabeti olmasaydı hak sahibinin elde edebileceği muhtemel gelir\nII. Tecavüz edenin elde ettiği net kazanç\nIII. Tecavüz edenin ödemesi gereken lisans bedeli",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 2,
+  "why": [
+   "Eksiktir; (b) bendindeki net kazanç usulünde de ek pay eklenebilir (SMK m.151/4).",
+   "Eksiktir; (a) bendindeki muhtemel gelir usulünde de ek pay eklenebilir (SMK m.151/4).",
+   "Hakkaniyete uygun pay, yalnızca (a) veya (b) bentlerindeki usullerden birinin seçilmesi hâlinde eklenir (SMK m.151/4).",
+   "Lisans bedeli usulü (c bendi) için ek pay öngörülmemiştir (SMK m.151/4).",
+   "III hatalıdır; m.151/4 yalnızca (a) ve (b) bentlerine atıf yapar (SMK m.151/4)."
+  ],
+  "ref": "SMK m.151/4"
+ },
+ {
+  "id": "ORT-008",
+  "exam": "ortak",
+  "topic": "Tazminat",
+  "q": "Patent hakkına tecavüz davasında mahkeme, patent sahibinin SMK'da öngörülen patenti kullanma yükümlülüğünü yerine getirmediği kanaatine varmıştır. Bu durumda yoksun kalınan kazanç nasıl hesaplanır?",
+  "options": [
+   "Tecavüz edenin hakkı lisans sözleşmesiyle hukuka uygun kullanmış olması hâlinde ödemesi gereken lisans bedeline göre",
+   "Hak sahibinin seçeceği herhangi bir usule göre",
+   "Tecavüz edenin elde ettiği net kazanca göre",
+   "Tecavüz edenin rekabeti olmasaydı elde edilebilecek muhtemel gelire göre",
+   "Yoksun kalınan kazanç talep edilemez; yalnızca fiili kayıp istenebilir"
+  ],
+  "answer": 0,
+  "why": [
+   "Kullanma yükümlülüğü yerine getirilmemişse yoksun kalınan kazanç m.151/2-c'ye, yani lisans bedeline göre hesaplanır (SMK m.151/5).",
+   "Bu durumda hak sahibinin seçim serbestisi yoktur; kanun (c) bendini zorunlu kılar (SMK m.151/5).",
+   "Net kazanç usulü (b bendi) bu hâlde uygulanmaz (SMK m.151/5).",
+   "Muhtemel gelir usulü (a bendi) bu hâlde uygulanmaz (SMK m.151/5).",
+   "Kanun yoksun kalınan kazancı ortadan kaldırmaz, yalnızca hesaplama usulünü (c) bendiyle sınırlar (SMK m.151/5)."
+  ],
+  "ref": "SMK m.151/5"
+ },
+ {
+  "id": "ORT-009",
+  "exam": "ortak",
+  "topic": "Hakkın Tüketilmesi",
+  "q": "SMK'da düzenlenen hakkın tüketilmesi ilkesine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Tüketilme yalnızca hak sahibinin bizzat piyasaya sunduğu ürünler için geçerlidir; onun izniyle üçüncü kişilerce sunulanlar kapsam dışıdır.",
+   "Marka sahibi, tüketilme kapsamındaki ürünlerin üçüncü kişilerce değiştirilerek veya kötüleştirilerek ticari amaçla kullanılmasını önleme hakkına sahiptir.",
+   "Piyasaya sunulmuş ürünlerin her yeniden satışı hak sahibinin ayrı iznine bağlıdır.",
+   "Tüketilme ilkesi yalnızca patentler için düzenlenmiştir.",
+   "Tüketilme ilkesi, ürünlerin hak sahibinin izni olmaksızın piyasaya sunulması hâlinde de uygulanır."
+  ],
+  "answer": 1,
+  "why": [
+   "Hak sahibinin izniyle üçüncü kişilerce piyasaya sunulan ürünler de tüketilme kapsamındadır (SMK m.152/1).",
+   "Kanun marka sahibine bu istisnai önleme hakkını açıkça tanımıştır (SMK m.152/2).",
+   "Piyasaya sunulduktan sonra bu ürünlerle ilgili fiiller hakkın kapsamı dışında kalır (SMK m.152/1).",
+   "m.152 Ortak Hükümler'de yer alır ve tüm sınai mülkiyet haklarına uygulanır (SMK m.152).",
+   "Tüketilme için ürünün hak sahibi veya onun izniyle piyasaya sunulmuş olması gerekir (SMK m.152/1)."
+  ],
+  "ref": "SMK m.152"
+ },
+ {
+  "id": "ORT-010",
+  "exam": "ortak",
+  "topic": "Dava Hakkı",
+  "q": "SMK m.153 uyarınca sınai mülkiyet hakkı sahibi, aşağıdaki kişilerden hangilerine karşı bu Kanunda yer alan hukuk davalarını açamaz veya ceza davası için şikâyette bulunamaz?\nI. Tecavüz eden tarafından piyasaya sürülmüş ürünleri kişisel ihtiyaçları ölçüsünde elinde bulunduran kişi\nII. Hak sahibine tazminat ödeyen kişi tarafından, hak sahibinin elkoymaması nedeniyle piyasaya sürülmüş ürünleri ticari amaçla kullanan kişi\nIII. Taklit ürünleri ticari amaçla depolayan toptancı",
+  "options": [
+   "Yalnız I",
+   "I ve II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 1,
+  "why": [
+   "Eksiktir; II'deki kişiye karşı da dava açılamaz (SMK m.153/2).",
+   "Kişisel ihtiyaç ölçüsünde bulunduran (SMK m.153/1) ve tazminat ödenmiş ürünleri ticari amaçla kullanan (SMK m.153/2) kişilere karşı dava açılamaz.",
+   "III'teki ticari amaçla depolama korunmaz; hatta m.30/1 kapsamında suçtur (SMK m.30/1).",
+   "III'teki toptancı m.153 korumasından yararlanamaz (SMK m.153).",
+   "Ticari amaçla depolayan kişi m.153'te sayılmamıştır (SMK m.153)."
+  ],
+  "ref": "SMK m.153"
+ },
+ {
+  "id": "ORT-011",
+  "exam": "ortak",
+  "topic": "Dava Hakkı",
+  "q": "SMK m.154'te düzenlenen tecavüzün mevcut olmadığının tespiti davasına ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Talebin tebliğinden itibaren bir ay içinde cevap verilmezse menfaat sahibi dava açabilir.",
+   "Kendisine karşı tecavüz davası açılmış kişi bu davayı açamaz.",
+   "Hak sahibinden görüş bildirmesinin talep edilmiş olması, davanın dava şartıdır.",
+   "Dava, sicile kayıtlı tüm hak sahiplerine tebliğ edilir.",
+   "Dava, hükümsüzlük davasıyla birlikte de açılabilir."
+  ],
+  "answer": 2,
+  "why": [
+   "Doğrudur (SMK m.154/1).",
+   "Doğrudur (SMK m.154/1 son cümle).",
+   "Yanlıştır; bildirimin yapılmış olması açılacak davada dava şartı olarak aranmaz (SMK m.154/1).",
+   "Doğrudur (SMK m.154/2).",
+   "Doğrudur (SMK m.154/3)."
+  ],
+  "ref": "SMK m.154"
+ },
+ {
+  "id": "ORT-012",
+  "exam": "ortak",
+  "topic": "Görevli ve Yetkili Mahkeme",
+  "q": "SMK'da öngörülen davalarda görevli ve yetkili mahkemeye ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Kurum kararlarına karşı açılacak davalar Ankara İdare Mahkemesinde görülür.",
+   "Fikri ve sınai haklar hukuk mahkemesi kurulmamış yerlerde bu davalara asliye ticaret mahkemesi bakar.",
+   "Fikri ve sınai haklar mahkemeleri üç hâkimli olarak kurulur.",
+   "Kurumun SMK hükümlerine göre aldığı kararlara karşı açılacak davalarda görevli ve yetkili mahkeme Ankara Fikri ve Sınai Haklar Hukuk Mahkemesidir.",
+   "Kurumun kararlarından zarar gören üçüncü kişilerin Kurum aleyhine açacakları davalarda yetkili mahkeme davacının yerleşim yeri mahkemesidir."
+  ],
+  "answer": 3,
+  "why": [
+   "Kurum kararlarına karşı davalar idare mahkemesinde değil, Ankara Fikri ve Sınai Haklar Hukuk Mahkemesinde görülür (SMK m.156/2).",
+   "Bu yerlerde HSK tarafından belirlenen asliye hukuk mahkemesi bakar (SMK m.156/1).",
+   "Bu mahkemeler tek hâkimli ve asliye mahkemesi derecesinde kurulur (SMK m.156/1).",
+   "Doğrudur (SMK m.156/2).",
+   "Bu davalarda da görevli ve yetkili mahkeme Ankara Fikri ve Sınai Haklar Hukuk Mahkemesidir (SMK m.156/2)."
+  ],
+  "ref": "SMK m.156/1-2"
+ },
+ {
+  "id": "ORT-013",
+  "exam": "ortak",
+  "topic": "Görevli ve Yetkili Mahkeme",
+  "q": "Almanya'da yerleşik X şirketi, Türkiye'de tescilli markasına İzmir'de yerleşik Y tarafından tecavüz edildiğini ileri sürmektedir. Tecavüz fiili yalnızca İstanbul'da gerçekleşmiş ve etkileri yalnızca İstanbul'da görülmüştür. X'in sicilde kayıtlı marka vekilinin işyeri Bursa'dadır ve vekillik kaydı silinmemiştir. SMK m.156'ya göre aşağıdaki mahkemelerden hangileri yetkilidir?\nI. Bursa mahkemesi\nII. İstanbul mahkemesi\nIII. Kurum merkezinin bulunduğu Ankara mahkemesi",
+  "options": [
+   "Yalnız I",
+   "Yalnız III",
+   "I ve III",
+   "I ve II",
+   "I, II ve III"
+  ],
+  "answer": 3,
+  "why": [
+   "Eksiktir; hukuka aykırı fiilin gerçekleştiği İstanbul mahkemesi de yetkilidir (SMK m.156/3).",
+   "Kurum merkezinin bulunduğu yer, ancak vekillik kaydı silinmişse yetkilidir (SMK m.156/4).",
+   "Vekillik kaydı silinmediğinden Ankara yetkili değildir (SMK m.156/4).",
+   "Davacının Türkiye'de yerleşim yeri yoksa sicilde kayıtlı vekilin işyeri (Bursa) davacı yerleşim yeri yerine geçer (SMK m.156/4); fiilin gerçekleştiği yer (İstanbul) de yetkilidir (SMK m.156/3).",
+   "III hatalıdır; Kurum merkezi yalnızca vekillik kaydı silinmişse devreye girer (SMK m.156/4)."
+  ],
+  "ref": "SMK m.156/3-4"
+ },
+ {
+  "id": "ORT-014",
+  "exam": "ortak",
+  "topic": "Zamanaşımı",
+  "q": "SMK'ya göre sınai mülkiyet hakkı veya geleneksel ürün adından doğan özel hukuka ilişkin taleplerde zamanaşımı bakımından hangi hükümler uygulanır?",
+  "options": [
+   "SMK'da öngörülen beş yıllık özel zamanaşımı süresi",
+   "6102 sayılı Türk Ticaret Kanununun haksız rekabete ilişkin zamanaşımı hükümleri",
+   "6100 sayılı Hukuk Muhakemeleri Kanunu hükümleri",
+   "Bu talepler zamanaşımına tabi değildir",
+   "6098 sayılı Türk Borçlar Kanununun zamanaşımına ilişkin hükümleri"
+  ],
+  "answer": 4,
+  "why": [
+   "SMK'da tecavüz talepleri için özel bir zamanaşımı süresi öngörülmemiş, TBK'ya atıf yapılmıştır (SMK m.157).",
+   "m.157 açıkça TBK'ya atıf yapar, TTK'ya değil (SMK m.157).",
+   "HMK, m.159/3 uyarınca ihtiyati tedbirlerde tamamlayıcıdır; zamanaşımında uygulanacak kanun TBK'dır (SMK m.157).",
+   "Kanun, TBK zamanaşımı hükümlerinin uygulanacağını öngörür (SMK m.157).",
+   "Kanun bu taleplerde TBK'nın zamanaşımı hükümlerine atıf yapar (SMK m.157)."
+  ],
+  "ref": "SMK m.157"
+ },
+ {
+  "id": "ORT-015",
+  "exam": "ortak",
+  "topic": "Lisans ve Dava Hakkı",
+  "q": "Sözleşmede aksine bir hüküm bulunmadığı varsayımıyla, lisans alanın dava açma hakkına ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "İnhisari lisans alan, üçüncü kişinin tecavüzü hâlinde hak sahibinin açabileceği davaları kendi adına açabilir.",
+   "İnhisari olmayan lisans alan hiçbir koşulda dava açamaz.",
+   "İnhisari olmayan lisans alan, hak sahibine bildirimde bulunmaksızın doğrudan kendi adına dava açabilir.",
+   "İnhisari lisans alan, dava açabilmek için hak sahibine bildirim yapıp üç ay beklemek zorundadır.",
+   "Lisans alan, üç aylık süre dolmadan ihtiyati tedbir talep edemez."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğrudur (SMK m.158/1).",
+   "Hak sahibi talebi kabul etmez veya bildirimden itibaren üç ay içinde dava açmazsa inhisari olmayan lisans alan da dava açabilir (SMK m.158/2).",
+   "Önce hak sahibinden davayı açmasını bildirimle istemesi gerekir (SMK m.158/2).",
+   "Bildirim ve üç ay bekleme şartı inhisari olmayan lisans alan içindir (SMK m.158/1-2).",
+   "Ciddi zarar tehlikesi varsa süre geçmeden ihtiyati tedbir talep edilebilir (SMK m.158/3)."
+  ],
+  "ref": "SMK m.158"
+ },
+ {
+  "id": "ORT-016",
+  "exam": "ortak",
+  "topic": "İhtiyati Tedbir",
+  "q": "SMK m.159 uyarınca ihtiyati tedbirlere ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Talep eden, kullanımın tecavüz teşkil edecek şekilde gerçekleşmekte olduğunu veya bunun için ciddi ve etkin çalışmalar yapıldığını ispat etmelidir.",
+   "Tecavüze konu ürünlere elkonulması tedbiri, gümrük ve serbest bölge gibi alanlarda bulunan ürünler için uygulanamaz.",
+   "İhtiyati tedbirler, herhangi bir zararın tazmini bakımından teminat verilmesini kapsayabilir.",
+   "SMK'da hüküm bulunmayan hususlarda 6100 sayılı HMK hükümleri uygulanır.",
+   "İhtiyati tedbir, verilecek hükmün etkinliğini temin etmek üzere talep edilir."
+  ],
+  "answer": 1,
+  "why": [
+   "Doğrudur (SMK m.159/1).",
+   "Yanlıştır; elkoyma Türkiye sınırları içinde veya gümrük ve serbest liman veya bölge gibi alanlar dâhil bulundukları her yerde uygulanabilir (SMK m.159/2-b).",
+   "Doğrudur (SMK m.159/2-c).",
+   "Doğrudur (SMK m.159/3).",
+   "Doğrudur (SMK m.159/1)."
+  ],
+  "ref": "SMK m.159"
+ },
+ {
+  "id": "ORT-017",
+  "exam": "ortak",
+  "topic": "Cezai Hükümler",
+  "q": "Başkasına ait marka hakkına iltibas suretiyle tecavüz ederek mal üreten kişi için SMK m.30/1'de öngörülen ceza hangisidir?",
+  "options": [
+   "Bir yıldan üç yıla kadar hapis ve beş bin güne kadar adli para cezası",
+   "İki yıldan dört yıla kadar hapis ve beş bin güne kadar adli para cezası",
+   "Bir yıldan üç yıla kadar hapis ve yirmi bin güne kadar adli para cezası",
+   "Altı aydan iki yıla kadar hapis",
+   "Yalnızca idari para cezası"
+  ],
+  "answer": 2,
+  "why": [
+   "Bu ceza, marka koruması olduğunu belirten işareti yetkisiz kaldırma suçu içindir (SMK m.30/2).",
+   "Bu ceza, yetkisiz olarak marka üzerinde devir, lisans veya rehin suretiyle tasarruf suçu içindir (SMK m.30/3).",
+   "Doğru cezadır (SMK m.30/1).",
+   "SMK m.30'da böyle bir ceza öngörülmemiştir (SMK m.30/1).",
+   "Fiil suç olarak düzenlenmiş olup hapis ve adli para cezası öngörülmüştür (SMK m.30/1)."
+  ],
+  "ref": "SMK m.30/1"
+ },
+ {
+  "id": "ORT-018",
+  "exam": "ortak",
+  "topic": "Cezai Hükümler",
+  "q": "SMK m.30'da düzenlenen marka hakkına tecavüz suçlarına ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Bu suçların soruşturulması ve kovuşturulması şikâyete bağlıdır.\nII. Bu suçlardan dolayı cezaya hükmedebilmek için markanın Türkiye'de tescilli olması şarttır.\nIII. Taklit malı satan kişi, malı nereden temin ettiğini bildirerek üretenlerin ortaya çıkarılmasını ve mallara elkonulmasını sağlarsa hakkında cezaya hükmolunmaz.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 4,
+  "why": [
+   "II ve III de doğrudur (SMK m.30/5, m.30/7).",
+   "I ve III de doğrudur (SMK m.30/6, m.30/7).",
+   "III de doğrudur; kanun bu durumda cezaya hükmolunmayacağını öngörür (SMK m.30/7).",
+   "I de doğrudur; suçlar şikâyete bağlıdır (SMK m.30/6).",
+   "Şikâyete bağlılık (SMK m.30/6), Türkiye'de tescil şartı (SMK m.30/5) ve etkin pişmanlık benzeri cezasızlık hâli (SMK m.30/7) kanunda yer alır."
+  ],
+  "ref": "SMK m.30"
+ },
+ {
+  "id": "ORT-019",
+  "exam": "ortak",
+  "topic": "Cezai Hükümler",
+  "q": "SMK'daki cezai hükümlere ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Marka koruması olduğunu belirten işareti mal veya ambalaj üzerinden yetkisiz kaldırmak suçtur.",
+   "Yetkisiz olarak başkasına ait marka üzerinde devir, lisans veya rehin suretiyle tasarrufta bulunmak suçtur.",
+   "Taklit malı ticari amaçla satın almak, bulundurmak, nakletmek veya depolamak da m.30/1 kapsamında suçtur.",
+   "Suçun bir tüzel kişinin faaliyeti çerçevesinde işlenmesi hâlinde tüzel kişiye hapis cezası verilir.",
+   "SMK'da hapis cezası öngören hükümler marka hakkına tecavüze ilişkin m.30'da düzenlenmiştir; patent ve tasarım için ayrıca cezai hüküm öngörülmemiştir."
+  ],
+  "answer": 3,
+  "why": [
+   "Doğrudur; bir yıldan üç yıla kadar hapis ve beş bin güne kadar adli para cezası öngörülmüştür (SMK m.30/2).",
+   "Doğrudur; iki yıldan dört yıla kadar hapis öngörülmüştür (SMK m.30/3).",
+   "Doğrudur (SMK m.30/1).",
+   "Yanlıştır; bu hâlde tüzel kişilere özgü güvenlik tedbirlerine hükmolunur (SMK m.30/4).",
+   "Doğrudur; SMK'da hapis cezası yalnızca m.30'da yer alır, patent ve tasarım tecavüzü hukuki yaptırımlara tabidir (SMK m.30, m.149)."
+  ],
+  "ref": "SMK m.30"
+ },
+ {
+  "id": "ORT-020",
+  "exam": "ortak",
+  "topic": "Hükümsüzlük",
+  "q": "Markanın hükümsüzlüğü ve iptali kararlarının etkisine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Hükümsüzlük kararı, kesinleştiği tarihten itibaren ileriye doğru etkilidir.",
+   "İptal kararı her durumda marka başvuru tarihinden itibaren etkilidir.",
+   "Hükümsüzlük kararı yalnızca davanın taraflarını bağlar.",
+   "Marka, hükümsüzlük kararı kesinleşmeden sicilden terkin edilir.",
+   "Hükümsüzlük kararı marka başvuru tarihinden itibaren etkili olup markaya SMK ile sağlanan koruma hiç doğmamış sayılır."
+  ],
+  "answer": 4,
+  "why": [
+   "Hükümsüzlük kararı geçmişe, başvuru tarihine kadar etkilidir (SMK m.27/1).",
+   "İptal kararı kural olarak iptal talebinin Kuruma sunulduğu tarihten itibaren etkilidir; talep üzerine iptal hâlinin doğduğu daha önceki tarihten itibaren etkili kılınabilir (SMK m.27/2).",
+   "Kesinleşmiş hükümsüzlük ve iptal kararları herkese karşı hüküm doğurur (SMK m.27/5).",
+   "Terkin, kararın kesinleşmesinden sonra yapılır (SMK m.27/7; ayrıca m.162).",
+   "Doğrudur (SMK m.27/1)."
+  ],
+  "ref": "SMK m.27"
+ },
+ {
+  "id": "ORT-021",
+  "exam": "ortak",
+  "topic": "Hükümsüzlük",
+  "q": "Hak sahibinin ağır ihmali veya kötüniyeti nedeniyle zarar görenlerin tazminat talepleri saklı kalmak üzere, marka, patent veya tasarımın hükümsüzlüğünün geçmişe dönük etkisi aşağıdakilerden hangilerini etkilemez?\nI. Karardan önce hakka tecavüz nedeniyle verilmiş kesinleşmiş ve uygulanmış kararlar\nII. Karardan önce kurulmuş ve uygulanmış sözleşmeler\nIII. Karardan önce kurulmuş ancak henüz uygulanmamış lisans sözleşmeleri",
+  "options": [
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I ve III",
+   "I, II ve III"
+  ],
+  "answer": 1,
+  "why": [
+   "Eksiktir; kurulmuş ve uygulanmış sözleşmeler de etkilenmez (SMK m.27/3-b, m.79/2-b, m.139/2-b).",
+   "Kesinleşmiş ve uygulanmış kararlar ile kurulmuş ve uygulanmış sözleşmeler geçmişe etkiden korunur (SMK m.27/3, m.79/2, m.139/2).",
+   "Koruma için sözleşmenin uygulanmış olması gerekir; III bu şartı taşımaz (SMK m.27/3-b).",
+   "Uygulanmamış sözleşmeler koruma kapsamında değildir (SMK m.139/2-b).",
+   "III hatalıdır; kanun 'kurulmuş ve uygulanmış' sözleşmeleri korur (SMK m.27/3-b, m.79/2-b)."
+  ],
+  "ref": "SMK m.27/3, m.79/2, m.139/2"
+ },
+ {
+  "id": "ORT-022",
+  "exam": "ortak",
+  "topic": "Hükümsüzlük",
+  "q": "Marka hükümsüzlük davasına ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Markanın hükümsüzlüğü davalarında Kurum da davalı olarak gösterilir.",
+   "Cumhuriyet savcıları markanın hükümsüzlüğünü mahkemeden isteyebilir.",
+   "Dava, dava tarihinde sicilde marka sahibi olarak kayıtlı kişilere veya hukuki haleflerine karşı açılır.",
+   "Hükümsüzlük hâlleri bir kısım mal veya hizmete ilişkinse yalnız o mal veya hizmetler yönünden kısmi hükümsüzlüğe karar verilir.",
+   "Sonraki tarihli markanın kullanımına bilerek beş yıl boyunca sessiz kalan marka sahibi, sonraki tescil kötüniyetli değilse markasını hükümsüzlük gerekçesi yapamaz."
+  ],
+  "answer": 0,
+  "why": [
+   "Yanlıştır; marka hükümsüzlük davalarında Kurum taraf gösterilmez (SMK m.25/3).",
+   "Doğrudur; menfaati olanlar, Cumhuriyet savcıları ve ilgili kamu kurumları isteyebilir (SMK m.25/2).",
+   "Doğrudur (SMK m.25/3).",
+   "Doğrudur (SMK m.25/5).",
+   "Doğrudur; sessiz kalma ile hak kaybı düzenlenmiştir (SMK m.25/6)."
+  ],
+  "ref": "SMK m.25"
+ },
+ {
+  "id": "ORT-023",
+  "exam": "ortak",
+  "topic": "Hükümsüzlük",
+  "q": "SMK'ya göre patent ve tasarım hükümsüzlük davaları hangi süre içinde açılabilir?",
+  "options": [
+   "Yalnızca koruma süresi içinde",
+   "Koruma süresince veya hakkın sona ermesini izleyen beş yıl içinde",
+   "Hakkın sona ermesini izleyen on yıl içinde",
+   "Tescil veya patentin verilmesi tarihinden itibaren beş yıl içinde",
+   "Hakkın sona ermesini izleyen iki yıl içinde"
+  ],
+  "answer": 1,
+  "why": [
+   "Hakkın sona ermesinden sonra da beş yıl içinde dava açılabilir (SMK m.138/5, m.78/3).",
+   "Patent için (SMK m.138/5) ve tasarım için (SMK m.78/3) aynı süre öngörülmüştür.",
+   "Kanundaki süre on yıl değil beş yıldır (SMK m.138/5).",
+   "Süre tescil tarihinden değil; koruma süresince ve sona ermeyi izleyen beş yıl olarak düzenlenmiştir (SMK m.78/3, m.138/5).",
+   "Kanundaki süre iki yıl değil beş yıldır (SMK m.78/3)."
+  ],
+  "ref": "SMK m.138/5, m.78/3"
+ },
+ {
+  "id": "ORT-024",
+  "exam": "ortak",
+  "topic": "Kurum Kararlarına İtiraz",
+  "q": "Marka başvurusuna ilişkin bir Kurum kararından zarar gören tarafın karara itirazına ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "İtiraz, kararın bildirim tarihinden itibaren iki ay içinde yazılı ve gerekçeli olarak Kuruma yapılır.",
+   "İtiraz ücreti itiraz süresi içinde ödenmeli ve ödendiğine ilişkin bilgi aynı süre içinde Kuruma sunulmalıdır.",
+   "İtiraz gerekçeleri, itiraz süresi dolduktan sonra Kurul incelemesi sırasında değiştirilebilir veya yeni gerekçeler eklenebilir.",
+   "Şekli eksiklik içermeyen itirazlar Kurul (YİDK) tarafından incelenir.",
+   "Kurul, itiraz hakkında yapacağı inceleme sonucunda Kurumun nihai kararını verir."
+  ],
+  "answer": 2,
+  "why": [
+   "Doğrudur (SMK m.20/2).",
+   "Doğrudur (SMK m.20/2).",
+   "Yanlıştır; itiraz süresinden sonra gerekçeler değiştirilemez ve yeni gerekçe eklenemez (SMK m.20/2).",
+   "Doğrudur (SMK m.21/1).",
+   "Doğrudur (SMK m.21/4)."
+  ],
+  "ref": "SMK m.20-21"
+ },
+ {
+  "id": "ORT-025",
+  "exam": "ortak",
+  "topic": "Süreler ve Yeniden Tesis",
+  "q": "SMK m.146 uyarınca, itirazlar da dâhil Kurum nezdinde yapılacak işlemlerde süre Kanun veya ilgili yönetmelikte belirlenmemişse uyulması gereken süre ve bu süreye uyulmamasının sonucu hangisidir?",
+  "options": [
+   "Bildirim tarihinden itibaren bir ay; talep reddedilir.",
+   "Bildirim tarihinden itibaren üç ay; başvuru geri çekilmiş sayılır.",
+   "Bildirim tarihinden itibaren iki ay; Kurum re'sen ek süre verir.",
+   "Bildirim tarihinden itibaren iki ay; talep yapılmamış sayılır.",
+   "Bildirim tarihinden itibaren altı ay; talep yapılmamış sayılır."
+  ],
+  "answer": 3,
+  "why": [
+   "Genel süre bir ay değil iki aydır; sonuç 'red' değil 'yapılmamış sayılma'dır (SMK m.146/1).",
+   "Genel süre iki aydır ve sonuç talebin yapılmamış sayılmasıdır (SMK m.146/1).",
+   "Kanun ek süre öngörmez; talep yapılmamış sayılır (SMK m.146/1).",
+   "Doğrudur (SMK m.146/1).",
+   "Genel süre altı ay değil iki aydır (SMK m.146/1)."
+  ],
+  "ref": "SMK m.146"
+ },
+ {
+  "id": "ORT-026",
+  "exam": "ortak",
+  "topic": "Süreler ve Yeniden Tesis",
+  "q": "Patent başvurusu ve patentle ilgili işlemlerde işlemlerin devam ettirilmesi ve hakların yeniden tesisine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "İşlemlerin devam ettirilmesi talebi, süreye uyulmamanın sonucunun bildiriminden itibaren üç ay içinde yapılır.",
+   "Hakların yeniden tesisi için şartların gerektirdiği özenin gösterilmiş olması aranmaz.",
+   "Yıllık ücrete ilişkin telafi ücretinin ödenmesi süresi bakımından işlemlerin devam ettirilmesi talep edilebilir.",
+   "Hakların kaybı ile yeniden tesis kararının yayımı arasında buluşu iyiniyetle kullanan üçüncü kişiler kullanmaya devam edemez.",
+   "Hakların yeniden tesisi talebi, uyulamamış sürenin bitiminden itibaren bir yılı geçmemek üzere, süreye uyulamama nedeninin ortadan kalkmasından itibaren iki ay içinde ücreti ödenerek yapılır."
+  ],
+  "answer": 4,
+  "why": [
+   "Süre üç ay değil, bildirim tarihinden itibaren iki aydır (SMK m.107/1).",
+   "Yeniden tesis, gerekli özen gösterilmesine rağmen süreye uyulamamış olmasını gerektirir (SMK m.107/2).",
+   "Telafi ücreti süresi ve rüçhan süresi (m.93/1) bakımından devam ettirme talep edilemez (SMK m.107/4).",
+   "Bu kişiler işletmelerinin makul ihtiyaçları ölçüsünde buluşu ücretsiz kullanmaya devam edebilir (SMK m.107/3).",
+   "Doğrudur (SMK m.107/2)."
+  ],
+  "ref": "SMK m.107"
+ },
+ {
+  "id": "ORT-027",
+  "exam": "ortak",
+  "topic": "Vekil ve Temsil",
+  "q": "Yerleşim yeri yurt dışında bulunan bir kişinin Kurum nezdindeki işlemlerine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Ancak marka veya patent vekili tarafından temsil edilebilir; vekil olmaksızın asil tarafından yapılan işlemler yapılmamış sayılır.",
+   "Vekil atanması isteğe bağlıdır; kişi işlemleri doğrudan kendisi yapabilir.",
+   "Asil tarafından yapılan işlemler geçerlidir; Kurum yalnızca eksiklik bildiriminde bulunur.",
+   "Vekile yapılan tebligat asile yapılmış sayılmaz; tebligatın ayrıca asile yapılması gerekir.",
+   "Vekil atanmış olsa bile işlemleri asil ve vekil birlikte yürütür."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğrudur (SMK m.160/3).",
+   "Yurt dışında yerleşik kişiler için vekille temsil zorunludur (SMK m.160/3).",
+   "Vekille temsil edilmeksizin asil tarafından yapılan işlemler yapılmamış sayılır (SMK m.160/3).",
+   "Vekil tayin edilmişse vekile yapılan tebligat asile yapılmış sayılır (SMK m.160/4).",
+   "Vekil tayin edilmesi hâlinde tüm işlemler vekil tarafından yapılır (SMK m.160/4)."
+  ],
+  "ref": "SMK m.160"
+ },
+ {
+  "id": "ORT-028",
+  "exam": "ortak",
+  "topic": "Ücretler",
+  "q": "SMK m.161'de düzenlenen ücretlere ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Hakkın verilmesi veya tescili ile ilgili işlemlerde ücret ödeme bilgisi süresinde sunulmazsa başvuru geri çekilmiş sayılır.",
+   "Ödenen ücretler, talebin reddedilmesi hâlinde her durumda başvuru sahibine iade edilir.",
+   "Sicile kayıtlı hakla ilgili diğer işlemlerde ücret ödeme bilgisi süresinde sunulmazsa ilgili talep yapılmamış sayılır.",
+   "Eksik ödenen ücret Kurumca talep sahibine bildirilir ve bildirimden itibaren bir ay içinde ödeme bilgisinin sunulması gerekir.",
+   "Eksik ücretin bildirilmesine ilişkin usul, 15, 18, 20, 23 ve 69 uncu maddeler kapsamındaki ücretlerde uygulanmaz."
+  ],
+  "answer": 1,
+  "why": [
+   "Doğrudur (SMK m.161/1).",
+   "Yanlıştır; aksi öngörülmediği sürece ödenen ücretler iade edilmez ve Kuruma gelir kaydedilir (SMK m.161/4).",
+   "Doğrudur (SMK m.161/2).",
+   "Doğrudur (SMK m.161/3).",
+   "Doğrudur; bu maddeler eksik ücret bildirimi kuralının dışında bırakılmıştır (SMK m.161/3)."
+  ],
+  "ref": "SMK m.161"
+ },
+ {
+  "id": "ORT-029",
+  "exam": "ortak",
+  "topic": "Tecavüz Fiilleri",
+  "q": "Aşağıdakilerden hangisi SMK uyarınca marka hakkına tecavüz sayılmaz?",
+  "options": [
+   "Marka sahibinin izni olmaksızın markanın ayırt edilemeyecek kadar benzerini kullanarak markayı taklit etmek",
+   "Markanın taklit edildiğini bildiği hâlde taklit markalı ürünleri ithal etmek",
+   "Marka sahibinin izniyle Türkiye'de piyasaya sunulmuş orijinal ürünleri, herhangi bir değişiklik yapmaksızın yeniden satmak",
+   "Marka sahibi tarafından lisans yoluyla verilmiş hakları izinsiz genişletmek",
+   "Lisans yoluyla verilmiş hakları marka sahibinin izni olmadan üçüncü kişilere devretmek"
+  ],
+  "answer": 2,
+  "why": [
+   "Tecavüz sayılır (SMK m.29/1-b).",
+   "Tecavüz sayılır (SMK m.29/1-c).",
+   "Hak sahibi veya izniyle piyasaya sunulan ürünlerle ilgili fiiller hakkın kapsamı dışında kalır (hakkın tüketilmesi, SMK m.152/1).",
+   "Tecavüz sayılır (SMK m.29/1-ç).",
+   "Tecavüz sayılır (SMK m.29/1-ç)."
+  ],
+  "ref": "SMK m.29, m.152"
+ },
+ {
+  "id": "ORT-030",
+  "exam": "ortak",
+  "topic": "Paris Sözleşmesi",
+  "q": "Paris Sözleşmesi'ne göre bir Birlik ülkesi vatandaşının diğer Birlik ülkelerinde, o ülkelerin kendi vatandaşlarına tanıdığı korumadan aynı şekilde yararlanmasını öngören ilke hangisidir?",
+  "options": [
+   "En çok kayrılan ulus ilkesi",
+   "Bağımsızlık ilkesi",
+   "Telle quelle ilkesi",
+   "Ulusal muamele ilkesi",
+   "Karşılıklılık ilkesi"
+  ],
+  "answer": 3,
+  "why": [
+   "Bu ilke Paris'te değil TRIPS m.4'te düzenlenmiştir.",
+   "Bağımsızlık ilkesi, farklı ülkelerde alınan hakların birbirinden bağımsız olmasıdır (Paris m.4bis, m.6).",
+   "Menşe ülkede tescilli markanın 'olduğu gibi' kabulüne ilişkindir (Paris m.6quinquies).",
+   "Paris m.2 uyarınca Birlik ülkeleri vatandaşları diğer Birlik ülkelerinde o ülkenin vatandaşlarına tanınan korumadan yararlanır.",
+   "Paris'in temel ilkesi karşılıklılık değil ulusal muameledir; SMK m.3/1-ç karşılıklılığı ayrı bir dayanak olarak öngörür."
+  ],
+  "ref": "Paris Sözleşmesi m.2"
+ },
+ {
+  "id": "ORT-031",
+  "exam": "ortak",
+  "topic": "Paris Sözleşmesi",
+  "q": "Paris Sözleşmesi'nde öngörülen rüçhan hakkı sürelerine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Patent, faydalı model, tasarım ve marka için on iki ay",
+   "Patent için on iki ay; faydalı model, tasarım ve marka için altı ay",
+   "Patent ve faydalı model için altı ay; tasarım ve marka için on iki ay",
+   "Tüm sınai mülkiyet hakları için altı ay",
+   "Patent ve faydalı model için on iki ay; endüstriyel tasarım ve marka için altı ay"
+  ],
+  "answer": 4,
+  "why": [
+   "Tasarım ve marka için süre altı aydır (Paris m.4/C).",
+   "Faydalı model için süre on iki aydır (Paris m.4/C).",
+   "Süreler ters verilmiştir (Paris m.4/C).",
+   "Patent ve faydalı model için süre on iki aydır (Paris m.4/C).",
+   "Paris m.4/C uyarınca bu şekildedir; SMK de patent için 12 ay (SMK m.93/1), marka için 6 ay (SMK m.12/1) öngörür."
+  ],
+  "ref": "Paris Sözleşmesi m.4/C"
+ },
+ {
+  "id": "ORT-032",
+  "exam": "ortak",
+  "topic": "Paris Sözleşmesi",
+  "q": "Bir Birlik ülkesinde alınan patentin, aynı buluş için başka bir Birlik ülkesinde ya da başka bir ülkede alınan patentin hükümsüz kılınması veya sona ermesi nedeniyle kendiliğinden hükümsüz olmaması Paris Sözleşmesi'nin hangi ilkesinin sonucudur?",
+  "options": [
+   "Patentlerin bağımsızlığı ilkesi",
+   "Ulusal muamele ilkesi",
+   "Rüçhan hakkı ilkesi",
+   "Telle quelle ilkesi",
+   "Hakkın tüketilmesi ilkesi"
+  ],
+  "answer": 0,
+  "why": [
+   "Paris m.4bis uyarınca farklı ülkelerde aynı buluş için alınan patentler birbirinden bağımsızdır.",
+   "Ulusal muamele yabancılara vatandaşlarla eşit muameleyi ifade eder (Paris m.2).",
+   "Rüçhan, ilk başvuru tarihinin sonraki başvurularda esas alınmasını sağlar (Paris m.4).",
+   "Bu ilke markalarla ilgilidir (Paris m.6quinquies).",
+   "Tüketilme, piyasaya sunulan ürünler üzerindeki hakkın sona ermesidir; Paris'in temel ilkesi değildir (karş. SMK m.152)."
+  ],
+  "ref": "Paris Sözleşmesi m.4bis"
+ },
+ {
+  "id": "ORT-033",
+  "exam": "ortak",
+  "topic": "Paris Sözleşmesi",
+  "q": "Paris Sözleşmesi m.6bis'te düzenlenen tanınmış marka korumasına ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Tanınmış markanın reprodüksiyonu, taklidi veya tercümesi niteliğindeki ve karışıklık yaratabilecek markanın tescili reddedilir veya iptal edilir.",
+   "Koruma, tanınmış markanın koruma istenen ülkede tescilli olmasını şart koşar.",
+   "Bu tür bir markanın iptalinin talep edilmesi için tescil tarihinden itibaren en az beş yıllık süre tanınmalıdır.",
+   "Kötü niyetle tescil ettirilen veya kullanılan markaların iptali ya da kullanımının yasaklanması için süre sınırı konulamaz.",
+   "m.6bis koruması aynı veya benzer mallar bakımından öngörülmüştür."
+  ],
+  "answer": 1,
+  "why": [
+   "Doğrudur (Paris m.6bis/1).",
+   "Yanlıştır; m.6bis tescilsiz tanınmış markaları da korur; SMK m.6/4 de bu maddeye atıf yapar.",
+   "Doğrudur (Paris m.6bis/2).",
+   "Doğrudur (Paris m.6bis/3).",
+   "Doğrudur; benzer olmayan mallara genişleme TRIPS m.16/3 ile getirilmiştir."
+  ],
+  "ref": "Paris Sözleşmesi m.6bis"
+ },
+ {
+  "id": "ORT-034",
+  "exam": "ortak",
+  "topic": "Paris Sözleşmesi",
+  "q": "Paris Sözleşmesi m.6ter uyarınca izinsiz olarak marka veya marka unsuru olarak tescili reddedilmesi ve kullanımı yasaklanması gereken işaretler arasında aşağıdakilerden hangisi yer almaz?",
+  "options": [
+   "Birlik ülkelerinin devlet armaları",
+   "Birlik ülkelerinin bayrakları ve diğer devlet amblemleri",
+   "Bir Birlik ülkesinde faaliyet gösteren özel bir şirketin ticaret unvanı ve logosu",
+   "Birlik ülkelerince kabul edilmiş kontrol ve garanti belirten resmi işaret ve damgalar",
+   "Uluslararası hükümetlerarası örgütlerin arma, bayrak, amblem, kısaltma ve adları"
+  ],
+  "answer": 2,
+  "why": [
+   "m.6ter kapsamındadır; SMK m.5/1-g de bu maddeye göre reddedilecek işaretlere atıf yapar.",
+   "m.6ter kapsamındadır (Paris m.6ter/1-a).",
+   "Özel şirket işaretleri m.6ter kapsamında değildir; m.6ter devlet ve hükümetlerarası örgütlere ait işaretleri korur.",
+   "m.6ter kapsamındadır (Paris m.6ter/1-a).",
+   "m.6ter kapsamındadır (Paris m.6ter/1-b)."
+  ],
+  "ref": "Paris Sözleşmesi m.6ter"
+ },
+ {
+  "id": "ORT-035",
+  "exam": "ortak",
+  "topic": "Paris Sözleşmesi",
+  "q": "Menşe ülkesinde usulüne uygun olarak tescil edilmiş bir markanın, kanunda sayılan istisnalar dışında diğer Birlik ülkelerinde de 'olduğu gibi' tescile kabul edilmesi ve korunması Paris Sözleşmesi'nin hangi maddesinde düzenlenmiştir?",
+  "options": [
+   "m.6bis",
+   "m.6ter",
+   "m.4",
+   "m.6quinquies (telle quelle)",
+   "m.2"
+  ],
+  "answer": 3,
+  "why": [
+   "m.6bis tanınmış markalara ilişkindir.",
+   "m.6ter devlet arması, bayrak ve resmi işaretlere ilişkindir.",
+   "m.4 rüçhan hakkını düzenler.",
+   "'Telle quelle' kuralı Paris m.6quinquies'te düzenlenmiştir; ret ancak sayılan sınırlı hâllerde mümkündür.",
+   "m.2 ulusal muamele ilkesini düzenler."
+  ],
+  "ref": "Paris Sözleşmesi m.6quinquies"
+ },
+ {
+  "id": "ORT-036",
+  "exam": "ortak",
+  "topic": "Paris Sözleşmesi",
+  "q": "Paris Sözleşmesi m.5bis uyarınca sınai mülkiyet haklarının devamı için öngörülen ücretlerin ödenmesinde (ulusal mevzuat öngörürse ek ücretle) tanınması gereken ek süre (grace period) en az ne kadardır?",
+  "options": [
+   "Bir ay",
+   "İki ay",
+   "Üç ay",
+   "On iki ay",
+   "Altı ay"
+  ],
+  "answer": 4,
+  "why": [
+   "Sözleşmedeki asgari süre bir ay değil altı aydır (Paris m.5bis/1).",
+   "Sözleşmedeki asgari süre altı aydır (Paris m.5bis/1).",
+   "Sözleşmedeki asgari süre altı aydır (Paris m.5bis/1).",
+   "Sözleşme on iki ay değil, en az altı ay öngörür (Paris m.5bis/1).",
+   "Paris m.5bis/1 en az altı aylık ek süre öngörür; SMK m.101/3'teki altı aylık ek ücretli ödeme süresi de bununla uyumludur."
+  ],
+  "ref": "Paris Sözleşmesi m.5bis"
+ },
+ {
+  "id": "ORT-037",
+  "exam": "ortak",
+  "topic": "TRIPS",
+  "q": "TRIPS Anlaşması'nı Paris Sözleşmesi'nden ayıran ve bir üyenin herhangi bir ülke vatandaşına tanıdığı avantaj, ayrıcalık, imtiyaz veya muafiyetin diğer tüm üyelerin vatandaşlarına da derhal ve koşulsuz tanınmasını öngören ilke hangisidir?",
+  "options": [
+   "En çok kayrılan ulus muamelesi",
+   "Ulusal muamele",
+   "Rüçhan hakkı",
+   "Bağımsızlık ilkesi",
+   "Hakkın tüketilmesi"
+  ],
+  "answer": 0,
+  "why": [
+   "TRIPS m.4'te düzenlenmiştir; Paris Sözleşmesi'nde bu ilke yer almaz.",
+   "Ulusal muamele TRIPS m.3'te yer alır ancak Paris m.2'de de bulunduğundan TRIPS'i Paris'ten ayıran ilke değildir.",
+   "Rüçhan Paris m.4'te düzenlenmiş olup TRIPS m.2/1 ile Paris hükümleri TRIPS'e dâhil edilmiştir.",
+   "Bağımsızlık Paris m.4bis ve m.6'da düzenlenmiştir.",
+   "TRIPS m.6, tüketilme konusunun uyuşmazlık çözümünde ele alınmayacağını öngörür; tanımdaki ilke bu değildir."
+  ],
+  "ref": "TRIPS m.4"
+ },
+ {
+  "id": "ORT-038",
+  "exam": "ortak",
+  "topic": "TRIPS",
+  "q": "TRIPS Anlaşması'nda öngörülen asgari koruma sürelerine ilişkin aşağıdakilerden hangisi yanlıştır?",
+  "options": [
+   "Patent koruması, başvuru tarihinden itibaren en az yirmi yıldır.",
+   "Markanın ilk tescili ve her yenilemesi en az yedi yıl olup tescil sınırsız yenilenebilir.",
+   "Endüstriyel tasarımlar için asgari koruma süresi beş yıldır.",
+   "Entegre devre topografyaları için koruma süresi en az on yıldır.",
+   "İcracılar ve ses kaydı yapımcıları için koruma süresi en az elli yıldır."
+  ],
+  "answer": 2,
+  "why": [
+   "Doğrudur (TRIPS m.33).",
+   "Doğrudur (TRIPS m.18).",
+   "Yanlıştır; TRIPS m.26/3 tasarımlar için en az on yıllık koruma öngörür.",
+   "Doğrudur (TRIPS m.38).",
+   "Doğrudur (TRIPS m.14/5)."
+  ],
+  "ref": "TRIPS m.18, 26, 33, 38"
+ },
+ {
+  "id": "ORT-039",
+  "exam": "ortak",
+  "topic": "TRIPS",
+  "q": "TRIPS Anlaşması'nın genel ilkelerine ilişkin aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "TRIPS, üyelere Paris Sözleşmesi'nin maddi hükümlerine uyma yükümlülüğü getirmez.",
+   "Üyeler, TRIPS'te öngörülenden daha geniş koruma sağlayamaz.",
+   "TRIPS'ten doğan uyuşmazlıklar yalnızca WIPO nezdinde çözülür.",
+   "TRIPS yalnızca patent ve markaları kapsar.",
+   "Üyeler, Anlaşma hükümlerine aykırı olmamak kaydıyla, Anlaşmanın gerektirdiğinden daha kapsamlı koruma sağlayabilir; ancak buna zorunlu değildir."
+  ],
+  "answer": 4,
+  "why": [
+   "Üyeler Paris m.1-12 ve m.19'a uymakla yükümlüdür (TRIPS m.2/1).",
+   "TRIPS bir tavan değil taban belirler (TRIPS m.1/1).",
+   "Uyuşmazlıklar Dünya Ticaret Örgütü uyuşmazlık çözüm mekanizmasında çözülür (TRIPS m.64).",
+   "TRIPS; telif, coğrafi işaret, tasarım, entegre devre ve açıklanmamış bilgileri de kapsar (TRIPS Kısım II).",
+   "Doğrudur; TRIPS asgari standartlar getirir (TRIPS m.1/1)."
+  ],
+  "ref": "TRIPS m.1, m.2"
+ },
+ {
+  "id": "ORT-040",
+  "exam": "ortak",
+  "topic": "TRIPS",
+  "q": "TRIPS Anlaşması'nda coğrafi işaretler için genel korumaya ek olarak daha güçlü (ek) koruma öngörülen ürünler hangileridir?",
+  "options": [
+   "Şaraplar ve alkollü içkiler",
+   "Tüm tarım ürünleri ve gıda maddeleri",
+   "El sanatları ürünleri",
+   "Peynirler ve süt ürünleri",
+   "Maden suları"
+  ],
+  "answer": 0,
+  "why": [
+   "TRIPS m.23 şarap ve alkollü içkilere ilişkin coğrafi işaretler için ek koruma öngörür.",
+   "Bu ürünler TRIPS m.22'deki genel korumadan yararlanır; ek koruma yalnızca şarap ve alkollü içkiler içindir (TRIPS m.23).",
+   "Ek koruma kapsamında değildir (TRIPS m.23).",
+   "Ek koruma kapsamında değildir (TRIPS m.23).",
+   "Ek koruma kapsamında değildir (TRIPS m.23)."
+  ],
+  "ref": "TRIPS m.23"
+ }
+]

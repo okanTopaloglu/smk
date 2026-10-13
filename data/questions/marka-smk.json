@@ -1,0 +1,992 @@
+[
+ {
+  "id": "MRK-001",
+  "exam": "marka",
+  "topic": "Marka Olabilecek İşaretler",
+  "q": "6769 sayılı SMK m.4'e göre bir işaretin marka olabilmesi için aranan iki temel şart aşağıdakilerden hangisidir?",
+  "options": [
+   "Ayırt edici olması ve grafik olarak gösterilebilir olması",
+   "Yeni olması ve sanayiye uygulanabilir olması",
+   "Mal veya hizmetleri diğer teşebbüslerinkinden ayırt edebilmesi ve korumanın konusunun açık ve kesin olarak anlaşılmasını sağlayacak şekilde sicilde gösterilebilir olması",
+   "Başvuru tarihinden önce Türkiye'de kullanılmış olması ve ayırt edici olması",
+   "Yalnızca sözcük veya şekilden oluşması ve sicilde gösterilebilir olması"
+  ],
+  "answer": 2,
+  "why": [
+   "SMK m.4/1 'grafik gösterim' değil, korumanın konusunun açık ve kesin anlaşılmasını sağlayacak şekilde 'sicilde gösterilebilirlik' ölçütünü benimser.",
+   "Yenilik ve sanayiye uygulanabilirlik patent koruma şartlarıdır; m.4/1 marka için böyle bir şart aramaz.",
+   "Doğru. m.4/1 ayırt edicilik ile sicilde açık ve kesin şekilde gösterilebilirlik şartlarını arar (SMK m.4/1).",
+   "Marka koruması tescil yoluyla elde edilir (m.7/1); önceden kullanım şartı yoktur. Kullanım yalnızca m.5/2'deki kazanılmış ayırt edicilikte önem taşır.",
+   "m.4/1 sözcük ve şekille sınırlı değildir; renkler, harfler, sayılar, sesler ve mal/ambalaj biçimi dâhil her tür işaret marka olabilir."
+  ],
+  "ref": "SMK m.4"
+ },
+ {
+  "id": "MRK-002",
+  "exam": "marka",
+  "topic": "Marka Olabilecek İşaretler",
+  "q": "SMK m.4/1'de marka olabilecek işaretler örnek olarak sayılmıştır. Aşağıdakilerden hangisi bu hükümde açıkça sayılan işaret türleri arasında yer almaz?",
+  "options": [
+   "Kişi adları dâhil sözcükler",
+   "Sesler",
+   "Renkler",
+   "Malların veya ambalajlarının biçimi",
+   "Kokular"
+  ],
+  "answer": 4,
+  "why": [
+   "m.4/1'de 'kişi adları dâhil sözcükler' açıkça sayılmıştır.",
+   "Sesler m.4/1'de açıkça sayılan işaretlerdendir.",
+   "Renkler m.4/1'de açıkça sayılmıştır.",
+   "m.4/1 'malların veya ambalajlarının biçimi'ni açıkça sayar; üç boyutlu markalar bu kapsamdadır.",
+   "Doğru. Koku m.4/1'de açıkça sayılmamıştır; ancak hüküm 'her tür işaret' ifadesini kullandığından, m.4 şartlarını sağlayan bir işaret yine marka olabilir (SMK m.4/1)."
+  ],
+  "ref": "SMK m.4"
+ },
+ {
+  "id": "MRK-003",
+  "exam": "marka",
+  "topic": "Mutlak Ret Nedenleri",
+  "q": "Süt ürünleri (Sınıf 29) için yapılan ve yalnızca 'TAZE VE YAĞLI' ibaresinden oluşan bir marka başvurusu, aşağıdaki ret nedenlerinden hangisine en doğrudan şekilde girer?",
+  "options": [
+   "SMK m.5/1-c: Malların cins, vasıf, kalite gibi özelliklerini münhasıran veya esas unsur olarak belirten işaretler",
+   "SMK m.5/1-ç: Önceki tarihli marka ile aynı veya ayırt edilemeyecek kadar benzer işaretler",
+   "SMK m.5/1-e: Teknik bir sonucu elde etmek için zorunlu olan şekiller",
+   "SMK m.5/1-h: Dinî değerleri veya sembolleri içeren işaretler",
+   "SMK m.6/1: Karıştırılma ihtimali"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. İbare malın vasfını ve niteliğini doğrudan tanımlar; bu tür tanımlayıcı işaretler m.5/1-c kapsamında reddedilir.",
+   "m.5/1-ç önceki tarihli bir tescil veya başvuru ile aynılık hâlini düzenler; olayda böyle bir önceki marka yoktur.",
+   "m.5/1-e malın şekli veya başka bir özelliğine ilişkin işaretleri düzenler; tanımlayıcı bir sözcük işareti bu kapsamda değildir.",
+   "İbarede dinî bir değer veya sembol bulunmadığından m.5/1-h uygulanmaz.",
+   "m.6/1 nispi ret nedenidir ve önceki marka sahibinin itirazını gerektirir; tanımlayıcılıkla ilgisi yoktur."
+  ],
+  "ref": "SMK m.5/1-c"
+ },
+ {
+  "id": "MRK-004",
+  "exam": "marka",
+  "topic": "Mutlak Ret Nedenleri",
+  "q": "Başvuru tarihinden önce kullanılmış ve bu kullanım sonucunda başvuruya konu mal veya hizmetler bakımından ayırt edici nitelik kazanmış bir markanın tescili, SMK m.5/1'in hangi bentlerine göre reddedilemez?",
+  "options": [
+   "(a), (b) ve (c) bentleri",
+   "(b), (c) ve (ç) bentleri",
+   "(c), (d) ve (e) bentleri",
+   "(b), (c) ve (d) bentleri",
+   "(b), (d) ve (f) bentleri"
+  ],
+  "answer": 3,
+  "why": [
+   "(a) bendi m.4'e göre marka olamayacak işaretleri kapsar; m.5/2 bu bende atıf yapmaz.",
+   "(ç) bendindeki önceki markayla aynılık engeli kullanımla aşılamaz; bu engel ancak m.5/3'teki noter onaylı muvafakatname ile aşılır.",
+   "(e) bendi (doğası gereği, teknik sonuç için zorunlu veya asli değer veren şekiller) m.5/2 kapsamında değildir.",
+   "Doğru. m.5/2 uyarınca kullanımla kazanılan ayırt edicilik yalnızca (b) ayırt edici olmama, (c) tanımlayıcılık ve (d) ticaret alanında herkesçe kullanılma ret nedenlerini aşar.",
+   "(f) bendindeki halkı yanıltıcılık kullanımla giderilemez; m.5/2 yalnızca (b), (c) ve (d) bentlerini sayar."
+  ],
+  "ref": "SMK m.5/2"
+ },
+ {
+  "id": "MRK-005",
+  "exam": "marka",
+  "topic": "Mutlak Ret Nedenleri",
+  "q": "Bir marka başvurusunun SMK m.5/1-ç bendine göre reddedilmemesi için önceki marka sahibinin muvafakati hangi şekilde Kuruma sunulmalıdır?",
+  "options": [
+   "Taraflarca imzalanmış adi yazılı muvafakatname ile",
+   "Başvurunun tesciline açıkça muvafakat edildiğini gösteren noter onaylı belge ile",
+   "Önceki marka sahibinin Kurum nezdinde sözlü beyanı ile",
+   "Mahkemeden alınacak tespit kararı ile",
+   "Muvafakate gerek yoktur; Kurum (ç) bendini yalnızca itiraz üzerine uygular"
+  ],
+  "answer": 1,
+  "why": [
+   "m.5/3 adi yazılı şekli yeterli görmez; belgenin noter onaylı olması gerekir.",
+   "Doğru. m.5/3 uyarınca önceki marka sahibinin açık muvafakatini gösteren noter onaylı belgenin sunulması hâlinde başvuru (ç) bendine göre reddedilemez.",
+   "Sözlü beyan kanunda öngörülmemiştir; m.5/3 noter onaylı belge arar.",
+   "Muvafakat için mahkeme kararı gerekmez; noter onaylı belge yeterlidir (m.5/3).",
+   "m.5/1-ç mutlak ret nedenidir ve Kurumca m.16/1 uyarınca resen incelenir; muvafakatname bu nedenle önem taşır."
+  ],
+  "ref": "SMK m.5/3"
+ },
+ {
+  "id": "MRK-006",
+  "exam": "marka",
+  "topic": "Mutlak Ret Nedenleri",
+  "q": "SMK m.5/1-ç bendi ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Kurum, başvuruyu mutlak ret nedenleri yönünden incelerken bu bendi resen uygular.\nII. Başvurunun yayımından sonra üçüncü kişiler, başvurunun bu bende göre tescil edilemeyeceğine ilişkin görüş sunabilir.\nIII. Önceki marka sahibinin noter onaylı muvafakatnamesi sunulursa başvuru bu bende göre reddedilemez.",
+  "options": [
+   "Yalnız I",
+   "Yalnız II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 2,
+  "why": [
+   "I doğrudur (m.16/1) ancak III de doğrudur (m.5/3); bu seçenek eksiktir.",
+   "II yanlıştır; m.17/1 üçüncü kişi görüşlerinde m.5/1-ç bendini açıkça hariç tutar.",
+   "Doğru. Kurum m.16/1 uyarınca m.5'i resen inceler; m.5/3 noter onaylı muvafakatnameyi (ç) bendine karşı engel kaldırıcı sayar. II ise m.17/1'deki '(ç) bendi hariç' ifadesi nedeniyle yanlıştır.",
+   "II yanlıştır (m.17/1 (ç) bendini hariç tutar); bu nedenle seçenek doğru olamaz.",
+   "II, m.17/1 nedeniyle yanlış olduğundan öncüllerin tamamı doğru değildir."
+  ],
+  "ref": "SMK m.5/1-ç, m.5/3, m.17"
+ },
+ {
+  "id": "MRK-007",
+  "exam": "marka",
+  "topic": "Mutlak Ret Nedenleri",
+  "q": "X şirketi, yalnızca belirli bir teknik sonucu elde etmek için zorunlu olan üç boyutlu bir ürün şeklini marka olarak tescil ettirmek istemektedir. Şirket, bu şekli başvuru tarihinden önce 15 yıl boyunca yoğun biçimde kullandığını ve tüketicilerin şekli kendisiyle özdeşleştirdiğini ispat etmektedir. Bu durumda aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Kazanılmış ayırt edicilik ispatlandığından başvuru tescil edilir.",
+   "Başvuru ancak üçüncü kişilerin itirazı üzerine reddedilebilir.",
+   "Başvuru m.5/1-b'ye göre reddedilir; ancak beş yıllık kullanım ispatlanırsa tescil edilir.",
+   "Şekil markaları SMK'ya göre hiçbir şekilde tescil edilemez.",
+   "Başvuru m.5/1-e uyarınca reddedilir; kullanım yoluyla kazanılan ayırt edicilik bu bent bakımından tescile imkân vermez."
+  ],
+  "answer": 4,
+  "why": [
+   "m.5/2 (e) bendine atıf yapmaz; uzun süreli kullanım fonksiyonel şekil engelini ortadan kaldırmaz.",
+   "m.5/1-e mutlak ret nedenidir; Kurum bunu itiraz beklemeksizin m.16/1 uyarınca resen inceler.",
+   "Ret dayanağı (e) bendidir; ayrıca SMK kazanılmış ayırt edicilik için beş yıl gibi asgari bir süre öngörmez.",
+   "m.4/1 malların veya ambalajlarının biçimini marka olabilecek işaretler arasında açıkça sayar; şekil markası kural olarak mümkündür.",
+   "Doğru. m.5/2 kazanılmış ayırt edicilik istisnasını yalnızca (b), (c) ve (d) bentleri için tanır; teknik sonuç için zorunlu şekiller (e bendi) bu istisnadan yararlanamaz."
+  ],
+  "ref": "SMK m.5/1-e, m.5/2"
+ },
+ {
+  "id": "MRK-008",
+  "exam": "marka",
+  "topic": "Mutlak Ret Nedenleri",
+  "q": "Aşağıdakilerden hangisi SMK m.5'te düzenlenen mutlak ret nedenlerinden biri değildir?",
+  "options": [
+   "Tescilli coğrafi işaretten oluşan veya tescilli coğrafi işaret içeren işaretler",
+   "Başkasına ait ticaret unvanını içeren işaretler",
+   "Dinî değerleri veya sembolleri içeren işaretler",
+   "Mal veya hizmetin niteliği, kalitesi veya coğrafi kaynağı konusunda halkı yanıltacak işaretler",
+   "Kamu düzenine veya genel ahlaka aykırı işaretler"
+  ],
+  "answer": 1,
+  "why": [
+   "m.5/1-i bendinde mutlak ret nedeni olarak sayılmıştır.",
+   "Doğru. Başkasına ait kişi ismi, ticaret unvanı, fotoğraf, telif hakkı veya diğer fikri mülkiyet hakkını içeren işaretler m.6/6'da nispi ret nedeni olarak düzenlenmiştir; hak sahibinin itirazı gerekir.",
+   "m.5/1-h bendinde mutlak ret nedeni olarak sayılmıştır.",
+   "m.5/1-f bendinde mutlak ret nedeni olarak sayılmıştır.",
+   "m.5/1-ı bendinde mutlak ret nedeni olarak sayılmıştır."
+  ],
+  "ref": "SMK m.5, m.6/6"
+ },
+ {
+  "id": "MRK-009",
+  "exam": "marka",
+  "topic": "Nispi Ret Nedenleri",
+  "q": "Tescilli bir markanın koruma süresi yenilenmediği için sona ermiştir. Üçüncü bir kişi, bu markayla aynı işaret için aynı mallarda başvuru yapmıştır. SMK m.6/8'e göre önceki marka sahibinin itirazının kabul edilebilmesi için aşağıdakilerden hangisi gereklidir?",
+  "options": [
+   "Başvurunun koruma süresinin sona ermesinden itibaren iki yıl içinde yapılmış olması ve markanın bu iki yıllık süre içinde kullanılmış olması",
+   "Başvurunun üç yıl içinde yapılmış olması; kullanım şartı aranmaz",
+   "Başvurunun altı ay içinde yapılmış olması; kullanım şartı aranmaz",
+   "Başvurunun beş yıl içinde yapılmış olması ve markanın Türkiye'de tanınmış olması",
+   "Başvurunun bir yıl içinde yapılmış olması ve marka sahibinin yenileme ücretini sonradan ödemiş olması"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.6/8: yenilenmeme nedeniyle sona ermeden itibaren iki yıl içinde yapılan başvuru, markanın bu iki yıl içinde kullanılmış olması şartıyla itiraz üzerine reddedilir.",
+   "Üç yıllık süre m.6/7'de ortak marka ve garanti markası için öngörülmüştür; m.6/8 ise iki yıl ve kullanım şartı arar.",
+   "Altı ay m.23/2'deki ek ücretli yenileme süresidir; m.6/8'deki süre iki yıldır ve kullanım şartı vardır.",
+   "m.6/8'de beş yıllık süre ve tanınmışlık şartı yoktur; süre iki yıl, şart bu sürede kullanımdır.",
+   "m.6/8'de bir yıllık süre veya sonradan ücret ödeme şartı öngörülmemiştir."
+  ],
+  "ref": "SMK m.6/8"
+ },
+ {
+  "id": "MRK-010",
+  "exam": "marka",
+  "topic": "Nispi Ret Nedenleri",
+  "q": "Ortak markanın veya garanti markasının yenilenmeme sebebiyle koruma süresinin sona ermesinden itibaren kaç yıl içinde yapılan, bu markayla aynı veya benzer olan ve aynı veya benzer mal veya hizmetleri içeren marka başvurusu, önceki hak sahibinin itirazı üzerine reddedilir?",
+  "options": [
+   "1 yıl",
+   "2 yıl",
+   "3 yıl",
+   "5 yıl",
+   "10 yıl"
+  ],
+  "answer": 2,
+  "why": [
+   "SMK'da bu durum için bir yıllık süre öngörülmemiştir; m.6/7'deki süre üç yıldır.",
+   "İki yıllık süre m.6/8'de bireysel tescilli markalar için öngörülmüştür; ortak ve garanti markaları için süre üç yıldır.",
+   "Doğru. m.6/7 uyarınca ortak marka veya garanti markası için bu süre üç yıldır.",
+   "Beş yıl, kullanmama (m.9/1) ve sessiz kalma (m.25/6) hükümlerindeki süredir; m.6/7'deki süre üç yıldır.",
+   "On yıl markanın koruma süresidir (m.23/1); m.6/7'deki süre üç yıldır."
+  ],
+  "ref": "SMK m.6/7"
+ },
+ {
+  "id": "MRK-011",
+  "exam": "marka",
+  "topic": "Nispi Ret Nedenleri",
+  "q": "Tanınmış markalara ilişkin SMK m.6 hükümleri bakımından aşağıdaki ifadelerden hangileri doğrudur?\nI. Paris Sözleşmesinin 1 inci mükerrer 6 ncı maddesi anlamında tanınmış markaya dayalı itiraz (m.6/4), aynı veya benzer mal veya hizmetler bakımından ileri sürülebilir.\nII. m.6/5'e dayalı itirazda, başvurunun farklı mal veya hizmetler için yapılmış olması itirazın kabulüne engel değildir.\nIII. m.6/5'e dayalı itirazın kabulü için önceki markanın yalnızca yurt dışında tanınmış olması yeterlidir; Türkiye'deki tanınmışlık düzeyi aranmaz.",
+  "options": [
+   "Yalnız II",
+   "I ve II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 1,
+  "why": [
+   "II doğrudur ancak I de doğrudur; m.6/4 açıkça 'aynı veya benzer mal veya hizmetler bakımından' ifadesini kullanır.",
+   "Doğru. m.6/4 aynı veya benzer mal ve hizmetlerle sınırlıdır; m.6/5 ise aynı, benzer veya farklı mal ve hizmetlerde uygulanır. III yanlıştır, çünkü m.6/5 markanın 'Türkiye'de ulaştığı tanınmışlık düzeyi'ni esas alır.",
+   "III yanlıştır; m.6/5 tanınmışlığın Türkiye'deki düzeyini arar.",
+   "III, m.6/5'teki 'Türkiye'de ulaştığı tanınmışlık düzeyi' ifadesine aykırı olduğundan yanlıştır.",
+   "III yanlış olduğundan öncüllerin tamamı doğru değildir."
+  ],
+  "ref": "SMK m.6/4, m.6/5"
+ },
+ {
+  "id": "MRK-012",
+  "exam": "marka",
+  "topic": "Nispi Ret Nedenleri",
+  "q": "SMK'ya göre kötüniyetle yapılan marka başvuruları ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+  "options": [
+   "Kurum tarafından resen incelenerek reddedilir.",
+   "Yalnızca tescilden sonra mahkemede hükümsüzlük davası yoluyla ileri sürülebilir.",
+   "Yalnızca önceki tarihli tescilli marka sahibi tarafından ileri sürülebilir.",
+   "İtiraz üzerine reddedilir; kötüniyet nispi ret nedenleri arasında düzenlenmiştir.",
+   "Üçüncü kişi görüşü (m.17) yoluyla ileri sürülürse Kurum başvuruyu reddetmek zorundadır."
+  ],
+  "answer": 3,
+  "why": [
+   "Kötüniyet m.5'te değil m.6/9'da düzenlenmiştir; Kurum bunu resen değil itiraz üzerine inceler.",
+   "m.6/9 yayıma itiraz aşamasında ileri sürülebilir; tescilden sonra ise m.25/1 uyarınca hükümsüzlük sebebi olur. Dava yoluyla sınırlı değildir.",
+   "m.6/9 itiraz edenin tescilli marka sahibi olmasını aramaz; yayıma itiraz 'ilgili kişiler' tarafından yapılabilir (m.18/1).",
+   "Doğru. m.6/9: 'Kötüniyetle yapılan marka başvuruları itiraz üzerine reddedilir.'",
+   "m.17/1'e göre görüşler yalnızca m.5/1 kapsamındaki ((ç) bendi hariç) nedenlere dayanabilir; m.6/9 bu kapsamda değildir."
+  ],
+  "ref": "SMK m.6/9"
+ },
+ {
+  "id": "MRK-013",
+  "exam": "marka",
+  "topic": "Nispi Ret Nedenleri",
+  "q": "Almanya'da tescilli 'ALFA' markasının sahibi A şirketinin Türkiye distribütörü B, A'nın izni olmaksızın ve haklı bir sebebe dayanmaksızın 'ALFA' markasını kendi adına Türkiye'de tescil ettirmiştir. A şirketinin bu durumda mahkemeden talep edebilecekleri bakımından aşağıdakilerden hangisi SMK'ya en uygundur?",
+  "options": [
+   "Yalnızca tescilin hükümsüzlüğünü talep edebilir; devir talep edemez.",
+   "Ancak Türkiye'de tescilli bir markası varsa talepte bulunabilir.",
+   "Markanın kullanımının yasaklanmasını talep edebileceği gibi tescilin kendisine devredilmesini de talep edebilir.",
+   "Talebini Kuruma yapmalıdır; mahkemeye başvuramaz.",
+   "Yalnızca tazminat talep edebilir."
+  ],
+  "answer": 2,
+  "why": [
+   "m.10/1 tescilin devrini talep imkânını açıkça tanır; hükümsüzlük tek seçenek değildir.",
+   "m.10/1 ve m.6/2'de A'nın Türkiye'de tescilli markasının bulunması şartı aranmaz; korunan, marka sahibi ile ticari vekil arasındaki ilişkidir.",
+   "Doğru. m.10/1: ticari vekil veya temsilci adına izinsiz tescilde, haklı sebep yoksa marka sahibi mahkemeden kullanımın yasaklanmasını ve tescilin kendisine devrini talep edebilir.",
+   "m.10/1 bu talepler için açıkça 'mahkemeden' ifadesini kullanır.",
+   "m.10/1 kullanımın yasaklanması ve tescilin devri taleplerini düzenler; A'nın talepleri tazminatla sınırlı değildir."
+  ],
+  "ref": "SMK m.6/2, m.10"
+ },
+ {
+  "id": "MRK-014",
+  "exam": "marka",
+  "topic": "Nispi Ret Nedenleri",
+  "q": "SMK m.6/3'e göre tescilsiz bir marka veya ticaret sırasında kullanılan bir başka işarete dayanılarak bir marka başvurusuna itiraz edilebilmesi için bu işaret üzerindeki hakkın hangi tarihten önce elde edilmiş olması gerekir?",
+  "options": [
+   "Başvurunun Bültende yayımlandığı tarihten önce",
+   "İtiraz tarihinden önce",
+   "Başvuru tarihinden en az beş yıl önce",
+   "İtiraza konu markanın tescil tarihinden önce",
+   "Başvuru tarihinden veya varsa rüçhan tarihinden önce"
+  ],
+  "answer": 4,
+  "why": [
+   "Yayım tarihi ölçüt değildir; m.6/3 başvuru veya rüçhan tarihini esas alır.",
+   "m.6/3 itiraz tarihini değil, itiraza konu başvurunun başvuru veya rüçhan tarihini esas alır.",
+   "m.6/3'te beş yıllık asgari süre yoktur; beş yıl m.19/2'deki kullanım ispatına ilişkindir.",
+   "Tescil tarihi değil, başvuru veya varsa rüçhan tarihi esas alınır (m.6/3).",
+   "Doğru. m.6/3 hakkın 'başvuru tarihinden veya varsa rüçhan tarihinden önce' elde edilmiş olmasını arar."
+  ],
+  "ref": "SMK m.6/3"
+ },
+ {
+  "id": "MRK-015",
+  "exam": "marka",
+  "topic": "Nispi Ret Nedenleri",
+  "q": "Aşağıdakilerden hangisi SMK m.6/6 kapsamında, hak sahibinin itirazı üzerine marka başvurusunun reddine yol açabilecek haklar arasında sayılmaz?",
+  "options": [
+   "Tescilli bir coğrafi işaret",
+   "Başkasına ait kişi ismi",
+   "Başkasına ait ticaret unvanı",
+   "Başkasına ait fotoğraf",
+   "Başkasına ait telif hakkı"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. Tescilli coğrafi işaretten oluşan veya bunu içeren işaretler m.5/1-i'de mutlak ret nedeni olarak düzenlenmiştir; m.6/6'da sayılmaz.",
+   "Kişi ismi m.6/6'da açıkça sayılmıştır.",
+   "Ticaret unvanı m.6/6'da açıkça sayılmıştır.",
+   "Fotoğraf m.6/6'da açıkça sayılmıştır.",
+   "Telif hakkı m.6/6'da sayılmıştır; ayrıca 'herhangi bir fikri mülkiyet hakkı' da kapsama dâhildir."
+  ],
+  "ref": "SMK m.6/6, m.5/1-i"
+ },
+ {
+  "id": "MRK-016",
+  "exam": "marka",
+  "topic": "Başvuru Şartları ve Başvuru Tarihi",
+  "q": "Bir marka başvurusunda aşağıdaki eksikliklerden hangisinin sonradan giderilmesi, başvuru tarihinin eksikliğin giderildiği tarih, saat ve dakikaya kaymasına yol açmaz?",
+  "options": [
+   "Marka örneğinin bulunmaması",
+   "Mal veya hizmet listesinin bulunmaması",
+   "Başvuru ücretinin ödendiğini gösterir bilginin bulunmaması",
+   "Marka örneğinde kullanılan Latin alfabesi dışındaki harflerin Latin alfabesindeki karşılığının verilmemesi",
+   "Başvuru sahibinin kimliğine ilişkin bilgileri içeren başvuru formunun eksik olması"
+  ],
+  "answer": 3,
+  "why": [
+   "m.11/1-b eksikliğidir; m.15/2 uyarınca başvuru tarihi eksikliğin giderildiği an itibarıyla kesinleşir.",
+   "m.11/1-c eksikliğidir; m.15/2'ye göre başvuru tarihini etkiler.",
+   "m.11/1-ç eksikliğidir; m.15/2'ye göre başvuru tarihini etkiler.",
+   "Doğru. Bu eksiklik m.11/1-f kapsamındadır; m.15/2'ye göre (d), (e) ve (f) bentlerine ilişkin eksiklikler başvuru tarihinin kesinleşmesini etkilemez.",
+   "m.11/1-a eksikliğidir; m.15/2'ye göre başvuru tarihi eksikliğin giderildiği tarihe kayar."
+  ],
+  "ref": "SMK m.11/1, m.15/2"
+ },
+ {
+  "id": "MRK-017",
+  "exam": "marka",
+  "topic": "Başvuru Şartları ve Başvuru Tarihi",
+  "q": "Kurumun şeklî inceleme sonucunda marka başvurusunda eksiklik tespit etmesi hâlinde başvuru sahibine verilen süre ve bu süre içinde eksikliğin giderilmemesinin sonucu aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+  "options": [
+   "Bir ay; başvuru reddedilir",
+   "İki ay; başvuru işlemden kaldırılır",
+   "Üç ay; başvuru işlemden kaldırılır",
+   "İki ay; başvuru eksiklik giderilene kadar askıya alınır",
+   "Altı ay; başvuru reddedilir"
+  ],
+  "answer": 1,
+  "why": [
+   "Süre bir ay değil iki aydır; sonuç da 'ret' değil 'işlemden kaldırma'dır (m.15/1, m.15/3).",
+   "Doğru. m.15/1 eksikliğin giderilmesi için iki ay süre verir; m.15/3'e göre süresinde giderilmeyen başvuru işlemden kaldırılır.",
+   "Üç ay m.13/1'deki rüçhan hakkı belgesinin sunulma süresidir; şeklî eksiklik süresi iki aydır.",
+   "Kanunda askıya alma öngörülmemiştir; süresinde giderilmeyen başvuru işlemden kaldırılır (m.15/3).",
+   "Altı ay m.32/6'daki teknik şartnamenin düzeltilmesi süresidir; şeklî eksiklik süresi iki aydır."
+  ],
+  "ref": "SMK m.15"
+ },
+ {
+  "id": "MRK-018",
+  "exam": "marka",
+  "topic": "Başvuru Şartları ve Başvuru Tarihi",
+  "q": "Marka başvurusuna ilişkin aşağıdaki ifadelerden hangileri SMK'ya göre doğrudur?\nI. Her başvuruyla sadece bir markanın tescili talep edilebilir.\nII. Mal veya hizmetlerin aynı sınıfta yer alması, benzer olduklarına karine teşkil eder.\nIII. Marka başvurusu, başvuru sahibinin talebi üzerine, tescil edilene kadar mal veya hizmetler bakımından iki ya da daha fazla başvuruya bölünebilir.",
+  "options": [
+   "Yalnız III",
+   "I ve II",
+   "II ve III",
+   "I, II ve III",
+   "I ve III"
+  ],
+  "answer": 4,
+  "why": [
+   "III doğrudur (m.11/5) ancak I de doğrudur (m.11/2); seçenek eksiktir.",
+   "II yanlıştır; m.11/4'e göre aynı sınıfta yer alma benzerliğe karine teşkil etmez.",
+   "II yanlıştır (m.11/4); ayrıca I doğru olduğu hâlde seçenekte yer almaz.",
+   "II, m.11/4'e aykırı olduğundan öncüllerin tamamı doğru değildir.",
+   "Doğru. m.11/2 tek marka kuralını, m.11/5 tescile kadar bölünmeyi düzenler; m.11/4 ise aynı sınıfta yer almanın benzerlik karinesi olmadığını öngörür."
+  ],
+  "ref": "SMK m.11"
+ },
+ {
+  "id": "MRK-019",
+  "exam": "marka",
+  "topic": "Rüçhan Hakkı",
+  "q": "Paris Sözleşmesine taraf bir ülkede usulüne uygun ilk marka başvurusunu yapan kişi, aynı marka ve aynı mal/hizmetler için Türkiye'de rüçhan hakkından yararlanmak istemektedir. Aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Türkiye başvurusunu ilk başvuru tarihinden itibaren on iki ay içinde yapmalıdır.",
+   "Rüçhan hakkı belgesini Türkiye başvuru tarihinden itibaren altı ay içinde Kuruma vermelidir.",
+   "Türkiye başvurusunu ilk başvuru tarihinden itibaren altı ay içinde yapmalı ve ilk başvuru yapılan devletin yetkili makamından rüçhan hakkı belgesi almalıdır.",
+   "Rüçhan talebini başvurudan sonra tescile kadar her zaman yapabilir.",
+   "Altı aylık süre içinde kullanılmayan rüçhan hakkı Kurum kararıyla bir kez uzatılabilir."
+  ],
+  "answer": 2,
+  "why": [
+   "Marka için rüçhan süresi on iki ay değil altı aydır (m.12/1).",
+   "Rüçhan belgesi başvuru tarihinden itibaren üç ay içinde verilmelidir; aksi hâlde talep yapılmamış sayılır (m.13/1).",
+   "Doğru. m.12/1: marka rüçhan süresi ilk başvuru tarihinden itibaren altı aydır ve rüçhan hakkı belgesi alınması şarttır.",
+   "m.13/1'e göre rüçhan hakkı başvuruyla birlikte, talep ücreti ödenerek belirtilir.",
+   "m.12/1'e göre bu süre içinde kullanılmayan rüçhan hakları düşer; uzatma öngörülmemiştir."
+  ],
+  "ref": "SMK m.12/1, m.13/1"
+ },
+ {
+  "id": "MRK-020",
+  "exam": "marka",
+  "topic": "Rüçhan Hakkı",
+  "q": "Rüçhan hakkı talebiyle yapılan bir marka başvurusunda rüçhan hakkı belgesi, başvuru tarihinden itibaren hangi süre içinde Kuruma verilmezse rüçhan hakkı talebi yapılmamış sayılır?",
+  "options": [
+   "2 ay",
+   "3 ay",
+   "4 ay",
+   "6 ay",
+   "1 yıl"
+  ],
+  "answer": 1,
+  "why": [
+   "İki ay şeklî eksikliklerin giderilmesi (m.15/1) ve yayıma itiraz (m.18/1) süresidir; rüçhan belgesi için süre üç aydır.",
+   "Doğru. m.13/1: belge başvuru tarihinden itibaren üç ay içinde verilmezse rüçhan hakkı talebi yapılmamış sayılır.",
+   "Kanunda dört aylık bir süre yoktur; süre üç aydır (m.13/1).",
+   "Altı ay rüçhan hakkının kendi süresidir (m.12/1); belgenin sunulma süresi üç aydır.",
+   "Bir yıl marka rüçhanına ilişkin bir süre değildir; m.13/1 üç ay öngörür."
+  ],
+  "ref": "SMK m.13/1"
+ },
+ {
+  "id": "MRK-021",
+  "exam": "marka",
+  "topic": "Rüçhan Hakkı",
+  "q": "Bir işletme, markasını taşıyan ürünleri Türkiye'de açılan uluslararası bir sergide, serginin resmî açılış tarihinden önce, 1 Mart'ta markayla birlikte görünür şekilde sergiye koymuştur. Sergi 15 Mart'ta resmî olarak açılmıştır. Sergi rüçhanı süresi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Altı aylık süre, malların sergiye konulduğu 1 Mart tarihinden itibaren başlar.",
+   "Altı aylık süre, serginin resmî açılış tarihi olan 15 Mart'tan itibaren başlar.",
+   "On iki aylık süre, 1 Mart'tan itibaren başlar.",
+   "Üç aylık süre, serginin kapanış tarihinden itibaren başlar.",
+   "Sergi rüçhanından yalnızca yabancı ülkelerde açılan sergiler için yararlanılabilir."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.12/3 teşhir tarihinden itibaren altı ay öngörür; m.12/4'e göre resmî açılıştan önce görünür şekilde teşhirde süre malların sergiye konulduğu tarihten başlar.",
+   "m.12/4, resmî açılıştan önce teşhir hâlinde sürenin malların sergiye konulduğu tarihten başlayacağını öngörür.",
+   "Marka için sergi rüçhanı süresi altı aydır (m.12/3).",
+   "Kanunda kapanış tarihi veya üç aylık süre öngörülmemiştir (m.12/3-4).",
+   "m.12/3 Türkiye'de açılan ulusal veya uluslararası sergileri açıkça kapsar."
+  ],
+  "ref": "SMK m.12/3-4"
+ },
+ {
+  "id": "MRK-022",
+  "exam": "marka",
+  "topic": "Rüçhan Hakkı",
+  "q": "Bir marka başvurusu için birden fazla rüçhan hakkı talep edilmesi durumunda rüçhan hakkı hangi tarih itibarıyla başlar?",
+  "options": [
+   "En son rüçhan tarihi itibarıyla",
+   "Türkiye'deki başvuru tarihi itibarıyla",
+   "Birden fazla rüçhan hakkı talep edilemez.",
+   "Başvuru sahibinin seçeceği rüçhan tarihi itibarıyla",
+   "Geçerli olan ilk rüçhan tarihi itibarıyla"
+  ],
+  "answer": 4,
+  "why": [
+   "m.13/3 son tarihi değil, geçerli olan ilk rüçhan tarihini esas alır.",
+   "Rüçhanın amacı önceki tarihten yararlanmaktır; m.13/3 geçerli ilk rüçhan tarihini esas alır.",
+   "m.13/3 birden fazla rüçhan talebini açıkça mümkün kılar.",
+   "Kanun seçim hakkı tanımaz; geçerli olan ilk rüçhan tarihi esas alınır (m.13/3).",
+   "Doğru. m.13/3: birden fazla rüçhan talebinde rüçhan hakkı geçerli olan ilk rüçhan tarihi itibarıyla başlar."
+  ],
+  "ref": "SMK m.13/3"
+ },
+ {
+  "id": "MRK-023",
+  "exam": "marka",
+  "topic": "Üçüncü Kişi Görüşleri",
+  "q": "SMK m.17'de düzenlenen üçüncü kişilerin görüşleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Görüşler, başvurunun yayımlanmasından sonra markanın tesciline kadar sunulabilir.",
+   "Görüşler yazılı ve gerekçeli olmalıdır.",
+   "Görüşler, m.5/1-ç bendi hariç m.5/1'deki diğer bentlere dayandırılabilir.",
+   "Görüş sunan kişi, Kurum nezdindeki işlemlere taraf olur ve verilen karara itiraz edebilir.",
+   "Kurum görüşleri yerinde bulursa başvuruyu kısmen veya tamamen reddeder."
+  ],
+  "answer": 3,
+  "why": [
+   "Doğru ifadedir; m.17/1 görüş sunma imkânını yayımdan tescile kadar tanır.",
+   "Doğru ifadedir; m.17/1 'yazılı ve gerekçeli görüş' arar.",
+   "Doğru ifadedir; m.17/1 (ç) bendini hariç tutar.",
+   "Yanlış ifade budur. m.17/1'e göre görüş sunan kişiler Kurum nezdinde işlemlere taraf olamaz.",
+   "Doğru ifadedir (m.17/2)."
+  ],
+  "ref": "SMK m.17"
+ },
+ {
+  "id": "MRK-024",
+  "exam": "marka",
+  "topic": "Yayıma İtiraz",
+  "q": "Bültende yayımlanan bir marka başvurusuna yapılacak yayıma itirazla ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "İtiraz süresi yayımdan itibaren üç aydır.",
+   "İtiraz, yayımdan itibaren iki ay içinde yazılı ve gerekçeli yapılmalı; itiraz ücreti de aynı süre içinde ödenmeli ve ödendiğine ilişkin bilgi Kuruma sunulmalıdır.",
+   "İtiraz gerekçeleri, itiraz süresi geçtikten sonra da sunulabilir.",
+   "Yayıma itiraz yalnızca m.6'daki nispi ret nedenlerine dayandırılabilir.",
+   "İtiraz ücreti, Kurumun sonradan vereceği süre içinde ödenebilir."
+  ],
+  "answer": 1,
+  "why": [
+   "SMK m.18/1'deki yayıma itiraz süresi üç ay değil, iki aydır.",
+   "Doğru. m.18/1 iki aylık itiraz süresini, m.18/2 yazılı-gerekçeli itiraz ile ücretin süre içinde ödenmesi ve bilginin sunulması zorunluluğunu düzenler.",
+   "m.18/2: gerekçelerin iki aylık süre içinde sunulmaması hâlinde itiraz yapılmamış sayılır.",
+   "m.18/1 itirazın m.5 veya m.6'ya dayandırılabileceğini öngörür.",
+   "m.18/2 ücretin itiraz süresi içinde ödenmesini ve bilginin aynı süre içinde sunulmasını zorunlu kılar."
+  ],
+  "ref": "SMK m.18"
+ },
+ {
+  "id": "MRK-025",
+  "exam": "marka",
+  "topic": "Kullanım İspatı",
+  "q": "A'nın 'BETA' markası 1 Mart 2019 tarihinde Türkiye'de tescil edilmiştir. B, 1 Şubat 2024 tarihinde benzer mallar için 'BETTA' markası başvurusu yapmış; A, m.6/1'e dayanarak yayıma itiraz etmiştir. B, A'nın markasını kullandığını ispat etmesini talep etmektedir. SMK m.19/2'ye göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "A'nın markası B'nin başvuru tarihinde en az beş yıldır tescilli olmadığından A'dan kullanım ispatı istenemez.",
+   "Kurum, B'nin talebi üzerine A'dan son beş yıldaki kullanımını ispat etmesini ister.",
+   "Kullanım ispatı B'nin talebi olmasa da Kurum tarafından resen istenir.",
+   "Beş yıllık süre itiraz tarihine göre hesaplanır; bu nedenle ispat istenebilir.",
+   "A'nın itirazı, kullanım ispatı yapılmadığından doğrudan reddedilir."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.19/2 kullanım ispatını, itiraz gerekçesi markanın itiraza konu başvurunun başvuru veya rüçhan tarihinde Türkiye'de en az beş yıldır tescilli olması şartına bağlar; 1.3.2019 ile 1.2.2024 arası beş yılı doldurmaz.",
+   "Beş yıllık tescil şartı gerçekleşmediğinden kullanım ispatı istenemez (m.19/2).",
+   "m.19/2'ye göre kullanım ispatı ancak başvuru sahibinin talebi üzerine istenir; ayrıca olayda beş yıllık tescil şartı da yoktur.",
+   "Yayıma itirazda ölçüt itiraz tarihi değil, itiraza konu başvurunun başvuru veya rüçhan tarihidir (m.19/2). Dava tarihi ölçütü hükümsüzlük ve tecavüz davalarındaki def'iler içindir (m.25/7, m.29/2).",
+   "Kullanım ispatı istenemeyeceğinden ispat edilememe sonucu da doğmaz; itiraz esastan incelenir."
+  ],
+  "ref": "SMK m.19/2"
+ },
+ {
+  "id": "MRK-026",
+  "exam": "marka",
+  "topic": "Karara İtiraz",
+  "q": "Kurumun marka başvurusuna ilişkin kararına karşı Kurum nezdinde yapılacak itirazla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Kararlardan zarar gören taraflar, kararlara karşı Kurum nezdinde itiraz edebilir.",
+   "İtiraz, kararın bildirim tarihinden itibaren iki ay içinde yazılı ve gerekçeli olarak yapılır.",
+   "Şeklî eksiklik içermeyen itirazlar Kurul tarafından incelenir.",
+   "Kurul, itiraz hakkında yaptığı inceleme sonucunda Kurumun nihai kararını verir.",
+   "İtiraz süresi geçtikten sonra da itiraz gerekçeleri değiştirilebilir ve yeni gerekçeler eklenebilir."
+  ],
+  "answer": 4,
+  "why": [
+   "Doğru ifadedir (m.20/1).",
+   "Doğru ifadedir (m.20/2).",
+   "Doğru ifadedir (m.21/1).",
+   "Doğru ifadedir (m.21/4).",
+   "Yanlış ifade budur. m.20/2'nin son cümlesine göre itiraz süresinden sonra gerekçeler değiştirilemez ve yeni gerekçe eklenemez."
+  ],
+  "ref": "SMK m.20, m.21"
+ },
+ {
+  "id": "MRK-027",
+  "exam": "marka",
+  "topic": "Tescil",
+  "q": "Bir marka, yayıma itiraz aşaması tamamlanmadan sehven tescil edilmiştir. SMK m.22/2'ye göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Tescil kesinleşmiştir; eksiklik ancak hükümsüzlük davasıyla ileri sürülebilir.",
+   "İşlemler yeniden başlatılır ve tekrar tescil kararı verilirse tescil ücreti yeniden alınır.",
+   "Marka tescilli marka olarak kabul edilmez ve işlemler tamamlanmayan aşamadan devam ettirilir; ancak tescil tarihinden itibaren iki yıl geçmişse tescil durumu bu eksiklikten etkilenmez.",
+   "Tescil tarihinden itibaren beş yıl geçmişse tescil durumu etkilenmez.",
+   "Bu durum Bültende yayımlanmaz, yalnızca taraflara bildirilir."
+  ],
+  "answer": 2,
+  "why": [
+   "m.22/2, markanın tescilli kabul edilmeyeceğini ve işlemlere tamamlanmayan aşamadan devam edileceğini öngörür.",
+   "m.22/2: tekrar tescil kararı verilirse daha önce ödenen tescil ücreti tekrar talep edilmez.",
+   "Doğru. m.22/2 aşamalardan biri tamamlanmadan yapılan tescili tescilli marka saymaz; ancak tescil tarihinden itibaren iki yıl geçmişse tescil durumu etkilenmez.",
+   "m.22/2'deki süre beş yıl değil iki yıldır.",
+   "m.22/2 bu durumun Bültende yayımlanmasını öngörür."
+  ],
+  "ref": "SMK m.22/2"
+ },
+ {
+  "id": "MRK-028",
+  "exam": "marka",
+  "topic": "Koruma Süresi ve Yenileme",
+  "q": "Başvuru tarihi 20 Nisan 2016 olan ve 2017 yılında tescil edilen bir markanın koruma süresi ve yenilenmesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Koruma süresi tescil tarihinden itibaren on yıl olarak hesaplanır.",
+   "Yenileme talebi koruma süresinin bitiminden önceki bir yıl içinde yapılmalıdır.",
+   "Süre kaçırılırsa ek ücretle bir yıl içinde yenileme yapılabilir.",
+   "Koruma süresi 20 Nisan 2026'da sona erer; yenileme bu tarihten önceki altı ay içinde, bu süre kaçırılırsa sona erme tarihinden itibaren altı ay içinde ek ücretle yapılabilir.",
+   "Yenileme yirmi yıllık dönemler hâlinde yapılır."
+  ],
+  "answer": 3,
+  "why": [
+   "m.23/1'e göre süre tescil tarihinden değil, başvuru tarihinden itibaren on yıldır.",
+   "Yenileme süresi sona ermeden önceki altı aydır (m.23/2).",
+   "Ek ücretli yenileme süresi bir yıl değil, altı aydır (m.23/2).",
+   "Doğru. m.23/1 koruma süresini başvuru tarihinden itibaren on yıl olarak belirler; m.23/2 sona ermeden önceki altı ay ile sonrasındaki altı aylık ek ücretli süreyi düzenler.",
+   "m.23/1: koruma süresi onar yıllık dönemler hâlinde yenilenir."
+  ],
+  "ref": "SMK m.23"
+ },
+ {
+  "id": "MRK-029",
+  "exam": "marka",
+  "topic": "Koruma Süresi ve Yenileme",
+  "q": "Marka yenilemesine ilişkin aşağıdaki ifadelerden hangileri doğrudur?\nI. Marka, tescil kapsamındaki mal veya hizmetlerin bir kısmı için de yenilenebilir.\nII. Ortak markanın yenilenmesi için gruba dâhil işletmelerin tümünün birlikte talepte bulunması gerekir.\nIII. Yenileme, önceki koruma süresinin sona erdiği tarihi izleyen günden itibaren hüküm ifade eder.",
+  "options": [
+   "Yalnız I",
+   "Yalnız III",
+   "I ve II",
+   "I ve III",
+   "I, II ve III"
+  ],
+  "answer": 3,
+  "why": [
+   "I doğrudur (m.23/3) ancak III de doğrudur (m.23/5); seçenek eksiktir.",
+   "III doğrudur (m.23/5) ancak I de doğrudur (m.23/3); seçenek eksiktir.",
+   "II yanlıştır; m.23/4 ortak markanın yenilenmesi için gruba dâhil işletmelerden birinin talebini yeterli sayar.",
+   "Doğru. m.23/3 kısmi yenilemeye izin verir, m.23/5 yenilemenin izleyen günden itibaren etkili olacağını öngörür. II ise m.23/4'e aykırıdır; tüm işletmelerin birlikte hareketi tescil ve vazgeçme için aranır (m.32/3).",
+   "II yanlış olduğundan öncüllerin tamamı doğru değildir (m.23/4)."
+  ],
+  "ref": "SMK m.23"
+ },
+ {
+  "id": "MRK-030",
+  "exam": "marka",
+  "topic": "Marka Hakkının Kapsamı",
+  "q": "Marka tescilinden doğan hakların üçüncü kişilere karşı hüküm ifade etmesi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Haklar başvuru tarihinden itibaren hüküm ifade eder ve başvuru sahibi tescilden önce tecavüz nedeniyle hüküm alabilir.",
+   "Haklar tescilin yayım tarihi itibarıyla hüküm ifade eder; ancak başvurunun Bültende yayımından sonraki fiiller için başvuru sahibi tazminat davası açabilir, mahkeme ise tescilin yayımından önce karar veremez.",
+   "Başvurunun Bültende yayımından önceki fiiller için de tazminat davası açılabilir.",
+   "Başvuru sahibi, tescil yayımlanana kadar hiçbir dava açamaz.",
+   "Haklar, tescil ücretinin ödendiği tarihten itibaren hüküm ifade eder."
+  ],
+  "answer": 1,
+  "why": [
+   "m.7/4 başlangıç olarak tescilin yayım tarihini esas alır; mahkeme tescilin yayımından önce karar veremez.",
+   "Doğru. m.7/4 bu üç kuralı birlikte düzenler.",
+   "m.7/4 tazminat davasını başvurunun Bültende yayımlanmasından sonra gerçekleşen fiillerle sınırlar.",
+   "m.7/4 başvurunun yayımından sonraki fiiller için tescil öncesinde de tazminat davası açılmasına izin verir.",
+   "Kanun ücretin ödendiği tarihi değil, marka tescilinin yayım tarihini esas alır (m.7/4)."
+  ],
+  "ref": "SMK m.7/4"
+ },
+ {
+  "id": "MRK-031",
+  "exam": "marka",
+  "topic": "Marka Hakkının Kapsamı",
+  "q": "SMK m.7/3'e göre marka sahibinin yasaklatabileceği kullanım biçimleri arasında aşağıdakilerden hangisi sayılmamıştır?",
+  "options": [
+   "İşaretin ticaret unvanı veya işletme adı olarak kullanılması",
+   "İşareti taşıyan malın ithal ya da ihraç edilmesi",
+   "İşaretin bir kişi tarafından tamamen kişisel ve ticari olmayan amaçla kullanılması",
+   "İşaretin hukuka uygun olmayan şekilde karşılaştırmalı reklamlarda kullanılması",
+   "İşaretin internet ortamında ticari etki yaratacak biçimde anahtar sözcük olarak kullanılması"
+  ],
+  "answer": 2,
+  "why": [
+   "m.7/3-e bendinde açıkça sayılmıştır.",
+   "m.7/3-c bendinde açıkça sayılmıştır.",
+   "Doğru. m.7/3 yalnızca işaretin 'ticaret alanında' kullanılması hâlinde yasaklanabilecek fiilleri sayar; ticari olmayan kişisel kullanım bu kapsamda değildir.",
+   "m.7/3-f bendinde açıkça sayılmıştır.",
+   "m.7/3-d bendinde, kullananın hakkı veya meşru bağlantısı olmaması şartıyla sayılmıştır."
+  ],
+  "ref": "SMK m.7/3"
+ },
+ {
+  "id": "MRK-032",
+  "exam": "marka",
+  "topic": "Hakkın Sınırlandırılması",
+  "q": "SMK m.7/5'e göre marka sahibi, üçüncü kişilerin dürüstçe ve ticari hayatın olağan akışı içinde yaptığı bazı kullanımları engelleyemez. Aşağıdakilerden hangisi bu kapsamda değildir?",
+  "options": [
+   "Bir gerçek kişinin kendi adını belirtmesi",
+   "Malın kalitesi, miktarı veya coğrafi kaynağına ilişkin açıklama yapılması",
+   "Yedek parça ürünlerinde malın kullanım amacını belirtmek için markanın kullanılması",
+   "Hizmetin sunuluş zamanına ilişkin açıklama yapılması",
+   "Bir tüzel kişinin, başkasına ait tescilli markayla aynı olan ibareyi ticaret unvanı olarak kullanması"
+  ],
+  "answer": 4,
+  "why": [
+   "m.7/5-a kapsamındadır; marka sahibi engelleyemez.",
+   "m.7/5-b kapsamındadır.",
+   "m.7/5-c kapsamındadır; aksesuar, yedek parça ve eşdeğer parçalar özellikle sayılmıştır.",
+   "m.7/5-b kapsamındadır.",
+   "Doğru. m.7/5-a yalnızca gerçek kişilerin kendi ad veya adreslerini belirtmesini kapsar; işaretin ticaret unvanı olarak kullanılması ise m.7/3-e'ye göre yasaklanabilir."
+  ],
+  "ref": "SMK m.7/5"
+ },
+ {
+  "id": "MRK-033",
+  "exam": "marka",
+  "topic": "Markanın Kullanılması",
+  "q": "SMK m.9'a göre aşağıdakilerden hangileri markanın kullanılması olarak kabul edilir?\nI. Markanın ayırt edici karakteri değiştirilmeden farklı unsurlarla kullanılması\nII. Markanın sadece ihracat amacıyla mal veya ambalajlarında kullanılması\nIII. Markanın, marka sahibinin izni ile üçüncü bir kişi tarafından kullanılması",
+  "options": [
+   "Yalnız I",
+   "I ve II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 4,
+  "why": [
+   "II (m.9/2-b) ve III (m.9/3) de kullanım sayılır; seçenek eksiktir.",
+   "III de kullanım sayılır; m.9/3 izinli kullanımı marka sahibinin kullanımı olarak kabul eder.",
+   "II de kullanım sayılır (m.9/2-b).",
+   "I de kullanım sayılır (m.9/2-a).",
+   "Doğru. m.9/2-a, m.9/2-b ve m.9/3 bu üç hâli açıkça kullanım olarak kabul eder."
+  ],
+  "ref": "SMK m.9"
+ },
+ {
+  "id": "MRK-034",
+  "exam": "marka",
+  "topic": "İptal",
+  "q": "Tescil tarihinden itibaren beş yıl içinde haklı bir sebep olmaksızın Türkiye'de ciddi biçimde kullanılmayan bir markanın iptali ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "İptal talebi Kuruma yapılır; iptal talebinde bulunulacağı düşünülerek talepten önceki üç ay içinde gerçekleştirilen kullanım dikkate alınmaz.",
+   "İptal talebi mahkemede dava yoluyla ileri sürülür.",
+   "Beş yıllık süre dolduktan sonra, iptal talebinden önce başlayan ciddi kullanım iptal talebinin reddine yol açmaz.",
+   "İptal kararı her durumda markanın tescil tarihinden itibaren geriye etkili olarak hüküm doğurur.",
+   "İptal hâlleri markanın bir kısım mal veya hizmetine ilişkin olsa bile marka tümüyle iptal edilir."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.26/1-a ve m.26/2 uyarınca iptale talep üzerine Kurum karar verir; m.26/4 talepten önceki üç ay içinde iptal talebi düşünülerek yapılan kullanımı dikkate almaz.",
+   "m.26/1 iptale Kurumun karar vereceğini öngörür; mahkeme yetkisi hükümsüzlük içindir (m.25/1).",
+   "m.26/4'e göre beş yıllık sürenin dolması ile talep tarihi arasındaki ciddi kullanımda (son üç aydaki iptal talebi düşünülerek yapılan kullanım hariç) iptal talebi reddedilir.",
+   "m.27/2'ye göre iptal kararı kural olarak iptal talebinin Kuruma sunulduğu tarihten itibaren etkilidir.",
+   "m.26/5 kısmi iptali öngörür; yalnızca ilgili mal veya hizmetler yönünden iptal kararı verilir."
+  ],
+  "ref": "SMK m.26, m.27/2"
+ },
+ {
+  "id": "MRK-035",
+  "exam": "marka",
+  "topic": "İptal",
+  "q": "İptal talebinin tebliğ edildiği marka sahibinin, talebe ilişkin delillerini ve cevaplarını Kuruma sunma süresi ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Süre iki aydır; ek süre verilemez.",
+   "Süre bir aydır; ek süre ancak Kurul kararıyla iki aya kadar verilebilir.",
+   "Süre üç aydır; Kurum duruşma yaparak karar verir.",
+   "Süre bir aydır; bu süre içinde talep edilirse Kurum bir aya kadar ek süre verir.",
+   "Süre on beş gündür; bir kez on beş gün ek süre verilir."
+  ],
+  "answer": 3,
+  "why": [
+   "m.26/7'de süre bir aydır ve talep hâlinde bir aya kadar ek süre verilir.",
+   "Ek süreyi Kurum verir ve ek süre bir aya kadardır (m.26/7).",
+   "Süre bir aydır ve Kurum dosya üzerinden karar verir (m.26/7).",
+   "Doğru. m.26/7: marka sahibi bir ay içinde cevap ve delillerini sunar; bu süre içinde talep edilirse Kurum bir aya kadar ek süre verir.",
+   "Kanunda on beş günlük süre yoktur; süre bir ay, ek süre bir aya kadardır (m.26/7)."
+  ],
+  "ref": "SMK m.26/7"
+ },
+ {
+  "id": "MRK-036",
+  "exam": "marka",
+  "topic": "Hükümsüzlük",
+  "q": "Önceki tarihli marka sahibi, sonraki tarihli bir markanın kullanıldığını bildiği veya bilmesi gerektiği hâlde bu duruma birbirini izleyen kaç yıl boyunca sessiz kalırsa, sonraki tarihli marka tescili kötüniyetli olmadıkça, markasını hükümsüzlük gerekçesi olarak ileri süremez?",
+  "options": [
+   "1 yıl",
+   "3 yıl",
+   "4 yıl",
+   "5 yıl",
+   "10 yıl"
+  ],
+  "answer": 3,
+  "why": [
+   "Kanunda bir yıllık süre öngörülmemiştir; m.25/6 beş yıl arar.",
+   "Üç yıl m.6/7'deki ortak ve garanti markalarına ilişkin süredir; sessiz kalma süresi beş yıldır.",
+   "Dört yıllık bir süre öngörülmemiştir (m.25/6).",
+   "Doğru. m.25/6: birbirini izleyen beş yıl sessiz kalma, sonraki tarihli marka tescili kötüniyetli değilse hükümsüzlük talebine engeldir.",
+   "On yıl markanın koruma süresidir (m.23/1), sessiz kalma süresi değildir."
+  ],
+  "ref": "SMK m.25/6"
+ },
+ {
+  "id": "MRK-037",
+  "exam": "marka",
+  "topic": "Hükümsüzlük ve İptalin Etkisi",
+  "q": "Hükümsüzlük ve iptal kararlarının etkisi bakımından aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Hükümsüzlük kararı, kararın kesinleştiği tarihten itibaren ileriye etkilidir.",
+   "İptal kararı her durumda markanın tescil tarihinden itibaren etkilidir.",
+   "Hükümsüzlük kararı marka başvuru tarihinden itibaren etkilidir; iptal kararı ise kural olarak iptal talebinin Kuruma sunulduğu tarihten itibaren etkilidir.",
+   "Hükümsüzlük kararının geriye etkisi, karardan önce kurulmuş ve uygulanmış sözleşmeleri de ortadan kaldırır.",
+   "Hükümsüzlük ve iptal kararları yalnızca taraflar arasında hüküm doğurur."
+  ],
+  "answer": 2,
+  "why": [
+   "m.27/1: hükümsüzlük başvuru tarihinden itibaren etkilidir ve koruma hiç doğmamış sayılır.",
+   "m.27/2: iptal kural olarak talep tarihinden itibaren etkilidir; talep üzerine iptal hâlinin doğduğu daha önceki tarihten itibaren etkili olabilir.",
+   "Doğru. m.27/1 hükümsüzlüğün başvuru tarihinden itibaren etkili olduğunu, m.27/2 iptalin kural olarak talep tarihinden itibaren etkili olduğunu düzenler.",
+   "m.27/3-b bu sözleşmelerin etkilenmeyeceğini öngörür; hakkaniyet gereği bedel iadesi m.27/4'te saklıdır.",
+   "m.27/5: kesinleşmiş hükümsüzlük ve iptal kararları herkese karşı hüküm doğurur."
+  ],
+  "ref": "SMK m.27"
+ },
+ {
+  "id": "MRK-038",
+  "exam": "marka",
+  "topic": "Hükümsüzlük",
+  "q": "Marka hükümsüzlüğü ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Cumhuriyet savcıları markanın hükümsüzlüğünü mahkemeden isteyebilir.\nII. Hükümsüzlük davasında Kurum davalı olarak gösterilir.\nIII. m.5/1'in (b), (c) veya (d) bentlerine aykırı olarak tescil edilmiş marka, hükümsüzlük talebinden önce kullanım sonucunda ayırt edici nitelik kazanmışsa hükümsüz kılınamaz.",
+  "options": [
+   "I ve III",
+   "Yalnız I",
+   "I ve II",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.25/2 Cumhuriyet savcılarına dava hakkı tanır; m.25/4 kazanılmış ayırt ediciliği hükümsüzlüğe engel sayar. II yanlıştır, çünkü m.25/3'e göre hükümsüzlük davalarında Kurum taraf gösterilmez.",
+   "III de doğrudur (m.25/4); seçenek eksiktir.",
+   "II yanlıştır; m.25/3 Kurumun taraf gösterilmeyeceğini öngörür.",
+   "II yanlıştır (m.25/3); ayrıca doğru olan I seçenekte yer almaz.",
+   "II yanlış olduğundan öncüllerin tamamı doğru değildir."
+  ],
+  "ref": "SMK m.25"
+ },
+ {
+  "id": "MRK-039",
+  "exam": "marka",
+  "topic": "Hakkın Sona Ermesi",
+  "q": "Marka hakkından vazgeçme ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Marka sahibi, tescil kapsamındaki mal veya hizmetlerin bir kısmından vazgeçebilir.",
+   "Vazgeçme, Kuruma yapılan yazılı bildirimin tarihi itibarıyla hüküm doğurur.",
+   "Sicile kaydedilmiş lisans sahiplerinin izni olmadıkça marka sahibi marka hakkından vazgeçemez.",
+   "Vazgeçme yazılı olarak Kuruma bildirilir ve marka hakkının sona erdiği Bültende yayımlanır.",
+   "Marka başvurusu, tescilden önce başvuru sahibi tarafından geri çekilebilir."
+  ],
+  "answer": 1,
+  "why": [
+   "Doğru ifadedir (m.28/3).",
+   "Yanlış ifade budur. m.28/3'e göre vazgeçme, sicile kayıt tarihi itibarıyla hüküm doğurur.",
+   "Doğru ifadedir (m.28/4).",
+   "Doğru ifadedir (m.28/3).",
+   "Doğru ifadedir (m.28/5)."
+  ],
+  "ref": "SMK m.28"
+ },
+ {
+  "id": "MRK-040",
+  "exam": "marka",
+  "topic": "Lisans",
+  "q": "Sözleşmede aksine bir hüküm bulunmayan bir marka lisans sözleşmesi bakımından aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Lisans inhisari olmayan lisanstır ve lisans alan, haklarını üçüncü kişilere devredemez veya alt lisans veremez.",
+   "Lisans inhisari lisanstır; lisans veren markayı kendisi kullanamaz.",
+   "Lisans alan, lisanstan doğan haklarını serbestçe üçüncü kişilere devredebilir.",
+   "Lisans veren, lisans alanın üreteceği malların kalitesine ilişkin hiçbir önlem almak zorunda değildir.",
+   "Lisans, yalnızca markanın tescilli olduğu mal veya hizmetlerin tamamı için verilebilir."
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.24/2'ye göre aksi kararlaştırılmamışsa lisans inhisari değildir; m.24/3'e göre lisans alan haklarını devredemez ve alt lisans veremez.",
+   "m.24/2: aksi kararlaştırılmamışsa lisans inhisari değildir.",
+   "m.24/3: aksi kararlaştırılmadıkça lisans alan haklarını devredemez.",
+   "m.24/4: lisans veren, mal veya hizmet kalitesini garanti altına alacak önlemleri alır.",
+   "m.24/1: lisans, mal veya hizmetlerin bir kısmı ya da tamamı için verilebilir."
+  ],
+  "ref": "SMK m.24"
+ },
+ {
+  "id": "MRK-041",
+  "exam": "marka",
+  "topic": "Tecavüz",
+  "q": "Tescilli marka sahibi A, B aleyhine marka hakkına tecavüz davası açmıştır. B, A'nın markasını kullanmadığını def'i olarak ileri sürmektedir. SMK'ya göre aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Kullanmama def'i yalnızca Kurum nezdindeki yayıma itiraz sürecinde ileri sürülebilir.",
+   "m.19/2'deki kullanım ispatı def'i tecavüz davasında ileri sürülebilir ve beş yıllık kullanım süresinin belirlenmesinde dava tarihi esas alınır.",
+   "Beş yıllık süre, B'nin işareti kullanmaya başladığı tarihe göre belirlenir.",
+   "Beş yıllık süre, A'nın markasının başvuru tarihine göre belirlenir.",
+   "Def'i ancak B ayrıca Kuruma iptal talebinde bulunmuşsa dinlenebilir."
+  ],
+  "answer": 1,
+  "why": [
+   "m.29/2 bu def'inin tecavüz davalarında da ileri sürülebileceğini açıkça düzenler.",
+   "Doğru. m.29/2 m.19/2 hükmünün tecavüz davalarında def'i olarak ileri sürülebileceğini ve beş yıllık sürede dava tarihinin esas alınacağını düzenler.",
+   "m.29/2: beş yıllık sürenin belirlenmesinde dava tarihi esas alınır.",
+   "m.29/2 başvuru tarihini değil, dava tarihini esas alır.",
+   "m.29/2 böyle bir ön şart öngörmez."
+  ],
+  "ref": "SMK m.29/2, m.19/2"
+ },
+ {
+  "id": "MRK-042",
+  "exam": "marka",
+  "topic": "Cezai Hükümler",
+  "q": "SMK m.30/1'e göre başkasına ait marka hakkına iktibas veya iltibas suretiyle tecavüz ederek mal üreten veya satan kişi için öngörülen yaptırım aşağıdakilerden hangisidir?",
+  "options": [
+   "Bir yıldan üç yıla kadar hapis ve yirmi bin güne kadar adli para cezası",
+   "İki yıldan dört yıla kadar hapis ve beş bin güne kadar adli para cezası",
+   "Bir yıldan üç yıla kadar hapis ve beş bin güne kadar adli para cezası",
+   "Altı aydan iki yıla kadar hapis",
+   "Yalnızca idari para cezası"
+  ],
+  "answer": 0,
+  "why": [
+   "Doğru. m.30/1 bu fiiller için bir yıldan üç yıla kadar hapis ve yirmi bin güne kadar adli para cezası öngörür.",
+   "Bu yaptırım m.30/3'te yetkisiz devir, lisans veya rehin suretiyle tasarruf için öngörülmüştür.",
+   "Bu yaptırım m.30/2'de marka koruması olduğunu belirten işareti yetkisiz kaldırma için öngörülmüştür.",
+   "m.30/1'deki hapis cezası bir yıldan üç yıla kadardır ve yanında yirmi bin güne kadar adli para cezası vardır.",
+   "m.30/1 idari para cezası değil, hapis ve adli para cezası öngörür."
+  ],
+  "ref": "SMK m.30"
+ },
+ {
+  "id": "MRK-043",
+  "exam": "marka",
+  "topic": "Cezai Hükümler",
+  "q": "SMK m.30'da düzenlenen marka suçları ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Bu suçların soruşturulması ve kovuşturulması şikâyete bağlıdır.\nII. Cezaya hükmedebilmek için markanın Türkiye'de tescilli olması şarttır.\nIII. Taklit malı satan kişinin, malı nereden temin ettiğini bildirerek üretenlerin ortaya çıkarılmasını ve üretilmiş mallara elkonulmasını sağlaması hâlinde hakkında cezaya hükmolunmaz.",
+  "options": [
+   "Yalnız I",
+   "I ve II",
+   "I ve III",
+   "II ve III",
+   "I, II ve III"
+  ],
+  "answer": 4,
+  "why": [
+   "II (m.30/5) ve III (m.30/7) de doğrudur; seçenek eksiktir.",
+   "III de doğrudur; m.30/7 bu hâlde cezaya hükmolunmayacağını düzenler.",
+   "II de doğrudur; m.30/5 markanın Türkiye'de tescilli olmasını şart koşar.",
+   "I de doğrudur; m.30/6 suçların şikâyete bağlı olduğunu öngörür.",
+   "Doğru. m.30/6 şikâyete bağlılığı, m.30/5 Türkiye'de tescil şartını, m.30/7 ise kaynağı bildirerek üretenlerin ortaya çıkarılmasını sağlayan satıcının cezalandırılmamasını düzenler."
+  ],
+  "ref": "SMK m.30"
+ },
+ {
+  "id": "MRK-044",
+  "exam": "marka",
+  "topic": "Garanti ve Ortak Marka",
+  "q": "Garanti markası ve ortak marka ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+  "options": [
+   "Ortak markayı kullanmaya yetkili olan gruba dâhil işletmeler tek başına dava açmaya yetkilidir.",
+   "Teknik şartnamede yapılacak değişiklikler Kurumca onaylanmadıkça uygulanamaz.",
+   "Ortak markanın tescili ve ortak marka hakkından vazgeçilmesi için gruba dâhil işletmelerin tümü birlikte hareket eder.",
+   "Garanti markası sahibi, markayı kendi ürettiği mallarda da kullanabilir.",
+   "Kurumun bildirimine rağmen marka sahibi altı ay içinde teknik şartnameyi düzeltmezse tescil talebi reddedilir."
+  ],
+  "answer": 3,
+  "why": [
+   "Doğru ifadedir (m.32/4).",
+   "Doğru ifadedir (m.32/5).",
+   "Doğru ifadedir (m.32/3).",
+   "Yanlış ifade budur. m.31/2 garanti markasının, marka sahibinin veya ona iktisaden bağlı işletmenin mal veya hizmetlerinde kullanılmasını yasaklar.",
+   "Doğru ifadedir (m.32/6)."
+  ],
+  "ref": "SMK m.31, m.32"
+ },
+ {
+  "id": "MRK-045",
+  "exam": "marka",
+  "topic": "Devir",
+  "q": "Marka devri ile ilgili aşağıdakilerden hangisi doğrudur?",
+  "options": [
+   "Marka ancak işletmeyle birlikte devredilebilir.",
+   "Devir sözleşmesi adi yazılı şekilde yapılsa da geçerlidir.",
+   "Devir sözleşmesinin geçerliliği noter tarafından onaylanmış şekilde yapılmasına bağlıdır ve marka, tescil edildiği mal veya hizmetlerin bir kısmı için de devredilebilir.",
+   "Sicile kaydedilmeyen devir, iyiniyetli üçüncü kişilere karşı da ileri sürülebilir.",
+   "Marka başvuruları tescil edilmeden devredilemez."
+  ],
+  "answer": 2,
+  "why": [
+   "m.148/2: hukuki işlemler işletmeden bağımsız olarak gerçekleştirilebilir.",
+   "m.148/4 devir sözleşmelerinde noter onayını geçerlilik şartı olarak arar.",
+   "Doğru. m.148/4 devir sözleşmelerinde noter onayını geçerlilik şartı yapar; m.148/6 markanın mal veya hizmetlerin tümü veya bir kısmı için devredilebileceğini düzenler.",
+   "m.148/5: sicile kaydedilmeyen hukuki işlemlerden doğan haklar iyiniyetli üçüncü kişilere karşı ileri sürülemez.",
+   "m.148/8: bu maddedeki hükümler başvurularda da uygulanır; başvuru da devredilebilir."
+  ],
+  "ref": "SMK m.148"
+ }
+]

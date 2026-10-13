@@ -1,0 +1,882 @@
+[
+  {
+    "id": "PAT2-001",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "6769 sayılı SMK’ya göre bir buluşun faydalı model ile korunabilmesi için aranan şartlar aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": [
+      "Yenilik, buluş basamağı ve sanayiye uygulanabilirlik",
+      "Yalnızca yenilik",
+      "Yenilik ve sanayiye uygulanabilirlik",
+      "Buluş basamağı ve sanayiye uygulanabilirlik",
+      "Yenilik ve buluş basamağı"
+    ],
+    "answer": 2,
+    "why": [
+      "Bu üç şart patent için aranır (SMK m.82/1); faydalı modelde buluş basamağı şartı yoktur.",
+      "Yenilik tek başına yeterli değildir; sanayiye uygulanabilirlik de aranır (SMK m.142/1).",
+      "Doğru. m.83/1’e göre yeni olan ve m.83/6 kapsamında sanayiye uygulanabilen buluşlar faydalı model ile korunur (SMK m.142/1).",
+      "Faydalı modelde buluş basamağı aranmaz; yenilik ise vazgeçilmez şarttır (SMK m.142/1).",
+      "Buluş basamağı faydalı model şartı değildir; sanayiye uygulanabilirlik şarttır (SMK m.142/1)."
+    ],
+    "ref": "SMK m.142/1"
+  },
+  {
+    "id": "PAT2-002",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "SMK’ya göre aşağıdaki buluşlardan hangisi faydalı model ile korunabilir?",
+    "options": [
+      "Yeni ve sanayiye uygulanabilir bir mekanik kilit düzeneğine (cihaza) ilişkin buluş",
+      "Yeni bir kimyasal maddenin üretim usulüne ilişkin buluş",
+      "Biyoteknolojik bir buluş",
+      "Bir usul sonucu doğrudan elde edilen ürüne ilişkin buluş",
+      "Yeni bir ilaç etken maddesine ilişkin buluş"
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. Yeni ve sanayiye uygulanabilir bir cihaz buluşu m.142/3’teki istisnalara girmediğinden faydalı model ile korunabilir (SMK m.142/1).",
+      "Kimyasal usuller ve usullere ilişkin buluşlar faydalı model kapsamı dışındadır (SMK m.142/3-a ve ç).",
+      "Biyoteknolojik buluşlar faydalı model ile korunmaz (SMK m.142/3-c).",
+      "Usuller veya bu usuller sonucu elde edilen ürünlere ilişkin buluşlar faydalı model ile korunmaz (SMK m.142/3-ç).",
+      "Eczacılıkla ilgili maddelere ilişkin buluşlar faydalı model ile korunmaz (SMK m.142/3-b)."
+    ],
+    "ref": "SMK m.142"
+  },
+  {
+    "id": "PAT2-003",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "Aşağıdakilerden hangileri faydalı model ile korunamaz?\nI. Bilgisayar programlarının kendisi\nII. İnsan veya hayvan vücuduna uygulanacak cerrahi yöntemler\nIII. Bitki çeşitleri",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 4,
+    "why": [
+      "Eksik. II ve III de korunamaz; m.142/3, m.82’nin ikinci ve üçüncü fıkralarını faydalı modele de uygular.",
+      "Eksik. Bilgisayar programları (m.82/2-c) ve bitki çeşitleri (m.82/3-b) de faydalı model ile korunamaz (SMK m.142/3).",
+      "Eksik. Bitki çeşitleri de m.82/3-b uyarınca korunamaz; m.142/3 bu fıkrayı faydalı modele de uygular.",
+      "Eksik. Bilgisayar programları m.82/2-c uyarınca buluş sayılmaz ve faydalı model konusu da olamaz (SMK m.142/3).",
+      "Doğru. m.142/3, m.82/2 (buluş sayılmayanlar) ve m.82/3’ü (patent verilmeyenler) faydalı modele de uygular; üçü de korunamaz."
+    ],
+    "ref": "SMK m.142/3, m.82/2-3"
+  },
+  {
+    "id": "PAT2-004",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "SMK’ya göre faydalı modelin yenilik değerlendirmesine ilişkin özel kural aşağıdakilerden hangisidir?",
+    "options": [
+      "Yenilik yalnızca Türkiye’de yapılan açıklamalar dikkate alınarak değerlendirilir.",
+      "Buluş konusuna katkı sağlamayan teknik özellikler yenilik değerlendirmesinde dikkate alınmaz.",
+      "Yenilik, başvuru tarihinden önceki beş yıl içinde yapılan açıklamalarla sınırlıdır.",
+      "Yenilik değerlendirmesinde yalnızca yazılı yayınlar dikkate alınır.",
+      "Yenilik değerlendirmesinde özet de koruma kapsamının belirlenmesine esas alınır."
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Tekniğin bilinen durumu dünyanın herhangi bir yerinde yapılan açıklamaları kapsar (SMK m.83/2, m.142/1).",
+      "Doğru. Faydalı modelin yenilik değerlendirmesinde buluş konusuna katkı sağlamayan teknik özellikler dikkate alınmaz (SMK m.142/2).",
+      "Yanlış. SMK’da böyle bir zaman sınırı yoktur; başvuru tarihinden önceki tüm açıklamalar esas alınır (SMK m.83/2).",
+      "Yanlış. Yazılı veya sözlü tanıtım, kullanım ya da başka biçimde yapılan açıklamalar da dikkate alınır (SMK m.83/2).",
+      "Yanlış. Özet yalnızca teknik bilgi verme amacı taşır, koruma kapsamının belirlenmesinde kullanılmaz (SMK m.92/5)."
+    ],
+    "ref": "SMK m.142/2"
+  },
+  {
+    "id": "PAT2-005",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "Faydalı model başvurusunda bulunan (A), şeklî şartlar bakımından eksiklik bulunmadığı kendisine bildirilmiştir. SMK’ya göre (A) araştırma talebini hangi süre içinde yapmalıdır?",
+    "options": [
+      "Başvuru tarihinden itibaren on iki ay içinde",
+      "Bildirim tarihinden itibaren bir ay içinde",
+      "Bildirim tarihinden itibaren üç ay içinde",
+      "Bildirim tarihinden itibaren iki ay içinde",
+      "Başvuru tarihinden itibaren altı ay içinde"
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. On iki aylık süre patent başvurusundaki araştırma talebi süresidir (SMK m.96/1).",
+      "Yanlış. Bir aylık süre dönüştürme taleplerinde belge ve araştırma ücreti için öngörülmüştür (SMK m.104/1-2).",
+      "Yanlış. Üç ay, araştırma raporuna itiraz/görüş süresidir (SMK m.143/8).",
+      "Doğru. Eksiklik olmadığının veya giderildiğinin bildirildiği tarihten itibaren iki ay içinde ücret ödenerek araştırma talep edilir; aksi hâlde başvuru geri çekilmiş sayılır (SMK m.143/5).",
+      "Yanlış. Faydalı model için böyle bir süre öngörülmemiştir (SMK m.143/5)."
+    ],
+    "ref": "SMK m.143/5"
+  },
+  {
+    "id": "PAT2-006",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "Faydalı model başvurusuna ilişkin araştırma raporu Bültende yayımlanmıştır. SMK’ya göre aşağıdaki ifadelerden hangileri doğrudur?\nI. Başvuru sahibi, araştırma raporunun içeriğine itiraz edebilir.\nII. Üçüncü kişiler görüş bildirebilir.\nIII. İtiraz ve görüş süresi, araştırma raporunun yayımından itibaren altı aydır.",
+    "options": [
+      "I ve II",
+      "Yalnız I",
+      "Yalnız II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. Yayımdan itibaren üç ay içinde başvuru sahibi rapora itiraz edebilir, üçüncü kişiler görüş bildirebilir; süre altı ay değil üç aydır (SMK m.143/8).",
+      "Eksik. Üçüncü kişiler de görüş bildirebilir (SMK m.143/8).",
+      "Eksik. Başvuru sahibi de araştırma raporunun içeriğine itiraz edebilir (SMK m.143/8).",
+      "III yanlıştır; süre araştırma raporunun yayımından itibaren üç aydır (SMK m.143/8).",
+      "III yanlıştır; altı ay patentin verilmesine itiraz süresidir (SMK m.99/1), faydalı modelde süre üç aydır (SMK m.143/8)."
+    ],
+    "ref": "SMK m.143/8"
+  },
+  {
+    "id": "PAT2-007",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "Rakip firma (B), (C) adına verilen faydalı modelin yeni olmadığını düşünmektedir. Faydalı model verilmesi kararı Bültende yayımlanmıştır. SMK’ya göre (B)’nin başvurabileceği yol aşağıdakilerden hangisidir?",
+    "options": [
+      "Yayımdan itibaren altı ay içinde Kuruma 99. madde kapsamında itiraz etmek",
+      "Yayımdan itibaren iki ay içinde Kurum kararına 100. madde kapsamında itiraz etmek",
+      "Yetkili mahkemeden faydalı modelin hükümsüzlüğünü talep etmek",
+      "Kurumdan faydalı modelin incelemeli patente dönüştürülmesini istemek",
+      "Yayımdan itibaren üç ay içinde Kuruma görüş bildirerek faydalı modelin iptalini istemek"
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Faydalı model verilmesinden sonra 99. maddedeki itiraz usulü işletilemez (SMK m.143/11).",
+      "Yanlış. Verilme sonrası Kurum nezdinde itiraz yolu kapalıdır; yalnızca mahkemeden hükümsüzlük istenebilir (SMK m.143/11).",
+      "Doğru. Faydalı model verildikten sonra sadece mahkemeden hükümsüzlük talep edilebilir (SMK m.143/11, m.144).",
+      "Yanlış. Üçüncü kişiye böyle bir dönüştürme hakkı tanınmamıştır; dönüştürme yalnızca başvuru sahibince ve başvuru aşamasında istenebilir (SMK m.104).",
+      "Yanlış. Üç aylık görüş süresi araştırma raporunun yayımına bağlıdır ve verilme sonrası iptal yolu değildir (SMK m.143/8, 143/11)."
+    ],
+    "ref": "SMK m.143/11"
+  },
+  {
+    "id": "PAT2-008",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "SMK’ya göre faydalı modele ilişkin aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "Faydalı modelin koruma süresi, başvuru tarihinden başlamak üzere on yıldır ve uzatılamaz.",
+      "Faydalı modelin koruma süresi on yıldır; yıllık ücret ödenerek beş yıl uzatılabilir.",
+      "Faydalı modelin koruma süresi, verilme kararının yayımından itibaren on yıldır.",
+      "Faydalı model başvurusu için ek başvuru yapılabilir.",
+      "Faydalı modelin verilmiş olması, geçerliliği konusunda Kurumca garanti verildiği anlamına gelir."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. Başvuru tarihinden başlamak üzere faydalı modelin koruma süresi on yıldır ve bu süre uzatılamaz (SMK m.101/1).",
+      "Yanlış. Koruma süreleri uzatılamaz (SMK m.101/1).",
+      "Yanlış. Süre başvuru tarihinden başlar (SMK m.101/1).",
+      "Yanlış. Faydalı model başvurusu için ek başvuru yapılamaz (SMK m.123/14).",
+      "Yanlış. Faydalı modelin verilmesi geçerliliği ve yararlılığı konusunda Kurum garantisi olarak yorumlanamaz (SMK m.143/13)."
+    ],
+    "ref": "SMK m.101/1, m.123/14, m.143/13"
+  },
+  {
+    "id": "PAT2-009",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "Patent başvurusu işlemleri devam eden (D), başvurusunun faydalı model başvurusuna dönüştürülmesini talep etmiş; Kurum gerekli bildirimi yapmıştır. (D) bildirim tarihinden itibaren bir ay içinde gerekli belgeleri vermemiş ve araştırma ücretini ödememiştir. SMK’ya göre sonuç nedir?",
+    "options": [
+      "Başvuru geri çekilmiş sayılır.",
+      "Başvuru reddedilir ve karar Bültende yayımlanır.",
+      "Dönüştürme talebi yapılmamış sayılır ve başvuru patent başvurusu olarak işlem görmeye devam eder.",
+      "Başvuru re’sen faydalı model başvurusu olarak işleme devam eder.",
+      "(D)’ye eksiklikleri tamamlaması için iki aylık ek süre verilir."
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Kanun bu durumda geri çekilmiş sayılma değil, dönüştürme talebinin yapılmamış sayılmasını öngörür (SMK m.104/1).",
+      "Yanlış. Ret sonucu öngörülmemiştir (SMK m.104/1).",
+      "Doğru. Bir ay içinde şartlar yerine getirilmezse dönüştürme talebi yapılmamış sayılır ve başvuru patent başvurusu olarak devam eder (SMK m.104/1).",
+      "Yanlış. Şartlar yerine getirilmediği için dönüştürme gerçekleşmez (SMK m.104/1).",
+      "Yanlış. Kanunda ek süre öngörülmemiştir; süre bildirimden itibaren bir aydır (SMK m.104/1)."
+    ],
+    "ref": "SMK m.104/1"
+  },
+  {
+    "id": "PAT2-010",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "SMK’ya göre faydalı model başvuru sahibi, başvurusunun patent başvurusuna dönüştürülmesini en geç ne zamana kadar talep edebilir?",
+    "options": [
+      "Başvurunun Bültende yayımlanmasına kadar",
+      "Araştırma raporunun bildirim tarihini takip eden üç aylık sürenin bitimine kadar",
+      "Faydalı model verilmesi kararının yayımına kadar",
+      "Araştırma talebinde bulunulmasına kadar",
+      "Başvuru tarihinden itibaren on iki ay içinde"
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Kanun yayımı sınır olarak öngörmez; hatta yayımlanmış başvurularda dönüştürme kararı Bültende yayımlanır (SMK m.104/3).",
+      "Doğru. Faydalı model başvuru sahibi en geç araştırma raporunun bildirim tarihini takip eden üç aylık sürenin bitimine kadar dönüştürme talep edebilir (SMK m.104/2).",
+      "Yanlış. Süre, araştırma raporunun bildirimine bağlanmıştır (SMK m.104/2).",
+      "Yanlış. Talep araştırma raporu düzenlendikten sonra da belirli süre içinde yapılabilir (SMK m.104/2).",
+      "Yanlış. Böyle bir süre öngörülmemiştir (SMK m.104/2)."
+    ],
+    "ref": "SMK m.104/2"
+  },
+  {
+    "id": "PAT2-011",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "Patent ve faydalı model başvuruları arasındaki dönüştürmeye ilişkin aşağıdaki ifadelerden hangileri SMK’ya göre doğrudur?\nI. Dönüşen başvuru için talep edilmiş rüçhan hakkı, dönüşmüş başvuru için de tanınır.\nII. Daha önce dönüştürülmüş bir başvuru için yapılan yeniden dönüştürme talebi işleme alınmaz.\nIII. Dönüştürme talebi yalnızca başvuru Bültende yayımlanmadan önce yapılabilir.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "answer": 2,
+    "why": [
+      "Eksik. II de doğrudur; yeniden dönüştürme talepleri işleme alınmaz (SMK m.104/5).",
+      "Eksik. I de doğrudur; rüçhan hakkı dönüşmüş başvuruya da tanınır (SMK m.104/4).",
+      "Doğru. I (SMK m.104/4) ve II (SMK m.104/5) doğrudur; III yanlıştır çünkü yayımlanmış başvurular da dönüştürülebilir ve kabul kararı Bültende yayımlanır (SMK m.104/3).",
+      "III yanlıştır; m.104/3 yayımlanmış başvuruların dönüştürülmesini açıkça öngörür.",
+      "III yanlış olduğundan bu seçenek doğru değildir (SMK m.104/3)."
+    ],
+    "ref": "SMK m.104/3-5"
+  },
+  {
+    "id": "PAT2-012",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "Aşağıdakilerden hangisi SMK’da sayılan faydalı modelin hükümsüzlük nedenlerinden biri değildir?",
+    "options": [
+      "Faydalı model konusunun yeni olmaması",
+      "Buluşun m.92/1 uyarınca yeterince açıklanmamış olması",
+      "Faydalı model konusunun, buluş basamağı içermemesi",
+      "Faydalı model konusunun başvurunun ilk hâlinin kapsamını aşması",
+      "Faydalı model sahibinin m.109’a göre faydalı model isteme hakkına sahip olmadığının ispatlanması"
+    ],
+    "answer": 2,
+    "why": [
+      "Hükümsüzlük nedenidir; konu m.142’deki şartları (yenilik) taşımıyorsa hükümsüzlüğe karar verilir (SMK m.144/1-a).",
+      "Hükümsüzlük nedenidir (SMK m.144/1-b).",
+      "Doğru cevap. Faydalı modelde buluş basamağı şartı aranmadığından (SMK m.142/1) bu durum m.144/1’de hükümsüzlük nedeni olarak yer almaz.",
+      "Hükümsüzlük nedenidir (SMK m.144/1-c).",
+      "Hükümsüzlük nedenidir; ancak yalnızca buluşu yapan veya halefleri ileri sürebilir (SMK m.144/1-ç, 144/2)."
+    ],
+    "ref": "SMK m.144/1"
+  },
+  {
+    "id": "PAT2-013",
+    "exam": "patent",
+    "topic": "Faydalı Model",
+    "q": "SMK’ya göre faydalı modelin hükümsüzlüğüne ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Hükümsüzlük davası, koruma süresince veya hakkın sona ermesini izleyen beş yıl içinde açılabilir.",
+      "Dava, sicilde faydalı model sahibi olarak kayıtlı kişiye karşı açılır.",
+      "Cumhuriyet savcıları da faydalı modelin hükümsüzlüğünü isteyebilir.",
+      "Hükümsüzlük nedenleri faydalı modelin bir bölümüne ilişkinse kısmi hükümsüzlüğe karar verilir.",
+      "Kısmi hükümsüzlük hâlinde bir istemin kısmen hükümsüzlüğüne de karar verilebilir."
+    ],
+    "answer": 4,
+    "why": [
+      "Doğrudur (SMK m.144/3).",
+      "Doğrudur; sicilde hak sahibi görünen kişilere ayrıca tebligat yapılır (SMK m.144/3).",
+      "Doğrudur; menfaati olanlar, Cumhuriyet savcıları veya ilgili kamu kurum ve kuruluşları hükümsüzlüğü isteyebilir (SMK m.144/2).",
+      "Doğrudur; yalnızca o bölümü etkileyen istemler iptal edilir (SMK m.144/5).",
+      "Yanlış ifade, doğru cevap. Bir istemin kısmen hükümsüzlüğüne karar verilemez (SMK m.144/5)."
+    ],
+    "ref": "SMK m.144"
+  },
+  {
+    "id": "PAT2-014",
+    "exam": "patent",
+    "topic": "Uluslararası Başvurular (SMK)",
+    "q": "SMK m.83/3’e göre, başvuru tarihinden önceki tarihli olup başvuru tarihinde veya sonrasında yayımlanan aşağıdaki başvurulardan hangilerinin ilk içerikleri tekniğin bilinen durumu olarak dikkate alınır?\nI. PCT uyarınca yapılıp PCT’nin 22. ve 39. maddelerine göre yönetmelikteki şartlara uygun olarak ulusal aşamaya giriş yapan başvurular\nII. EPC m.79/2’ye göre Türkiye’nin belirlendiği ve ilgili belirleme ücretinin ödendiği Avrupa patent başvuruları\nIII. Türkiye’nin belirlenmediği Avrupa patent başvuruları",
+    "options": [
+      "Yalnız I",
+      "I ve II",
+      "Yalnız II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 1,
+    "why": [
+      "Eksik. Türkiye’nin belirlendiği ve belirleme ücreti ödenen Avrupa patent başvuruları da kapsamdadır (SMK m.83/3-b).",
+      "Doğru. m.83/3-a ulusal aşamaya giren PCT başvurularını, m.83/3-b Türkiye’nin belirlendiği ve ücreti ödenen Avrupa başvurularını kapsar; Türkiye’nin belirlenmediği başvurular sayılmamıştır.",
+      "Eksik. Ulusal aşamaya giren PCT başvuruları da kapsamdadır (SMK m.83/3-a).",
+      "III yanlıştır; m.83/3-b Türkiye’nin belirlenmesini ve belirleme ücretinin ödenmesini şart koşar.",
+      "III yanlıştır; Türkiye’nin belirlenmediği Avrupa başvuruları m.83/3 kapsamında değildir."
+    ],
+    "ref": "SMK m.83/3"
+  },
+  {
+    "id": "PAT2-015",
+    "exam": "patent",
+    "topic": "Uluslararası Başvurular (SMK)",
+    "q": "Türkiye’de ulusal aşamaya girmiş, (E)’nin başvuru tarihinden önce yapılmış ancak (E)’nin başvuru tarihinden sonra yayımlanmış bir PCT başvurusu bulunmaktadır. SMK’ya göre bu başvurunun içeriği (E)’nin patent başvurusunun değerlendirilmesinde nasıl dikkate alınır?",
+    "options": [
+      "Yenilik değerlendirmesinde dikkate alınır, buluş basamağı değerlendirmesinde dikkate alınmaz.",
+      "Hiçbir şekilde dikkate alınmaz.",
+      "Yalnızca buluş basamağı değerlendirmesinde dikkate alınır.",
+      "Yalnızca sanayiye uygulanabilirlik değerlendirmesinde dikkate alınır.",
+      "Hem yenilik hem buluş basamağı değerlendirmesinde dikkate alınır."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. m.83/3 uyarınca tekniğin bilinen durumu sayılan başvurular yalnızca yenilikte dikkate alınır; buluş basamağında dikkate alınmaz (SMK m.83/3, 83/5).",
+      "Yanlış. Ulusal aşamaya giren PCT başvurusunun ilk içeriği tekniğin bilinen durumu sayılır (SMK m.83/3-a).",
+      "Yanlış. Durum tersidir; bu içerik buluş basamağında dikkate alınmaz (SMK m.83/5).",
+      "Yanlış. Sanayiye uygulanabilirlik tekniğin bilinen durumuna göre değerlendirilmez (SMK m.83/6).",
+      "Yanlış. m.83/3 kapsamındaki başvurular buluş basamağı değerlendirmesinde dikkate alınmaz (SMK m.83/5)."
+    ],
+    "ref": "SMK m.83/3, m.83/5"
+  },
+  {
+    "id": "PAT2-016",
+    "exam": "patent",
+    "topic": "Uluslararası Başvurular (SMK)",
+    "q": "SMK m.83/3-a’da atıf yapılan Patent İşbirliği Antlaşması’nın (PCT) 22. ve 39. maddeleri esas olarak hangi konuyu düzenler?",
+    "options": [
+      "Uluslararası araştırma raporunun düzenlenmesini",
+      "Belirlenmiş/seçilmiş ofislerde ulusal aşamaya giriş için gerekli işlemleri ve süreleri",
+      "Uluslararası başvurunun 18. ayda yayımlanmasını",
+      "İstemlerde Uluslararası Büro nezdinde yapılan değişiklikleri",
+      "Biyolojik materyalin tevdi edilmesini"
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Uluslararası araştırma PCT m.15-18’de düzenlenir.",
+      "Doğru. PCT m.22 (Bölüm I, belirlenmiş ofis) ve m.39 (Bölüm II, seçilmiş ofis), çeviri ve ücret gibi ulusal aşama işlemlerini ve 30 aylık süreyi düzenler; SMK m.83/3-a bu maddelere atıf yapar.",
+      "Yanlış. Uluslararası yayım PCT m.21’de düzenlenir.",
+      "Yanlış. İstemlerde Uluslararası Büro nezdinde değişiklik PCT m.19’da düzenlenir.",
+      "Yanlış. Biyolojik materyal tevdii Budapeşte Antlaşması ve SMK m.92/2-3’te düzenlenir."
+    ],
+    "ref": "SMK m.83/3-a; PCT m.22, 39"
+  },
+  {
+    "id": "PAT2-017",
+    "exam": "patent",
+    "topic": "Uluslararası Başvurular (SMK)",
+    "q": "SMK m.83/3-b’ye göre, uluslararası başvuruya dayanan (Euro-PCT) bir Avrupa patent başvurusunun Türkiye bakımından tekniğin bilinen durumu sayılması için Avrupa Patent Sözleşmesi’nin hangi hükmündeki gerekliliklerin sağlanması aranır?",
+    "options": [
+      "EPC m.54/3",
+      "EPC m.99/1",
+      "EPC m.153/5",
+      "EPC m.65",
+      "EPC m.79/2"
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. SMK m.83/3-b Euro-PCT başvuruları için EPC m.153/5’e atıf yapar.",
+      "Yanlış. EPC m.99 itirazı düzenler; SMK m.83/3-b’de atıf yapılan hüküm değildir.",
+      "Doğru. SMK m.83/3-b, EPC m.153/5’teki gereklilikleri sağlayan, uluslararası başvuruya dayanan Avrupa patent başvurularını kapsar.",
+      "Yanlış. EPC m.65 çeviri şartıyla ilgilidir; SMK m.83/3-b’de atıf yapılmaz.",
+      "Yanlış. EPC m.79/2’ye SMK m.83/3-b’de doğrudan yapılan Avrupa başvuruları (Türkiye’nin belirlenmesi ve belirleme ücreti) için atıf yapılır; Euro-PCT için ölçüt m.153/5’tir."
+    ],
+    "ref": "SMK m.83/3-b"
+  },
+  {
+    "id": "PAT2-018",
+    "exam": "patent",
+    "topic": "Avrupa Patenti",
+    "q": "Türkiye’yi kapsayan bir Avrupa patentinin Türkiye’de geçerlilik kazanması (validasyon) ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "Avrupa patenti verildiği anda, hiçbir işlem yapılmasına gerek olmaksızın Türkiye’de birim (üniter) etkili patent olarak geçerlidir.",
+      "Patent fasikülünün Türkçe çevirisi, patentin verildiğinin Avrupa Patent Bülteninde yayımlandığı tarihten itibaren üç ay içinde Kuruma sunulmalıdır.",
+      "Türkçe çeviri, Avrupa patent başvurusunun yapıldığı tarihten itibaren on sekiz ay içinde sunulmalıdır.",
+      "Avrupa patentlerinin Türkiye’de geçerliliği, ayrıca Kurum tarafından esasa ilişkin inceleme yapılmasına bağlıdır.",
+      "EPC, taraf devletlerin çeviri istemesini yasaklamaktadır."
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Birim etkili patent yalnızca katılımcı AB üyesi devletleri kapsar; Türkiye için ulusal validasyon gerekir.",
+      "Doğru. EPC m.65 taraf devletlere çeviri isteme imkânı verir; Türkiye’de çeviri, patentin verildiğinin Avrupa Patent Bülteninde yayımlanmasından itibaren üç ay içinde Kuruma sunulur (Patent Yönetmeliği).",
+      "Yanlış. Çeviri süresi verilme bildiriminin yayımına bağlıdır; 18 ay yayım süresidir.",
+      "Yanlış. Esasa ilişkin inceleme EPO tarafından yapılmıştır; validasyon çeviri ve ücret gibi şeklî işlemlerden ibarettir.",
+      "Yanlış. EPC m.65/1 taraf devletlere çeviri isteme yetkisi tanır."
+    ],
+    "ref": "EPC m.65; Patent Yönetmeliği"
+  },
+  {
+    "id": "PAT2-019",
+    "exam": "patent",
+    "topic": "Uluslararası Başvurular (SMK)",
+    "q": "SMK geçici m.1/2’ye göre, SMK’nın yürürlüğe girdiği tarihten önce ulusal aşamaya girmiş uluslararası veya bölgesel anlaşmalar yoluyla yapılmış patent başvuruları hangi mevzuata göre sonuçlandırılır?",
+    "options": [
+      "Uluslararası başvuru tarihinde yürürlükte olan mevzuata göre",
+      "Rüçhan tarihinde yürürlükte olan mevzuata göre",
+      "Başvurunun ulusal aşamaya girdiği tarihte yürürlükte olan mevzuata göre",
+      "Karar tarihinde yürürlükte olan SMK hükümlerine göre",
+      "Başvuru sahibinin seçimine göre eski veya yeni mevzuata göre"
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Kanun ölçüt olarak ulusal aşamaya giriş tarihini esas almıştır (SMK geçici m.1/2).",
+      "Yanlış. Rüçhan tarihi ölçüt değildir (SMK geçici m.1/2).",
+      "Doğru. Bu başvurular ulusal aşamaya girdiği tarihte yürürlükte olan mevzuat hükümlerine göre sonuçlandırılır (SMK geçici m.1/2).",
+      "Yanlış. Ulusal aşamaya giriş tarihindeki mevzuat uygulanır (SMK geçici m.1/2).",
+      "Yanlış. Kanunda seçim hakkı tanınmamıştır (SMK geçici m.1/2)."
+    ],
+    "ref": "SMK geçici m.1/2"
+  },
+  {
+    "id": "PAT2-020",
+    "exam": "patent",
+    "topic": "Uluslararası Başvurular (SMK)",
+    "q": "SMK’ya göre başvurunun yayımı ile PCT’ye göre uluslararası yayım birlikte değerlendirildiğinde aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": [
+      "SMK’da yayım süresi yalnızca patent başvuruları için öngörülmüş olup faydalı model başvuruları yayımlanmaz.",
+      "SMK’ya göre başvuru, başvuru tarihinden itibaren otuz ay dolunca yayımlanır.",
+      "PCT’de uluslararası yayım, ulusal aşamaya girişten sonra belirlenmiş ofislerce yapılır.",
+      "Hem SMK’da hem PCT’de yayım kural olarak başvuru veya varsa rüçhan tarihinden itibaren on sekiz ayın dolmasıyla yapılır ve erken yayım istenebilir.",
+      "SMK’da erken yayım talebi mümkün değildir."
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. SMK m.97/1 patent veya faydalı model başvurusunun yayımını düzenler.",
+      "Yanlış. Süre on sekiz aydır (SMK m.97/1).",
+      "Yanlış. Uluslararası yayımı Uluslararası Büro yapar ve bu yayım ulusal aşamadan önce, 18. ayda gerçekleşir (PCT m.21).",
+      "Doğru. SMK m.97/1’e göre başvuru veya rüçhan tarihinden itibaren 18 ay dolunca ya da erken yayım talebiyle yayım yapılır; PCT m.21/2 de rüçhan tarihinden itibaren 18 ayı öngörür ve erken yayıma izin verir.",
+      "Yanlış. Başvuru sahibi 18 ay dolmadan erken yayım talep edebilir (SMK m.97/1)."
+    ],
+    "ref": "SMK m.97/1; PCT m.21"
+  },
+  {
+    "id": "PAT2-021",
+    "exam": "patent",
+    "topic": "Uluslararası Başvurular (SMK)",
+    "q": "Japonya’da 10.02.2025 tarihinde ilk patent başvurusunu yapan (F), aynı buluş için Türkiye’de rüçhan hakkı talebiyle başvuru yapmak istemektedir. SMK’ya göre aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "(F), Türkiye’ye en geç 10.02.2026 tarihine kadar başvurmalıdır.",
+      "Rüçhan hakkı talebi, başvuruyla birlikte veya başvuru tarihinden itibaren iki ay içinde ücreti ödenerek yapılabilir.",
+      "Rüçhan hakkı talebine ilişkin belgeler, başvuru tarihinden itibaren üç ay içinde Kuruma sunulmalıdır.",
+      "Paris Sözleşmesine taraf bir devlette yapılan, ulusal başvuruya eşdeğer bölgesel veya uluslararası başvurular da rüçhan hakkı doğurur.",
+      "Japon başvurusunun sonradan reddedilmesi, rüçhan hakkını ortadan kaldırır."
+    ],
+    "answer": 4,
+    "why": [
+      "Doğrudur. Rüçhan süresi ilk başvuru tarihinden itibaren on iki aydır (SMK m.93/1).",
+      "Doğrudur (SMK m.94/1).",
+      "Doğrudur; aksi hâlde rüçhan talebi yapılmamış sayılır (SMK m.94/1).",
+      "Doğrudur; ikili veya çok taraflı anlaşmalara göre ulusal başvuruya eşdeğer her başvuru rüçhan doğurur (SMK m.93/2).",
+      "Yanlış ifade, doğru cevap. Usulüne uygun ulusal başvuru, sonucu ne olursa olsun rüçhan doğurur (SMK m.93/3)."
+    ],
+    "ref": "SMK m.93, m.94"
+  },
+  {
+    "id": "PAT2-022",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "Patent İşbirliği Antlaşması (PCT) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "PCT, Dünya Fikri Mülkiyet Örgütü (WIPO) tarafından yönetilir.",
+      "Uluslararası başvuru, kural olarak başvuru tarihinde taraf devletlerin tamamının belirlenmesi sonucunu doğurur.",
+      "Uluslararası başvuru, bir ulusal ofise veya alıcı ofis sıfatıyla Uluslararası Büroya yapılabilir.",
+      "PCT sonucunda Uluslararası Büro tarafından tüm taraf devletlerde geçerli tek bir “uluslararası patent” verilir.",
+      "Patentin verilip verilmeyeceğine ulusal aşamada her belirlenmiş ofis kendi mevzuatına göre karar verir."
+    ],
+    "answer": 3,
+    "why": [
+      "Doğrudur; PCT’yi WIPO Uluslararası Bürosu yönetir.",
+      "Doğrudur; başvurunun yapılmasıyla tüm taraf devletler belirlenmiş sayılır (PCT Kural 4.9).",
+      "Doğrudur; alıcı ofis ulusal ofis veya WIPO Uluslararası Bürosu olabilir (PCT Kural 19).",
+      "Yanlış ifade, doğru cevap. PCT bir başvuru sistemidir; “uluslararası patent” verilmez, patent verme yetkisi ulusal/bölgesel ofislerdedir.",
+      "Doğrudur; verilme kararı ulusal aşamada belirlenmiş/seçilmiş ofislere aittir (PCT m.27/5)."
+    ],
+    "ref": "PCT m.27; Kural 4.9"
+  },
+  {
+    "id": "PAT2-023",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "PCT’ye göre uluslararası başvurunun uluslararası yayımı ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Uluslararası Büro tarafından, kural olarak rüçhan tarihinden itibaren on sekiz ayın dolmasından hemen sonra yapılır.",
+      "Uluslararası Araştırma Kurumu tarafından, araştırma raporuyla birlikte otuzuncu ayda yapılır.",
+      "Alıcı ofis tarafından başvuru tarihinden itibaren on iki ay içinde yapılır.",
+      "Yalnızca Bölüm II talebinde bulunulmuşsa yapılır.",
+      "Başvuru sahibinin talebi olmadan erken yayım yapılması zorunludur."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. Uluslararası yayım Uluslararası Büro tarafından rüçhan tarihinden itibaren 18 ay dolduktan sonra derhâl yapılır; başvuru sahibi erken yayım isteyebilir (PCT m.21/2).",
+      "Yanlış. Yayımı Uluslararası Büro yapar ve süre 18 aydır (PCT m.21).",
+      "Yanlış. Yayım alıcı ofisin görevi değildir; süre 18 aydır (PCT m.21).",
+      "Yanlış. Uluslararası yayım Bölüm II talebinden bağımsızdır (PCT m.21).",
+      "Yanlış. Erken yayım başvuru sahibinin talebine bağlıdır (PCT m.21/2-b)."
+    ],
+    "ref": "PCT m.21"
+  },
+  {
+    "id": "PAT2-024",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "PCT’ye göre uluslararası araştırma aşaması ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Uluslararası Araştırma Kurumu, uluslararası araştırma raporu ile birlikte bir yazılı görüş düzenler.\nII. Uluslararası araştırma raporu, araştırma kopyasının alınmasından itibaren üç ay veya rüçhan tarihinden itibaren dokuz aydan hangisi daha geç sona eriyorsa o süre içinde düzenlenir.\nIII. Uluslararası araştırma raporu belirlenmiş ofisleri bağlar; ofisler rapordan farklı karar veremez.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "II ve III",
+      "I ve II"
+    ],
+    "answer": 4,
+    "why": [
+      "Eksik. II de doğrudur (PCT Kural 42.1).",
+      "Eksik. I de doğrudur; araştırma kurumu yazılı görüş de düzenler (PCT Kural 43bis).",
+      "III yanlıştır; araştırma raporu belirlenmiş ofisleri bağlamaz, ulusal ofisler patent verilebilirliğe kendileri karar verir.",
+      "III yanlıştır; rapor bağlayıcı değildir.",
+      "Doğru. Yazılı görüş Kural 43bis’e, süre Kural 42.1’e dayanır; araştırma raporu ise belirlenmiş ofisleri bağlamaz."
+    ],
+    "ref": "PCT Kural 42, 43bis"
+  },
+  {
+    "id": "PAT2-025",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "PCT m.19 uyarınca yapılan değişikliklerle ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Tarifname, istemler ve resimlerde değişiklik yapılabilir.",
+      "Değişiklikler Uluslararası Ön İnceleme Kurumu nezdinde yapılır.",
+      "Yalnızca istemlerde, Uluslararası Büro nezdinde ve kural olarak araştırma raporunun gönderilmesinden itibaren iki ay veya rüçhan tarihinden itibaren on altı aydan hangisi daha geç sona eriyorsa o süre içinde yapılabilir.",
+      "Değişiklik süresi rüçhan tarihinden itibaren otuz aydır.",
+      "Bu değişiklikler başvurunun ilk hâlinin kapsamını aşabilir."
+    ],
+    "answer": 2,
+    "why": [
+      "Yanlış. Tarifname ve resimlerin de değiştirilebilmesi Bölüm II’deki m.34 değişikliklerine özgüdür; m.19 yalnızca istemleri kapsar.",
+      "Yanlış. m.19 değişiklikleri Uluslararası Büroya sunulur; ön inceleme kurumu nezdindeki değişiklikler m.34’e göredir.",
+      "Doğru. PCT m.19 yalnızca istemlerde, Uluslararası Büro nezdinde değişikliğe izin verir; süre Kural 46.1’e göre 2 ay/16 aydan geç olanıdır. Kısa bir açıklama da eklenebilir.",
+      "Yanlış. 30 ay ulusal aşamaya giriş süresidir (PCT m.22).",
+      "Yanlış. Değişiklikler başvurunun ilk hâlindeki açıklamanın kapsamını aşamaz (PCT m.19/2)."
+    ],
+    "ref": "PCT m.19; Kural 46.1"
+  },
+  {
+    "id": "PAT2-026",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "PCT Bölüm II kapsamında uluslararası ön inceleme talebiyle ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Talep, rüçhan tarihinden itibaren on iki ay içinde yapılmak zorundadır.",
+      "Talep, kural olarak araştırma raporu ve yazılı görüşün gönderilmesinden itibaren üç ay veya rüçhan tarihinden itibaren yirmi iki aydan hangisi daha geç sona eriyorsa o süre içinde yapılır.",
+      "Bölüm II talebi zorunludur; talepte bulunulmayan başvurular geri çekilmiş sayılır.",
+      "Bölüm II kapsamında yalnızca istemlerde değişiklik yapılabilir.",
+      "Uluslararası ön inceleme raporu seçilmiş ofisleri bağlar."
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. Bölüm II talebi için öngörülen süre 3 ay/22 aydan geç olanıdır (PCT Kural 54bis.1).",
+      "Doğru. PCT Kural 54bis.1’e göre talep süresi, ISR ve yazılı görüşün gönderilmesinden itibaren 3 ay veya rüçhandan itibaren 22 aydan hangisi daha geç biterse odur.",
+      "Yanlış. Bölüm II isteğe bağlıdır (PCT m.31).",
+      "Yanlış. m.34 uyarınca istemler, tarifname ve resimlerde değişiklik yapılabilir.",
+      "Yanlış. Uluslararası ön inceleme raporu bağlayıcı olmayan bir görüştür; seçilmiş ofisler kendi mevzuatına göre karar verir (PCT m.33/1)."
+    ],
+    "ref": "PCT m.31, 34; Kural 54bis.1"
+  },
+  {
+    "id": "PAT2-027",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "PCT m.33’e göre uluslararası ön incelemede istem konusu buluş hangi ölçütler bakımından değerlendirilir?\nI. Yenilik\nII. Buluş basamağı (aşikâr olmama)\nIII. Sanayiye uygulanabilirlik",
+    "options": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "I, II ve III",
+      "II ve III"
+    ],
+    "answer": 3,
+    "why": [
+      "Eksik. Buluş basamağı ve sanayiye uygulanabilirlik de incelenir (PCT m.33/1).",
+      "Eksik. Sanayiye uygulanabilirlik de incelenir (PCT m.33/1, 33/4).",
+      "Eksik. Buluş basamağı da incelenir (PCT m.33/1, 33/3).",
+      "Doğru. Uluslararası ön inceleme, istem konusu buluşun yeni, buluş basamağı içeren ve sanayiye uygulanabilir olup olmadığı hakkında bağlayıcı olmayan bir görüş oluşturmayı amaçlar (PCT m.33/1).",
+      "Eksik. Yenilik de incelenir (PCT m.33/1-2)."
+    ],
+    "ref": "PCT m.33"
+  },
+  {
+    "id": "PAT2-028",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "(G), ilk başvurusunu 15.01.2024 tarihinde yapmış ve bu başvurunun rüçhanını talep ederek PCT başvurusunda bulunmuştur. PCT m.22’ye göre Türkiye gibi belirlenmiş bir ofiste ulusal aşamaya giriş için genel süre ve Avrupa Patent Ofisi nezdinde bölgesel aşamaya giriş süresi sırasıyla en geç hangi tarihlerde sona erer?",
+    "options": [
+      "15.01.2026 – 15.01.2026",
+      "15.07.2025 – 15.08.2025",
+      "15.07.2026 – 15.07.2026",
+      "15.07.2026 – 15.08.2026",
+      "15.01.2027 – 15.02.2027"
+    ],
+    "answer": 3,
+    "why": [
+      "Yanlış. 24 aylık bir süre öngörülmemiştir; PCT’de süre rüçhandan itibaren 30 aydır.",
+      "Yanlış. 18 ay uluslararası yayım süresidir (PCT m.21).",
+      "Yanlış. EPO bölgesel aşamaya giriş için 31 ay öngörür (EPC Kural 159/1).",
+      "Doğru. PCT m.22/1’e göre ulusal aşama süresi rüçhan tarihinden itibaren 30 ay (15.07.2026), EPO’da ise Kural 159/1 uyarınca 31 aydır (15.08.2026).",
+      "Yanlış. 36 ay ve 37 ay gibi süreler öngörülmemiştir."
+    ],
+    "ref": "PCT m.22; EPC Kural 159"
+  },
+  {
+    "id": "PAT2-029",
+    "exam": "patent",
+    "topic": "PCT",
+    "q": "PCT sistemi ile ilgili aşağıdaki aşamalar kronolojik olarak (kural olarak) hangi sırayla gerçekleşir?\nI. Uluslararası yayım\nII. Ulusal aşamaya giriş\nIII. Uluslararası araştırma raporu ve yazılı görüşün düzenlenmesi\nIV. Rüçhan hakkı talep edilen ilk başvurunun yapılması",
+    "options": [
+      "IV – I – III – II",
+      "III – IV – I – II",
+      "IV – III – II – I",
+      "IV – II – III – I",
+      "IV – III – I – II"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. Araştırma raporu (kural olarak en geç 9. ay civarı) yayımdan (18. ay) önce düzenlenir.",
+      "Yanlış. Rüçhan dayanağı ilk başvuru her şeyden önce gelir.",
+      "Yanlış. Ulusal aşamaya giriş (30. ay) uluslararası yayımdan (18. ay) sonradır.",
+      "Yanlış. Ulusal aşama süreçteki son aşamadır (PCT m.22).",
+      "Doğru. Sıra: ilk başvuru (0. ay) → ISR ve yazılı görüş (Kural 42: 3 ay/9 ay) → uluslararası yayım (18. ay, m.21) → ulusal aşama (30. ay, m.22)."
+    ],
+    "ref": "PCT m.21, 22; Kural 42"
+  },
+  {
+    "id": "PAT2-030",
+    "exam": "patent",
+    "topic": "EPC",
+    "q": "Avrupa Patent Sözleşmesi’ne (EPC) göre Avrupa patentine itiraz ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "İtiraz, patentin verildiğine ilişkin bildirimin Avrupa Patent Bülteninde yayımlanmasından itibaren dokuz ay içinde yapılabilir.",
+      "İtiraz, verilme kararının yayımından itibaren altı ay içinde yapılabilir.",
+      "İtiraz yalnızca belirlenmiş devletlerin ulusal ofislerine yapılabilir.",
+      "İtiraz yalnızca menfaati olduğunu ispatlayan kişilerce yapılabilir.",
+      "İtiraz yalnızca itiraz edenin belirttiği devlet bakımından sonuç doğurur."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. EPC m.99/1’e göre herkes, verilme bildiriminin Avrupa Patent Bülteninde yayımlanmasından itibaren dokuz ay içinde EPO’ya itiraz edebilir.",
+      "Yanlış. Altı ay, SMK’daki ulusal patent itiraz süresidir (SMK m.99/1); EPC’de süre dokuz aydır.",
+      "Yanlış. İtiraz EPO nezdinde yapılır ve itiraz birimleri tarafından incelenir (EPC m.99, 19).",
+      "Yanlış. EPC m.99/1 “herkes” ifadesini kullanır; menfaat ispatı aranmaz.",
+      "Yanlış. İtiraz, patentin hüküm ifade ettiği tüm taraf devletler bakımından sonuç doğurur (EPC m.99/2)."
+    ],
+    "ref": "EPC m.99"
+  },
+  {
+    "id": "PAT2-031",
+    "exam": "patent",
+    "topic": "EPC",
+    "q": "EPO uygulamasında buluş basamağının değerlendirilmesinde kullanılan “problem-çözüm yaklaşımı” (problem-solution approach) ile ilgili aşağıdakilerden hangisi bu yaklaşımın aşamalarından biri değildir?",
+    "options": [
+      "En yakın önceki tekniğin belirlenmesi",
+      "Objektif teknik problemin belirlenmesi",
+      "İstem konusu buluşun, en yakın önceki teknik ve objektif teknik problemden hareketle uzman kişi için aşikâr olup olmadığının değerlendirilmesi",
+      "Buluşun ticari başarısının, buluş basamağının tek ve belirleyici ölçütü olarak esas alınması",
+      "En yakın önceki teknikle istem arasındaki ayırt edici teknik özelliklerin ve bunların teknik etkisinin tespiti"
+    ],
+    "answer": 3,
+    "why": [
+      "Yaklaşımın ilk aşamasıdır.",
+      "Yaklaşımın ikinci aşamasıdır; ayırt edici özelliklerin teknik etkisinden hareketle belirlenir.",
+      "Yaklaşımın üçüncü aşamasıdır (“could-would” yaklaşımı ile değerlendirilir).",
+      "Doğru cevap. Ticari başarı en fazla yardımcı bir gösterge olabilir; problem-çözüm yaklaşımının bir aşaması değildir.",
+      "Objektif teknik problemin belirlenmesi için yapılan zorunlu bir tespittir."
+    ],
+    "ref": "EPC m.56; EPO İnceleme Kılavuzu"
+  },
+  {
+    "id": "PAT2-032",
+    "exam": "patent",
+    "topic": "EPC",
+    "q": "EPC’ye göre aşağıdaki ifadelerden hangileri doğrudur?\nI. Avrupa Patent Teşkilatının organları Avrupa Patent Ofisi (EPO) ve İdari Konsey’dir.\nII. EPO’nun resmî dilleri İngilizce, Fransızca ve Almancadır.\nIII. Avrupa patenti, verildiği her taraf devlette o devletin ulusal patenti ile aynı etkiyi doğurur.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 4,
+    "why": [
+      "Eksik. II ve III de doğrudur (EPC m.14/1, m.2/2).",
+      "Eksik. I ve III de doğrudur (EPC m.4/2, m.2/2).",
+      "Eksik. III de doğrudur; Avrupa patenti her taraf devlette ulusal patent etkisine sahiptir (EPC m.2/2, m.64/1).",
+      "Eksik. I de doğrudur (EPC m.4/2).",
+      "Doğru. Organlar EPO ve İdari Konsey’dir (EPC m.4/2); resmî diller İngilizce, Fransızca ve Almancadır (EPC m.14/1); Avrupa patenti ulusal patent etkisi doğurur (EPC m.2/2)."
+    ],
+    "ref": "EPC m.2, 4, 14"
+  },
+  {
+    "id": "PAT2-033",
+    "exam": "patent",
+    "topic": "EPC",
+    "q": "Birim etkili Avrupa patenti (Unitary Patent) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": [
+      "Birim etkili patent sistemi 1 Haziran 2023 tarihinde uygulanmaya başlamıştır.",
+      "Birim etki talebi, Avrupa patentinin verildiğine ilişkin bildirimin yayımından itibaren bir ay içinde EPO’ya yapılır.",
+      "Birim etkili patent, Birleşik Patent Mahkemesi Anlaşmasını onaylamış katılımcı AB üyesi devletlerde tek bir hak olarak etki doğurur.",
+      "Türkiye EPC’ye taraf olduğundan birim etkili patent Türkiye’yi de kapsar.",
+      "Birim etkili patent, EPO tarafından verilmiş bir Avrupa patentine dayanır."
+    ],
+    "answer": 3,
+    "why": [
+      "Doğrudur; sistem 1 Haziran 2023’te yürürlüğe girmiştir.",
+      "Doğrudur; birim etki talebi verilme bildiriminin yayımından itibaren bir ay içinde yapılır (AB Tüzüğü 1257/2012 ve EPO uygulama kuralları).",
+      "Doğrudur; birim etki yalnızca katılımcı AB üyesi devletleri kapsar.",
+      "Yanlış ifade, doğru cevap. Birim etkili patent AB hukukuna (Tüzük 1257/2012) dayanır; AB üyesi olmayan Türkiye’yi kapsamaz. Türkiye için klasik validasyon gerekir.",
+      "Doğrudur; birim etki, EPC hükümlerine göre verilen Avrupa patentine sonradan tanınır."
+    ],
+    "ref": "AB Tüzüğü 1257/2012"
+  },
+  {
+    "id": "PAT2-034",
+    "exam": "patent",
+    "topic": "EPC",
+    "q": "Buluşun başvuru öncesinde açıklanmasının yeniliği etkilemeyeceği hâllere (ihmal edilebilir/zararsız açıklama) ilişkin SMK ve EPC hükümleri karşılaştırıldığında aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Her iki düzenlemede de süre on iki aydır ve buluşu yapanın kendi açıklaması kapsamdadır.",
+      "EPC’de süre altı ay olup açıklamanın açık bir kötüye kullanımdan veya resmî/resmen tanınmış uluslararası sergide teşhirden kaynaklanması gerekir; SMK’da ise süre on iki aydır ve buluşu yapanın kendi açıklaması da kapsamdadır.",
+      "SMK’da süre altı ay, EPC’de on iki aydır.",
+      "Her iki düzenlemede de böyle bir istisna bulunmamaktadır.",
+      "SMK’da istisna yalnızca faydalı model için, EPC’de yalnızca patent için geçerlidir."
+    ],
+    "answer": 1,
+    "why": [
+      "Yanlış. EPC m.55 buluşu yapanın kendi açıklamasını genel olarak kapsamaz ve süre altı aydır.",
+      "Doğru. EPC m.55/1 altı aylık süre ve sınırlı hâller (açık kötüye kullanım, resmî sergi) öngörür; SMK m.84/1 on iki aylık süre içinde buluşu yapanın kendi açıklamasını da kapsar.",
+      "Yanlış. Süreler tersine verilmiştir (SMK m.84/1, EPC m.55/1).",
+      "Yanlış. Her iki düzenlemede de istisna mevcuttur (SMK m.84, EPC m.55).",
+      "Yanlış. SMK m.84 hem patent hem faydalı model için uygulanır."
+    ],
+    "ref": "SMK m.84; EPC m.55"
+  },
+  {
+    "id": "PAT2-035",
+    "exam": "patent",
+    "topic": "EPC",
+    "q": "EPC’ye göre başvuru tarihinden önceki tarihli olup başvuru tarihinde veya sonrasında yayımlanan Avrupa patent başvurularının içeriği ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "Hem yenilik hem buluş basamağı değerlendirmesinde tekniğin bilinen durumu sayılır.",
+      "Hiçbir şekilde tekniğin bilinen durumu sayılmaz.",
+      "Yalnızca buluş basamağı değerlendirmesinde dikkate alınır.",
+      "Yalnızca sanayiye uygulanabilirlik değerlendirmesinde dikkate alınır.",
+      "Yalnızca yenilik değerlendirmesinde tekniğin bilinen durumu sayılır; buluş basamağı değerlendirmesinde dikkate alınmaz."
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. EPC m.56 ikinci cümlesi bu belgeleri buluş basamağı değerlendirmesinden hariç tutar.",
+      "Yanlış. EPC m.54/3 bu başvuruları yenilik bakımından tekniğin bilinen durumuna dâhil eder.",
+      "Yanlış. Durum tersidir (EPC m.54/3, m.56).",
+      "Yanlış. Sanayiye uygulanabilirlik tekniğin bilinen durumuyla değerlendirilmez (EPC m.57).",
+      "Doğru. EPC m.54/3 uyarınca yalnızca yenilikte dikkate alınır, m.56 uyarınca buluş basamağında dikkate alınmaz; SMK m.83/3 ve 83/5 de aynı yaklaşımı benimser."
+    ],
+    "ref": "EPC m.54/3, 56; SMK m.83/5"
+  },
+  {
+    "id": "PAT2-036",
+    "exam": "patent",
+    "topic": "Uluslararası Patent Sınıflandırması",
+    "q": "Strasbourg Anlaşması ile kurulan Uluslararası Patent Sınıflandırması (IPC) ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": [
+      "IPC, A’dan H’ye kadar sekiz bölümden (section) oluşur.",
+      "IPC, mal ve hizmetlerin sınıflandırılmasına ilişkindir.",
+      "IPC, endüstriyel tasarımların sınıflandırılmasına ilişkindir.",
+      "IPC’de “C” bölümü elektriğe ayrılmıştır.",
+      "IPC sembolleri yalnızca Avrupa patentlerinde kullanılır."
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. IPC sekiz bölümden (A–H) oluşur; örneğin A insan ihtiyaçları, C kimya/metalurji, H elektriktir.",
+      "Yanlış. Mal ve hizmetlerin sınıflandırılması Nis Anlaşmasına dayanır (SMK m.8/3).",
+      "Yanlış. Endüstriyel tasarımlar Locarno Anlaşmasına göre sınıflandırılır.",
+      "Yanlış. “C” bölümü kimya ve metalurjiye, “H” bölümü elektriğe ayrılmıştır.",
+      "Yanlış. IPC, ulusal, bölgesel ve PCT belgelerinde dünya genelinde kullanılan bir sınıflandırmadır."
+    ],
+    "ref": "Strasbourg Anlaşması (IPC)"
+  },
+  {
+    "id": "PAT2-037",
+    "exam": "patent",
+    "topic": "Uluslararası Patent Sınıflandırması",
+    "q": "IPC’de “A61K 31/00” sembolünde yer alan “A61K” kısmı hangi hiyerarşik düzeyi ifade eder?",
+    "options": [
+      "Bölüm",
+      "Sınıf",
+      "Ana grup",
+      "Alt grup",
+      "Alt sınıf"
+    ],
+    "answer": 4,
+    "why": [
+      "Yanlış. Bölüm tek harfle (“A”) gösterilir.",
+      "Yanlış. Sınıf, bölüm harfi ve iki rakamla (“A61”) gösterilir.",
+      "Yanlış. Ana grup, alt sınıftan sonra gelen ve “/00” ile biten kısımdır (“31/00”).",
+      "Yanlış. Alt grup, eğik çizgiden sonra “00” dışındaki rakamlarla gösterilir (ör. “31/12”).",
+      "Doğru. IPC hiyerarşisi bölüm (A) → sınıf (A61) → alt sınıf (A61K) → ana grup (31/00) → alt grup şeklindedir."
+    ],
+    "ref": "Strasbourg Anlaşması (IPC)"
+  },
+  {
+    "id": "PAT2-038",
+    "exam": "patent",
+    "topic": "Budapeşte Antlaşması",
+    "q": "Patent işlemleri amacıyla mikroorganizmaların tevdi edilmesinin uluslararası kabulüne ilişkin Budapeşte Antlaşması ile ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Herhangi bir uluslararası tevdi kuruluşuna yapılan tek bir tevdi, tüm taraf devletlerin patent ofisleri bakımından kabul edilir.\nII. Tevdi edilen materyal, kural olarak en az otuz yıl ve materyal örneği için yapılan son talepten sonra en az beş yıl süreyle saklanır.\nIII. Antlaşma, her taraf devlette ayrı ayrı tevdi yapılmasını zorunlu kılar.",
+    "options": [
+      "Yalnız I",
+      "I ve II",
+      "Yalnız II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "answer": 1,
+    "why": [
+      "Eksik. II de doğrudur (Budapeşte Antlaşması Yönetmeliği Kural 9.1).",
+      "Doğru. Antlaşmanın temel amacı tek tevdiin tüm taraf devletlerde tanınmasıdır (m.3); saklama süresi en az 30 yıl ve son talepten sonra en az 5 yıldır (Kural 9.1).",
+      "Eksik. I de doğrudur; tek tevdi tüm taraflarca tanınır (Budapeşte Antlaşması m.3).",
+      "III yanlıştır; Antlaşma ayrı ayrı tevdi zorunluluğunu ortadan kaldırmayı amaçlar.",
+      "III yanlıştır; tek bir tevdi yeterlidir."
+    ],
+    "ref": "Budapeşte Antlaşması m.3; Kural 9.1; SMK m.92/3"
+  },
+  {
+    "id": "PAT2-039",
+    "exam": "patent",
+    "topic": "Budapeşte Antlaşması",
+    "q": "(H)’nin patent başvurusu, toplumca erişilemeyen bir biyolojik materyalin kullanımını içermekte olup materyal tevdi edilmiştir. Daha sonra materyal tevdi kuruluşunda erişilebilir olmaktan çıkmıştır. SMK’ya göre erişimin kesintiye uğramadığının kabul edilmesi için aşağıdakilerden hangisi gerekir?",
+    "options": [
+      "Materyalin Budapeşte Antlaşmasına uygun olarak yeniden tevdi edilmesi ve tevdi kuruluşunun verdiği alındı belgesinin suretinin, tevdi tarihinden itibaren dört ay içinde başvuru/belge numarası belirtilerek Kuruma gönderilmesi",
+      "Materyalin yeniden tevdi edilmesi ve belgenin iki ay içinde Kuruma gönderilmesi",
+      "Yeni bir patent başvurusu yapılması",
+      "Materyalin yalnızca Kuruma doğrudan teslim edilmesi",
+      "Materyalin yeniden tevdi edilmesi ve belgenin altı ay içinde Kuruma gönderilmesi"
+    ],
+    "answer": 0,
+    "why": [
+      "Doğru. Budapeşte Antlaşmasına uygun yeniden tevdi ve belgenin tevdi tarihinden itibaren dört ay içinde, başvuru veya belge numarası belirtilerek Kuruma gönderilmesi hâlinde erişim kesintiye uğramamış sayılır (SMK m.92/3).",
+      "Yanlış. Süre iki ay değil dört aydır (SMK m.92/3).",
+      "Yanlış. Yeni başvuru gerekmez; yeniden tevdi yeterlidir (SMK m.92/3).",
+      "Yanlış. Tevdi, tevdi kuruluşuna Budapeşte Antlaşmasına uygun şekilde yapılır (SMK m.92/3).",
+      "Yanlış. Süre altı ay değil dört aydır (SMK m.92/3)."
+    ],
+    "ref": "SMK m.92/2-3"
+  },
+  {
+    "id": "PAT2-040",
+    "exam": "patent",
+    "topic": "Paris Sözleşmesi",
+    "q": "Paris Sözleşmesi ve SMK’daki rüçhan hakkı hükümleri birlikte değerlendirildiğinde aşağıdaki ifadelerden hangileri doğrudur?\nI. Patent ve faydalı model başvuruları için rüçhan süresi ilk başvuru tarihinden itibaren on iki aydır.\nII. Türkiye’de veya Paris Sözleşmesine taraf ülkelerde açılan resmî ya da resmen tanınmış uluslararası sergilerde ürününü teşhir eden kişi, teşhir tarihinden itibaren on iki ay içinde Türkiye’de rüçhan hakkından yararlanarak başvuru yapabilir.\nIII. Paris Sözleşmesine göre bir ülkede verilen patentin hükümsüz kılınması, aynı buluş için diğer ülkelerde verilen patentleri de kendiliğinden hükümsüz kılar.",
+    "options": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve III",
+      "I ve II",
+      "I, II ve III"
+    ],
+    "answer": 3,
+    "why": [
+      "Eksik. II de doğrudur (SMK m.93/6).",
+      "Eksik. I de doğrudur (SMK m.93/1; Paris Sözleşmesi m.4/C-1).",
+      "III yanlıştır; Paris Sözleşmesi m.4bis patentlerin bağımsızlığı ilkesini öngörür.",
+      "Doğru. On iki aylık rüçhan süresi (SMK m.93/1; Paris m.4/C) ve sergi rüçhanı (SMK m.93/6) doğrudur; III ise patentlerin bağımsızlığı ilkesine (Paris m.4bis) aykırıdır.",
+      "III yanlıştır; her ülkedeki patent birbirinden bağımsızdır (Paris m.4bis)."
+    ],
+    "ref": "SMK m.93; Paris Sözleşmesi m.4, 4bis"
+  }
+]
