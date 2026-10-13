@@ -1,5 +1,5 @@
 // Çevrimdışı çalışma: uygulama dosyaları önbelleğe alınır, önce önbellekten sunulur.
-const CACHE = "vekillik-v2";
+const CACHE = "vekillik-v3";
 const FILES = [
   "./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest",
   "./data/kanun.js", "./data/sorular.js", "./data/hap.js", "./data/siniflar.js", "./data/kilavuz.js",

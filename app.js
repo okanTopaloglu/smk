@@ -158,37 +158,94 @@
       if (S && S.chunks[S.pos]) ptext.textContent = `${S.chunks[S.pos].label || "Okunuyor"} · ${S.pos + 1}/${S.chunks.length}`;
       if (speaking) resumeBar.hidden = true;
     }
-    function speakFrom() {
+    // ---- Arka planda çalma ----
+    // Sessiz bir ses döngüsü sayfayı "medya çalıyor" durumunda tutar; böylece ekran kapanınca
+    // veya başka uygulamaya geçilince tarayıcı sayfayı uyutmaz ve okuma sürer.
+    const keep = (() => {
+      let audio = null;
+      function silentWav(seconds = 2, rate = 8000) {
+        const n = seconds * rate, buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf);
+        const w = (o, t) => [...t].forEach((c, i) => v.setUint8(o + i, c.charCodeAt(0)));
+        w(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); w(8, "WAVE"); w(12, "fmt ");
+        v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true); v.setUint32(24, rate, true);
+        v.setUint32(28, rate * 2, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true); w(36, "data"); v.setUint32(40, n * 2, true);
+        for (let i = 0; i < n; i++) v.setInt16(44 + i * 2, (i % 2 ? 1 : -1), true); // duyulmayacak kadar küçük sinyal
+        return URL.createObjectURL(new Blob([buf], { type: "audio/wav" }));
+      }
+      return {
+        start() {
+          try {
+            if (!audio) { audio = new Audio(silentWav()); audio.loop = true; audio.setAttribute("playsinline", ""); audio.volume = 0.01; }
+            const pr = audio.play(); if (pr && pr.catch) pr.catch(() => {});
+          } catch (e) { /* desteklenmiyor */ }
+        },
+        stop() { try { if (audio) audio.pause(); } catch (e) { /* yok say */ } },
+      };
+    })();
+    const ms = "mediaSession" in navigator ? navigator.mediaSession : null;
+    function mediaMeta() {
+      if (!ms || !S || !S.chunks[S.pos]) return;
+      try {
+        ms.metadata = new MediaMetadata({
+          title: S.chunks[S.pos].label || "Sesli okuma", artist: "Vekillik Sınavı", album: "6769 sayılı SMK",
+          artwork: [{ src: "icons/icon-192.png", sizes: "192x192", type: "image/png" }, { src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }],
+        });
+        ms.playbackState = speaking ? "playing" : "paused";
+      } catch (e) { /* yok say */ }
+    }
+    if (ms) {
+      const h = (a, f) => { try { ms.setActionHandler(a, f); } catch (e) { /* desteklenmiyor */ } };
+      h("play", () => resume()); h("pause", () => pause()); h("stop", () => stop());
+      h("previoustrack", () => seek(-1)); h("nexttrack", () => seek(1));
+      h("seekbackward", () => seek(-1)); h("seekforward", () => seek(1));
+    }
+
+    function speakFrom(delay) {
       const my = ++token;
-      if (synth.speaking || synth.pending) synth.cancel();
+      const cancelled = synth.speaking || synth.pending;
+      if (cancelled) synth.cancel();
+      lastEnd = Date.now();
+      keep.start();
       const step = () => {
         if (my !== token) return;
         if (!S || S.pos >= S.chunks.length) {
-          speaking = false; clearMark(); const cb = onDone; if (S && S.chunks.length >= 6) { delete store.resume; save(); } S = null; updateUi(); player.hidden = true; onDone = null; if (cb) cb(true); return;
+          speaking = false; clearMark(); keep.stop(); if (ms) ms.playbackState = "none";
+          const cb = onDone; if (S && S.chunks.length >= 6) { delete store.resume; save(); } S = null; updateUi(); player.hidden = true; onDone = null; if (cb) cb(true); return;
         }
         const ch = S.chunks[S.pos];
-        mark(ch.elId); updateUi();
+        if (!document.hidden) mark(ch.elId);
+        updateUi(); mediaMeta();
         const u = new SpeechSynthesisUtterance(ch.c);
         u.lang = (voice && voice.lang) || "tr-TR"; if (voice) u.voice = voice;
         u.rate = parseFloat(rateSel.value) || 1; u.pitch = 1;
-        u.onend = () => { if (my !== token) return; S.pos++; if (S.pos % 5 === 0) saveResume(); step(); };
+        u.onend = () => { if (my !== token) return; S.pos++; lastEnd = Date.now(); if (S.pos % 5 === 0) saveResume(); step(); };
         u.onerror = (e) => { if (my !== token || e.error === "interrupted" || e.error === "canceled") return; S.pos++; step(); };
         synth.speak(u);
       };
-      // Chrome bazen cancel'dan hemen sonraki konuşmayı yutar; kısa gecikme
-      setTimeout(step, 60);
+      // Chrome bazen cancel'dan hemen sonraki konuşmayı yutar; yalnızca o durumda kısa gecikme.
+      // Arka planda zamanlayıcılar yavaşladığı için normal akışta gecikme kullanılmaz.
+      if (cancelled || delay) setTimeout(step, 60); else step();
     }
+    // Motor arka planda takılırsa (bazı Android sürümleri) ön plana dönünce veya periyodik kontrolde kaldığı cümleden sürdür.
+    let lastEnd = 0;
+    setInterval(() => {
+      if (speaking && S && !synth.speaking && !synth.pending && Date.now() - lastEnd > 4000) { lastEnd = Date.now(); speakFrom(true); }
+    }, 5000);
     function restartCurrent() { if (S) { speaking = true; speakFrom(); } }
     function pause() {
       if (!S || !speaking) return;
-      token++; speaking = false; synth.cancel(); updateUi(); saveResume();
+      token++; speaking = false; synth.cancel(); keep.stop(); updateUi(); mediaMeta(); saveResume();
     }
-    function resume() { if (!S) return; speaking = true; updateUi(); speakFrom(); }
+    function resume() {
+      if (!S) { if (store.resume) continueSaved(); return; }
+      speaking = true; updateUi(); speakFrom();
+    }
     function stop() {
       if (S && speaking) { token++; synth && synth.cancel(); }
       speaking = false;
       if (S) saveResume();
-      S = null; clearMark(); player.hidden = true;
+      S = null; clearMark(); player.hidden = true; keep.stop();
+      if (ms) { try { ms.playbackState = "none"; ms.metadata = null; } catch (e) { /* yok say */ } }
       const cb = onDone; onDone = null; if (cb) cb(false);
       showResume();
     }
@@ -221,7 +278,13 @@
     $("#resumeGo").onclick = continueSaved;
     $("#resumeClose").onclick = () => { delete store.resume; save(); resumeBar.hidden = true; };
     window.addEventListener("pagehide", () => { if (S) saveResume(); });
-    document.addEventListener("visibilitychange", () => { if (document.hidden && S) saveResume(); });
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) { if (S) saveResume(); return; }
+      if (speaking && S) {
+        mark(S.chunks[S.pos] && S.chunks[S.pos].elId);
+        if (!synth.speaking && !synth.pending) speakFrom(true);
+      }
+    });
     return {
       play, stop, pause, showResume,
       say: (text, label, el) => play([{ text, label, el }]),
