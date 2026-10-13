@@ -76,7 +76,7 @@ button { font: inherit; color: inherit; }
   border-bottom: 1px solid var(--line);
 }
 .brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; }
-.seal {
+.brand .seal {
   display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 50%;
   border: 2px solid var(--seal); color: var(--seal);
   font-family: var(--f-mono); font-size: .62rem; font-weight: 600; letter-spacing: .05em;
