@@ -370,14 +370,32 @@ table.sure td.r { font-family: var(--f-mono); font-size: .8rem; white-space: now
 /* ---------- Player ---------- */
 .player {
   position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 30;
-  display: flex; align-items: center; gap: .6rem; padding: .5rem .6rem .5rem .9rem; border-radius: 999px;
-  background: var(--ink); color: var(--paper); box-shadow: var(--shadow); max-width: calc(100% - 32px); flex-wrap: wrap;
+  display: grid; gap: .4rem; padding: .55rem .7rem; border-radius: 16px; width: min(560px, calc(100% - 32px));
+  background: var(--ink); color: var(--paper); box-shadow: var(--shadow);
 }
-.player .btn { background: transparent; color: var(--paper); border-color: color-mix(in srgb, var(--paper) 40%, transparent); }
-.player #playerText { font-size: .85rem; max-width: 30ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.player .rate { font-size: .8rem; display: flex; gap: .3rem; align-items: center; }
-.player select { background: transparent; color: inherit; border: 1px solid color-mix(in srgb, var(--paper) 40%, transparent); border-radius: 6px; font: inherit; padding: .1rem .2rem; }
-.player select option { color: #142033; }
+.player .p-row { display: flex; align-items: center; gap: .4rem; min-width: 0; }
+.player .p-set { gap: .8rem; font-size: .78rem; flex-wrap: wrap; opacity: .9; }
+.player .p-set label { display: flex; gap: .35rem; align-items: center; min-width: 0; }
+.p-btn {
+  display: grid; place-items: center; min-width: 2.3rem; height: 2.3rem; padding: 0 .5rem; border-radius: 999px; cursor: pointer;
+  background: transparent; color: var(--paper); border: 1px solid color-mix(in srgb, var(--paper) 35%, transparent); font-weight: 700; font-size: .85rem;
+}
+.p-btn svg { width: 1rem; height: 1rem; fill: currentColor; }
+.p-btn.main { background: var(--seal); border-color: var(--seal); color: #fff; min-width: 6rem; }
+.player #playerText { font-size: .82rem; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-left: .3rem; font-variant-numeric: tabular-nums; }
+.player select { background: transparent; color: inherit; border: 1px solid color-mix(in srgb, var(--paper) 35%, transparent); border-radius: 6px; font: inherit; padding: .15rem .25rem; max-width: 12rem; }
+.player select option { color: #142033; background: #fff; }
+.resume-bar {
+  position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 29;
+  display: flex; align-items: stretch; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow);
+  max-width: calc(100% - 32px);
+}
+.resume-go { display: flex; align-items: center; gap: .6rem; border: 0; background: none; cursor: pointer; padding: .45rem .5rem .45rem .5rem; text-align: left; min-width: 0; }
+.resume-go svg { width: 2rem; height: 2rem; padding: .45rem; border-radius: 50%; background: var(--seal); fill: #fff; flex: none; }
+.resume-go span { display: flex; flex-direction: column; line-height: 1.2; min-width: 0; }
+.resume-go small { font-size: .72rem; color: var(--muted); }
+.resume-go b { font-size: .9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.resume-x { border: 0; border-left: 1px solid var(--line); background: none; cursor: pointer; padding: 0 .9rem; font-size: 1.2rem; color: var(--muted); border-radius: 0 999px 999px 0; }
 .speaking { box-shadow: 0 0 0 2px var(--seal) inset; }
 
 .empty { padding: 2rem; text-align: center; color: var(--muted); background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); }
@@ -410,8 +428,7 @@ table.sure td.r { font-family: var(--f-mono); font-size: .8rem; white-space: now
   .mainnav .short { display: block; white-space: nowrap; }
   .mainnav a.active { box-shadow: none; color: var(--seal); background: var(--seal-soft); }
   main { padding-bottom: calc(7rem + env(safe-area-inset-bottom, 0px)); padding-top: 1rem; }
-  .player { bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px)); border-radius: 14px; }
-  .player #playerText { max-width: 14ch; }
+  .player, .resume-bar { bottom: calc(4.6rem + env(safe-area-inset-bottom, 0px)); }
   .opt { padding: .7rem; gap: .55rem; grid-template-columns: 1.8rem minmax(0, 1fr); }
   .opt .letter { width: 1.8rem; height: 1.8rem; }
   .qtext { font-size: 1.05rem; }

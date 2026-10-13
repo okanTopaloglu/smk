@@ -51,81 +51,182 @@
   // ---------- Sesli okuma ----------
   const TTS = (() => {
     const synth = window.speechSynthesis;
-    let voice = null, queue = [], playing = false, paused = false, onDone = null, token = 0;
-    const player = $("#player"), ptext = $("#playerText"), rateSel = $("#ttsRate"), pauseBtn = $("#ttsPause");
+    const player = $("#player"), ptext = $("#playerText"), rateSel = $("#ttsRate"), voiceSel = $("#ttsVoice");
+    const playBtn = $("#ttsPlay"), resumeBar = $("#resumeBar"), resumeText = $("#resumeText");
+    let voices = [], voice = null;
+    // Okuma durumu: cümle parçaları listesi ve şu anki konum. Duraklatınca konum korunur.
+    let S = null; // {chunks:[{c,label,elId}], pos, view}
+    let speaking = false, token = 0, onDone = null;
     if (store.rate) rateSel.value = String(store.rate);
-    rateSel.onchange = () => { store.rate = parseFloat(rateSel.value); save(); };
-    function pickVoice() {
-      if (!synth) return;
-      const vs = synth.getVoices();
-      voice = vs.find((v) => /^tr(-|_|$)/i.test(v.lang) && /google|natural|online/i.test(v.name)) ||
-        vs.find((v) => /^tr(-|_|$)/i.test(v.lang)) || null;
-    }
-    if (synth) { pickVoice(); synth.onvoiceschanged = pickVoice; }
+    rateSel.onchange = () => { store.rate = parseFloat(rateSel.value); save(); if (speaking) restartCurrent(); };
 
+    // ---- Ses seçimi: önce doğal (neural) Türkçe sesler ----
+    const isTr = (v) => /^tr([-_]|$)/i.test(v.lang);
+    const score = (v) => (/natural|neural|online/i.test(v.name) ? 3 : 0) + (/google/i.test(v.name) ? 2 : 0) + (/emel|ahmet|yelda|filiz|cem|seda|tolga/i.test(v.name) ? 1 : 0) + (v.localService ? 0 : 0.5);
+    function loadVoices() {
+      if (!synth) return;
+      voices = synth.getVoices().filter(isTr).sort((a, b) => score(b) - score(a));
+      voice = voices.find((v) => v.name === store.voice) || voices[0] || null;
+      voiceSel.innerHTML = voices.length
+        ? voices.map((v) => `<option value="${esc(v.name)}" ${voice && v.name === voice.name ? "selected" : ""}>${esc(v.name.replace(/\s*-\s*Turkish.*$/i, "").replace(/^Microsoft\s+/i, ""))}</option>`).join("")
+        : `<option value="">Türkçe ses yok</option>`;
+    }
+    voiceSel.onchange = () => { voice = voices.find((v) => v.name === voiceSel.value) || null; store.voice = voiceSel.value; save(); if (speaking) restartCurrent(); };
+    if (synth) { loadVoices(); synth.onvoiceschanged = loadVoices; }
+
+    // ---- Türkçe metin düzeltmeleri: kısaltmalar, tarihler, fıkra/bent işaretleri ----
+    const AYLAR = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
+    const SIRA = ["", "Birinci", "İkinci", "Üçüncü", "Dördüncü", "Beşinci", "Altıncı", "Yedinci", "Sekizinci", "Dokuzuncu", "Onuncu", "On birinci", "On ikinci", "On üçüncü", "On dördüncü", "On beşinci", "On altıncı", "On yedinci", "On sekizinci", "On dokuzuncu", "Yirminci"];
+    const ROMA = { I: "bir", II: "iki", III: "üç", IV: "dört", V: "beş" };
+    const KISA = [
+      [/\bSMK\b/g, "Sınai Mülkiyet Kanunu"], [/\bTMK\b/g, "Türk Medeni Kanunu"], [/\bTBK\b/g, "Türk Borçlar Kanunu"],
+      [/\bTTK\b/g, "Türk Ticaret Kanunu"], [/\bHMK\b/g, "Hukuk Muhakemeleri Kanunu"], [/\bKHK\b/g, "Kanun Hükmünde Kararname"],
+      [/\bYİDK\b/g, "Yeniden İnceleme ve Değerlendirme Kurulu"], [/\bYİDD\b/g, "Yeniden İnceleme ve Değerlendirme Dairesi"],
+      [/\bFSHHM\b/g, "Fikri ve Sınai Haklar Hukuk Mahkemesi"], [/\bRG\b/g, "Resmî Gazete"], [/\bTÜRKPATENT\b/g, "Türkpatent"],
+      [/\bTPMK\b/g, "Türk Patent ve Marka Kurumu"], [/\bTRIPS\b/g, "Trips"], [/\bWIPO\b/g, "Vipo"], [/\bEPO\b/g, "Avrupa Patent Ofisi"],
+      [/\bEUIPO\b/g, "Avrupa Birliği Fikri Mülkiyet Ofisi"], [/\bATAD\b/g, "Avrupa Birliği Adalet Divanı"], [/\bGÜA\b/g, "geleneksel ürün adı"],
+      [/\bvb\./g, "ve benzeri"], [/\bvd\./g, "ve devamı"], [/\börn\./gi, "örneğin"], [/\bbkz\./gi, "bakınız"], [/\bmd\./g, "madde"],
+      [/\bNo\.\s?/g, "numara "], [/\bTL\b/g, "Türk lirası"], [/%\s?(\d+)/g, "yüzde $1"],
+    ];
     function normalize(t) {
-      return stripTags(t)
-        .replace(/⟦\d+⟧/g, "")
-        .replace(/\bSMK\b/g, "Sınai Mülkiyet Kanunu")
-        .replace(/\bTMK\b/g, "Türk Medeni Kanunu").replace(/\bTBK\b/g, "Türk Borçlar Kanunu").replace(/\bTTK\b/g, "Türk Ticaret Kanunu")
-        .replace(/\bYİDK\b/g, "Yeniden İnceleme ve Değerlendirme Kurulu")
-        .replace(/\bm\.\s?(\d+)\/(\d+)-([a-zçğıöşü])\b/g, "madde $1, fıkra $2, bent $3")
+      let s = stripTags(t).replace(/⟦\d+⟧/g, "");
+      // (Değişik:22/7/2020-7251/61 md.) gibi değişiklik notları
+      s = s.replace(/\((Değişik|Ek|Mülga|İptal)([^:)]*):\s*(\d{1,2})\/(\d{1,2})\/(\d{4})-([\w/-]+?)\/(\d+)\s*md\.\)/g,
+        (m, tur, ek, g, a, y, kanun, md) => `(${tur}${ek}: ${g} ${AYLAR[a - 1] || a} ${y} tarihli, ${kanun.replace(/^KHK-?/, "")} sayılı ${/KHK/.test(kanun) ? "Kanun Hükmünde Kararnamenin" : "Kanunun"} ${md}. maddesiyle.)`);
+      s = s.replace(/\b(\d{1,2})\/(\d{1,2})\/(\d{4})\b/g, (m, g, a, y) => (a >= 1 && a <= 12 ? `${g} ${AYLAR[a - 1]} ${y}` : m));
+      // madde atıfları: m.5/1-b, SMK m.5
+      s = s.replace(/\bm\.\s?(\d+)\/(\d+)-([a-zçğıöşü]{1,2})\b/g, "madde $1, fıkra $2, $3 bendi")
         .replace(/\bm\.\s?(\d+)\/(\d+)/g, "madde $1, fıkra $2")
         .replace(/\bm\.\s?(\d+)/g, "madde $1")
-        .replace(/^\s*(I{1,3}|IV|V)\.\s/gm, (m, r) => ({ I: "Bir", II: "İki", III: "Üç", IV: "Dört", V: "Beş" }[r] + ". "))
+        .replace(/\bmadde\s+(\d+)\s*-\s*(\d+)/g, "madde $1 ile $2 arası");
+      for (const [re, rep] of KISA) s = s.replace(re, rep);
+      // Satır başındaki fıkra "(1)" ve bent "a)" işaretleri
+      s = s.replace(/^\s*\((\d{1,2})\)\s*/gm, (m, n) => `${SIRA[n] || n + "."} fıkra, `)
+        .replace(/^\s*([a-zçğıöşü]{1,2})\)\s+/gm, (m, b) => `${b} bendi, `)
+        .replace(/^\s*(I{1,3}|IV|V)\.\s+/gm, (m, r) => `${ROMA[r][0].toUpperCase() + ROMA[r].slice(1)}, `);
+      // "Yalnız I", "I ve II", "I, II ve III" gibi öncül şıkları
+      s = s.replace(/^\s*(Yalnız\s+)?(I{1,3}|IV|V)((\s*(,|ve|ile)\s*(I{1,3}|IV|V))*)\s*$/gm, (m) => m.replace(/\b(III|II|IV|I|V)\b/g, (r) => ROMA[r]));
+      s = s.replace(/\b(I{1,3}|IV|V)\s+(ve|ile)\s+(I{1,3}|IV|V)\b/g, (m, a, v, b) => `${ROMA[a]} ${v} ${ROMA[b]}`)
+        .replace(/\böncül(ü|ler)?\s+(I{1,3}|IV|V)\b/g, (m, e, r) => m.replace(r, ROMA[r]));
+      // eğik çizgi, tire ve tırnaklar okunurken takılmasın
+      s = s.replace(/([a-zçğıöşüA-ZÇĞİÖŞÜ])\/([a-zçğıöşüA-ZÇĞİÖŞÜ])/g, "$1 ya da $2")
+        .replace(/\s[–—]\s/g, ", ").replace(/[“”"«»]/g, "").replace(/[’']/g, "'")
+        .replace(/→/g, ", ").replace(/\s*\n+\s*/g, ". ").replace(/([.?!:;,])\s*\./g, "$1")
         .replace(/\s+/g, " ").trim();
+      return s;
     }
-    function chunk(text) {
-      const parts = normalize(text).split(/(?<=[.!?;:])\s+/);
+    // Cümle sınırlarında, ~300 karaktere kadar birleştirilmiş parçalar: daha az duraksama, daha akıcı okuma
+    function split(text) {
+      const parts = normalize(text).split(/(?<=[.!?;:])\s+(?=[A-ZÇĞİÖŞÜ0-9(“"a-zçğıöşü])/);
       const out = []; let cur = "";
       for (const p of parts) {
-        if ((cur + " " + p).length > 220 && cur) { out.push(cur); cur = p; } else cur = cur ? cur + " " + p : p;
+        if (cur && (cur + " " + p).length > 300) { out.push(cur); cur = p; } else cur = cur ? cur + " " + p : p;
       }
       if (cur) out.push(cur);
-      // çok uzun tek cümleleri virgüllerden böl
-      return out.flatMap((c) => c.length <= 260 ? [c] : c.split(/(?<=,)\s+/));
+      return out.flatMap((c) => {
+        if (c.length <= 340) return [c];
+        const bits = c.split(/(?<=[,;])\s+/), r = []; let x = "";
+        for (const b of bits) { if (x && (x + " " + b).length > 300) { r.push(x); x = b; } else x = x ? x + " " + b : b; }
+        if (x) r.push(x); return r;
+      });
     }
+
+    // Uzun okumalar (kanun, hap bölümü vb.) kaldığı yerden devam için hatırlanır.
+    function saveResume() {
+      if (!S || S.chunks.length < 6) return;
+      if (S.pos < S.chunks.length) store.resume = { view: S.view, chunks: S.chunks, pos: S.pos }; else delete store.resume;
+      save(); showResume();
+    }
+    function showResume() {
+      const r = store.resume;
+      if (!r || speaking || !r.chunks || r.pos >= r.chunks.length) { resumeBar.hidden = true; return; }
+      resumeText.textContent = r.chunks[r.pos].label || "Kaldığın yer";
+      resumeBar.hidden = false;
+    }
+    function clearMark() { $$(".speaking").forEach((e) => e.classList.remove("speaking")); }
+    function mark(elId) {
+      const el = elId && document.getElementById(elId);
+      if (!el || el.classList.contains("speaking")) return;
+      clearMark(); el.classList.add("speaking");
+      const r = el.getBoundingClientRect();
+      if (r.top > innerHeight * 0.75 || r.bottom < 80) el.scrollIntoView({ block: "center", behavior: "smooth" });
+    }
+    function updateUi() {
+      player.hidden = !S;
+      playBtn.textContent = speaking ? "Duraklat" : "Devam";
+      playBtn.setAttribute("aria-label", speaking ? "Duraklat" : "Devam et");
+      if (S && S.chunks[S.pos]) ptext.textContent = `${S.chunks[S.pos].label || "Okunuyor"} · ${S.pos + 1}/${S.chunks.length}`;
+      if (speaking) resumeBar.hidden = true;
+    }
+    function speakFrom() {
+      const my = ++token;
+      if (synth.speaking || synth.pending) synth.cancel();
+      const step = () => {
+        if (my !== token) return;
+        if (!S || S.pos >= S.chunks.length) {
+          speaking = false; clearMark(); const cb = onDone; if (S && S.chunks.length >= 6) { delete store.resume; save(); } S = null; updateUi(); player.hidden = true; onDone = null; if (cb) cb(true); return;
+        }
+        const ch = S.chunks[S.pos];
+        mark(ch.elId); updateUi();
+        const u = new SpeechSynthesisUtterance(ch.c);
+        u.lang = (voice && voice.lang) || "tr-TR"; if (voice) u.voice = voice;
+        u.rate = parseFloat(rateSel.value) || 1; u.pitch = 1;
+        u.onend = () => { if (my !== token) return; S.pos++; if (S.pos % 5 === 0) saveResume(); step(); };
+        u.onerror = (e) => { if (my !== token || e.error === "interrupted" || e.error === "canceled") return; S.pos++; step(); };
+        synth.speak(u);
+      };
+      // Chrome bazen cancel'dan hemen sonraki konuşmayı yutar; kısa gecikme
+      setTimeout(step, 60);
+    }
+    function restartCurrent() { if (S) { speaking = true; speakFrom(); } }
+    function pause() {
+      if (!S || !speaking) return;
+      token++; speaking = false; synth.cancel(); updateUi(); saveResume();
+    }
+    function resume() { if (!S) return; speaking = true; updateUi(); speakFrom(); }
     function stop() {
-      token++; queue = []; playing = false; paused = false;
-      if (synth) synth.cancel();
-      player.hidden = true; pauseBtn.textContent = "Duraklat";
-      $$(".speaking").forEach((e) => e.classList.remove("speaking"));
+      if (S && speaking) { token++; synth && synth.cancel(); }
+      speaking = false;
+      if (S) saveResume();
+      S = null; clearMark(); player.hidden = true;
       const cb = onDone; onDone = null; if (cb) cb(false);
+      showResume();
+    }
+    function seek(d) {
+      if (!S) return;
+      S.pos = Math.max(0, Math.min(S.chunks.length - 1, S.pos + d));
+      if (speaking) speakFrom(); else updateUi();
     }
     // items: [{text, label, el}]
     function play(items, done) {
       if (!synth) { flash("Bu tarayıcı sesli okumayı desteklemiyor. Chrome veya Edge kullanın."); return; }
-      stop();
-      if (!voice) pickVoice();
+      if (S && speaking) { token++; synth.cancel(); }
+      if (!voices.length) loadVoices();
+      if (!voices.length && !store.voiceHint) { store.voiceHint = 1; save(); flash("Cihazda Türkçe ses bulunamadı. En doğal okuma için Microsoft Edge'deki Emel veya Ahmet (Natural) seslerini kullan."); }
       onDone = done || null;
-      const my = token;
-      queue = items.flatMap((it) => chunk(it.text).map((c, i) => ({ c, label: it.label, el: it.el, first: i === 0 })));
-      playing = true; player.hidden = false;
-      const next = () => {
-        if (my !== token) return;
-        const item = queue.shift();
-        if (!item) { playing = false; player.hidden = true; $$(".speaking").forEach((e) => e.classList.remove("speaking")); const cb = onDone; onDone = null; if (cb) cb(true); return; }
-        if (item.first && item.el) {
-          $$(".speaking").forEach((e) => e.classList.remove("speaking"));
-          item.el.classList.add("speaking");
-          if (item.el.getBoundingClientRect().top > innerHeight * 0.8 || item.el.getBoundingClientRect().top < 60) item.el.scrollIntoView({ block: "center", behavior: "smooth" });
-        }
-        ptext.textContent = item.label || "Okunuyor…";
-        const u = new SpeechSynthesisUtterance(item.c);
-        u.lang = "tr-TR"; if (voice) u.voice = voice;
-        u.rate = parseFloat(rateSel.value) || 1;
-        u.onend = next; u.onerror = (e) => { if (e.error !== "interrupted" && e.error !== "canceled") next(); };
-        synth.speak(u);
-      };
-      next();
+      S = { view, chunks: items.flatMap((it) => split(it.text).map((c) => ({ c, label: it.label, elId: it.el && it.el.id ? it.el.id : null }))), pos: 0 };
+      if (!S.chunks.length) { S = null; return; }
+      speaking = true; updateUi(); speakFrom();
     }
-    pauseBtn.onclick = () => {
-      if (!synth) return;
-      if (paused) { synth.resume(); paused = false; pauseBtn.textContent = "Duraklat"; }
-      else { synth.pause(); paused = true; pauseBtn.textContent = "Devam"; }
-    };
+    function continueSaved() {
+      const r = store.resume; if (!r) return;
+      if (r.view && r.view !== view && VIEWS[r.view]) go(r.view, { keepResume: true });
+      S = { view: r.view, chunks: r.chunks, pos: r.pos };
+      speaking = true; updateUi(); speakFrom();
+    }
+    playBtn.onclick = () => (speaking ? pause() : resume());
+    $("#ttsPrev").onclick = () => seek(-1);
+    $("#ttsNext").onclick = () => seek(1);
     $("#ttsStop").onclick = stop;
-    return { play, stop, say: (text, label, el) => play([{ text, label, el }]), get playing() { return playing; }, hasVoice: () => !!voice };
+    $("#resumeGo").onclick = continueSaved;
+    $("#resumeClose").onclick = () => { delete store.resume; save(); resumeBar.hidden = true; };
+    window.addEventListener("pagehide", () => { if (S) saveResume(); });
+    document.addEventListener("visibilitychange", () => { if (document.hidden && S) saveResume(); });
+    return {
+      play, stop, pause, showResume,
+      say: (text, label, el) => play([{ text, label, el }]),
+      get playing() { return speaking; },
+    };
   })();
 
   const autoBtn = $("#ttsAuto");
@@ -154,7 +255,7 @@
   const ARTS = KANUN.items.filter((x) => x.type === "article");
   const artId = (a) => (a.gecici ? "g" : "m") + String(a.no).split(/\s/)[0].replace("/", "-");
   const artLabel = (a) => (a.gecici ? "Geçici Madde " : "Madde ") + a.no;
-  const artText = (a) => `${artLabel(a)}. ${a.title ? a.title + ". " : ""}${a.paras.join(" ")}`;
+  const artText = (a) => `${artLabel(a)}. ${a.title ? a.title + "." : ""}\n${a.paras.join("\n")}`;
 
   // "SMK m.5/1-b" gibi atıfları tıklanabilir yap
   function linkRefs(html) {
@@ -174,7 +275,7 @@
   let view = "ana";
   const VIEWS = { ana: renderHome, hap: renderHap, kilavuz: renderKilavuz, kanun: renderKanun, siniflar: renderSiniflar };
   function go(v, opts) {
-    TTS.stop();
+    if (!opts || !opts.keepResume) TTS.stop();
     view = v;
     $$(".mainnav a").forEach((a) => a.classList.toggle("active", a.dataset.nav === v));
     if (VIEWS[v]) { if (location.hash !== "#" + v) history.replaceState(null, "", "#" + v); VIEWS[v](opts); }
@@ -362,7 +463,7 @@
                 if (answered) cls = i === q.answer ? "correct" : i === ans ? "wrong" : "dim";
                 const why = answered && q.why && q.why[i] ? `<span class="why">${i === q.answer ? "<b>Doğru.</b> " : ""}${linkRefs(esc(q.why[i]))}</span>` : "";
                 const tag = answered ? "div" : "button";
-                return `<li><${tag} class="opt ${cls}" data-i="${i}"><span class="letter">${LETTERS[i]}</span><span>${esc(o)}${why}</span></${tag}></li>`;
+                return `<li><${tag} class="opt ${cls}" id="opt-${i}" data-i="${i}"><span class="letter">${LETTERS[i]}</span><span>${esc(o)}${why}</span></${tag}></li>`;
               }).join("")}
             </ol>
             ${answered ? `<div class="verdict ${ans === q.answer ? "ok" : "bad"}" role="status">
@@ -406,7 +507,7 @@
     if (store.auto && !answered) readQuestion();
   }
   function questionSpeech(q) {
-    return q.q + ". " + q.options.map((o, i) => `${LETTERS[i]} şıkkı: ${o}`).join(". ");
+    return `Soru ${Q.idx + 1}.\n${q.q}\n` + q.options.map((o, i) => `${LETTERS[i]} şıkkı, ${o}`).join("\n");
   }
   function readQuestion() {
     if (!Q) return;
@@ -416,7 +517,7 @@
   function readExplanation() {
     const q = Q.list[Q.idx], ans = Q.answers[Q.idx];
     const items = [{ text: ans === q.answer ? "Doğru cevap." : `Yanlış. Doğru cevap ${LETTERS[q.answer]} şıkkı.`, label: "Sonuç" }];
-    q.options.forEach((o, i) => items.push({ text: `${LETTERS[i]} şıkkı. ${q.why ? q.why[i] : ""}`, label: `${LETTERS[i]} şıkkı açıklaması`, el: $$("#opts .opt")[i] }));
+    q.options.forEach((o, i) => items.push({ text: `${LETTERS[i]} şıkkı.\n${q.why ? q.why[i] : ""}`, label: `${LETTERS[i]} şıkkı`, el: $$("#opts .opt")[i] }));
     TTS.play(items);
   }
   function answer(i) {
@@ -569,7 +670,7 @@
     if (opts && opts.art) setTimeout(() => scrollToArt(opts.art), 30);
   }
   function readFrom(i) {
-    const list = ARTS.slice(i, i + 40);
+    const list = ARTS.slice(i);
     TTS.play(list.map((a) => ({ text: artText(a), label: artLabel(a), el: document.getElementById(artId(a)) })));
   }
   function scrollToArt(id) {
@@ -752,4 +853,5 @@
   // ---------- Başlat ----------
   const start = location.hash.slice(1);
   go(VIEWS[start] ? start : "ana");
+  TTS.showResume();
 })();

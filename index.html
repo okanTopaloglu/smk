@@ -47,21 +47,36 @@
 
 <main id="app" tabindex="-1"></main>
 
-<div class="player" id="player" hidden>
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7"/></svg>
-  <span id="playerText">Okunuyor…</span>
-  <label class="rate">Hız
-    <select id="ttsRate">
-      <option value="0.8">0.8×</option>
-      <option value="0.9">0.9×</option>
-      <option value="1" selected>1×</option>
-      <option value="1.15">1.15×</option>
-      <option value="1.3">1.3×</option>
-      <option value="1.5">1.5×</option>
-    </select>
-  </label>
-  <button id="ttsPause" class="btn small">Duraklat</button>
-  <button id="ttsStop" class="btn small">Durdur</button>
+<div class="resume-bar" id="resumeBar" hidden>
+  <button class="resume-go" id="resumeGo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+    <span><small>Kaldığın yerden devam et</small><b id="resumeText">Madde</b></span>
+  </button>
+  <button class="resume-x" id="resumeClose" aria-label="Kaldığın yeri unut">×</button>
+</div>
+
+<div class="player" id="player" hidden role="region" aria-label="Sesli okuma">
+  <div class="p-row">
+    <button class="p-btn" id="ttsPrev" aria-label="Önceki cümle" title="Önceki cümle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h2v14H6zM20 5v14L9 12z"/></svg></button>
+    <button class="p-btn main" id="ttsPlay" aria-label="Duraklat">Duraklat</button>
+    <button class="p-btn" id="ttsNext" aria-label="Sonraki cümle" title="Sonraki cümle"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 5h2v14h-2zM4 5v14l11-7z"/></svg></button>
+    <button class="p-btn" id="ttsStop" aria-label="Durdur" title="Durdur (kaldığın yer hatırlanır)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg></button>
+    <span id="playerText">Okunuyor…</span>
+  </div>
+  <div class="p-row p-set">
+    <label>Ses <select id="ttsVoice" aria-label="Okuyan ses"></select></label>
+    <label>Hız
+      <select id="ttsRate" aria-label="Okuma hızı">
+        <option value="0.8">0.8×</option>
+        <option value="0.9">0.9×</option>
+        <option value="1" selected>1×</option>
+        <option value="1.1">1.1×</option>
+        <option value="1.25">1.25×</option>
+        <option value="1.4">1.4×</option>
+        <option value="1.6">1.6×</option>
+      </select>
+    </label>
+  </div>
 </div>
 
 <script src="data/kanun.js"></script>
