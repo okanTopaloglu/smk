@@ -1,8 +1,8 @@
 // Çevrimdışı çalışma: uygulama dosyaları önbelleğe alınır, önce önbellekten sunulur.
-const CACHE = "vekillik-v3";
+const CACHE = "vekillik-v4";
 const FILES = [
   "./", "./index.html", "./styles.css", "./app.js", "./manifest.webmanifest",
-  "./data/kanun.js", "./data/sorular.js", "./data/hap.js", "./data/siniflar.js", "./data/kilavuz.js",
+  "./data/kanun.js", "./data/sorular.js", "./data/hap.js", "./data/siniflar.js", "./data/kilavuz.js", "./data/sozluk.js",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/maskable-512.png", "./icons/apple-touch-icon.png",
 ];
 

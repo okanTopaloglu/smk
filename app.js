@@ -6,6 +6,7 @@
   const HAP = window.HAP || { bolumler: [], sureler: [], sayilar: [] };
   const SINIF = window.SINIFLAR || { nice: [], lokarno: [], bilgi: {} };
   const KLV = window.KILAVUZ || { giris: [], bolumler: [], sorular: [] };
+  const SOZ = (window.SOZLUK || []).slice().sort((a, b) => a.k.localeCompare(b.k, "tr"));
 
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
@@ -336,7 +337,7 @@
 
   // ---------- Router ----------
   let view = "ana";
-  const VIEWS = { ana: renderHome, hap: renderHap, kilavuz: renderKilavuz, kanun: renderKanun, siniflar: renderSiniflar };
+  const VIEWS = { ana: renderHome, hap: renderHap, kilavuz: renderKilavuz, kanun: renderKanun, siniflar: renderSiniflar, sozluk: renderSozluk };
   function go(v, opts) {
     if (!opts || !opts.keepResume) TTS.stop();
     view = v;
@@ -402,6 +403,7 @@
         <a class="link-card" href="#hap" data-nav="hap"><span class="num">HAP</span><b>Kesinlikle bilinmesi gerekenler</b><span>Hap bilgiler, süreler tablosu, sınav tuzakları.</span></a>
         <a class="link-card" href="#kilavuz" data-nav="kilavuz"><span class="num">KILAVUZ</span><b>Marka inceleme kılavuzu</b><span>Kurumun ret nedenlerini ve benzerliği nasıl incelediği.</span></a>
         <a class="link-card" href="#kanun" data-nav="kanun"><span class="num">6769</span><b>Kanun maddesini oku</b><span>SMK’nın güncel tam metni, arama ve sesli okuma.</span></a>
+        <a class="link-card" href="#sozluk" data-nav="sozluk"><span class="num">A–Z</span><b>Sözlük</b><span>Az bilinen hukuk terimleri, anlamları ve sesli liste.</span></a>
         <a class="link-card" href="#siniflar" data-nav="siniflar"><span class="num">NICE 1–45</span><b>Tescil sınıfları</b><span>Nice mal/hizmet sınıfları ve Lokarno tasarım sınıfları.</span></a>
         <button class="link-card" id="wrongBtn" ${wrong ? "" : "disabled"}><span class="num">TEKRAR</span><b>Yanlışlarım</b><span>${wrong ? wrong + " soruyu yeniden çöz." : "Henüz yanlış yaptığın soru yok."}</span></button>
       </div>
@@ -519,12 +521,12 @@
               <span class="badge ${q.exam}">${esc(EXAM_NAMES[q.exam] || q.exam)}</span>
               <span class="badge topic">${esc(q.topic)}</span>
             </div>
-            <p class="qtext" id="qtext">${esc(q.q)}</p>
+            <p class="qtext" id="qtext">${glossify(esc(q.q))}</p>
             <ol class="options" id="opts">
               ${q.options.map((o, i) => {
                 let cls = "";
                 if (answered) cls = i === q.answer ? "correct" : i === ans ? "wrong" : "dim";
-                const why = answered && q.why && q.why[i] ? `<span class="why">${i === q.answer ? "<b>Doğru.</b> " : ""}${linkRefs(esc(q.why[i]))}</span>` : "";
+                const why = answered && q.why && q.why[i] ? `<span class="why">${i === q.answer ? "<b>Doğru.</b> " : ""}${glossify(linkRefs(esc(q.why[i])))}</span>` : "";
                 const tag = answered ? "div" : "button";
                 return `<li><${tag} class="opt ${cls}" id="opt-${i}" data-i="${i}"><span class="letter">${LETTERS[i]}</span><span>${esc(o)}${why}</span></${tag}></li>`;
               }).join("")}
@@ -656,8 +658,9 @@
 
   // ---------- Kanun okuyucu ----------
   let kanunRendered = false;
-  function paraHtml(p, term) {
+  function paraHtml(p, term, seen) {
     let h = esc(p).replace(/⟦(\d+)⟧/g, (m, n) => `<sup class="fn" title="${esc(KANUN.notes[n] || "")}">[${n}]</sup>`);
+    h = glossify(h, seen);
     if (term) {
       const re = new RegExp("(" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi");
       h = h.replace(/(<[^>]+>)|([^<]+)/g, (m, tag, txt) => tag || txt.replace(re, "<mark>$1</mark>"));
@@ -665,11 +668,12 @@
     return h;
   }
   function articleHtml(a, term) {
+    const seen = new Set();
     return `<section class="art" id="${artId(a)}" data-id="${artId(a)}">
       <div class="art-title"><span class="art-no">${esc(artLabel(a).toUpperCase())}</span><span>${esc(a.title || "")}</span><span class="spacer"></span>
         ${speakBtn(`data-say="${artId(a)}"`)} ${speakBtn(`data-from="${artId(a)}"`, "Buradan itibaren")}
       </div>
-      ${a.paras.map((p) => `<p class="${/^[a-zçğıöşü]{1,2}\)\s|^\d+\)\s/.test(p) ? "item" : ""}">${paraHtml(p, term)}</p>`).join("")}
+      ${a.paras.map((p) => `<p class="${/^[a-zçğıöşü]{1,2}\)\s|^\d+\)\s/.test(p) ? "item" : ""}">${paraHtml(p, term, seen)}</p>`).join("")}
     </section>`;
   }
   function renderKanun(opts) {
@@ -793,7 +797,7 @@
       <div class="cards">${b.kartlar.map((k, i) => `
         <article class="hap" id="hap-${i}">
           <h3><span>${escB(k.baslik)}</span></h3>
-          <ul>${k.maddeler.map((m) => `<li>${linkRefs(escB(m))}</li>`).join("")}</ul>
+          <ul>${(() => { const seen = new Set(); return k.maddeler.map((m) => `<li>${glossify(linkRefs(escB(m)), seen)}</li>`).join(""); })()}</ul>
           ${k.tuzak ? `<div class="trap"><strong>Tuzak</strong>${escB(k.tuzak)}</div>` : ""}
           <div class="foot">${k.ref ? linkRefs(esc(k.ref)) : ""}<span style="flex:1"></span>${speakBtn(`data-hap="${i}"`)}</div>
         </article>`).join("")}</div>`;
@@ -824,7 +828,7 @@
       <div class="cards">${b.konular.map((k, i) => `
         <article class="hap" id="klv-${i}">
           <h3><span>${escB(k.baslik)}</span></h3>
-          <p style="font-size:.93rem">${linkRefs(escB(k.aciklama))}</p>
+          <p style="font-size:.93rem">${glossify(linkRefs(escB(k.aciklama)))}</p>
           ${k.kabul && k.kabul.length ? `<div><div class="eyebrow" style="color:var(--ok)">Tescil edilebilir</div><ul>${k.kabul.map((x) => `<li>${escB(x)}</li>`).join("")}</ul></div>` : ""}
           ${k.ret && k.ret.length ? `<div><div class="eyebrow" style="color:var(--bad)">Reddedilir</div><ul>${k.ret.map((x) => `<li>${escB(x)}</li>`).join("")}</ul></div>` : ""}
           ${k.ipucu ? `<div class="trap"><strong>Sınav ipucu</strong>${escB(k.ipucu)}</div>` : ""}
@@ -835,6 +839,140 @@
     $$("[data-klv]").forEach((x) => (x.onclick = () => { const k = b.konular[+x.dataset.klv]; TTS.say(txt(k), stripTags(k.baslik), $("#klv-" + x.dataset.klv)); }));
     $("#klvRead").onclick = () => TTS.play(b.konular.map((k, i) => ({ text: txt(k), label: stripTags(k.baslik), el: $("#klv-" + i) })));
     const kq = $("#klvQuiz"); if (kq) kq.onclick = () => startQuiz(shuffle(klvQs), "marka", "Marka İnceleme Kılavuzu");
+  }
+
+  // ---------- Sözlük ----------
+  // Metinlerdeki az bilinen kelimeleri işaretler; dokununca anlamı açılır.
+  const GL = (() => {
+    const map = new Map(); const stems = [];
+    SOZ.forEach((e, i) => (e.ara || [e.k]).forEach((st) => { const k = trLower(st).trim(); if (k.length >= 4 && !map.has(k)) { map.set(k, i); stems.push(k); } }));
+    stems.sort((a, b) => b.length - a.length);
+    const escRe = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+    let re = null;
+    try { re = stems.length ? new RegExp(`(?<![\\p{L}\\p{N}])(${stems.map(escRe).join("|")})[\\p{L}']*`, "giu") : null; } catch (e) { re = null; }
+    return { re, find: (w) => { const lw = trLower(w).replace(/\s+/g, " "); for (const st of stems) if (lw.startsWith(st)) return map.get(st); return -1; } };
+  })();
+  function glossify(html, seen) {
+    if (!GL.re || store.gloss === false) return html;
+    seen = seen || new Set();
+    let depth = 0; // <button>, <a>, <mark> içindeki metne dokunma
+    return html.replace(/(<[^>]+>)|([^<]+)/g, (m, tag, txt) => {
+      if (tag) {
+        if (/^<(button|a|span class="ref-link|sup)\b/i.test(tag)) depth++;
+        else if (/^<\/(button|a|span|sup)>/i.test(tag) && depth) depth--;
+        return tag;
+      }
+      if (depth) return txt;
+      return txt.replace(GL.re, (w) => {
+        const i = GL.find(w);
+        if (i < 0 || seen.has(i)) return w;
+        seen.add(i);
+        return `<span class="gl" data-gl="${i}" tabindex="0" role="button">${w}</span>`;
+      });
+    });
+  }
+  const pop = document.createElement("div");
+  pop.className = "gl-pop"; pop.hidden = true; pop.setAttribute("role", "dialog");
+  document.body.appendChild(pop);
+  function openPop(el) {
+    const e = SOZ[+el.dataset.gl]; if (!e) return;
+    pop.innerHTML = `<div class="gl-head"><b>${esc(e.k)}</b><span class="badge topic">${esc(e.kat || "")}</span><button class="gl-x" aria-label="Kapat">×</button></div>
+      <p>${esc(e.anlam)}</p>${e.ornek ? `<p class="gl-ex">${esc(e.ornek)}</p>` : ""}
+      <div class="actions">${speakBtn('data-glsay="1"')}<button class="icon-btn" data-glstar="1">${isStar(e.k) ? "★ Listemde" : "☆ Bilmediklerime ekle"}</button><button class="icon-btn" data-glopen="1">Sözlükte aç</button></div>`;
+    pop.hidden = false;
+    const r = el.getBoundingClientRect(), pw = Math.min(340, innerWidth - 32);
+    pop.style.width = pw + "px";
+    pop.style.left = Math.max(16, Math.min(innerWidth - pw - 16, r.left + r.width / 2 - pw / 2)) + "px";
+    const below = r.bottom + 8, h = pop.offsetHeight;
+    pop.style.top = (below + h > innerHeight - 90 && r.top - h - 8 > 60 ? r.top - h - 8 : below) + "px";
+    pop.onclick = (ev) => {
+      if (ev.target.closest(".gl-x")) pop.hidden = true;
+      else if (ev.target.closest("[data-glsay]")) TTS.say(glText(e), e.k);
+      else if (ev.target.closest("[data-glstar]")) { toggleStar(e.k); openPop(el); }
+      else if (ev.target.closest("[data-glopen]")) { pop.hidden = true; sozQ = e.k; go("sozluk"); }
+    };
+  }
+  document.addEventListener("click", (ev) => {
+    const g = ev.target.closest(".gl");
+    if (g) { ev.preventDefault(); ev.stopPropagation(); openPop(g); return; }
+    if (!pop.hidden && !ev.target.closest(".gl-pop")) pop.hidden = true;
+  }, true);
+  document.addEventListener("keydown", (ev) => {
+    if (ev.key === "Escape") pop.hidden = true;
+    const g = ev.target.closest && ev.target.closest(".gl");
+    if (g && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); openPop(g); }
+  });
+  window.addEventListener("scroll", () => { pop.hidden = true; }, { passive: true });
+
+  store.star = store.star || {};
+  const isStar = (k) => !!store.star[k];
+  function toggleStar(k) { if (store.star[k]) delete store.star[k]; else store.star[k] = 1; save(); }
+  const glText = (e) => `${e.k}.\n${e.anlam}${e.es && e.es.length ? `\nBenzer anlamda: ${e.es.join(", ")}.` : ""}${e.ornek ? `\nÖrnek: ${e.ornek}` : ""}`;
+
+  let sozQ = "", sozKat = "", sozHarf = "", sozStar = false;
+  function renderSozluk() {
+    const kats = [...new Set(SOZ.map((e) => e.kat).filter(Boolean))].sort((a, b) => a.localeCompare(b, "tr"));
+    const harfler = [...new Set(SOZ.map((e) => e.k[0].toLocaleUpperCase("tr-TR")))].sort((a, b) => a.localeCompare(b, "tr"));
+    app.innerHTML = `
+      <div style="display:grid;gap:.5rem;margin-bottom:1rem">
+        <div class="eyebrow">Az bilinen kelimeler ve terimler</div>
+        <h1 style="font-size:1.9rem">Sözlük</h1>
+        <p class="hint" style="max-width:70ch">Kanunda, sorularda ve hap bilgilerde geçen ${SOZ.length} terim. Bu kelimeler metinlerde <span class="gl" style="cursor:default">noktalı altı çizili</span> görünür; dokununca anlamı açılır. Bilmediklerini ☆ ile işaretle, sonra yalnızca onları dinle.</p>
+      </div>
+      <div class="search-row">
+        <input type="search" id="sozQ" placeholder="Kelime ara (ör. iltibas, rüçhan)" aria-label="Sözlükte ara" value="${esc(sozQ)}">
+        <select id="sozKat" aria-label="Konu"><option value="">Tüm konular</option>${kats.map((k) => `<option ${k === sozKat ? "selected" : ""}>${esc(k)}</option>`).join("")}</select>
+      </div>
+      <div class="letters" role="group" aria-label="Harf">${["", ...harfler].map((h) => `<button data-harf="${h}" aria-pressed="${h === sozHarf}">${h || "Tümü"}</button>`).join("")}</div>
+      <div class="actions soz-actions">
+        <button class="btn seal" id="sozRead">${SPEAK_SVG} Listeyi baştan dinle</button>
+        <button class="btn" id="sozStarRead">${SPEAK_SVG} Bilmediklerimi dinle</button>
+        <label class="hint"><input type="checkbox" id="sozStarOnly" ${sozStar ? "checked" : ""}> Yalnızca bilmediklerim</label>
+        <label class="hint"><input type="checkbox" id="sozGloss" ${store.gloss === false ? "" : "checked"}> Metinlerde işaretle</label>
+      </div>
+      <p class="search-info" id="sozInfo"></p>
+      <div class="soz-list" id="sozList"></div>`;
+    const list = () => {
+      const q = trLower(sozQ.trim());
+      return SOZ.filter((e) => (!sozKat || e.kat === sozKat) && (!sozHarf || e.k[0].toLocaleUpperCase("tr-TR") === sozHarf) && (!sozStar || isStar(e.k)) &&
+        (!q || trLower([e.k, e.anlam, (e.es || []).join(" ")].join(" ")).includes(q)));
+    };
+    const draw = () => {
+      const rows = list();
+      $("#sozInfo").textContent = `${rows.length} kelime${Object.keys(store.star).length ? ` · ${Object.keys(store.star).length} kelime bilmediklerim listesinde` : ""}`;
+      $("#sozList").innerHTML = rows.map((e) => { const i = SOZ.indexOf(e); return `
+        <article class="soz" id="soz-${i}">
+          <div class="soz-head">
+            <h3>${esc(e.k)}</h3>
+            ${e.kat ? `<span class="badge topic">${esc(e.kat)}</span>` : ""}
+            <span style="flex:1"></span>
+            <button class="star ${isStar(e.k) ? "on" : ""}" data-star="${i}" aria-pressed="${isStar(e.k)}" title="Bilmediklerime ekle">${isStar(e.k) ? "★" : "☆"}</button>
+            ${speakBtn(`data-sozsay="${i}"`)}
+          </div>
+          <p>${esc(e.anlam)}</p>
+          ${e.es && e.es.length ? `<p class="soz-es">Benzer: ${e.es.map(esc).join(", ")}</p>` : ""}
+          ${e.ornek ? `<p class="gl-ex">${esc(e.ornek)}</p>` : ""}
+          ${e.ref ? `<div>${linkRefs(esc(e.ref))}</div>` : ""}
+        </article>`; }).join("") || `<div class="empty">Bu filtreyle kelime yok.</div>`;
+      return rows;
+    };
+    const readList = (rows, label) => {
+      if (!rows.length) { flash(label === "bilinmeyen" ? "Önce ☆ ile kelime işaretle." : "Listede kelime yok."); return; }
+      TTS.play(rows.map((e) => ({ text: glText(e), label: e.k, el: document.getElementById("soz-" + SOZ.indexOf(e)) })));
+    };
+    $("#sozQ").oninput = (e) => { sozQ = e.target.value; draw(); };
+    $("#sozKat").onchange = (e) => { sozKat = e.target.value; draw(); };
+    $$("[data-harf]").forEach((b) => (b.onclick = () => { sozHarf = b.dataset.harf; $$("[data-harf]").forEach((x) => x.setAttribute("aria-pressed", String(x === b))); draw(); }));
+    $("#sozStarOnly").onchange = (e) => { sozStar = e.target.checked; draw(); };
+    $("#sozGloss").onchange = (e) => { store.gloss = e.target.checked; save(); flash(store.gloss ? "Terimler metinlerde işaretlenecek." : "Metinlerdeki işaretler kapatıldı."); };
+    $("#sozRead").onclick = () => readList(list(), "liste");
+    $("#sozStarRead").onclick = () => { const rows = SOZ.filter((e) => isStar(e.k)); if (!sozStar && rows.length) { sozStar = true; $("#sozStarOnly").checked = true; draw(); } readList(rows, "bilinmeyen"); };
+    $("#sozList").addEventListener("click", (ev) => {
+      const st = ev.target.closest("[data-star]"), sy = ev.target.closest("[data-sozsay]");
+      if (st) { const e = SOZ[+st.dataset.star]; toggleStar(e.k); st.classList.toggle("on", isStar(e.k)); st.textContent = isStar(e.k) ? "★" : "☆"; st.setAttribute("aria-pressed", String(isStar(e.k))); }
+      if (sy) { const e = SOZ[+sy.dataset.sozsay]; TTS.say(glText(e), e.k, document.getElementById("soz-" + sy.dataset.sozsay)); }
+    });
+    draw();
   }
 
   // ---------- Tescil sınıfları ----------
